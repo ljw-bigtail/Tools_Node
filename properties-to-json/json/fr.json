@@ -1,0 +1,1187 @@
+{
+	"Color": "Couleur",
+	"Size": "Taille",
+	"view": {
+		"progress": {
+			"save": "Sauvegarder"
+		},
+		"common": {
+			"clearance": "Déstockage",
+			"presale": "Pré-sel",
+			"presaleDeliveryTime{0}": "Envoyé dans les {0} days."
+		},
+		"head": {
+			"account": "Compte",
+			"language": "Langue",
+			"currency": "Devise",
+			"help": "Centre d'aide",
+			"cart": "Panier",
+			"settings": "LES PARAMÈTRES"
+		},
+		"foot": {
+			"subscribe": "Abonnez-vous à nos offres exclusives",
+			"go": "C'est parti",
+			"mail": {
+				"subscribed": "Cette boîte aux lettres a été abonnée",
+				"placeholder": "veuillez saisir votre email"
+			},
+			"yourMailBox": "Le format de votre adresse électronique est incorrect",
+			"menu": "Menu",
+			"search": "Recherche",
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"pinterest": "Pinterest",
+			"youtube": "Youtube",
+			"snapchat": "Snapshat",
+			"twitter": "Twitter",
+			"bestSelling": "Meilleures Ventes",
+			"categories": "Les catégories"
+		},
+		"error": {
+			"404": {
+				"_value": "Page Introuvable",
+				"title": "Page d'erreur!",
+				"content": "Désolé, la page que vous recherchez est introuvable.<br/>Vous voudrez peut-être consulter nos recommandations ou retourner à la page d'accueil du site Web"
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "\"{0}\" n'a pas donné de résultat.",
+				"content": "Essayez de vérifier votre orthographe ou utilisez des termes plus généraux.<br/>Ou vous pouvez parcourir les éléments recommandés ci-dessous."
+			},
+			"searchHistory ": " Historique de recherche",
+			"hotWord ": " Recherche chaude"
+		},
+		"index": {
+			"viewAll": "Tout Afficher",
+			"loadMore": "VOIR PLUS"
+		},
+		"goodsList": {
+			"home": "Accueil",
+			"sortBy": "Trier Par",
+			"price": "Prix",
+			"yourSearchFor": "Votre recherche pour",
+			"revealedTheFollowing": "a révélé les éléments suivants",
+			"didNotYieldAnyResults": {
+				"": "n'a donné aucun résultat."
+			},
+			"quantity": "Produit",
+			"newIn": "Nouveautés",
+			"hotSale": "Ventes Chauds",
+			"special": "Offre spéciale",
+			"clearance": "Déstockage",
+			"quickView": "APERÇU RAPIDE"
+		},
+		"goodsDetail": {
+			"color": "Couleur",
+			"size": "Taille",
+			"quantity": "Quantité",
+			"addToCart": "AJOUTER AU PANIER",
+			"designPlaceHolder": "Entrez le nom ou le texte ici ...",
+			"charLeft": {
+				"limitItem{0}": "{0} caractère (s) restant (s)"
+			},
+			"personlized": "Personnaliser",
+			"description": "Description",
+			"productCode": "Code Produit",
+			"shipping": "Livraison",
+			"sizeChart": "Tableau des Tailles",
+			"youMayAlsoLike": "Vous Pourriez Également Aimer",
+			"youRecentlyView": "Récemment consultés",
+			"shippingReturn": "Livraison & Retour",
+			"superSavings": "Super Économies",
+			"secureOnlineShopping": "Achat en ligne sécurisé à 100%",
+			"promotion": "Les promotions",
+			"pleaseSelectColor": "Veuillez sélectionner votre couleur",
+			"pleaseSelect": "Veuillez sélectionner votre taille",
+			"limit5": "Limite de cinq par personne.",
+			"limit10": "Limite de 10 articles par personne",
+			"personalize": "Personnaliser",
+			"review": {
+				"customerReviews": "avis clients",
+				"writeAReview": "Écrire un commentaire",
+				"example": {
+					"_value": "exemple: j'ai acheté ceci il y a un mois et je suis tellement heureux de l'avoir fait…",
+					"email": "Exemple:",
+					"name": "jackie",
+					"example": "Youremail@example.com"
+				},
+				"review": "Commentaires Client",
+				"reviews": "Commentaires Client",
+				"nickname": "surnom",
+				"email": "Email",
+				"postReview": "post revue",
+				"ratings": "Évaluation moyenne des clients",
+				"more": {
+					"reviews": "plus d'avis"
+				},
+				"many": {
+					"items": {
+						"error{0}": "Vous ne pouvez choisir que jusqu'à {0}"
+					}
+				},
+				"add": {
+					"photos": "ajouter jusqu'à 6 photos",
+					"photo": "Ajouter une photo"
+				},
+				"ok": "D'accord",
+				"enter": {
+					"address": {
+						"_value": "Veuillez entrer une adresse courriel.",
+						"format": "Email invalide"
+					},
+					"review": {
+						"_value": "S'il vous plaît entrer votre avis.",
+						"length": "La longueur maximale a été dépassée"
+					},
+					"nickname": "S'il vous plait, entrez ton surnom."
+				},
+				"score": "Notation",
+				"thank": {
+					"review": "Merci d'avoir posté un commentaire"
+				},
+				"successful": "RÉUSSIE",
+				"getCouponFailed": "Échec du coupon.",
+				"oops": "Oops...",
+				"post": {
+					"failed": "désolé ,commentaire échoué, veuillez réessayer plus tard."
+				},
+				"click": "Cliquez pour noter！",
+				"uploadFiles": "Télécharger des fichiers",
+				"processingDroppedFiles": "Traitement des fichiers supprimés ...",
+				"close": "Fermer",
+				"no": "Non",
+				"yes": "Oui",
+				"cancel": "Annuler",
+				"sellerReply": ": réponse du vendeur",
+				"couponCodeTip{0}": "Code promo: {0} <br/> Vous pouvez utiliser ce code promo pour faire du shopping! <br/> En même temps, nous avons envoyé le code promo à votre e-mail.",
+				"gotouse": "Allez à utiliser",
+				"sortby": {
+					"all": "Tout"
+				}
+			},
+			"shortOfStock": "rupture de stock",
+			"size_info": "Remarque : la taille asiatique est plus petite que la taille américaine, nous vous suggérons de choisir une taille plus grande que votre taille habituelle."
+		},
+		"activity": {
+			"activities": "Activités",
+			"endin": "FINI DANS",
+			"d": "journées",
+			"h": "heures",
+			"m": "minutes",
+			"s": "seconds"
+		},
+		"shopcart": {
+			"personalizedDetail": "Détail personnalisé",
+			"yourShoppingCart": "Votre Panier d'Achats",
+			"shoppingCart": "Panier d'Achats",
+			"product": "Produit",
+			"price": "Prix",
+			"quantity": {
+				"_value": "Quantité",
+				"desc{0}": "Sac de courses (<span class=\"mz-cartCount\">{0}</span> articles)"
+			},
+			"total": "Total",
+			"remove": "Supprimer",
+			"subtotal": "Sous-total",
+			"yourCartIsCurrentlyEmpty": "Votre panier est actuellement vide.",
+			"continueBrowsing": "Continuer vos recherches",
+			"here": "ici",
+			"updateCart": "Actualiser Votre Panier",
+			"checkout": "Passer La Commande",
+			"checkValidityGoods": "Désolé, certains articles de votre sélection sont en rupture de stock !",
+			"order": {
+				"summary": "Récapitulatif de la commande"
+			},
+			"goShopping": "Aller faire les courses",
+			"viewOrders": "Voir mes commandes",
+			"continueShopping": "Continuer vos achats",
+			"viewBag": "VOIR LE SAC",
+			"priceRange": "Échelle des prix",
+			"viewFullDetails": "Voir tous les détails",
+			"add": "Ajouter",
+			"details": "Détails",
+			"productOption": "Option de produit",
+			"clear": "Réinitialiser",
+			"addItems": "Ajouter des articles",
+			"shippingFee": "Frais d'expédition",
+			"addToCartSuccess": "Ajouter au panier avec succès!",
+			"eelThan{0}": "COD n'est disponible que lorsque le montant de la commande est supérieur à {0}"
+		},
+		"shopcartSide": {
+			"yourCart": "Votre Panier",
+			"yourCartIsEmpty": "Votre Panier Est Vide",
+			"continueShopping": "Poursuivre Vos Achats",
+			"checkout": "Passer La Commande",
+			"shippingTaxes": "Les frais de livraison et les taxes seront calculés au moment du paiement",
+			"remove": "Supprimer"
+		},
+		"login": {
+			"login": "Login",
+			"email": "E-mail",
+			"password": "Mot de passe",
+			"forgotYourPassword": "Mot de passe oublié ?",
+			"returnToStore": "Retourner à la Boutique",
+			"createAccount": "Créer un compte",
+			"signIn": "Se Connecter",
+			"infoMsg": "veuillez entrer votre email et votre mot de passe:",
+			"loginFrom": "Utilisez votre compte depuis",
+			"loginOr": "OU",
+			"luvEmail": "Sign up for Luvyle emails."
+		},
+		"recoverEmail": {
+			"resetYourPassword": "Réinitialiser votre mot de passe",
+			"weWillSend": "Nous vous enverrons un courriel pour réinitialiser votre mot de passe.",
+			"cancel": "Annuler",
+			"resetPassword": "Réinitialiser le Mot de Passe",
+			"password": "Mot de passe",
+			"confirmPassword": "Confirmer le Mot de Passe",
+			"backToLogin": "Retour à la Page de Connexion",
+			"submit": "Envoyer"
+		},
+		"regist": {
+			"createAccount": "Créer un Compte",
+			"firstName": "Prénom",
+			"lastName": "Nom de Famille",
+			"email": "E-mail",
+			"password": "Mot de passe",
+			"returnToStore": "Retourner à la Boutique",
+			"create": "Créer",
+			"register": "S'inscrire",
+			"stylePreference": "PRÉFÉRENCE DE STYLE",
+			"signOut": "Se déconnecter",
+			"termsPart0": "Je suis d'accord pour",
+			"termsPart1": "En signant de cette manière, vous acceptez notre",
+			"termsPart2": "termes et conditions",
+			"termsPart3": "et",
+			"termsPart4": "Politique de confidentialité",
+			"termsPart5": "En créant votre compte, vous acceptez nos",
+			"succ": {
+				"congrate": "Toutes nos félicitations! Vous vous êtes inscrit avec succès!",
+				"shop_now": "ACHETEZ MAINTENANT",
+				"check": "VÉRIFIEZ VOTRE BOÎTE DE RÉCEPTION",
+				"check_confirm": "Nous avons envoyé un e-mail avec un code de réduction dans votre boîte aux lettres, veuillez le vérifier!",
+				"check_confirm_tip": "Vous n'avez pas reçu l'e-mail?",
+				"check_confirm_step1": "Veuillez vérifier votre dossier spam.",
+				"check_confirm_step2_part1": "Si vous ne voyez toujours pas l'e-mail, vous pouvez",
+				"check_confirm_step2_part2": "Cliquez ici",
+				"check_confirm_step2_part3": "pour nous contacter.",
+				"check_recent": "RESENTER",
+				"bind": "Veuillez saisir une adresse e-mail à lier"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "J'accepte la <a href=\"{0}\" style=\"color: #4099fc;text-decoration: underline;\">politique de confidentialité et les conditions d'utilisation</a>."
+		},
+		"checkout": {
+			"fillInInformationTip": "Please be sure to fill in personal and address information",
+			"customerInformation": "Informations Client",
+			"showOrderSummary": "Afficher le récapitulatif de la commande",
+			"hideOrderSummary": "Masquer le récapitulatif de la commande",
+			"orderNotice": "Afficher le récapitulatif de la commande et obtenir une remise",
+			"cart": "Panier",
+			"shippingMethod": "Mode de livraison",
+			"paymentMethod": "Mode de paiement",
+			"apply": "Appliquer",
+			"discountHasBeenApplied": "La remise a été appliquée",
+			"pointHasBeenApplied": "Les points ont été échangés!",
+			"discount": "Remise",
+			"allSoldout": "Les articles de votre sélection sont tous en rupture de stock et vous ne pouvez pas passer à l'étape suivante.",
+			"allSoldoutAlert": "Les articles de votre sélection sont actuellement en rupture de stock. Veuillez sélectionner d'autres articles pour passer la commande.",
+			"partSoldout": "Des articles de votre sélection sont actuellement en rupture de stock. Si vous passez à l'étape suivante, le système les supprimera automatiquement de votre sélection.",
+			"card_number ": " Numéro de carte",
+			"expiry_date ": " Date d'expiration",
+			"security_code ": " Code de sécurité",
+			"card_holder ": " Titulaire de la carte"
+		},
+		"orderSummary": {
+			"orderSummary": "Récapitulatif de la commande",
+			"shoppingCart": "Panier d'achats",
+			"productImage": "Image du produit",
+			"description": "Description",
+			"quantity": "Quantité",
+			"price": "Prix",
+			"scrollForMoreItems": "Faites défiler pour voir plus d'articles",
+			"costSummary": "Récapitulatif des coûts",
+			"subtotal": "Sous-total",
+			"shipping": "Livraison",
+			"salesTax": "taxe de vente",
+			"total": "Total",
+			"giftCard": {
+				"_value": "Utilisez votre code promo exclusif ici",
+				"title": "Code de coupon"
+			},
+			"userCredit": {
+				"title": "Rabais de points",
+				"label": "Points utilisateur",
+				"tag{0}": "Points ({0})",
+				"total{0}": "Total de points: {0}",
+				"available{0}": "Points disponibles: {0}",
+				"tip": "<div> 1. Vos points seront déduits de votre compte une fois la commande créée. </div> <div> 2. Vous pouvez annuler votre commande dans «Ma commande», et les points que vous avez demandés seront retournés à votre compte. </div> <div> 3. Les points peuvent utiliser jusqu à 50% du prix total de la commande. </div>"
+			},
+			"remoteAreaInfo{0}": "Comprend 【{0}】 de frais de région éloignée",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "- {0} sur votre 1ère commande",
+				"firstOrderDiscountPrice{0}": "Gagnez {0} sur votre 1ère commande",
+				"discountPrice{0}{1}": "-{0} dès {1}",
+				"percentDiscount{0}{1}": "-{0} dès {1}",
+				"discountPrice": {
+					"v1{0}{1}{2}": "Achetez plus de {0} articles et plus de {1}, obtenez une remise de {2}",
+					"v2{0}{1}": "Achetez plus de {0} articles, obtenez {1} OFF"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "Achetez plus de {0} articles et plus de {1}, obtenez {2} OFF",
+					"v2{0}{1}": "Achetez plus de {0} articles, obtenez {1} OFF"
+				},
+				"selectTip": "OU choisissez parmi des coupons généraux"
+			},
+			"chasepay": {
+				"discounts{0}": "Payez maintenant et économisez {0}%",
+				"discounts-kissnkid": "Payez maintenant et économisez 10%"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "Coordonnées personnelles",
+			"alreadyHaveAnAccount": "Vous avez déjà un compte ?",
+			"login": "Se connecter",
+			"email": "E-mail",
+			"logOut": "Se déconnecter",
+			"shippingAddress": "Adresse de livraison",
+			"storedAddresses": "Adresses enregistrées",
+			"newAddress": "Nouvelle adresse…",
+			"firstName": "Prénom",
+			"lastName": "Nom de famille",
+			"middleName": "Deuxième nom",
+			"address1 ": " Ligne 1 d'Adresse:",
+			"address2 ": " Rue, Adresse, Nom de l'entreprise, C/O",
+			"apartmentSuite1 ": " Ligne 2 d'Adresse:",
+			"apartmentSuite2 ": " L’Appartement, la suite, l’unité, le bâtiment, l’étage, etc.(Optionnel)",
+			"city": "Ville",
+			"country": "Pays",
+			"province": "Province",
+			"postalCode": "Code postal",
+			"phone": "Téléphone",
+			"continueToShipping": "CONTINUER VERS LE MODE DE LIVRAISON",
+			"returnToCart": "Retourner au panier",
+			"district": "Surface",
+			"road": "Route"
+		},
+		"shippingMethod": {
+			"shippingAddress": "Adresse de livraison",
+			"edit": "Modifier",
+			"editShippingAddress": "Modifier l'adresse de livraison",
+			"shippingMethod": "Mode de livraison",
+			"continueToPayment": "CONTINUER VERS LE MODE DE PAIEMENT",
+			"returnToCustomerInformation": "Retourner aux informations client",
+			"onlyShippedToUS": "Some products can only be shipped to the United States.",
+			"desc": "jours ouvrables"
+		},
+		"paymentMethod": {
+			"shippingAddress": "Adresse de livraison",
+			"edit": "Modifier",
+			"transitTime": "Temps de transport",
+			"shippingMethod": "Mode de livraison",
+			"superSaving": "Expédition standard",
+			"expressShipping": "Expédition accélérée",
+			"economyShipping": "Expédition économique",
+			"cashOnDelivery": "Paiement à la livraison (COD)",
+			"paymentMethod": "Mode de paiement",
+			"loading": "<span class=\"ctx-weight\">Votre commande a été passée!</span> La transaction est en cours de traitement par la banque et peut prendre 2 minutes.Une fois le paiement effectué, vous recevrez une notification par e-mail. S'il vous plaît attendez patiemment.",
+			"loadingAddtionalTxt{0}": "Vous pouvez <a href=\"{{0}Buch\"> vérifier votre commande </a> ou <a href=\"/\"> revenir à l'accueil </a>.",
+			"allTransactions": "Toutes les transactions sont sécurisées et chiffrées.",
+			"buyLimitTips": "Le fret augmente avec le montant de la commande. Essayez de séparer votre commande et vous découvrirez peut-être le fret étonnamment inférieur.",
+			"creditCard": {
+				"_value": "Carte de Crédit",
+				"oceanpay": "Carte de crédit",
+				"cardpay": "Carte de Crédit",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "Carte de Crédit",
+			"payPal": "PayPal",
+			"payWith": "PayWith",
+			"visa": "Visa",
+			"mastercard": "Mastercard",
+			"americanExpress": "American Express",
+			"discover": "Discover",
+			"yourOrderIsCovered": "Votre commande est couverte par vos cartes-cadeaux.",
+			"yourOrderIs": "Votre commande est",
+			"free": "gratuite",
+			"noPaymentIsRequired": "Aucun paiement n'est requis.",
+			"notifications": "Notifications",
+			"completeOrder": "Continuer au paiement",
+			"codWarning{0}": "COD n'est disponible que lorsque le montant de la commande est inférieur à {0}",
+			"returnToShippingMethod": "Retourner au mode de livraison",
+			"editShippingAddress": "Modifier l'adresse de livraison",
+			"editShippingMethod": "Modifier le mode de livraison",
+			"paypalContent": "Après avoir cliqué sur \"Compléter la commande\", vous serez redirigé vers PayPal pour finaliser vos achats en toute sécurité.",
+			"pingpongContent": "Après avoir cliqué sur \"Compléter la commande\", vous serez redirigé vers PingPong pour finaliser vos achats en toute sécurité.",
+			"cod": "Paiement à la livraison(COD)",
+			"codContentTitle": "Paiement à la livraison(COD)",
+			"codContent": "Nous vous proposons le moyen le plus simple de procéder au paiement de vos commandes en utilisant le paiement contre remboursement. Vous pouvez payer les biens quand ils vous sont livrés.",
+			"orderNo": "Numéro de commande",
+			"site859Extra": "Kent, Royaume-Uni"
+		},
+		"paymentSkip": {
+			"tip": "En cours de traitement, veuillez ne pas cliquer sur le bouton Actualiser ou Précédent."
+		},
+		"paymentResult": {
+			"order": "Commande",
+			"thankYou": "Merci",
+			"yourOrderIsConfirmed": "Votre commande est confirmée",
+			"weHaveAccepted": "\"Votre commande a été acceptée et est maintenant en cours de préparation. Revenez sur cette page pour connaître le statut de votre commande.\"",
+			"customerInformation": "Informations client",
+			"shippingAddress": "Adresse de livraison",
+			"continueShopping": "Continuer vos achats",
+			"checkoutRetry": "Réessayez de Passer la Commande",
+			"opens": "Ouvre le site Web externe dans une nouvelle fenêtre.",
+			"opensIn": "Ouvre dans une nouvelle fenêtre.",
+			"opensExternalWebsite": "Ouvre un site Web externe.",
+			"customerInfo": "Informations client - Bellalike - Passer la commande",
+			"billingAddress": "Adresse de facturation",
+			"shippingMethod": "Mode de livraison",
+			"paymentMethod": "Mode de paiement",
+			"paypal": "Paypal",
+			"express": "Express",
+			"creditCard": "Carte de Crédit",
+			"oceanpay": "Oceanpayment",
+			"pacypay": "Pacypay",
+			"cod": "Paiement à la livraison(COD)",
+			"codNote": "Remarque",
+			"codNoteLine1": "Paiement à la livraison",
+			"codNoteLine2": "S'il vous plaît payer quand l'article vous parvient",
+			"codNoteLine3": "Ne vous laissez pas berner par des fraudeurs qui vous poussent à transférer de l'argent par n'importe quel canal",
+			"codNoteLine4": "Nous fournissons uniquement le service de livraison contre remboursement",
+			"cancel": "Transaction annulée par le client",
+			"forter": {
+				"reject": "La  transaction  a  échoué  en  raison  du  problème  de  sécurité  du  paiement.  Si  vous  avez  effectué  le  paiement,  nous  effectuerons  le  remboursement  dans  un  délai  de  3  à  5  jours  ouvrables."
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title ": " Payé avec succès！",
+				"subtitle ": " Veuillez remplir votre adresse détaillée dans les espaces ci-dessous."
+			}
+		},
+		"paymentFail": {
+			"paymentException": "Erreur de Paiement",
+			"checkoutRecordNotExist": "L'enregistrement de sortie n'existe pas",
+			"paypal": {
+				"ec": {
+					"unauthorized": "Le client n'a pas approuvé la transaction"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "Retourner à l'Historique des Commandes",
+			"accountDetails": "Détails du Compte",
+			"name": "Nom",
+			"edit": "Modifier",
+			"save": "Enregistrer",
+			"cancel": "Annuler",
+			"email": "E-mail",
+			"password": "Mot de passe",
+			"reset": "Réinitialiser",
+			"addressBook": "Carnet d'Adresses",
+			"youHaveNoAddresses": "Vous n'avez pas d'adresse",
+			"primaryAddress": "Adresse Principale",
+			"addAddress": "Ajouter une Adresse",
+			"anotherAddress": "Choisissez une autre adresse",
+			"delete": "Supprimer",
+			"setAsPrimaryAddress": "Définir comme adresse principale",
+			"finish": "Terminer",
+			"editAddress": "Modifier l'adresse"
+		},
+		"header": {
+			"home": "Accueil",
+			"myAccount": "Mon Compte",
+			"yourAccount": "Votre Compte",
+			"logOut": "Déconnexion",
+			"closeMenu": "Fermer le menu"
+		},
+		"main": {
+			"orderHistory": "Historique des Commandes",
+			"youHaveNotPlacedAnyOrders": "Vous n'avez pas encore passé de commande.",
+			"order": "Commander",
+			"date": "Date",
+			"orderStatus": "Statut de la commande",
+			"paymentStatus": "État du Paiement",
+			"shippingStatus": "Statut de la Livraison",
+			"total": "Total",
+			"action": "action",
+			"buyAgain": "Rachat",
+			"orderDetail": "Détails de la commande",
+			"Items": "Articles",
+			"payNow": "Payez maintenant",
+			"trackOrder": "Suivi de la commande",
+			"cancel": "Annuler",
+			"contactUs": "Contactez nous",
+			"repurchaseInvalid": "Votre commande contient des articles expirés et ceux-ci ne seront pas rachetés"
+		},
+		"orderDetail": {
+			"backToOrderHistory": "Retourner à l'Historique des Commandes",
+			"orderSummary": "Récapitulatif de la Commande",
+			"returnExchange": "RETOUR / ÉCHANGE",
+			"item": "Article",
+			"shippingStatus": "Statut de la Livraison",
+			"price": "Prix",
+			"qty": "Qté",
+			"totalPrice": "Prix Total",
+			"color": "Couleur",
+			"size": "Taille",
+			"subtotal": "Sous-total",
+			"shipping": "Livraison",
+			"total": "Total",
+			"shippingAddress": "Adresse de Livraison",
+			"discount": "Remise"
+		},
+		"userSummery": {
+			"accountDetails": "Détails du Compte",
+			"edit": "Modifier",
+			"name": "Nom",
+			"email": "E-mail",
+			"primaryAddress": "Adresse Principale"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "MOT DE PASSE OUBLIÉ",
+			"emailSent": "E-MAIL ENVOYÉ",
+			"anEmailHasBeenSent": "Un courriel a été envoyé à l'adresse électronique fournie.",
+			"ifYouRequested": "Si vous avez demandé un nouveau mot de passe mais n'avez toujours pas reçu le courriel de réinitialisation",
+			"tryTo": "Éssayez de",
+			"resetYourPassword": "réinitialiser votre mot de passe",
+			"again": "à nouveau",
+			"ifYouStillDontReceive": "Si vous n’avez toujours pas reçu de courriel après avoir demandé une réinitialisation de mot de passe, veuillez patienter 24 heures avant de réessayer."
+		},
+		"contactUs": {
+			"contactUs": "Nous contacter",
+			"submit": "envoyer"
+		},
+		"customerService": {
+			"customerService": "Service Clientèle"
+		},
+		"orderBy": {
+			"bestSelling": "Meilleures Ventes",
+			"mostPopular": "Les Plus Populaires",
+			"priceLowToHigh": "Prix : Croissant",
+			"priceHighToLow": "Prix : Décroissant",
+			"newest": "Date : Du plus Récent au plus Ancien",
+			"recommend": "Recommander"
+		},
+		"shipping": {
+			"unshipped": "NON-EXPÉDIÉ",
+			"shipped": "EXPÉDIÉ",
+			"partialShipped": "PARTIELLEMENT_EXPÉDIÉ"
+		},
+		"payment": {
+			"unpaid": "En attente de paiement",
+			"pending": "En attente",
+			"paid": "Payé",
+			"canceled": "Annulé",
+			"shipped": "Expédié",
+			"refunded": "Remboursé",
+			"partialrefunded": "Remboursement partiel",
+			"fulfilled": "Rempli",
+			"processing": "En traitement"
+		},
+		"application": {
+			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
+			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"download2get": "DOWNLOAD TO GET",
+			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"code": "CODE",
+			"download": {
+				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
+			}
+		},
+		"list": {
+			"apply": "Appliquer",
+			"other": "Autre",
+			"filter": {
+				"_value": "Trier",
+				"by": "Trier par"
+			},
+			"category": "Catalogue",
+			"over": "Plus que",
+			"noResults": "Aucun élément trouvé",
+			"onesize": "taille unique"
+		},
+		"amp": {
+			"sizeAndColor": "Taille et couleur:",
+			"pleaseChoose": "---Choisissez s'il vous plaît---",
+			"buy": "ACHETEZ-LE MAINTENANT"
+		},
+		"paypal": {
+			"textPrompt": "Le numéro de téléphone est incorrect.",
+			"hrefPrompt": "Veuillez changer le numéro de téléphone",
+			"or": "OU",
+			"expressCheckout": "Paiement express",
+			"supportsHint": "La devise de votre commande sera convertie en USD, qui est la seule devise prise en charge par ce mode de paiement."
+		},
+		"cart": {
+			"account ": " avez-vous déjà un compte",
+			"login ": " se connecter"
+		},
+		"new_checkout": {
+			"postal_address ": " Ajouter une adresse de livraison",
+			"order_confirmation  ": " confirmation de commande",
+			"address_editing  ": " édition d'adresse",
+			"address  ": " adresse",
+			"payment  ": " Paiement",
+			"shipping  ": " livraison",
+			"items  ": " articles",
+			"save  ": " enregistrer",
+			"addressRequired ": " L'adresse doit être remplie",
+			"shippingcart ": " Panier",
+			"ordersummary ": " Résumé de la commande"
+		},
+		"personal": {
+			"center": "Centre personnel",
+			"account": "Mon compte",
+			"profile": "Mon profil",
+			"address": {
+				"_value": "Carnet d'adresses",
+				"delete": "Êtes-vous sûr de vouloir supprimer cette adresse?",
+				"cancel": "ANNULER",
+				"ok": "OK",
+				"default": "Défaut"
+			},
+			"orders": "Mes commandes",
+			"all": "Tout",
+			"assets": "Mes atouts",
+			"coupons": {
+				"_value": "Mes coupons",
+				"useit": "Utilise le"
+			},
+			"points": {
+				"_value": "Mes points",
+				"spent": "Points dépensés",
+				"details": "Détails des points",
+				"exchanged": "Points échangés",
+				"explaination": "Explication",
+				"register": "Points gagnés par registre",
+				"subscribe": "Points gagnés en vous abonnant",
+				"gainedShopping": "Points gagnés en magasinant",
+				"spendShopping": "Points dépensés en magasinant",
+				"activity": "Points gagnés par activité",
+				"shopWithPoints": "Magasiner avec des points"
+			},
+			"concern": "Mes attention",
+			"wishlist": "Liste de souhaits",
+			"viewed": "vu récemment",
+			"main": {
+				"coupons": "Coupons",
+				"points": "Points",
+				"viewAll": "Voir tout",
+				"viewMore": "EN SAVOIR PLUS",
+				"more": "Suite",
+				"changePwd": "Changer le mot de passe"
+			},
+			"empty": {
+				"orders": "Vous n'avez pas encore passé de commande.",
+				"coupons": "C'est vide ici.",
+				"wishlist": "Vous n'avez actuellement rien enregistré dans votre liste de souhaits.",
+				"viewed": "Vous n'avez rien vu."
+			},
+			"valid": {
+				"points": "Points valides"
+			},
+			"data": "Date",
+			"recommend": "Recommander pour vous"
+		},
+		"sizeGuide": {
+			"sizeCharts": "SIZE CHARTS",
+			"sizeGuide": "SIZE GUIDE"
+		}
+	},
+	"web": {
+		"payment": {
+			"incorrectCardNumber": "Incorrect card number.",
+			"invalidExpiryDate": "Invalid expiry date.",
+			"invalidSecureCode": "Invalid secure code."
+		},
+		"screenfooter": {
+			"youHaveAlready": "Vous êtes déjà inscrit(e) avec succès",
+			"serviceResponseFailure": "Échec de la réponse du service"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "Veuillez entrer un mot-clé !",
+			"sorryThisProduct": "Désolé, ce produit n'est pas disponible",
+			"sorryWeDont": "Désolé, nos stocks sont insuffisants !",
+			"areYouSure": "Êtes-vous sûr de vouloir supprimer cette adresse ?",
+			"searchOurStore": "Rechercher dans notre boutique"
+		},
+		"login": {
+			"firstNameIsRequired": "Un prénom est requis",
+			"passwordIsRequired": "Un mot de passe est requis"
+		},
+		"regist": {
+			"lastNameIsRequired": "Un nom de famille est requis",
+			"emailIsInvalid": "L'adresse électronique n'est pas valide"
+		},
+		"address": {
+			"thisFieldIsRequired": "Ce champ est obligatoire",
+			"theMaximum": "Le nombre maximum de caractères est de 64",
+			"pleaseFillIn": "Veuillez saisir un nom de ville correct qui ne soit pas composé de chiffres.",
+			"email": "Le format de l'adresse électronique est incorrect",
+			"subjectIsRequired": "Un sujet est requis",
+			"messageIsRequired": "Un message est requis",
+			"taxNo": "Format d'identification fiscale incorrect!",
+			"address1": "Adresse 1",
+			"address2": "Adresse 2 (facultatif)",
+			"city": "Ville",
+			"country": "Pays",
+			"state": "État",
+			"zipCode": "Code Postal",
+			"phoneNumber": "Numéro de Téléphone",
+			"MailboxFillIn": "Le code postal n'est pas valide",
+			"SpainPhoneFillIn": "Le numéro de téléphone doit être composé de 9 chiffres commençant par 6 ou 9",
+			"SarPhoneFillIn": "Votre numéro de téléphone doit être composé de 9 chiffres et commencer par 5",
+			"QarPhoneFillIn": "Votre numéro de téléphone doit être composé de 8 chiffres et commencer par 3/4/5/6/7",
+			"OmrPhoneFillIn": "Votre numéro de téléphone doit être composé de 8 chiffres et commencer par 7/9",
+			"KwdPhoneFillIn": "Votre numéro de téléphone doit être composé de 8 chiffres et commencer par le 5/6/9",
+			"BhdPhoneFillIn": "Votre numéro de téléphone doit être composé de 8 chiffres et commencer par 3/6"
+		},
+		"contactus": {
+			"yourRequest": "Votre demande a bien été reçue. Nous vous répondrons dès que possible. Merci !",
+			"sorrySubmission": "Désolé, l’envoie a échoué. Merci de réessayer plus tard.",
+			"firstNameIsRequired": "Un prénom est requis",
+			"lastNameIsRequired": "Un nom de famille est requis",
+			"emailIsInvalid": "L'adresse électronique n'est pas valide",
+			"subjectIsRequired": "Un sujet est requis",
+			"messageIsRequired": "Un message est requis"
+		},
+		"concatinfo": {
+			"mail": "E-mail",
+			"firstname": "Prénom",
+			"middleName": "Deuxième nom",
+			"lastname": "Nom de famille",
+			"address": "Adresse",
+			"apartment": "Appartement",
+			"taxNo": "Numéro de dossier fiscal",
+			"city": "Ville",
+			"province": "Province",
+			"phone": "Téléphone",
+			"postalCode": "Code Postal"
+		},
+		"goodsDetail": {
+			"addToCart": "AJOUTER AU PANIER",
+			"soldout": "ÉPUISÉ",
+			"sizeguide": "Guide des tailles"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "Acheter maintenant"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "Vous ne payez que <span class=\"price money promo-currency\">{0}</span> à partir de la  <span class=\"free\">livraison gratuite</span>!"
+			},
+			"free": {
+				"prompt": "Vous avez marqué <span class=\"free\">livraison gratuite</span>!"
+			},
+			"coupon": {
+				"prompt": "Appliquez un <span class=\"free\"> code du coupon </ span> à l'étape suivante."
+			},
+			"invalid": {
+				"country": "Code de pays invalide"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "-<span class='promo-color'>{0} </span>dès<span class='promo-color'> {1}</span>",
+				"discount{0}{1}": "-<span class='promo-color'>{0}%</span> dès<span class='promo-color'> {1}</span>",
+				"prompt": {
+					"manjian{0}{1}": "-{0} dès {1}",
+					"discount{0}{1}": "-{0}% dès {1}"
+				},
+				"matchedHighest": "Profitez de votre économie!",
+				"quantity": {
+					"manjian{0}{1}{2}": "Achetez <span class='promo-color'>{0}</span>, obtenez -<span class='promo-color'>{1}</span> sur le <span class='promo-color'>{2}</span>ème",
+					"discount{0}{1}{2}": "Achetez <span class='promo-color'>{0}</span>, obtenez -<span class='promo-color'>{1}% </span>sur le <span class='promo-color'>{2}</span>ème",
+					"discount": {
+						"next{0}{1}{2}": "Ajoutez {0} plus obtenez {1} {2}% de réduction!"
+					},
+					"manjian": {
+						"next{0}{1}{2}": "Ajoutez{0} plus obtenez {1} {2} de réduction!"
+					},
+					"currentDiscount{0}": "Économisez {0}",
+					"next{0}{1}{2}": "Ajoutez<span class='promo-currency'>{0}</span> plus obtenez {1} <span class='promo-currency'>{2} </span>de réduction!",
+					"next": {
+						"discount{0}{1}{2}": "Ajoutez <span class='promo-currency'>{0}</span> plus obtenez {1} <span class='promo-currency'>{2}</span>% de réduction!"
+					}
+				},
+				"package{0}{1}": "N'importe quel <span class='promo-color'>{0} </span>pour le prix du forfait <span class='promo-color'>{1}</span>",
+				"package": {
+					"current{0}{1}": "Apprécié {0} pour le prix du forfait {1}",
+					"next{0}{1}": "Ajoutez {0} de plus pour profiter du prix du forfait {1}",
+					"saved{0}": "{0} économisés",
+					"current": {
+						"next{0}{1}{2}{3}": "Apprécié {0} pour {1}, ajoutez {2} de plus pour profiter du prix du forfait {3}"
+					}
+				},
+				"gift{0}": "Achetez-en {0} pour obtenir des cadeaux gratuits",
+				"gift": {
+					"current": "Cadeau gratuit",
+					"next{0}": "Ajoutez {0} autres pour obtenir des cadeaux gratuits "
+				},
+				"money": {
+					"gift{0}": "Cadeaux gratuits pour les commandes de plus de {0}",
+					"gift": {
+						"next{0}": "Ajoutez {0} de plus pour obtenir des cadeaux gratuits "
+					},
+					"exchange{0}": "Achetez {0} pour profiter de prix bas. ",
+					"exchange": {
+						"current{0}": "Achetez {0} pour profiter de prix bas. ",
+						"next{0}": "Vous avez encore {0} à échanger bas prix  "
+					}
+				},
+				"gifts": "CADEAUX",
+				"freeGifts": "Cadeau gratuit",
+				"selectGift": "Sélectionnez un cadeau",
+				"viewGift": "Voir le cadeau",
+				"updateItem": "ÉLÉMENT DE MISE À JOUR",
+				"cancel": "ANNULER",
+				"confirm": "CONFIRMER",
+				"exchange{0}": "Achetez {0} pour profiter de prix bas.",
+				"exchange": {
+					"current{0}": "Achetez {0} pour profiter de prix bas.",
+					"next{0}": "{0}  pièces peuvent être échangées à bas prix",
+					"meet": "Profitez du prix d'achat supplémentaire maintenant !",
+					"addon": "Bas prix",
+					"viewGoods": "Plus d'articles",
+					"addonItems": "Bonnes affaires"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "Vous pouvez obtenir <span class='promo-currency'> {0} </span> par <span class='promo-currency' > {1} </span> !",
+				"discount{0}{1}": "Vous pouvez obtenir <span class='promo-currency'> {0}% </span> par <span class='promo-currency'> {1} </span> !"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}{1}": "-{0} dès {1}",
+					"discount{0}{1}": "-{0}% dès {1}"
+				}
+			}
+		},
+		"advantage": {
+			"_value": "Pourquoi nous choisir?",
+			"choose": {
+				"name": "Garantie de satisfaction de 30 jours avec remboursement",
+				"value": "Si vos produits ne vous satisfont pas, nous vous rembourserons intégralement, sans poser de questions."
+			},
+			"order": {
+				"name": "Plus de 34.245 commandes expédiées avec succès",
+				"value": "Nous avons fait autant de clients satisfaits que de commandes. Vous devez simplement rejoindre notre grande famille."
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "Votre commande est réservée aux",
+					"last": "minutes!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "Un article que vous avez commandé est en forte demande. Pas de soucis, nous avons réservé votre commande."
+				}
+			}
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "L'identifiant de commande est requis"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "Le numéro de commande est requis",
+			"amountIsRequired": "Le montant est requis"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "L'identifiant des articles est requis",
+			"goodsCountIsRequired": "Le décompte des articles est requis",
+			"goodsCountGt0AndLt10000": "Décompte d'articles gt 0 et lt 10000"
+		},
+		"site": {
+			"emailIsRequired": "Une adresse électronique est requise",
+			"emailLengthIsTooLong": "L’adresse électronique est trop longue, 128 caractères max.",
+			"emailisinvalid": "L'adresse électronique n'est pas valide",
+			"firstNameIsRequired": "Un prénom est requis",
+			"firstNameLengthIsTooLong": "Le prénom est trop long, 64 caractères max.",
+			"subjectIsRequired": "Un sujet est requis",
+			"subjectLengthIsTooLong": "Le sujet est trop long, 256 caractères max.",
+			"contentIsRequired": "Un contenu est requis"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "Le mot de passe ne peut pas être vide",
+			"passwordLengthNeedsTo": "La longueur du mot de passe doit être comprise entre 6 et 16 caractères (sans espaces)",
+			"confirmPassword": "La confirmation du mot de passe ne peut pas être vide",
+			"idIsRequired": "Un identifiant est requis",
+			"firstNameIsRequired": "Un prénom est requis",
+			"firstNameLengthIsTooLong": "Le prénom est trop long, 64 caractères max.",
+			"middleNameLengthIsTooLong": "Le deuxième prénom est trop long, 64 caractères max",
+			"lastNameIsRequired": "Un nom de famille est requis",
+			"lastNameLengthIsTooLong": "Le nom de famille est trop long, 64 caractères max.",
+			"phoneNumberIsRequired": "Un numéro de téléphone est requis",
+			"phoneNumberLengthIsTooLong": "Le numéro de téléphone est trop long, 32 caractères max.",
+			"emaillengthIsTooLong": "L’adresse électronique est trop longue, 128 caractères max.",
+			"countryAreaIsRequired": "Un pays/région est requis",
+			"provinceStateIsTooLong": "La Province/L’État est trop long, 64 caractères max.",
+			"CityNameIsRequired": "Un nom de ville est requis.",
+			"cityLengthIsTooLong": "Le nom de ville est trop long, 64 caractères max.",
+			"districtIsRequired": "Se requiere área administrativa",
+			"pleaseFillInThe": "Veuillez saisir un nom de ville correct qui ne soit pas composé de chiffres.",
+			"address1IsRequired": "L'adresse1 est requise",
+			"address1Length": "L'adresse1 est trop longue, 1024 caractères max.",
+			"address2Length": "L'adresse2 est trop longue, 1024 caractères max.",
+			"postCodeIsRequired": "Un code postal est requis",
+			"postCodeLength": "Le code postale est trop long, 16 caractères max.",
+			"emailIsInvalid": "L'adresse électronique n'est pas valide",
+			"passwordIsRequired": "Un mot de passe est requis",
+			"firstNameLengthIsTooLongMax32Character": "Le prénom est trop long, 32 caractères max.",
+			"lastNameLengthIsTooLongMax32Character": "Le nom de famille est trop long, 32 caractères max.",
+			"nicknameLengthIsTooLong": "Le surnom est trop long, 64 caractères max.",
+			"taxNoFormatError": "Format d'identification fiscale incorrect!"
+		}
+	},
+	"service": {
+		"coupon": {
+			"unableToFind": "Impossible de trouver une remise valide correspondant au code saisi.",
+			"useOfCoupon": "L'utilisation de coupons est limitée",
+			"yourCartDoesNot1": "Votre panier ne répond pas aux exigences pour le",
+			"yourCartDoesNot2": "code de remise",
+			"useOneCoupon": "Chaque commande ne peut être utilisé q’un seul coupon",
+			"notSupportShipping": "Le code de réduction actuel ne s'applique pas à ce mode de livraison",
+			"notSupportAreas": "Le code de réduction actuel n'est pas utilisé dans cette région"
+		},
+		"point": {
+			"exceedAvailBalance": "Points insuffisants",
+			"aboveQuota": "Plus de 50% du montant total",
+			"consumption": "Consommation de points",
+			"accumulation": "Accumulation de points",
+			"return": "Retour de points",
+			"adjustmentAdd": "Ajustement des points (augmentation)",
+			"adjustmentReduce": "Ajustement des points (diminution)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "Cette adresse électronique est déjà associée à un compte. Si ce compte vous appartient, vous pouvez réinitialiser votre mot de passe",
+			"userDataInsertError": "Erreur d'insertion des données utilisateur",
+			"incorrectAccount": "Identifiant ou mot de passe incorrect",
+			"googleLoginError": "Erreur de login Google",
+			"accountInfoError": "Erreur dans les informations du compte",
+			"userDoesNotExist": "Cet utilisateur n'existe pas",
+			"thisEmailAlreadyExists": "Cette adresse électronique existe déjà",
+			"userDataUpdateFail": "Échec de la mise à jour des données utilisateur",
+			"emailCannotBeEmpty": "L'adresse électronique ne peut pas être vide.",
+			"noAccount": "Aucun compte associé à ce courriel.",
+			"theRecoverSession": "La session de récupération a été invalidée, veuillez recommencer depuis le début.",
+			"theTwoPassword": "Les deux mots de passe saisis sont différents.",
+			"thePasswordUpdate": "La mise à jour du mot de passe a échoué ! Veuillez réessayer."
+		},
+		"address": {
+			"emailIsRequired": "Une adresse électronique est requise",
+			"State": "L'État/La province est requis.",
+			"postCode": "Code Postal est requis",
+			"countryNotExist": "Ce pays n'existe pas",
+			"AddressInsertFail": "Échec de l'insertion de l'adresse",
+			"addressDoesNotExist": "Veuillez ajouter votre adresse de livraison.",
+			"stateIsRequired": "L'État est requis",
+			"taxNoIsRequired": "Le numéro de taxe est requis",
+			"taxNoLength": "Le numéro d'identification fiscale ne peut pas dépasser 64 chiffres",
+			"addressUpdateFail": "Échec de la mise à jour de l'adresse",
+			"newAddressInsertFail": "Échec de l'insertion d'une nouvelle adresse",
+			"email": "adresse électronique",
+			"state": "état",
+			"country": "pays"
+		},
+		"usercoupon": {
+			"couponInsertFail": "Échec de l'insertion du coupon",
+			"couponUpdateFail": "Échec de la mise à jour des coupons"
+		},
+		"shopcart": {
+			"current": "L'utilisateur actuel n'existe pas"
+		},
+		"shopping": {
+			"shippingr": "Erreur dans la demande de livraison"
+		},
+		"shared": {
+			"facebookAccess": "Jeton d'accès Facebook introuvable",
+			"facebook": "Le résultat de l'accès Facebook est vide",
+			"googleAccess": "Jeton d'accès Google introuvable",
+			"google": "Le résultat de l'accès Google est vide"
+		},
+		"payment": {
+			"paymentNotSupport": "Le mode de paiement n'est pas supporté",
+			"unknownPayment": "Paiement inconnu",
+			"paypalPayment": "Échec de la création du paiement Paypal [URL d'approbation manquante]",
+			"orderPaymentCreateFail": "Échec de la création du paiement de la commande",
+			"returnDataSignError": "Retourner une erreur de signe des données",
+			"returnOrderKeyError": "Retourner une erreur de clé de la commande",
+			"orderPayment": "Le paiement de la commande n'existe pas"
+		},
+		"paymentDecline": "Refus de paiement",
+		"order": {
+			"orderAddress": "Échec de la création de l'adresse de commande",
+			"insertCoupon": "Échec de l'insertion des données du coupon",
+			"shoppingCart": "Le panier d'achat est vide",
+			"orderCannot": "La commande ne peut pas être soumise à plusieurs reprises",
+			"addressNotFound": "Adresse introuvable",
+			"orderCreateFail": "Échec de la création de la commande",
+			"orderItem": "Échec de la création d'un article de la commande",
+			"orderDo": "La commande n'existe pas !",
+			"shoppingCartGoodsIsEmpty": "Le panier d'achat est vide"
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "Ce courriel provient d'une adresse réservée aux notifications et n'accepte pas les courriels entrants",
+			"pleaseDoNot": "VEUILLEZ NE PAS RÉPONDRE à ce message. Si vous avez des questions ou des préoccupations, veuillez",
+			"emailUs": "nous envoyer un courriel"
+		},
+		"regist": {
+			"welcomeTo": "Bienvenue sur",
+			"youCanLoginYou": "Vous pouvez vous connecter à votre compte pour gérer vos commandes à l’aide des informations suivantes",
+			"login": "Login",
+			"password": "Mot de passe",
+			"ifYouWant": "Si vous souhaitez réinitialiser votre mot de passe, veuillez",
+			"clickHere": "cliquer ici",
+			"to": "pour procéder"
+		},
+		"passwordreset": {
+			"thanksFor": "Merci d'avoir soumis un billet",
+			"dear": "Cher/Chère",
+			"youHaveRequest": "Vous avez demandé la réinitialisation de votre mot de passe pour votre compte à",
+			"pleaseVisit": "Veuillez visiter cette url pour réinitialiser votre mot de passe",
+			"ifYouReceived": "Si vous avez reçu ce courriel par erreur, vous pouvez l'ignorer en toute sécurité",
+			"sincerely": "Sincèrement"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "Vous avez réglé votre commande avec succès",
+			"thankYouFor": "Merci pour votre commande. Votre commande",
+			"isNowBeingProcessed": "est en cours de traitement et sera normalement expédié dans un délai de 3 à 7 jours. Un courriel contenant les informations de suivi vous sera envoyé dès que la commande sera expédiée.",
+			"items": "ARTICLE(S)",
+			"unit": "PRIX UNITAIRE",
+			"quantity": "QUANTITÉ",
+			"amont": "MONTANT",
+			"onSale": "En Solde",
+			"firstNaem": "Prénom",
+			"lastName": "Nom de Famille",
+			"address": "Adresse Ligne 1",
+			"country": "Pays",
+			"city": "Ville",
+			"postal": "Code Postal"
+		},
+		"deliveryOrder": {
+			"youOrder": "Votre commande",
+			"hasBeen": "a été expédiée",
+			"weHave": "Nous avons expédié votre commande",
+			"hereIs": "Voici vos informations de suivi",
+			"trackingNumber": "Numéro de suivi",
+			"trackingWebsite": "Site Web de suivi",
+			"items": "ARTICLE(S)",
+			"unitPrice": "PRIX UNITAIRE",
+			"quantity": "QUANTITÉ",
+			"amount": "MONTANT",
+			"onSale": "En Solde",
+			"firstName": "Prénom",
+			"ast": "Nom de Famille",
+			"addressLine": "Adresse Ligne 1",
+			"country": "Pays",
+			"city": "Ville",
+			"postCode": "Code Postal"
+		},
+		"goodsStock": {
+			"outOf": "Notification de rupture de stock",
+			"hi": "Bonjour",
+			"thankYou": "Merci d'avoir fait vos achats chez",
+			"weAre": "Nous sommes désolés de vous informer que les articles suivant sont en rupture de stock",
+			"items": "ARTICLE(S)",
+			"unitPrice": "PRIX UNITAIRE",
+			"quantity": "QUANTITÉ",
+			"amount": "MONTANT",
+			"onSale": "En Solde",
+			"noWorry": "Mais ne vous inquiétez pas, vous pouvez choisir l'une ou l'autre des solutions suivantes",
+			"choose": "【Recommandé !】Choisissez un autre article jusqu'à",
+			"on": "sur notre site Internet",
+			"let": "Indiquez-nous simplement la référence ou l'URL de l'article en répondant à ce courriel et nous le remplacerons pour vous",
+			"accept": "Acceptez un remboursement de",
+			"please": "Veuillez nous faire part de votre décision dès que possible pour que nous puissions traiter votre requête en conséquence."
+		},
+		"changeShip": {
+			"tracking": "Le numéro de suivi a été mis à jour pour",
+			"hi": "Bonjour",
+			"weFeel": "Nous sommes désolés pour les désagréments causés",
+			"trackingNumberFor": "Le numéro de suivi de la commande",
+			"isUpdate": "a été mis à jour, veuillez ignorer le numéro précédent et utiliser le nouveau pour le suivi.",
+			"trackingNumber": "Numéro de suivi",
+			"trackingWebsite": "Site Web de suivi",
+			"the": "Le délai d'arrivée est estimé entre 7 et 15 jours.",
+			"items": "ARTICLE(S)",
+			"unitPrice": "PRIX UNITAIRE",
+			"quantity": "QUANTITÉ",
+			"amount": "MONTANT",
+			"on": "En Solde",
+			"first": "Prénom",
+			"last": "Nom de Famille",
+			"address": "Adresse Ligne 1",
+			"count": "Pays",
+			"city": "Ville",
+			"postal": "Code Postal"
+		},
+		"contactUs": {
+			"thanks": "Merci d'avoir soumis un billet",
+			"dear": "Cher client(e)",
+			"your": "Votre billet a été soumis avec succès, nos représentants vous répondront dans les 36 heures. Veuillez s'il vous plaît attendre la réponse",
+			"below": "Voici les détails de votre message",
+			"type": "type",
+			"email": "adresse électronique",
+			"name": "nom",
+			"content": "contenu"
+		},
+		"newIn": {
+			"15": "15 $",
+			"view": "EN SAVOIR PLUS",
+			"to": "Pour vous assurer de recevoir nos dernières mises à jour,",
+			"please": "n'oubliez pas d'ajouter notre adresse à votre liste de contacts.",
+			"if": "Si vous préférez ne pas recevoir nos nouvelles et offres de mode, cliquez simplement ici pour",
+			"unsubscribe": "vous désabonner"
+		},
+		"hotSale": {
+			"view": "EN SAVOIR PLUS",
+			"to": "Pour vous assurer de recevoir nos dernières mises à jour,",
+			"please": "n'oubliez pas d'ajouter notre adresse à votre liste de contacts.",
+			"if": "Si vous préférez ne pas recevoir nos nouvelles et offres de mode, cliquez simplement ici pour",
+			"unsubscribe": "vous désabonner"
+		},
+		"register": {
+			"subscribe": "s'abonner",
+			"privacy{0}": "cliquant sur le bouton «S'INSCRIRE», vous acceptez notre <a href=\"{0}\">«Politique de confidentialité»</a>"
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty ": " S'il vous plait entrez une adresse mail.",
+				"used ": " L'e-mail a été utilisé par d'autres. Veuillez en changer un autre."
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay Seule la devise JPY est prise en charge",
+			"countrycode": "konbini ne peut gérer que le code de pays JP",
+			"phone": "le numéro de téléphone doit comprendre entre 10 et 11 chiffres"
+		},
+		"accountholder": {
+			"length": "le titulaire du compte au minimum 3 caractères, jusqu'à 100 caractères"
+		},
+		"rapipago": {
+			"countrycode": "rapipago ne peut gérer que le code pays AR",
+			"currency": "rapipago pay Seule la devise USD est prise en charge"
+		},
+		"giropay": {
+			"countrycode": "giropay ne peut gérer que le countrycode DE",
+			"currency": "giropay pay Seule la devise EUR est prise en charge"
+		}
+	}
+}

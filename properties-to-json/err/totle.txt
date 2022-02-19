@@ -1,0 +1,13 @@
+调用时增加[_value] -- json["view"]["error"]["404"] = الصفحة غير موجودة
+调用时增加[_value] -- json["view"]["goodsDetail"]["review"]["enter"]["address"] = الرجاء إدخال عنوان البريد الإلكتروني.
+调用时增加[_value] -- json["view"]["goodsDetail"]["review"]["enter"]["review"] = الرجاء إدخال رأيك.
+调用时增加[_value] -- json["view"]["goodsDetail"]["review"]["example"] = مثلا: اشتريت هذا المنتج منذ شهر وأنا سعيد جدًا ...
+调用时增加[_value] -- json["view"]["shopcart"]["quantity"] = الكمية
+调用时增加[_value] -- json["view"]["orderSummary"]["giftCard"] = سترداد رمز القسيمة الحصري الخاص بك هنا
+调用时增加[_value] -- json["view"]["paymentMethod"]["creditCard"] = بطاقة الائتمان
+调用时增加[_value] -- json["view"]["list"]["filter"] = تصفية
+调用时增加[_value] -- json["web"]["advantage"] = لماذا تختارنا؟
+调用时增加[_value] -- json["view"]["personal"]["address"] = دليل العناوين
+调用时增加[_value] -- json["view"]["personal"]["coupons"] = القسائم الخاصة بي
+调用时增加[_value] -- json["view"]["personal"]["points"] = نقاطي
+调用时增加[_value] -- json["view"]["shopcart"]["viewBag"] = VISUALIZZA BORSA

@@ -1,0 +1,1191 @@
+{
+	"Color": "اللون",
+	"Size": "الحجم",
+	"view": {
+		"progress": {
+			"save": "حفظ"
+		},
+		"common": {
+			"clearance": "ترخيص",
+			"presale": "قبل الملح",
+			"presaleDeliveryTime{0}": "تم الإرسال خلال {0} أيام."
+		},
+		"head": {
+			"account": "الحساب",
+			"language": "غةلغة",
+			"currency": "عملة",
+			"help": "مركز المساعدة",
+			"cart": "عربة التسوق",
+			"settings": "الإعدادات"
+		},
+		"foot": {
+			"subscribe": "اشترك للحصول على عروضنا الحصرية",
+			"go": "اذهب",
+			"mail": {
+				"subscribed": "تم الاشتراك في صندوق البريد هذا",
+				"placeholder": "إدخال البريد الإكتروني"
+			},
+			"yourMailBox": "صندوق البريد الخاص بك بتنسيق غير صحيح",
+			"menu": "القائمة",
+			"search": "بحث",
+			"instagram": "الانستقرام",
+			"facebook": "فيس بوك",
+			"pinterest": "موقع Pinterest",
+			"youtube": "يوتيوب",
+			"snapchat": "سناب شات",
+			"twitter": "تويتر",
+			"bestSelling": "أفضل مبيعات",
+			"categories": "الاقسام"
+		},
+		"error": {
+			"404": {
+				"_value": "الصفحة غير موجودة",
+				"title": "صفحة الخطأ!",
+				"content": "عذرًا ، الصفحة التي تبحث عنها لا يمكن العثور عليها.<br/>قد ترغب في مراجعة توصياتنا أو العودة إلى الصفحة الرئيسية للموقع"
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "\"{0}\" لا يوجد لديه نتائج.",
+				"content": "حاول التحقق من الهجاء أو استخدم مصطلحات عامة.<br/>أو يمكنك تصفح العناصر الموصى بها أدناه."
+			},
+			"searchHistory": "تاريخ البحث",
+			"hotWord": "بحث شعبي"
+		},
+		"index": {
+			"viewAll": "عرض الكل",
+			"loadMore": "عرض المزيد"
+		},
+		"goodsList": {
+			"home": "الصفحة الرئيسية",
+			"sortBy": "ترتيب حسب",
+			"price": "السعر",
+			"yourSearchFor": "البحث عن",
+			"revealedTheFollowing": "كشفت ما يلي",
+			"didNotYieldAnyResults": {
+				"": "لم تسفر عن أي نتائج."
+			},
+			"quantity": "نتاج",
+			"newIn": "وصلنا حديثاً",
+			"hotSale": "الأكثر مبيعا",
+			"special": "عرض خاص",
+			"clearance": "ترخيص",
+			"quickView": "اهد التفاصيل"
+		},
+		"goodsDetail": {
+			"color": "اللون",
+			"size": "الحجم",
+			"quantity": "الكمية",
+			"addToCart": "أضف إلى الحقيبة",
+			"designPlaceHolder": "أدخل الاسم أو النص هنا",
+			"personlized": "أضفى طابع شخصي",
+			"charLeft": {
+				"limitItem{0}": "بقي {0}حرف (أحرف)"
+			},
+			"description": "الوصف",
+			"productCode": "رمز المنتج",
+			"shipping": "الشحن",
+			"sizeChart": "حجم الرسم البياني",
+			"youMayAlsoLike": "ربما يعجبك أيضا",
+			"youRecentlyView": "شوهدت مؤخرا",
+			"shippingReturn": "الشحن والإرجاع",
+			"superSavings": "سوبر الادخار",
+			"promotion": "الترقيات",
+			"pleaseSelectColor": "تختار لونا",
+			"pleaseSelect": "تختار قياسات",
+			"limit5": "الحد الأقصى خمسة لكل شخص.",
+			"limit10": "حد 10 عناصر لكل شخص",
+			"personalize": "أضفى طابع شخصي",
+			"review": {
+				"customerReviews": "مراجعات العملاء",
+				"writeAReview": "اكتب رأيك",
+				"example": {
+					"_value": "مثلا: اشتريت هذا المنتج منذ شهر وأنا سعيد جدًا ...",
+					"email": "مثلا:",
+					"example": "youremail@example.com",
+					"name": " محمد"
+				},
+				"review": "رأيك",
+				"reviews": "إعادة النظر",
+				"nickname": "الاسم المستعار",
+				"email": "البريد الإلكتروني",
+				"postReview": "ارسال",
+				"ratings": "متوسط تقييمات العملاء",
+				"more": {
+					"reviews": "المزيد من الاستعراضات"
+				},
+				"many": {
+					"items": {
+						"error{0}": "يمكنك فقط اختيار ما يصل إلى{0}حسنا"
+					}
+				},
+				"add": {
+					"photos": "إضافة ما يصل إلى 6 صو",
+					"photo": "إضافة صورة"
+				},
+				"ok": "إلى",
+				"enter": {
+					"address": {
+						"_value": "الرجاء إدخال عنوان البريد الإلكتروني.",
+						"format": "بريد إلكتروني خاطئ"
+					},
+					"review": {
+						"_value": "الرجاء إدخال رأيك.",
+						"length": "تم تجاوز الحد الأقصى للطول"
+					},
+					"nickname": "الرجاء إدخال اسم الشهرة الخاص بك."
+				},
+				"score": "قيّم هذا المنتج",
+				"thank": {
+					"review": "أشكركم على نشر المراجعة"
+				},
+				"successful": "ناجحة",
+				"getCouponFailed": "فشل القسيمة.",
+				"oops": "وجه الفتاة...",
+				"post": {
+					"failed": "أخفق نشر التعليق ، يرجى إعادة المحاولة لاحقًا."
+				},
+				"click": "انقرهنا لتقييم!",
+				"uploadFiles": "تحميل صور المنتج",
+				"processingDroppedFiles": "معالجة انخفض الملفات ...",
+				"close": "إغلاق",
+				"no": "لا",
+				"yes": "نعم",
+				"cancel": "الغاء",
+				"sellerReply": ": رد البائع",
+				"couponCodeTip{0}": "رمز القسيمة: {0} <br/> يمكنك استخدام رمز القسيمة هذا للذهاب للتسوق! <br/> في الوقت نفسه ، قمنا بإرسال رمز القسيمة إلى بريدك الإلكتروني.",
+				"gotouse": "انتقل إلى الاستخدام",
+				"sortby": {
+					"all": "الكل "
+				}
+			},
+			"secureOnlineShopping": "100 ٪ آمنة للتسوق عبر الإنترنت",
+			"shortOfStock": "نقص المخزون",
+			"size_info": "ملاحظة: المقاس الآسيوي أصغر من المقاس الأمريكي ، نقترح عليك اختيار مقاس واحد أكبر من مقاسك المعتاد."
+		},
+		"activity": {
+			"activities": "الأنشطة",
+			"endin": "ينتهي في",
+			"d": "أيام",
+			"h": "ساعات",
+			"m": "الدقائق",
+			"s": "ثواني"
+		},
+		"shopcart": {
+			"personalizedDetail": "تفاصيل شخصية",
+			"yourShoppingCart": "سلة التسوق الخاصة بك",
+			"shoppingCart": "عربة التسوق",
+			"product": "المنتج",
+			"price": "السعر",
+			"quantity": {
+				"_value": "الكمية",
+				"desc{0}": "حقيبة تسوق (<span class=\"mz-cartCount\">{0}</span> قطع)"
+			},
+			"total": "مجموع",
+			"remove": "إزالة",
+			"subtotal": "الإجمالي الفرعي",
+			"yourCartIsCurrentlyEmpty": "عربة التسوق فارغة حاليا.",
+			"continueBrowsing": "مواصلة التصفح",
+			"here": "هنا",
+			"updateCart": "تحديث سلة التسوق",
+			"checkout": "الدفع",
+			"checkValidityGoods": "عذرًا ، هناك عناصر خارج المخزون في العنصر الذي حددته!",
+			"order": {
+				"summary": "ملخص الطلب"
+			},
+			"goShopping": "اذهب للتسوق",
+			"viewOrders": "عرض أوامري",
+			"continueShopping": "مواصلة التسوق",
+			"viewBag": "عروض حقيبة التسوق",
+			"priceRange": "نطاق السعر",
+			"viewFullDetails": "عرض التفاصيل الكاملة",
+			"add": "أضف",
+			"details": "تفاصيل",
+			"productOption": "خيار المنتج",
+			"clear": "إعادة تعيين",
+			"addItems": "إضافة عناصر",
+			"shippingFee": "رسوم الشحن",
+			"addToCartSuccess": "أضف إلى عربة التسوق بنجاح!",
+			"eelThan{0}": "لدفع عند الاستلام متاح فقط عندما يكون مبلغ الطلب أكثر من {0} "
+		},
+		"shopcartSide": {
+			"yourCart": "عربتك",
+			"yourCartIsEmpty": "عربة التسوق فارغة",
+			"continueShopping": "مواصلة التسوق",
+			"checkout": "الدفع",
+			"shippingTaxes": "الشحن والضرائب المحسوبة عند الخروج",
+			"remove": "إزالة"
+		},
+		"login": {
+			"login": "دخول",
+			"email": "البريد الإلكتروني",
+			"password": "كلمه السر",
+			"forgotYourPassword": "نسيت رقمك السري؟",
+			"returnToStore": "العودة إلى المتجر",
+			"createAccount": "إنشاء حساب",
+			"signIn": "دخول",
+			"infoMsg": "يرجى إدخال البريد الإلكتروني وكلمة المرور:",
+			"loginFrom": "استخدم حسابك من",
+			"loginOr": "أو",
+			"luvEmail": "Sign up for Luvyle emails."
+		},
+		"recoverEmail": {
+			"resetYourPassword": "اعد ضبط كلمه السر",
+			"weWillSend": "سوف نرسل لك رسالة بريد إلكتروني لإعادة تعيين كلمة المرور الخاصة بك.",
+			"cancel": "إلغاء",
+			"resetPassword": "إعادة ضبط كلمة المرور",
+			"password": "كلمه السر",
+			"confirmPassword": "تأكيد كلمة المرور",
+			"backToLogin": "العودة إلى تسجيل الدخول",
+			"submit": "إرسال"
+		},
+		"regist": {
+			"createAccount": "إنشاء حساب",
+			"firstName": "الاسم الاول",
+			"lastName": "الكنية",
+			"email": "البريد الإلكتروني",
+			"password": "كلمه السر",
+			"returnToStore": "العودة إلى المتجر",
+			"create": "انشاء",
+			"register": "تسجيل",
+			"stylePreference": "تفضيل الأسلوب",
+			"signOut": "خروج",
+			"termsPart0": "أوافق على",
+			"termsPart1": "من خلال تسجيل الدخول بهذه الطريقة ، فإنك توافق على",
+			"termsPart2": "البنود و الظروف",
+			"termsPart3": "و",
+			"termsPart4": "سياسة خصوصية",
+			"termsPart5": "من خلال إنشاء حسابك ، فإنك توافق على",
+			"succ": {
+				"congrate": "تهانينا! لقد قمت بالتسجيل بنجاح!",
+				"shop_now": "تسوق الآن",
+				"check": "تحقق من بريدك الوارد",
+				"check_confirm": "لقد أرسلنا بريدًا إلكترونيًا يحتوي على رمز الخصم إلى صندوق البريد الخاص بك ، يرجى التحقق منه!",
+				"check_confirm_tip": "ألم تتلق البريد الإلكتروني؟",
+				"check_confirm_step1": "الرجاء التحقق من مجلد الرسائل غير المرغوب فيها.",
+				"check_confirm_step2_part1": "إذا كنت لا تزال لا ترى البريد الإلكتروني ، يمكنك ذلك",
+				"check_confirm_step2_part2": "انقر هنا",
+				"check_confirm_step2_part3": "لتتصل بنا.",
+				"check_recent": "استاء",
+				"bind": "الرجاء إدخال عنوان بريد إلكتروني للالتزام"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "<a href=\"{0}\" style=\"color: #4099fc;text-decoration: underline;\">أوافق على سياسة الخصوصية وشروط</a> الاستخدام."
+		},
+		"checkout": {
+			"fillInInformationTip": "Please be sure to fill in personal and address information",
+			"customerInformation": "معلومات العميل",
+			"showOrderSummary": "عرض ملخص الطلب",
+			"hideOrderSummary": "إخفاء ملخص الطلب",
+			"orderNotice": "عرض ملخص الطلب واحصل على الخصم",
+			"cart": "عربة التسوق",
+			"shippingMethod": "طريقة الشحن",
+			"paymentMethod": "طريقة الدفع او السداد",
+			"apply": "تطبيق",
+			"discountHasBeenApplied": "تم تطبيق الخصم",
+			"pointHasBeenApplied": "تم استبدال النقاط!",
+			"discount": "خصم",
+			"allSoldout": "العناصر الموجودة في قائمة التسوق الخاصة بك كلها مخزنة ولا يمكنك المتابعة إلى الخطوة التالية",
+			"allSoldoutAlert": "العناصر الموجودة في قائمة التسوق الخاصة بك غير متوفرة حالياً. يرجى إعادة تحديد العناصر للتسوية",
+			"partSoldout": "العناصر الموجودة في قائمة التسوق الخاصة بك غير متوفرة حالياً ، وإذا انتقلت إلى الخطوة التالية ، سيقوم النظام تلقائيًا بإزالة عناصر المخزون من قائمة التسوق.",
+			"card_number": "رقم البطاقة",
+			"expiry_date": "تاريخ الانتهاء",
+			"security_code": "رمز الحماية",
+			"card_holder": "حامل البطاقة"
+		},
+		"orderSummary": {
+			"orderSummary": "ملخص الطلب",
+			"shoppingCart": "عربة التسوق",
+			"productImage": "صورة المنتج",
+			"description": "الوصف",
+			"quantity": "الكمية",
+			"price": "السعر",
+			"scrollForMoreItems": "التمرير لمزيد من العناصر",
+			"costSummary": "ملخص التكلفة",
+			"subtotal": "حاصل الجمع",
+			"shipping": "الشحن",
+			"salesTax": "ضريبة المبيعات",
+			"total": "المجموع",
+			"giftCard": {
+				"_value": "سترداد رمز القسيمة الحصري الخاص بك هنا",
+				"title": "رمز الكوبون"
+			},
+			"userCredit": {
+				"title": "خصومات النقاط",
+				"label": "نقاط المستخدم",
+				"tag{0}": "النقاط ({0})",
+				"total{0}": "إجمالي النقاط: {0}",
+				"available{0}": "النقاط المتاحة: {0}",
+				"tip": "<div> 1. سيتم خصم نقاطك من حسابك بعد إنشاء الطلب. </div> <div> 2. يمكنك إلغاء طلبك في \"طلبي\" ، وستتم إعادة النقاط التي تقدمت بطلب للحصول عليها إلى حسابك. </div> <div> 3. يمكن أن تستخدم النقاط ما يصل إلى 50٪ من إجمالي سعر الطلب. </div>"
+			},
+			"remoteAreaInfo{0}": "يشمل رسوم {0} منطقة نائية",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "خصم{0} على طلبك الأول",
+				"firstOrderDiscountPrice{0}": "احصل على خصم{0} على طلبك الأول",
+				"discountPrice{0}{1}": "انقاذ {0} اكثر من {1}",
+				"percentDiscount{0}{1}": "{0} من أكثر من {1}",
+				"discountPrice": {
+					"v1{0}{1}": "توفيرعند تسوّق أكثر من {0} وكميّات السلع تبلغ {1} قطع",
+					"v2{0}{1}": "توفير{0}عند كميّات السلع تبلغ {1} قطع"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "توفير{0}عند تسوّق أكثر من {1} وكميّات السلع تبلغ {2} قطع",
+					"v2{0}{1}": "توفير{0}عند كميّات السلع تبلغ {1} قطع"
+				},
+				"selectTip": "أو اختر من أكواد القسيمة العامة أدناه"
+			},
+			"chasepay": {
+				"discounts{0}": "ادفع الآن ووفر {0}%٪",
+				"discounts-kissnkid": "ادفع الآن ووفر ٪10"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "معلومات للتواصل",
+			"alreadyHaveAnAccount": "هل لديك حساب؟",
+			"login": "تسجيل الدخول",
+			"email": "البريد الإلكتروني",
+			"logOut": "الخروج",
+			"shippingAddress": "عنوان الشحن",
+			"storedAddresses": "عناوين مخزنة",
+			"newAddress": "العنوان الجديد ...",
+			"firstName": "الاسم الاول",
+			"lastName": "الكنية",
+			"middleName": "الاسم الأوسط",
+			"address1": "سطر العنوان 1:",
+			"address2": "الشارع ، العنوان ، اسم الشركة ،",
+			"apartmentSuite1": "سطر العنوان 2:",
+			"apartmentSuite2": "شقة ، جناح ، وحدة ، مبنى ، طابق ، إلخ (اختياري)",
+			"city": "مدينة",
+			"country": "البلد",
+			"province": "المحافظة",
+			"postalCode": "الكود البريدى",
+			"phone": "هاتف",
+			"continueToShipping": "تابع طريقة الشحن",
+			"returnToCart": "العودة إلى السلة",
+			"district": "منطقة",
+			"road": "طريق"
+		},
+		"shippingMethod": {
+			"shippingAddress": "عنوان الشحن",
+			"edit": "تحرير",
+			"editShippingAddress": "تحرير عنوان الشحن",
+			"shippingMethod": "طريقة الشحن",
+			"continueToPayment": "تابع طريقة الدفع",
+			"returnToCustomerInformation": "العودة لمعلومات العميل",
+			"onlyShippedToUS": "Some products can only be shipped to the United States.",
+			"desc": "أيام عمل"
+		},
+		"paymentMethod": {
+			"shippingAddress": "عنوان الشحن",
+			"edit": "تحرير",
+			"transitTime": "الوقت العبور",
+			"shippingMethod": "طريقة الشحن",
+			"superSaving": "شحن قياسي",
+			"expressShipping": "سرعت الشحن",
+			"economyShipping": "شحن اقتصادي",
+			"cashOnDelivery": "الدفع عند الاستلام (COD)",
+			"paymentMethod": "طريقة الدفع او السداد",
+			"loading": "<span class=\"ctx-weight\">تم تقديم طلبك!</span> تتم معالجة المعاملة بواسطة البنك وقد تستغرق دقيقتين. بمجرد نجاح الدفع ، ستتلقى إشعارًا عبر البريد الإلكتروني. يرجى الانتظار بصبر.",
+			"loadingAddtionalTxt{0}": " يمكنك <a href=\"{{0}\"\"> التحقق من طلبك </a> أو <a href=\"/\"> العودة إلى المنزل </a>.",
+			"allTransactions": "جميع المعاملات آمنة ومشفرة.",
+			"buyLimitTips": "يزيد الشحن مع مبلغ الطلب. حاول فصل طلبك وقد تكتشف الشحن الأقل بشكل مفاجئ.",
+			"creditCard": {
+				"_value": "بطاقة الائتمان",
+				"oceanpay": "بطاقة الائتمان",
+				"cardpay": "بطاقة الائتمان",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "بطاقة الائتمان",
+			"payPal": "باي بال",
+			"payWith": "ادفع عن طريق",
+			"visa": "فيزا",
+			"mastercard": "بطاقة ماستر بطاقة ائتمان",
+			"americanExpress": "أمريكان اكسبريس",
+			"discover": "اكتشف",
+			"yourOrderIsCovered": "يتم تغطية طلبك بواسطة بطاقات الهدايا الخاصة بك.",
+			"yourOrderIs": "طلبك هو",
+			"free": "مجان",
+			"noPaymentIsRequired": "لا يوجد دفع مطلوب.",
+			"notifications": "إخطارات",
+			"completeOrder": "ادفع هنا",
+			"codWarning{0}": "لا يمكن  CODمبلغ للطلب الواحد تجاوز {0}",
+			"returnToShippingMethod": "العودة إلى طريقة الشحن",
+			"editShippingAddress": "تحرير عنوان الشحن",
+			"editShippingMethod": "تحرير طريقة الشحن",
+			"paypalContent": "بعد النقر على \"طلب مكتمل\" ، ستتم إعادة توجيهك إلى PayPal لإكمال عملية الشراء بأمان.",
+			"pingpongContent": "بعد النقر على \"طلب مكتمل\" ، ستتم إعادة توجيهك إلى PingPong لإكمال عملية الشراء بأمان.",
+			"cod": "الدفع عن الاستلام(COD)",
+			"codContentTitle": "الدفع عن الاستلام(COD)",
+			"codContent": "نحن نقدم أسهل طريقة لتسديد طلباتك باستخدام COD. هل يمكن أن تدفع البضاعة عندما يتم تسليمها لك.",
+			"orderNo": "رقم الطلب",
+			"site859Extra": "كينت ، المملكة المتحدة"
+		},
+		"paymentSkip": {
+			"tip": "قيد المعالجة ، يرجى عدم النقر فوق زر التحديث أو الخلف."
+		},
+		"paymentResult": {
+			"order": "الطلب",
+			"thankYou": "شكرا لكم",
+			"yourOrderIsConfirmed": "تم تأكيد طلبك",
+			"weHaveAccepted": "لقد قبلنا طلبك ونجعله جاهزًا. ارجع إلى هذه الصفحة للحصول على تحديثات حول حالة طلبك.",
+			"customerInformation": "معلومات العميل",
+			"shippingAddress": "عنوان الشحن",
+			"continueShopping": "مواصلة التسوق",
+			"checkoutRetry": "اعادة محاولة الخروج",
+			"opens": "يفتح موقع خارجي في نافذة جديدة.",
+			"opensIn": "يفتح في نافذة جديدة.",
+			"opensExternalWebsite": "يفتح موقع خارجي.",
+			"customerInfo": "معلومات العملاء - Bellalike - الدفع",
+			"billingAddress": "عنوان وصول الفواتير",
+			"shippingMethod": "طريقة الشحن",
+			"paymentMethod": "طريقة الدفع او السداد",
+			"paypal": "باي بال",
+			"express": "العاجل",
+			"creditCard": "بطاقة الائتمان",
+			"oceanpay": "المحيطات",
+			"pacypay": "Pacypay",
+			"cod": "الدفع عن الاستلام(COD)",
+			"codNote": "ملاحظة",
+			"codNoteLine0": "سنتصل بك بعد يوم العمل الواحد أو اثنين لتأكيد معلومات طردك من أجل إجراء الشحن. يرجى الرد على تلفوننافي الوقت المناسب.",
+			"codNoteLine1": "الدفع عن الاستلام",
+			"codNoteLine2": "يرجى الدفع عند وصول العنصر إليك",
+			"codNoteLine3": "لا تنخدع المحتالين الذين يخدعونك لتحويل الأموال في أي قناة",
+			"codNoteLine4": "نحن نقدم خدمة الدفع عند الاستلام فقط",
+			"cancel": "تم إلغاء المعاملة من قبل العميل",
+			"forter": {
+				"reject": "فشلت  المعاملة  بسبب  مشكلة  أمان  الدفع.  إذا  كنت  قد  أكملت  الدفعة  ،  فسنقوم  برد  المبلغ  خلال  3-5  أيام  عمل."
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title": "تم الدفع بنجاح！",
+				"subtitle": "يرجى ملء عنوانك المفصل في الفراغات أدناه."
+			}
+		},
+		"paymentFail": {
+			"paymentException": "استثناء الدفع",
+			"checkoutRecordNotExist": "سجل الخروج غير موجود",
+			"paypal": {
+				"ec": {
+					"unauthorized": "لم يوافق العميل على المعاملة"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "العودة إلى تاريخ الطلب",
+			"accountDetails": "تفاصيل الحساب",
+			"name": "الاسم",
+			"edit": "تحرير",
+			"save": "حفظ",
+			"cancel": "إلغاء",
+			"email": "البريد الإلكتروني",
+			"password": "كلمه السر",
+			"reset": "إعادة تعيين",
+			"addressBook": "دليل العناوين",
+			"youHaveNoAddresses": "لا يوجد لديك عناوين",
+			"primaryAddress": "العنوان الرئيسي",
+			"addAddress": "اضف عنوان",
+			"anotherAddress": "اختيار العنوان الآخر",
+			"delete": "حذف",
+			"setAsPrimaryAddress": "تعيين كعنوان أساسي",
+			"finish": "إنهاء",
+			"editAddress": "تعديل العنوان"
+		},
+		"header": {
+			"home": "الصفحة الرئيسية",
+			"myAccount": "حسابي",
+			"yourAccount": "الحساب الخاص بك",
+			"logOut": "الخروج",
+			"closeMenu": "إغلاق القائمة"
+		},
+		"main": {
+			"orderHistory": "تاريخ الطلب",
+			"youHaveNotPlacedAnyOrders": "لم تضع أي طلبات حتى الآن.",
+			"order": "طلب",
+			"date": "تاريخ",
+			"orderStatus": "حالة الطلب",
+			"paymentStatus": "حالة السداد",
+			"shippingStatus": "حالة الشحن",
+			"total": "مجموع",
+			"action": "مجموععمل",
+			"buyAgain": "إعادة الشراء",
+			"orderDetail": "تفاصيل الأمر",
+			"Items": "العناصر",
+			"payNow": "ادفع الآن",
+			"trackOrder": "تتبع الطلب",
+			"cancel": "الغاء",
+			"contactUs": "اتصل بنا",
+			"repurchaseInvalid": "هناك عناصر منتهية الصلاحية في طلبك ، ولن تتم إعادة شراء العناصر منتهية الصلاحية"
+		},
+		"orderDetail": {
+			"backToOrderHistory": "العودة إلى تاريخ الطلب",
+			"orderSummary": "ملخص الطلب",
+			"returnExchange": "العودة / التغيير",
+			"item": "بند",
+			"shippingStatus": "حالة الشحن",
+			"price": "السعر",
+			"qty": "الكمية",
+			"totalPrice": "السعر الكلي",
+			"color": "اللون",
+			"size": "الحجم",
+			"subtotal": "حاصل الجمع",
+			"shipping": "الشحن",
+			"total": "مجموع",
+			"shippingAddress": "عنوان الشحن",
+			"discount": "خصم"
+		},
+		"userSummery": {
+			"accountDetails": "تفاصيل الحساب",
+			"edit": "تحرير",
+			"name": "الاسم",
+			"email": "البريد الإلكتروني",
+			"primaryAddress": "العنوان الرئيسي"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "كلمة سر منسية",
+			"emailSent": "أرسل البريد الإلكتروني",
+			"anEmailHasBeenSent": "تم إرسال بريد إلكتروني إلى عنوان البريد الإلكتروني المقدم.",
+			"ifYouRequested": "إذا طلبت كلمة مرور جديدة ولكن لم تتلقَ البريد الإلكتروني الخاص بإعادة تعيين كلمة المرور",
+			"tryTo": "حاول",
+			"resetYourPassword": "اعد ضبط كلمه السر",
+			"again": "مرة أخرى",
+			"ifYouStillDontReceive": "إذا كنت لا تزال لا تتلقى البريد الإلكتروني بعد طلب إعادة تعيين كلمة المرور ، فانتظر 24 ساعة وحاول مرة أخرى"
+		},
+		"contactUs": {
+			"contactUs": "اتصل بنا",
+			"submit": "تقديم"
+		},
+		"customerService": {
+			"customerService": "خدمة العملاء"
+		},
+		"orderBy": {
+			"bestSelling": "أفضل مبيعات",
+			"mostPopular": "الأكثر شعبية",
+			"priceLowToHigh": "السعر من الارخص للاعلى",
+			"priceHighToLow": "السعر الاعلى الى الادنى",
+			"newest": "التاريخ: جديد إلى قديم",
+			"recommend": "يوصي"
+		},
+		"shipping": {
+			"unshipped": "غير المشحونة",
+			"shipped": "شحنها",
+			"partialShipped": "شحنت جزئيا"
+		},
+		"payment": {
+			"unpaid": "في انتظار الدفع",
+			"pending": "قيد الانتظار",
+			"paid": "مدفوع",
+			"canceled": "ألغيت",
+			"shipped": "يشحن",
+			"refunded": "المردودة",
+			"partialrefunded": "رد جزئي",
+			"fulfilled": "الصادق",
+			"processing": "معالجة"
+		},
+		"application": {
+			"downloadTitle": "popopie: متجر ملابس للأطفال والأسر",
+			"downloadMes": "استمتع بخصم إضافي %15 على التطبيق!",
+			"download2get": "تحميل التطبيق للحصول على",
+			"exclusive15off": "خصم 15% حصري",
+			"code": "الرمز",
+			"download": {
+				"popopie": "تحميل تطبيق POPOPIE لتوفير أكثر بكثير!"
+			}
+		},
+		"list": {
+			"apply": "تطبيق",
+			"other": "غير ها",
+			"filter": {
+				"_value": "تصفية",
+				"by": "تصفية الشروط"
+			},
+			"category": "تصنيف",
+			"over": "أكثر من",
+			"noResults": "لم يتم العثور على العناصر",
+			"onesize": "حجم واحد"
+		},
+		"amp": {
+			"sizeAndColor": "الحجم واللون:",
+			"pleaseChoose": "---اختر من فضلك---",
+			"buy": "اشتر الآن"
+		},
+		"paypal": {
+			"textPrompt": "The phone number is incorrect.",
+			"hrefPrompt": "Please change the phone number",
+			"or": "أو",
+			"expressCheckout": "الخروج السريع",
+			"supportsHint": "سيتم تحويل عملة الطلب إلى الدولار الأمريكي ، وهي العملة الوحيدة التي تدعمها طريقة الدفع هذه."
+		},
+		"cart": {
+			"account": "لديك بالفعل حساب",
+			"login": " تسجيل الدخول"
+		},
+		"new_checkout": {
+			"postal_address": "أضف عنوان الشحن",
+			"order_confirmation ": "تأكيد الطلب",
+			"address_editing ": "تحرير العنوان",
+			"address ": "عنوان",
+			"payment ": "دفع",
+			"shipping ": "الشحن",
+			"items ": "العناصر",
+			"save ": "حفظ",
+			"addressRequired": "يجب ملء العنوان",
+			"shippingcart": "Shipping Cart",
+			"ordersummary": "Order Summary"
+		},
+		"sitemap": {
+			"sitemap": "خريطة الموقع",
+			"hot_categories": "فئات ساخنة",
+			"hot_sale": "عرض ساخن",
+			"see_more": "شاهد المزيد",
+			"new_in": "الجديد في"
+		},
+		"personal": {
+			"center": "المركز الشخصي",
+			"account": "حسابي",
+			"profile": "ملفي",
+			"address": {
+				"_value": "دليل العناوين",
+				"delete": "هل أنت متأكد من حذف هذا العنوان؟",
+				"cancel": "إلغاء",
+				"ok": "موافق",
+				"default": "تقصير"
+			},
+			"orders": "طلباتي",
+			"all": "الجميع",
+			"assets": "أصولي",
+			"coupons": {
+				"_value": "القسائم الخاصة بي",
+				"useit": "استخدمه"
+			},
+			"points": {
+				"_value": "نقاطي",
+				"spent": "أنفقت النقاط",
+				"details": "تفاصيل النقاط",
+				"exchanged": "تبادل النقاط",
+				"explaination": "شرح",
+				"register": "النقاط المكتسبة عن طريق التسجيل",
+				"subscribe": "النقاط المكتسبة عن طريق الاشتراك",
+				"gainedShopping": "النقاط المكتسبة عن طريق التسوق",
+				"spendShopping": "تنفق النقاط عن طريق التسوق",
+				"activity": "النقاط المكتسبة بالنشاط",
+				"shopWithPoints": "تسوق بالنقاط"
+			},
+			"concern": "تركيزي",
+			"wishlist": "قائمة الرغبات",
+			"viewed": "شوهدت مؤخرا",
+			"main": {
+				"coupons": "كوبونات",
+				"points": "نقاط",
+				"viewAll": "مشاهدة الكل",
+				"viewMore": "عرض المزيد",
+				"more": "أكثر",
+				"changePwd": "تغيير كلمة المرور"
+			},
+			"empty": {
+				"orders": "لم تضع أي طلبات حتى الآن.",
+				"coupons": "إنه فارغ هنا.",
+				"wishlist": "ليس لديك حاليًا أي شيء محفوظ في قائمة الرغبات الخاصة بك.",
+				"viewed": "لم تشاهد أي شيء."
+			},
+			"valid": {
+				"points": "نقاط صالحة"
+			},
+			"data": "تاريخ",
+			"recommend": "أوصي لك"
+		},
+		"sizeGuide": {
+			"sizeCharts": "SIZE CHARTS",
+			"sizeGuide": "دليل  المقاسات"
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "معرف الطلب مطلوب"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "رقم الطلب مطلوب",
+			"amountIsRequired": "المبلغ مطلوب"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "معرف البضائع مطلوب",
+			"goodsCountIsRequired": "عدد البضائع مطلوب",
+			"goodsCountGt0AndLt10000": "عدد البضائع gt 0 و lt 10000"
+		},
+		"site": {
+			"emailIsRequired": "البريد الالكتروني مطلوب",
+			"emailLengthIsTooLong": "طول البريد الإلكتروني طويل جدًا ، بحد أقصى 128 حرفًا",
+			"emailisinvalid": "البريد الإلكتروني غير صالح",
+			"firstNameIsRequired": "الإسم الأول مطلوب",
+			"firstNameLengthIsTooLong": "طول الاسم الأول طويل جدًا ، بحد أقصى 64 حرفًا",
+			"subjectIsRequired": "الموضوع مطلوب",
+			"subjectLengthIsTooLong": "طول الموضوع طويل جدًا ، بحد أقصى 256 حرفًا",
+			"contentIsRequired": "المحتوى مطلوب"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "لا يمكن أن تكون كلمة المرور فارغة.",
+			"passwordLengthNeedsTo": "يجب أن يتراوح طول كلمة المرور بين 6 و 16 رقمًا (بدون مسافات)",
+			"confirmPassword": "تأكيد كلمة المرور لا يمكن أن تكون فارغة.",
+			"idIsRequired": "معرف مطلوب",
+			"firstNameIsRequired": "الإسم الأول مطلوب",
+			"firstNameLengthIsTooLong": "طول الاسم الأول طويل جدًا ، بحد أقصى 64 حرفًا",
+			"middleNameLengthIsTooLong": "طول الاسم الأوسط طويل جدًا ، بحد أقصى 64 حرفًا",
+			"lastNameIsRequired": "الاسم الأخير مطلوب",
+			"lastNameLengthIsTooLong": "طول الاسم الأخير طويل جدًا ، بحد أقصى 64 حرفًا",
+			"phoneNumberIsRequired": "رقم الهاتف مطلوب",
+			"phoneNumberLengthIsTooLong": "طول رقم الهاتف طويل جدًا ، بحد أقصى 32 حرفًا",
+			"emaillengthIsTooLong": "طول البريد الإلكتروني طويل جدًا ، بحد أقصى 128 حرفًا",
+			"countryAreaIsRequired": "البلد / المنطقة مطلوب",
+			"provinceStateIsTooLong": "المقاطعة / الولاية طويلة جدًا ، بحد أقصى 64 حرفًا",
+			"CityNameIsRequired": "اسم المدينة مطلوب",
+			"cityLengthIsTooLong": "طول المدينة طويل جدًا ، بحد أقصى 64 حرفًا",
+			"districtIsRequired": "المنطقة الإدارية مطلوبة",
+			"pleaseFillInThe": "يرجى ملء المدينة الصحيحة التي لا يمكن جمعها مع الأرقام.",
+			"address1IsRequired": "العنوان 1 مطلوب",
+			"address1Length": "طول العنوان الاول طويل جدًا ، والحد الأقصى 1024 حرفًا",
+			"address2Length": "طولالعنوان الثاني طويل جدًا ، والحد الأقصى 1024 حرفًا",
+			"postCodeIsRequired": "مطلوب الرمز البريدي",
+			"postCodeLength": "طول الرمز البريدي طويل جدًا ، بحد أقصى 16 حرفًا",
+			"emailIsInvalid": "البريد الإلكتروني غير صالح",
+			"passwordIsRequired": "كلمة المرور مطلوبة",
+			"firstNameLengthIsTooLongMax32Character": "طول الاسم الأول طويل جدًا ، بحد أقصى 32 حرفًا",
+			"lastNameLengthIsTooLongMax32Character": "طول الاسم الأخير طويل جدًا ، بحد أقصى 32 حرفًا",
+			"nicknameLengthIsTooLong": "طول الاسم المستعار طويل جدًا ، بحد أقصى 64 حرفًا",
+			"taxNoFormatError": "تنسيق معرف الضريبة غير صحيح!"
+		}
+	},
+	"service": {
+		"coupon": {
+			"unableToFind": "يتعذر العثور على خصم صالح يتوافق مع الرمز الذي تم إدخاله.",
+			"useOfCoupon": "استخدام القسيمة هو ما يصل إلى الحد",
+			"yourCartDoesNot1": "سلة التسوق الخاصة بك لا تفي بالمتطلبات",
+			"yourCartDoesNot2": "رطلب رمز الخصم",
+			"useOneCoupon": "يتم دعم قسيمة واحدة فقط لكل طلب",
+			"notSupportShipping": "رمز الشحن الذي تستخدمه حاليًا لا يدعم هذه الطريقة البريدية",
+			"notSupportAreas": "رمز الخصم الذي تستخدمه حاليًا ليس في منطقة الاستخدام"
+		},
+		"point": {
+			"exceedAvailBalance": "نقاط غير كافية",
+			"aboveQuota": "أكثر من 50٪ من المبلغ الإجمالي",
+			"consumption": "تعديل النقاط (نقصان)",
+			"accumulation": "تراكم النقاط",
+			"return": "إرجاع النقاط",
+			"adjustmentAdd": "تعديل النقاط (زيادة)",
+			"adjustmentReduce": "تعديل النقاط (نقصان)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "عنوان البريد الإلكتروني هذا مرتبط بالفعل بحساب. إذا كان هذا الحساب ملكك ، فيمكنك إعادة تعيين كلمة مرورك",
+			"userDataInsertError": "خطأ في إدخال بيانات المستخدم",
+			"incorrectAccount": "حساب غير صحيح أو كلمة مرور غير صحيحة",
+			"googleLoginError": "خطأ تسجيل الدخول إلى Google",
+			"accountInfoError": "خطأ في معلومات الحساب",
+			"userDoesNotExist": "المستخدم غير موجود",
+			"thisEmailAlreadyExists": "هذا البريد الإلكتروني موجود بالفعل",
+			"userDataUpdateFail": "فشل تحديث بيانات المستخدم",
+			"emailCannotBeEmpty": "لا يمكن أن يكون البريد الإلكتروني فارغًا.",
+			"noAccount": "لم يتم العثور على حساب بهذا البريد الإلكتروني.",
+			"theRecoverSession": "جلسة الاسترداد كانت غير صالحة ، يرجى البدء من جديد.",
+			"theTwoPassword": "إدخالات كلمة المرور اثنين غير متناسقة.",
+			"thePasswordUpdate": "فشل تحديث كلمة المرور! حاول مرة اخرى."
+		},
+		"address": {
+			"emailIsRequired": "البريد الالكتروني مطلوب",
+			"State": "الولاية / المقاطعة مطلوبة.",
+			"postCode": "الرمز البريدي مطلوب",
+			"countryNotExist": "بلد غير موجود",
+			"AddressInsertFail": "فشل إدراج العنوان",
+			"addressDoesNotExist": "يرجى إضافة عنوان الشحن الخاص بك.",
+			"stateIsRequired": "الدولة مطلوبة",
+			"taxNoIsRequired": "رقم الضريبة مطلوب",
+			"taxNoLength": "لا يمكن أن يتجاوز رقم المعرّف الضريبي 64 رقمًا",
+			"addressUpdateFail": "فشل تحديث العنوان",
+			"newAddressInsertFail": "فشل إدراج عنوان جديد",
+			"email": "البريد الإلكتروني",
+			"state": "حالة",
+			"country": "البلد"
+		},
+		"usercoupon": {
+			"couponInsertFail": "فشل إدخال القسيمة",
+			"couponUpdateFail": "فشل تحديث القسيمة"
+		},
+		"shopcart": {
+			"current": "المستخدم الحالي غير موجود"
+		},
+		"shopping": {
+			"shippingr": "خطأ في طلب الشحن"
+		},
+		"shared": {
+			"facebookAccess": "لم يتم العثور على الرمز المميز للوصول إلى Facebook",
+			"facebook": "نتيجة الوصول إلى Facebook فارغة",
+			"googleAccess": "لم يتم العثور على رمز الدخول إلى Google",
+			"google": "نتيجة الوصول إلى Google فارغة"
+		},
+		"payment": {
+			"paymentNotSupport": "طريقة الدفع غير مدعومة",
+			"unknownPayment": "دفعة غير معروفة",
+			"paypalPayment": "انشاء الدفع باي بال فشل [عنوان الموافقة لم يتم العثور علية]",
+			"orderPaymentCreateFail": "انشاء الدفع للطلب فشل",
+			"returnDataSignError": "إرجاع خطأ تسجيل البيانات",
+			"returnOrderKeyError": "خطأ في إرجاع المفتاح",
+			"orderPayment": "ترتيب الدفع غير موجود"
+		},
+		"paymentDecline": "رفض الدفع",
+		"order": {
+			"orderAddress": "فشل انشاء عنوان الطلب",
+			"insertCoupon": "فشل إدخال بيانات القسيمة",
+			"shoppingCart": "البضائع في عربة التسوق فارغة",
+			"orderCannot": "لا يمكن تقديم الطلب بشكل متكرر",
+			"addressNotFound": "لم يتم العثور على العنوان",
+			"orderCreateFail": "انشاء الطلب فشل",
+			"orderItem": "انشاء البند فشل",
+			"orderDo": "الطلب غير موجود!",
+			"shoppingCartGoodsIsEmpty": "البضائع في عربة التسوق فارغة"
+		}
+	},
+	"web": {
+		"screenfooter": {
+			"youHaveAlready": "لقد نجحت بالفعل في الاشتراك",
+			"serviceResponseFailure": "فشل استجابة الخدمة"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "من فضلك أدخل الكلمة!",
+			"sorryThisProduct": "عذرا، هذا المنتج غير متوفر",
+			"sorryWeDont": "عذرا ليس لدينا مخزون كاف!",
+			"areYouSure": "هل أنت متأكد من رغبتك في حذف هذا العنوان؟",
+			"searchOurStore": "ابحث في متجرنا"
+		},
+		"login": {
+			"firstNameIsRequired": "الإسم الأول مطلوب",
+			"passwordIsRequired": "كلمة المرور مطلوبة"
+		},
+		"regist": {
+			"lastNameIsRequired": "الاسم الأخير مطلوب",
+			"emailIsInvalid": "البريد الإلكتروني غير صالح"
+		},
+		"address": {
+			"thisFieldIsRequired": "هذه الخانة مطلوبه",
+			"theMaximum": "الحد الأقصى لعدد الأحرف هو 64",
+			"pleaseFillIn": "يرجى ملء المدينة الصحيحة التي لا يمكن أن تتكون من أرقام.",
+			"email": "تنسيق البريد الإلكتروني غير صحيح",
+			"subjectIsRequired": "الموضوع مطلوب",
+			"messageIsRequired": "الرسالة مطلوبة",
+			"taxNo": "تنسيق معرف الضريبة غير صحيح!",
+			"address1": "العنوان 1",
+			"address2": "العنوان 2 (اختياري)",
+			"city": "مدينة",
+			"country": "بلد",
+			"state": "حالة",
+			"zipCode": "الرمز البريدي",
+			"phoneNumber": "رقم الهاتف",
+			"MailboxFillIn": "الرمز البريدي غير صالح",
+			"SpainPhoneFillIn": "يجب أن يتكون رقم الهاتف من 9 أرقام تبدأ بـ 6 أو 9",
+			"SarPhoneFillIn": "يجب على رقم تلفونك تكوّن من 9 أرقام ويبدأ ب5",
+			"QarPhoneFillIn": "يجب على رقم تلفونك تكوّن من 8 أرقام ويبدأ ب3\u0004\u0005\u0006\u0007",
+			"OmrPhoneFillIn": "يجب على رقم تلفونك تكوّن من 8 أرقام ويبدأ ب9\u0007",
+			"KwdPhoneFillIn": "يجب على رقم تلفونك تكوّن من 8 أرقام ويبدأ ب9\u0006\u0005",
+			"BhdPhoneFillIn": "يجب على رقم تلفونك تكوّن من 8 أرقام ويبدأ ب3\u0006"
+		},
+		"contactus": {
+			"yourRequest": "تم استلام طلبك. سنرد في اسرع وقت ممكن. شكرا!",
+			"sorrySubmission": "عذرًا ، فشل الإرسال. الرجاء معاودة المحاولة في وقت لاحق. شكراً",
+			"firstNameIsRequired": "الإسم الأول مطلوب",
+			"lastNameIsRequired": "الاسم الأخير مطلوب",
+			"emailIsInvalid": "البريد الإلكتروني غير صالح",
+			"subjectIsRequired": "الموضوع مطلوب",
+			"messageIsRequired": "الرسالة مطلوبة"
+		},
+		"concatinfo": {
+			"mail": "البريد الإلكتروني",
+			"firstname": "الاسم الاول",
+			"middleName": "الاسم الأوسط",
+			"lastname": "الكنية",
+			"address": "عنوان",
+			"apartment": "شقة",
+			"taxNo": "رقم الملف الضريبي",
+			"city": "مدينة",
+			"province": "المحافظة",
+			"phone": "هاتف",
+			"postalCode": "الرمز البريدي"
+		},
+		"goodsDetail": {
+			"addToCart": "أضف إلى السلة",
+			"soldout": "بيعت كلها",
+			"sizeguide": "دليل المقاسات"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "اشتر الآن"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "أضف <span class=\"price money promo-currency\">{0}</span> للاستمتاع بالشحن المجاني! "
+			},
+			"free": {
+				"prompt": "لقد استمتعت بالشحن المجاني!"
+			},
+			"coupon": {
+				"prompt": "من الممكن استخدام </span>رمز القسيمة <span class=\"free\">في الخطوة التالية!  "
+			},
+			"invalid": {
+				"country": "رمز البلد غير صالح"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "الخصم <span class='promo-color'>{0}</span> عند الشراء <span class='promo-color'>{1} </span> ",
+				"discount{0}{1}": "الخصم <span class='promo-color'>%{0}</span> عند الشراء<span class='promo-color'>{1}</span>",
+				"prompt": {
+					"manjian{0}{1}": "وفر  {0} على  {1}",
+					"discount{0}{1}": "خصم %{0} على {1}"
+				},
+				"matchedHighest": "استمتع بحفظك!",
+				"quantity": {
+					"next{0}{1}": "يمكنك الاستمتاع بخصم  <span class='promo-currency' > {0} </span>  بالتسوق <span class='promo-currency'> {1}! </span>",
+					"next": {
+						"discount{0}{1}": "  يمكنك الاستمتاع بخصم <span class='promo-currency' > %{0}</span> بالتسوق <span class='promo-currency'> {1}! </span>"
+					},
+					"manjian{0}{1}{2}": " <span class='promo-color'>{0}!</span>ستستمتع بالخصم  <span class='promo-color'>{1} </span>على  <span class='promo-color'>{2}</span> إذا قمت بشر",
+					"discount{0}{1}{2}": "ستستمتع بالخصم  <span class='promo-color'>%{0}</span> على  <span class='promo-color'>{1}</span> إذا قمت بشراء  <span class='promo-color'>{2}! </span> ",
+					"manjian": {
+						"next{0}{1}{2}": "توفير  {0} $ على القطعة ال{1} إذا قمت بشراء {2}  قطع أخرى"
+					},
+					"discount": {
+						"next{0}{1}{2}": "خصم {0}% على القطعة ال{1}إذا قمت بشراء {2}  قطع أخرى"
+					},
+					"currentDiscount{0}": "توفير {0}"
+				},
+				"package{0}{1}": "  تسوق <span class='promo-color'>{0}</span>واحصل على السعر التفضيلي <span class='promo-color'>{1}</span>",
+				"package": {
+					"current{0}{1}": "  استمتعت بالسعر التفضيلي{0} بتسوق  {1} قطع",
+					"next{0}{1}": " أضف{0} واحصل على السعر التفضيلي {1}",
+					"saved{0}": "{0} لقد وفّرت",
+					"current": {
+						"next{0}{1}{2}{3}": " .قطع{0}على{1}تمتع بالسعر التفضيلي.{2}فتمتع بالسعر التفضيلي{3}أضف"
+					}
+				},
+				"gift{0}": "تستمتع بالهبات اذا فمت بشراء {0} قطع",
+				"gift": {
+					"current": "هبة مجانية",
+					"next{0}": "تستمتع بالهبات عند زيادة {0} قطع"
+				},
+				"money": {
+					"gift{0}": "تستمتع بالهبات عند تسوّق أكثر من{0}",
+					"gift": {
+						"next{0}": "تستمتع بالهبات اذا اضافة {0}"
+					},
+					"exchange{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من ر.س{0}.",
+					"exchange": {
+						"current{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من ر.س{0}.",
+						"next{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص اذا إضافة ر.س{0}."
+					}
+				},
+				"gifts": "هبات",
+				"freeGifts": "هبة مجانية",
+				"selectGift": "اختيار الهبة",
+				"viewGift": "فحص الهبة",
+				"updateItem": "تغيير الهبة",
+				"cancel": "الغاء",
+				"confirm": "تأكيد",
+				"exchange{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق {0} قطع.",
+				"exchange": {
+					"current{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق {0} قطع.",
+					"next{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند زيادة {0} قطع.",
+					"meet": "يمكنك شراء المنتج الإضافي بسعر أرخص الآن !",
+					"addon": "رخيص",
+					"viewGoods": "المزيد من المنتجات",
+					"addonItems": "المنتج بسعر أرخص"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "يمكنك الاستمتاع بخصم  <span class='promo-currency' > {0} </span>  بالتسوق <span class='promo-currency'> {1} !</span>",
+				"discount{0}{1}": "يمكنك الاستمتاع بخصم <span class='promo-currency' > %{0}</span> بالتسوق <span class='promo-currency'> {1} !</span>"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}{1}": "وفر {0} على {1}",
+					"discount{0}{1}": "خصم %{0} على {1}"
+				}
+			}
+		},
+		"advantage": {
+			"_value": "لماذا تختارنا؟",
+			"choose": {
+				"name": "ضمان الرضا لمدة 30 يومًا مع استرداد الأموال",
+				"value": "إذا لم تكن راضيًا عن منتجاتك ، فسنصدر ردًا كاملاً ، ولن يتم طرح أي أسئلة."
+			},
+			"order": {
+				"name": "أكثر من 34.245 تم شحن الطلبات بنجاح",
+				"value": "لقد قدمنا عملاء سعداء بنفس القدر من الطلبات التي قمنا بشحنها. عليك ببساطة الانضمام إلى عائلتنا الكبيرة."
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "طلبك محجوز",
+					"last": "الدقائق!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "عنصر طلبته هو في ارتفاع الطلب. لا تقلق ، لقد حجزنا طلبك."
+				}
+			}
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "تم إرسال هذا البريد الإلكتروني من عنوان للإشعار فقط لا يمكنه قبول بريد إلكتروني وارد",
+			"pleaseDoNot": "الرجاء عدم الرد على هذه الرسالة. إذا كان لديك أي أسئلة أو استفسارات ، من فضلك",
+			"emailUs": "مراسلتنا عبر البريد الإلكتروني"
+		},
+		"regist": {
+			"welcomeTo": "مرحبا بك في",
+			"youCanLoginYou": "يمكنك تسجيل الدخول إلى حسابك لإدارة طلبك باستخدام بيانات الاعتماد أدناه",
+			"login": "تسجيل الدخول",
+			"password": "كلمه السر",
+			"ifYouWant": "إذا كنت ترغب في إعادة تعيين كلمة المرور الخاصة بك ، من فضلك",
+			"clickHere": "انقر هنا",
+			"to": "المضي قدما"
+		},
+		"passwordreset": {
+			"thanksFor": "شكرا لتقديم تذكرة",
+			"dear": "العزيز",
+			"youHaveRequest": "لقد طلبت إعادة تعيين كلمة المرور لحسابك على",
+			"pleaseVisit": "يرجى زيارة هذا العنوان لإعادة تعيين كلمة المرور الخاصة بك",
+			"ifYouReceived": "إذا تلقيت هذه الرسالة الإلكترونية عن طريق الخطأ ، فيمكنك تجاهل هذه الرسالة الإلكترونية بأمان",
+			"sincerely": "بإخلاص"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "لقد دفعت ثمن الطلب بنجاح",
+			"thankYouFor": "شكرا لطلبك. طلبك",
+			"isNowBeingProcessed": "يتم الآن معالجتها وسيتم إرسالها عادةً خلال 3 إلى 7 أيام. سيتم إرسال بريد إلكتروني يتضمن معلومات التتبع إليك بعد شحن الطلب",
+			"items": "العناصر)",
+			"unit": "سعر الوحده",
+			"quantity": "الكمية",
+			"amont": "المبلغ",
+			"onSale": "للبيع",
+			"firstNaem": "الاسم الاول",
+			"lastName": "الأسماء الأخيرة",
+			"address": "عنوان السطر 1",
+			"country": "البلد",
+			"city": "مدينة",
+			"postal": "الرمز البريدي"
+		},
+		"deliveryOrder": {
+			"youOrder": "طلبك",
+			"hasBeen": "لقد تم شحنها",
+			"weHave": "لقد قمنا بشحن طلبك",
+			"hereIs": "هنا معلومات التتبع الخاصة بك",
+			"trackingNumber": "رقم التعقب",
+			"trackingWebsite": "موقع التتبع",
+			"items": "العناصر",
+			"unitPrice": "سعر الوحده",
+			"quantity": "كمية",
+			"amount": "المبلغ",
+			"onSale": "للبيع",
+			"firstName": "الاسم الاول",
+			"ast": "الأسماء الأخيرة",
+			"addressLine": "عنوان السطر 1",
+			"country": "البلد",
+			"city": "مدينة",
+			"postCode": "الرمز البريدي"
+		},
+		"goodsStock": {
+			"outOf": "اخطار خارج المخزون",
+			"hi": "مرحبا",
+			"thankYou": "شكرا للتسوق",
+			"weAre": "نأسف لإبلاغك بأن العنصر التالي غير متوفر",
+			"items": "العناصر",
+			"unitPrice": "سعر الوحده",
+			"quantity": "كمية",
+			"amount": "المبلغ",
+			"onSale": "للبيع",
+			"noWorry": "لا تقلق ، يمكنك اختيار الحل أدناه",
+			"choose": "【موصى!】 اختيار عنصر آخر من ما يصل إلينا حديثاً",
+			"on": "على موقعنا",
+			"let": "دعنا نعرف SKU أو عنوان URL من خلال الرد على هذه الرسالة الإلكترونية وسنقوم باستبدالها نيابة عنك",
+			"accept": "قبول استرداد",
+			"please": "يرجى إعلامنا بقراركم في أسرع وقت ممكن وسنساعدك وفقًا لذلك"
+		},
+		"changeShip": {
+			"tracking": "يتم تحديث رقم التتبع ل",
+			"hi": "مرحبا",
+			"weFeel": "نشعر بالأسف على الإزعاج الذي تسببنا فيه",
+			"trackingNumberFor": "رقم التتبع للطلب",
+			"isUpdate": "تم التحديث ، يرجى تجاهل السابق واستخدام الجديد لتعقبه",
+			"trackingNumber": "رقم التعقب",
+			"trackingWebsite": "موقع التتبع",
+			"the": "الوقت المقدر للوصول هو 7-15 أيام",
+			"items": "العناصر",
+			"unitPrice": "سعر الوحده",
+			"quantity": "كمية",
+			"amount": "المبلغ",
+			"on": "للبيع",
+			"first": "الاسم الاول",
+			"last": "الأسماء الأخيرة",
+			"address": "عنوان السطر 1",
+			"count": "البلد",
+			"city": "مدينة",
+			"postal": "الرمز البريدي"
+		},
+		"contactUs": {
+			"thanks": "شكرا لتقديم التذكرة",
+			"dear": "عزيزي الزبون",
+			"your": "تم إرسال تذكرتك بنجاح ، وسوف يرد عليك مندوبونا في غضون 36 ساعة. يرجى التفضل بانتظار الرد",
+			"below": "فيما يلي تفاصيل رسالتك",
+			"type": "نوع",
+			"email": "البريد الإلكتروني",
+			"name": "الاسم",
+			"content": "يحتوى"
+		},
+		"newIn": {
+			"15": "15 ر.ي.‏",
+			"view": "عرض المزيد",
+			"to": "للتأكد من حصولك على آخر تحديثات الأنماط",
+			"please": "من فضلك تذكر أن تضيف عنواننا إلى دفتر العناوين الخاص بك",
+			"if": "إذا كنت تفضل عدم تلقي أخبار الموضة والعروض الخاصة بنا ، فما عليك سوى النقر هنا",
+			"unsubscribe": "إلغاء الاشتراك"
+		},
+		"hotSale": {
+			"view": "عرض المزيد",
+			"to": "للتأكد من حصولك على آخر تحديثات الأنماط",
+			"please": "من فضلك تذكر أن تضيف عنواننا إلى دفتر العناوين الخاص بك",
+			"if": "إذا كنت تفضل عدم تلقي أخبار الموضة والعروض الخاصة بنا ، فما عليك سوى النقر هنا",
+			"unsubscribe": "إلغاء الاشتراك"
+		},
+		"register": {
+			"subscribe": "اشترك",
+			"privacy{0}": "انقر فورا الزر \"اشترك\"  للظهارموافقتك على  <a href=\"{0} \"   > \"سياسة الخصوصية\" </a > "
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty": "الرجاء إدخال عنوان البريد الإلكتروني.",
+				"used": "تم استخدام البريد الإلكتروني من قبل آخرين. الرجاء تغيير واحد آخر.",
+				"code": "الشفرة"
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay Only JPY currency is supported",
+			"countrycode": "konbini can only handle countrycode JP",
+			"phone": "the phone number must be between 10~11 digits"
+		},
+		"accountholder": {
+			"length": "the accountholder minimum 3 charaters, up to 100 characters"
+		},
+		"rapipago": {
+			"countrycode": "rapipago can only handle countrycode AR",
+			"currency": "rapipago pay Only USD currency is supported"
+		},
+		"giropay": {
+			"countrycode": "giropay can only handle countrycode DE",
+			"currency": "giropay pay Only EUR currency is supported"
+		}
+	}
+}

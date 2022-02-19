@@ -1,0 +1,1202 @@
+{
+	"Color": "Color",
+	"Size": "Size",
+	"view": {
+		"progress": {
+			"save": "Saving"
+		},
+		"common": {
+			"clearance": "Clearance",
+			"presale": "Pre Sale",
+			"presaleDeliveryTime{0}": "Dispatched within {0} days."
+		},
+		"head": {
+			"account": "Account",
+			"language": "Language",
+			"currency": "Currency",
+			"help": "Help Center",
+			"cart": "Cart",
+			"settings": "SETTINGS"
+		},
+		"foot": {
+			"subscribe": "Subscribe for our exclusive offers",
+			"go": "Go",
+			"mail": {
+				"subscribed": "This mailbox has been subscribed",
+				"placeholder": "Enter your email address"
+			},
+			"yourMailBox": "Your mailbox is incorrectly formatting",
+			"menu": "Menu",
+			"search": "Search",
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"pinterest": "Pinterest",
+			"youtube": "Youtube",
+			"snapchat": "Snapchat",
+			"twitter": "Twitter",
+			"bestSelling": "Best Selling",
+			"categories": "Categories"
+		},
+		"error": {
+			"404": {
+				"_value": "Page Not Found",
+				"title": "Error page！",
+				"content": "Sorry, the page you&apos;re looking for can not be found.<br/>You may like to check out our recommendations or return to the home page of the website."
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "\"{0}\" has no results.",
+				"content": "Try checking your spelling or use more general terms.<br/>Or you can browse the recommended items below."
+			},
+			"searchHistory": "search history",
+			"hotWord": "hot word"
+		},
+		"index": {
+			"viewAll": "View All",
+			"loadMore": "VIEW MORE"
+		},
+		"goodsList": {
+			"home": "Home",
+			"sortBy": "Sort By",
+			"price": "Price",
+			"yourSearchFor": "Your search for",
+			"revealedTheFollowing": "revealed the following",
+			"didNotYieldAnyResults": {
+				"": "did not yield any results."
+			},
+			"quantity": "products",
+			"newIn": "New In",
+			"hotSale": "Hot Sale",
+			"special": "Special Offer",
+			"clearance": "Clearance",
+			"quickView": "QUICK SHOP"
+		},
+		"goodsDetail": {
+			"color": "Color",
+			"size": "Size",
+			"quantity": "Quantity",
+			"addToCart": "ADD TO CART",
+			"description": "Description",
+			"productCode": "Product Code",
+			"designPlaceHolder": "Enter Name or Text here...",
+			"charLeft": {
+				"limitItem{0}": "{0} character(s) left"
+			},
+			"personlized": "PERSONALIZE",
+			"shipping": "Shipping",
+			"sizeChart": "Size Chart",
+			"youMayAlsoLike": "You May Also Like",
+			"youRecentlyView": "Recently Viewed",
+			"shippingReturn": "Shipping & Return",
+			"superSavings": "Super Savings",
+			"secureOnlineShopping": "100% Secure Online Shopping",
+			"promotion": "Promotions",
+			"pleaseSelectColor": "Please select your Color",
+			"pleaseSelect": "Please select your Size",
+			"limit5": "Limit Five Per Person.",
+			"limit10": "Limit 10 Per Person.",
+			"personalize": "Personalize",
+			"review": {
+				"customerReviews": "customers reviews",
+				"writeAReview": "Write a review",
+				"example": {
+					"_value": "Example：I bought this a month ago and am so happy that I did…",
+					"email": "Example:",
+					"example": "youremail@example.com",
+					"name": "jackie"
+				},
+				"review": "Review",
+				"reviews": "Reviews",
+				"nickname": "Nickname",
+				"email": "Email",
+				"postReview": "POST REVIEW",
+				"ratings": "Average customer ratings",
+				"more": {
+					"reviews": "More reviews"
+				},
+				"many": {
+					"items": {
+						"error{0}": "You can only choose up to {0}."
+					}
+				},
+				"add": {
+					"photos": "Add up to 6 photos",
+					"photo": "Add Photo"
+				},
+				"ok": "Ok",
+				"enter": {
+					"address": {
+						"_value": "Please enter an email address.",
+						"format": "Invalid email."
+					},
+					"nickname": "Please enter your nickname.",
+					"review": {
+						"_value": "Please enter your review.",
+						"length": "Max length was exceeded."
+					}
+				},
+				"score": "Score",
+				"thank": {
+					"review": "Thank you for posting a review"
+				},
+				"successful": "SUCCESSFUL",
+				"getCouponFailed": "Coupon Failure.",
+				"oops": "Oops...",
+				"post": {
+					"failed": "Comment post failed, please try again later."
+				},
+				"click": "Click to rate！",
+				"uploadFiles": "Upload files",
+				"processingDroppedFiles": "Processing dropped files ...",
+				"close": "Close",
+				"no": "No",
+				"yes": "Yes",
+				"cancel": "Cancel",
+				"sellerReply": ": seller reply",
+				"couponCodeTip{0}": "Coupon code: {0} <br/> You can use this coupon code to go shopping! <br/> At the same time, we have sent the coupon code to your email.",
+				"gotouse": "Go to use",
+				"sortby": {
+					"all": "All "
+				}
+			},
+			"shortOfStock": "short of stock",
+			"size_info": "Notice:Asian size is smaller than US size, we suggest you choose one size larger than your usual size."
+		},
+		"activity": {
+			"activities": "Activities",
+			"endin": "ENDS IN",
+			"d": "days",
+			"h": "hours",
+			"m": "minutes",
+			"s": "seconds"
+		},
+		"shopcart": {
+			"personalizedDetail": "Personalized Detail",
+			"yourShoppingCart": "Your Shopping Cart",
+			"shoppingCart": "Shopping Cart",
+			"product": "Product",
+			"price": "Price",
+			"quantity": {
+				"_value": "Quantity",
+				"desc{0}": "Shopping Bag (<span class=\"mz-cartCount\">{0}</span> Items)"
+			},
+			"total": "Total",
+			"remove": "Remove",
+			"subtotal": "Subtotal",
+			"yourCartIsCurrentlyEmpty": "Your cart is currently empty.",
+			"continueBrowsing": "Continue browsing",
+			"here": "here",
+			"updateCart": "Update Cart",
+			"checkout": "Check Out",
+			"checkValidityGoods": "Sorry, there are out-of-stock items in the item you selected!",
+			"order": {
+				"summary": "Order Summary"
+			},
+			"goShopping": "Go Shopping",
+			"viewOrders": "View my orders",
+			"continueShopping": "continue shopping",
+			"viewBag": "VIEW CART",
+			"priceRange": "Price Range",
+			"viewFullDetails": "View Full Details",
+			"add": "Add",
+			"details": "Details",
+			"productOption": "Product Option",
+			"clear": "CLEAR",
+			"addItems": "Add Items",
+			"shippingFee": "Shipping fee",
+			"addToCartSuccess": "Add to cart successfully!",
+			"eelThan{0}": "COD is only available when the order amount is more than {0}"
+		},
+		"shopcartSide": {
+			"yourCart": "Your Cart",
+			"yourCartIsEmpty": "Your Cart Is Empty",
+			"continueShopping": "Continue Shopping",
+			"checkout": "Check Out",
+			"shippingTaxes": "Shipping & taxes calculated at checkout",
+			"remove": "Remove"
+		},
+		"login": {
+			"login": "Login",
+			"email": "Email",
+			"password": "Password",
+			"forgotYourPassword": "Forgot your password?",
+			"returnToStore": "Return to Store",
+			"createAccount": "Create account",
+			"signIn": "Sign In",
+			"luvEmail": "Sign up for Luvyle emails.",
+			"infoMsg": "please enter you e-mail and password:",
+			"loginFrom": "Use your account from",
+			"loginOr": "OR"
+		},
+		"recoverEmail": {
+			"resetYourPassword": "Reset your password",
+			"weWillSend": "We will send you an email to reset your password.",
+			"cancel": "Cancel",
+			"resetPassword": "Reset Password",
+			"password": "Password",
+			"confirmPassword": "Confirm Password",
+			"backToLogin": "Back to Login",
+			"submit": "Submit"
+		},
+		"regist": {
+			"createAccount": "Create Account",
+			"firstName": "First Name",
+			"lastName": "Last Name",
+			"email": "Email",
+			"password": "Password",
+			"returnToStore": "Return to Store",
+			"create": "Create",
+			"register": "Register",
+			"stylePreference": "STYLE PREFERENCE",
+			"signOut": "Sign Out",
+			"termsPart0": "I agree to ",
+			"termsPart1": "By sign in this way, you agree to our ",
+			"termsPart2": "Terms & Conditions ",
+			"termsPart3": "and ",
+			"termsPart4": "Privacy Policy",
+			"termsPart5": "By creating your account, you agree to our ",
+			"succ": {
+				"congrate": "Congratulations! You have successfully registered!",
+				"shop_now": "SHOP NOW",
+				"check": "CHECK YOUR INBOX",
+				"check_confirm": "We have sent an email with a discount code to your mailbox, please check it!",
+				"check_confirm_tip": "Didn't receive the email?",
+				"check_confirm_step1": "Please check your spam folder.",
+				"check_confirm_step2_part1": "If you still don't see the email, you can",
+				"check_confirm_step2_part2": "click here",
+				"check_confirm_step2_part3": "to contact us.",
+				"check_recent": "RESENT",
+				"bind": "Please enter an email address to bind"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "I agree to the <a href=\"{0}\" style=\"color: #4099fc;text-decoration: underline;\">Privacy Policy</a>."
+		},
+		"checkout": {
+			"fillInInformationTip": "Please be sure to fill in personal and address information",
+			"customerInformation": "Customer information",
+			"showOrderSummary": "Show order summary",
+			"hideOrderSummary": "Hide order summary",
+			"orderNotice": "Show order summary and get discount",
+			"cart": "Cart",
+			"shippingMethod": "Shipping method",
+			"paymentMethod": "Payment method",
+			"apply": "Apply",
+			"discountHasBeenApplied": "Coupon has been redeemed!",
+			"pointHasBeenApplied": "Points has been redeemed!",
+			"discount": "Discount",
+			"allSoldout": "The items in your shopping list are all out of stock and you cannot continue to the next step",
+			"allSoldoutAlert": "The items in your shopping list are currently out of stock. Please re-select the items for settlement",
+			"partSoldout": "Items in your shopping list are currently out of stock, and if you proceed to the next step, the system will automatically remove out of stock items from the shopping list.",
+			"card_number": "Card number",
+			"expiry_date": "Expiry date",
+			"security_code": "Security code",
+			"card_holder": "Card holder"
+		},
+		"orderSummary": {
+			"orderSummary": "Order summary",
+			"shoppingCart": "Shopping cart",
+			"productImage": "Product image",
+			"description": "Description",
+			"quantity": "Quantity",
+			"price": "Price",
+			"scrollForMoreItems": "Scroll for more items",
+			"costSummary": "Cost summary",
+			"subtotal": "Subtotal",
+			"shipping": "Shipping",
+			"salesTax": "Sales Tax",
+			"total": "Total",
+			"giftCard": {
+				"_value": "Redeem your exclusive coupon code here",
+				"title": "Coupon Code"
+			},
+			"userCredit": {
+				"title": "Points discounts",
+				"label": "User Points",
+				"tag{0}": "Points({0})",
+				"total{0}": "Total points: {0}",
+				"available{0}": "Available points: {0}",
+				"tip": "<div>1. Your points will be deducted from your account after the order is created.</div><div>2. You can cancel your order in \"My Order\", and the points you applied for will be returned to your account.</div><div>3. Points can use up to 50% of the total order price.</div>"
+			},
+			"remoteAreaInfo{0}": "Includes {0} remote area fee",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "{0} Off For Your First Order",
+				"firstOrderDiscountPrice{0}": "Get {0} For Your First Order",
+				"discountPrice{0}{1}": "Save {0} Over {1}",
+				"percentDiscount{0}{1}": "{0} Off Over {1}",
+				"discountPrice": {
+					"v1{0}{1}{2}": "Buy More Than {0} Items And Over {1}, Get {2} OFF",
+					"v2{0}{1}": "Buy More Than {0} Items, Get {1} OFF"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "Buy More Than {0} Items And Over {1}, Get {2} OFF",
+					"v2{0}{1}": "Buy More Than {0} Items, Get {1} OFF"
+				},
+				"selectTip": "OR choose from our general coupon codes below"
+			},
+			"chasepay": {
+				"discounts{0}": "Pay Now and Save {0}%",
+				"discounts-kissnkid": "Pay Now and Save 10%"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "Contact information",
+			"alreadyHaveAnAccount": "Already have an account?",
+			"login": "Log in",
+			"email": "Email",
+			"logOut": "Log out",
+			"shippingAddress": "Shipping address",
+			"storedAddresses": "Stored Addresses",
+			"newAddress": "New address...",
+			"firstName": "First Name",
+			"lastName": "Last Name",
+			"middleName": "Middle Name",
+			"address1": "Address Line 1:",
+			"address2": "Street, Address, Company Name, C/O",
+			"apartmentSuite1": "Address Line 2:",
+			"apartmentSuite2": "Apartment, Suite, Unit, Building, Floor, Etc(Optional)",
+			"city": "City",
+			"country": "Country/Region",
+			"province": "State/Province",
+			"postalCode": "Postal code",
+			"phone": "Phone",
+			"continueToShipping": "CONTINUE TO SHIPPING METHOD",
+			"returnToCart": "Return to cart",
+			"district": "Area",
+			"road": "Road"
+		},
+		"shippingMethod": {
+			"shippingAddress": "Shipping address",
+			"edit": "Edit",
+			"editShippingAddress": "Edit shipping address",
+			"shippingMethod": "Shipping method",
+			"continueToPayment": "CONTINUE TO PAYMENT METHOD",
+			"returnToCustomerInformation": "Return to customer information",
+			"onlyShippedToUS": "Some products can only be shipped to the United States.",
+			"desc": "business days"
+		},
+		"paymentMethod": {
+			"shippingAddress": "Shipping address",
+			"edit": "Edit",
+			"transitTime": "Transit Time",
+			"shippingMethod": "Shipping method",
+			"superSaving": "Standard Shipping",
+			"expressShipping": "Expedited Shipping",
+			"economyShipping": "Economy Shipping",
+			"cashOnDelivery": "Cash On Delivery(COD)",
+			"paymentMethod": "Payment method",
+			"loading": "<span class=\"ctx-weight\">Your order has been placed!</span> The transaction is being processed by the bank and may take 2 minutes.Once the payment is successful, you will receive an email notification. Please wait patiently.",
+			"loadingAddtionalTxt{0}": "You can <a href=\"{0}\">check your order</a> or <a href=\"/\">back to home</a>.",
+			"allTransactions": "All transactions are secure and encrypted.",
+			"buyLimitTips": "The freight increases along with order amount. Try to Separate your order and you may find out the suprisingly lower freight.",
+			"creditCard": {
+				"_value": "Credit Card",
+				"oceanpay": "Credit Card",
+				"cardpay": "Credit Card",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "Credit Card",
+			"payPal": "PayPal",
+			"payWith": "Pay with",
+			"visa": "Visa",
+			"mastercard": "Mastercard",
+			"americanExpress": "American Express",
+			"discover": "Discover",
+			"yourOrderIsCovered": "Your order is covered by your gift cards.",
+			"yourOrderIs": "Your order is",
+			"free": "free",
+			"noPaymentIsRequired": "No payment is required.",
+			"notifications": "Notifications",
+			"completeOrder": "Continue To Payment",
+			"codWarning{0}": "COD is only available when the order amount is less than {0}",
+			"returnToShippingMethod": "Return to shipping method",
+			"editShippingAddress": "Edit shipping address",
+			"editShippingMethod": "Edit shipping method",
+			"paypalContent": "After clicking “Complete order”, you will be redirected to PayPal to complete your purchase securely.",
+			"pingpongContent": "After clicking “Complete order”, you will be redirected to PingPong to complete your purchase securely.",
+			"cod": "Cash on delivery(COD)",
+			"codContentTitle": "CASH ON DELIVERY(COD)",
+			"codContent": "We offer the easiest way to make payment of your orders by using COD. You could pay the goods when it is delivered to you.",
+			"orderNo": "Order NO",
+			"site859Extra": "Kent,United Kingdom"
+		},
+		"paymentSkip": {
+			"tip": "Processing, please do not click the refresh or back button."
+		},
+		"paymentResult": {
+			"order": "Order",
+			"thankYou": "Thank you",
+			"yourOrderIsConfirmed": "Your order is confirmed",
+			"weHaveAccepted": "We&apos;ve accepted your order, and we&apos;re getting it ready. Please kindly check your email for updates on your order status. (It may run to the juck mail, please check it if you could not find it in your inbox)",
+			"customerInformation": "Customer information",
+			"shippingAddress": "Shipping address",
+			"continueShopping": "Continue shopping",
+			"checkoutRetry": "Checkout Retry",
+			"opens": "Opens external website in a new window.",
+			"opensIn": "Opens in a new window.",
+			"opensExternalWebsite": "Opens external website.",
+			"customerInfo": "Customer information - Bellalike - Checkout",
+			"billingAddress": "Billing address",
+			"shippingMethod": "Shipping method",
+			"paymentMethod": "Payment method",
+			"paypal": "Paypal",
+			"express": "Express",
+			"creditCard": "Credit Card",
+			"oceanpay": "Oceanpayment",
+			"pacypay": "Pacypay",
+			"cod": "Cash on delivery(COD)",
+			"codNote": "Note",
+			"codNoteLine0": "To deliver your package, we will contact you within 1-2 business days to confirm the information of your order. Please get through our telephone-call in time.",
+			"codNoteLine1": "Cash On Delivery",
+			"codNoteLine2": "Please pay when the item reaches you",
+			"codNoteLine3": "Do not be fooled by fraudsters who trick you into transferring money in any channels",
+			"codNoteLine4": "We provide Cash On Delivery service only",
+			"cancel": "Transaction canceled by customer",
+			"forter": {
+				"reject": "The  transaction  failed  due  to  the  the  payment  security  issue.  If  you  have  completed  the  payment,  we  will  make  the  refund  within  3-5  business  days."
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title": "Paid successfully！",
+				"subtitle": "Kindly fill in your detailed address in below blanks."
+			}
+		},
+		"paymentFail": {
+			"paymentException": "Payment Exception",
+			"checkoutRecordNotExist": "Checkout record does not exist",
+			"paypal": {
+				"ec": {
+					"unauthorized": "The customer did not approved the transaction"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "Back to Order History",
+			"accountDetails": "Account Details",
+			"name": "Name",
+			"edit": "Edit",
+			"save": "Save",
+			"cancel": "Cancel",
+			"email": "Email",
+			"password": "Password",
+			"reset": "Reset",
+			"addressBook": "Address Book",
+			"youHaveNoAddresses": "You have no addresses",
+			"primaryAddress": "Primary Address",
+			"addAddress": "Add Address",
+			"anotherAddress": "Choose another address",
+			"delete": "Delete",
+			"setAsPrimaryAddress": "Set as primary address",
+			"finish": "Finish",
+			"editAddress": "Edit Address"
+		},
+		"header": {
+			"home": "Home",
+			"myAccount": "My Account",
+			"yourAccount": "Your Account",
+			"logOut": "Log Out",
+			"closeMenu": "Close menu"
+		},
+		"main": {
+			"orderHistory": "Order History",
+			"youHaveNotPlacedAnyOrders": "You haven&apos;t placed any orders yet.",
+			"order": "Order",
+			"date": "Date",
+			"orderStatus": "Order Status",
+			"paymentStatus": "Payment Status",
+			"shippingStatus": "Shipping Status",
+			"total": "Total",
+			"action": "Action",
+			"buyAgain": "Repurchase",
+			"orderDetail": "Order Detail",
+			"Items": "Items",
+			"payNow": "Pay Now",
+			"trackOrder": "Track Order",
+			"cancel": "Cancel",
+			"contactUs": "Contact Us",
+			"repurchaseInvalid": "There are expired items in your order, and expired items will not be re-purchased"
+		},
+		"orderDetail": {
+			"backToOrderHistory": "Back to Order History",
+			"orderSummary": "Order Summary",
+			"returnExchange": "RETURN / EXCHANGE",
+			"item": "Item",
+			"shippingStatus": "Shipping Status",
+			"price": "Price",
+			"qty": "Qty",
+			"totalPrice": "Total Price",
+			"color": "Color",
+			"size": "Size",
+			"subtotal": "Subtotal",
+			"shipping": "Shipping",
+			"total": "Total",
+			"shippingAddress": "Shipping Address",
+			"discount": "Discount"
+		},
+		"userSummery": {
+			"accountDetails": "Account Details",
+			"edit": "Edit",
+			"name": "Name",
+			"email": "Email",
+			"primaryAddress": "Primary Address"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "FORGOTTEN PASSWORD",
+			"emailSent": "EMAIL SENT",
+			"anEmailHasBeenSent": "An email has been sent to the provided email address.",
+			"ifYouRequested": "If you requested a new password but didn&apos;t receive your password-reset email",
+			"tryTo": "Try to",
+			"resetYourPassword": "reset your password",
+			"again": "again",
+			"ifYouStillDontReceive": "If you still don&apos;t receive the email after requesting a password  reset, wait 24 hours and try again"
+		},
+		"contactUs": {
+			"contactUs": "Contact us",
+			"submit": "submit"
+		},
+		"customerService": {
+			"customerService": "Customer Service"
+		},
+		"orderBy": {
+			"bestSelling": "Best Selling",
+			"mostPopular": "Most Popular",
+			"priceLowToHigh": "Price: Low to High",
+			"priceHighToLow": "Price: High to Low",
+			"newest": "New Arrivals",
+			"recommend": "Recommend"
+		},
+		"shipping": {
+			"unshipped": "UNSHIPPED",
+			"shipped": "SHIPPED",
+			"partialShipped": "PARTIAL_SHIPPED"
+		},
+		"payment": {
+			"unpaid": "Waiting For Payment",
+			"pending": "Pending",
+			"paid": "Paid",
+			"canceled": "Canceled",
+			"shipped": "Shipped",
+			"refunded": "Refunded",
+			"partialrefunded": "Partial Refunded",
+			"fulfilled": "Fulfilled",
+			"processing": "Processing"
+		},
+		"application": {
+			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
+			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"download2get": "DOWNLOAD TO GET",
+			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"code": "CODE",
+			"download": {
+				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
+			}
+		},
+		"list": {
+			"apply": "Apply",
+			"other": "Other",
+			"filter": {
+				"_value": "Filter",
+				"by": "Filter By"
+			},
+			"category": "Categories",
+			"over": "Over",
+			"noResults": "No items found！",
+			"onesize": "One Size"
+		},
+		"amp": {
+			"sizeAndColor": "Size And Color:",
+			"pleaseChoose": "---Please Choose---",
+			"buy": "BUY IT NOW"
+		},
+		"paypal": {
+			"textPrompt": "The phone number is incorrect.",
+			"hrefPrompt": "Please change the phone number",
+			"or": "OR",
+			"expressCheckout": "Express checkout",
+			"supportsHint": "You order currency will be converted to USD, which is the only currency this payment method supports."
+		},
+		"cart": {
+			"account": "already have an account",
+			"login": "log in"
+		},
+		"new_checkout": {
+			"postal_address": "+ Add Shipping Address",
+			"order_confirmation": "order confirmation",
+			"address_editing": "Shipping Address",
+			"address": "address",
+			"payment": "Payment",
+			"shipping": "shipping",
+			"items": "items",
+			"save": "save",
+			"addressRequired": "Address must be filled in",
+			"shippingcart": "Shipping Cart",
+			"ordersummary": "Order Summary"
+		},
+		"sitemap": {
+			"sitemap": "Sitemap",
+			"hot_categories": "Hot Categories",
+			"hot_sale": "Hot Sale",
+			"see_more": "See More",
+			"new_in": "New In"
+		},
+		"personal": {
+			"center": "Personal Center",
+			"account": "My Account",
+			"profile": "My Profile",
+			"address": {
+				"_value": "Address Book",
+				"delete": "Are you sure to delete this address?",
+				"cancel": "CANCEL",
+				"ok": "OK",
+				"default": "Default"
+			},
+			"orders": "My Orders",
+			"all": "All",
+			"assets": "My Assets",
+			"coupons": {
+				"_value": "My Coupons",
+				"useit": "Use it"
+			},
+			"points": {
+				"_value": "My Points",
+				"spent": "Points spent",
+				"details": "Points Details",
+				"exchanged": "Points exchanged",
+				"explaination": "Explaination",
+				"register": "Points gained by register",
+				"subscribe": "Points gained by subscribe",
+				"gainedShopping": "Points gained by shopping",
+				"spendShopping": "Points spend by shopping",
+				"activity": "Points gained by activity",
+				"shopWithPoints": "Shop With Points"
+			},
+			"concern": "My Concern",
+			"wishlist": "Wishlist",
+			"viewed": "Recently Viewed",
+			"main": {
+				"coupons": "Coupons",
+				"points": "Points",
+				"viewAll": "View All",
+				"viewMore": "View More",
+				"more": "More",
+				"changePwd": "Change Password"
+			},
+			"empty": {
+				"orders": "You have not placed any orders yet.",
+				"coupons": "It is empty here.",
+				"wishlist": "You currently have nothing saved to your Wishlist.",
+				"viewed": "You have not viewed anything."
+			},
+			"valid": {
+				"points": "Valid points"
+			},
+			"data": "Date",
+			"recommend": "Recommend for you"
+		},
+		"sizeGuide": {
+			"sizeCharts": "SIZE CHARTS",
+			"sizeGuide": "SIZE GUIDE"
+		}
+	},
+	"web": {
+		"address": {
+			"MailboxFillIn": "Postal code is invalid",
+			"SpainPhoneFillIn": "Phone Number should be 9 digits starting with 6 or 9",
+			"SarPhoneFillIn": "Your phone number must be 9 digits and starting with 5",
+			"QarPhoneFillIn": "Your phone number must be 8 digits and starting with 3/4/5/6/7",
+			"OmrPhoneFillIn": "Your phone number must be 8 digits and starting with 7/9",
+			"KwdPhoneFillIn": "Your phone number must be 8 digits and starting with5/6/9",
+			"BhdPhoneFillIn": "Your phone number must be 8 digits and starting with 3/6",
+			"thisFieldIsRequired": "This field is required",
+			"theMaximum": "The maximum number of characters is 64",
+			"pleaseFillIn": "Please fill in the correct city which cannot be made up of numbers.",
+			"email": "E-mail format is incorrect",
+			"subjectIsRequired": "subject is required",
+			"messageIsRequired": "Message is required",
+			"taxNo": "Incorrect tax ID format!",
+			"address1": "Address 1",
+			"address2": "Address 2 (Optional)",
+			"city": "City",
+			"country": "Country",
+			"state": "State",
+			"zipCode": "Zip Code",
+			"phoneNumber": "Phone Number"
+		},
+		"screenfooter": {
+			"youHaveAlready": "You have already succeeded in subscribing",
+			"serviceResponseFailure": "Service response failure"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "Please enter a keyword !",
+			"sorryThisProduct": "Sorry this product is not available",
+			"sorryWeDont": "Sorry we don't have enough stock!",
+			"areYouSure": "Are you sure you wish to delete this address?",
+			"searchOurStore": "Search our store"
+		},
+		"login": {
+			"firstNameIsRequired": "First name is required",
+			"passwordIsRequired": "Password is required"
+		},
+		"regist": {
+			"lastNameIsRequired": "Last name is required",
+			"emailIsInvalid": "Email is invalid"
+		},
+		"payment": {
+			"incorrectCardNumber": "Incorrect card number.",
+			"invalidExpiryDate": "Invalid expiry date.",
+			"invalidSecureCode": "Invalid secure code."
+		},
+		"contactus": {
+			"yourRequest": "Your request has been received. We will respond ASAP.Thanks!",
+			"sorrySubmission": "Sorry,submission Failed. Please try again later. Thanks",
+			"firstNameIsRequired": "First name is required",
+			"lastNameIsRequired": "Last name is required",
+			"emailIsInvalid": "Email is invalid",
+			"subjectIsRequired": "subject is required",
+			"messageIsRequired": "Message is required"
+		},
+		"concatinfo": {
+			"mail": "Email",
+			"firstname": "First Name",
+			"middleName": "Middle Name",
+			"lastname": "Last Name",
+			"address": "Address",
+			"apartment": "Apartment",
+			"taxNo": "Tax File No.",
+			"city": "City",
+			"province": "State/Province",
+			"phone": "Phone",
+			"postalCode": "Postal Code"
+		},
+		"goodsDetail": {
+			"addToCart": "ADD TO CART",
+			"soldout": "SOLD OUT",
+			"sizeguide": "Size Guide"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "BUY NOW"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "You’re only <span class=\"price money promo-currency\">{0}</span> away from <span class=\"free\">Free Shipping</span>!"
+			},
+			"free": {
+				"prompt": "Sweet! You scored <span class=\"free\">FREE SHIPPING</span>!"
+			},
+			"coupon": {
+				"prompt": "Apply a <span class=\"free\">Coupon Code</span> on the next step!"
+			},
+			"invalid": {
+				"country": "Invalid country code"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "SAVE <span class='promo-color'>{0}</span> Over <span class='promo-color'>{1}</span>",
+				"discount{0}{1}": "<span class='promo-color'>{0}%</span> OFF over <span class='promo-color'>{1}</span>",
+				"prompt": {
+					"manjian{0}{1}": "SAVE {0} Over {1}",
+					"discount{0}{1}": "{0}% OFF over {1}"
+				},
+				"matchedHighest": "Enjoy your saving!",
+				"quantity": {
+					"manjian{0}{1}{2}": "Buy <span class='promo-color'>{0}</span> Get <span class='promo-color'>{1}</span> <span class='promo-color'>{2}</span> Off",
+					"discount{0}{1}{2}": "Buy <span class='promo-color'>{0}</span> Get<span class='promo-color'> {1}</span> <span class='promo-color'>{2}%</span> Off",
+					"manjian": {
+						"next{0}{1}{2}": "Add {0} more get {1} {2} OFF!"
+					},
+					"discount": {
+						"next{0}{1}{2}": "Add {0} more get {1} {2}% OFF!"
+					},
+					"currentDiscount{0}": "Save {0} ",
+					"next{0}{1}{2}": "Add<span class='promo-currency'>{0}</span> more get {1} <span class='promo-currency'>{2}</span>OFF! ",
+					"next": {
+						"discount{0}{1}{2}": "Add<span class='promo-currency'>{0}</span> more get {1} <span class='promo-currency'>{2}</span>% OFF! "
+					}
+				},
+				"package{0}{1}": "Any <span class='promo-color'>{0}</span> For <span class='promo-color'>{1}</span>",
+				"package": {
+					"current{0}{1}": "Enjoyed {0} For Package Price {1}",
+					"next{0}{1}": "Add {0} More To Enjoy Package Price {1}",
+					"saved{0}": "Saved {0}",
+					"current": {
+						"next{0}{1}{2}{3}": "Enjoyed {0} For Package Price {1},Add {2} More To Enjoy Package Price {3}"
+					}
+				},
+				"gift{0}": "Buy {0} To Get Free Gifts",
+				"gift": {
+					"current": "Free Gift",
+					"next{0}": "Add {0} More To Get Free Gifts"
+				},
+				"money": {
+					"gift{0}": "Free Gifts For Orders Over {0}",
+					"gift": {
+						"next{0}": "Add {0} More To Get Free Gifts"
+					},
+					"exchange{0}": "Buy {0} to enjoy Add-on price. ",
+					"exchange": {
+						"current{0}": "Buy  {0} to enjoy Add-on price. ",
+						"next{0}": "Buy {0} more to enjoy Add-on price."
+					}
+				},
+				"gifts": "GIFTS",
+				"freeGifts": "Free Gift",
+				"selectGift": "Select Gift",
+				"viewGift": "View Gift",
+				"updateItem": "UPDATE ITEM",
+				"cancel": "CANCEL",
+				"confirm": "CONFIRM",
+				"exchange{0}": "Buy {0} to enjoy Add-on price. ",
+				"exchange": {
+					"current{0}": "Buy {0} to enjoy Add-on price. ",
+					"next{0}": "Buy {0} more to enjoy Add-on price.",
+					"meet": "Enjoy Add-on price now!!",
+					"addon": "Add-on",
+					"viewGoods": "More Items",
+					"addonItems": "Add-on Items"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "You can get <span class='promo-currency'>{0}</span> off by <span class='promo-currency'>{1}</span> !",
+				"discount{0}{1}": "You can get <span class='promo-currency'>{0}%</span> off by <span class='promo-currency'>{1}</span> !"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}{1}": "SAVE {0} Over {1}",
+					"discount{0}{1}": "{0}% OFF over {1}"
+				}
+			}
+		},
+		"advantage": {
+			"_value": "Why choose us?",
+			"choose": {
+				"name": "30-day Satisfaction guarantee with Money Back",
+				"value": "If you&apos;re not satisfied with your products we will issue a full refund, no questions asked."
+			},
+			"order": {
+				"name": "Over 34.245 successfully shipped orders",
+				"value": "We made as much happy customers as many orders we shipped. You simply have to join our big family."
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "Your order is reserved for",
+					"last": "minutes!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "An item you ordered is in high demand. No worries,we have reserved your order."
+				}
+			}
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "Order id is required"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "OrderNo is required",
+			"amountIsRequired": "Amount is required"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "Goods id is required",
+			"goodsCountIsRequired": "Goods count is required",
+			"goodsCountGt0AndLt10000": "goods count gt 0 and lt 10000"
+		},
+		"site": {
+			"emailIsRequired": "Email is required",
+			"emailLengthIsTooLong": "Email length is too long, max 128 character",
+			"emailisinvalid": "Email is invalid",
+			"firstNameIsRequired": "First name is required",
+			"firstNameLengthIsTooLong": "First name length is too long, max 64 character",
+			"subjectIsRequired": "Subject is required",
+			"subjectLengthIsTooLong": "Subject length is too long, max 256 character",
+			"contentIsRequired": "Content is required"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "Password cannot be empty.",
+			"passwordLengthNeedsTo": "Password length needs to be between 6-16 digits(No spaces)",
+			"confirmPassword": "Confirm  password cannot be empty.",
+			"idIsRequired": "Id is required",
+			"firstNameIsRequired": "First name is required",
+			"firstNameLengthIsTooLong": "First name length is too long, max 64 character",
+			"middleNameLengthIsTooLong": "The length of the middle name is too long, with a maximum of 64 characters.",
+			"lastNameIsRequired": "Last name is required",
+			"lastNameLengthIsTooLong": "Last name length is too long, max 64 character",
+			"phoneNumberIsRequired": "Phone number is required",
+			"phoneNumberLengthIsTooLong": "Phone number length is too long, max 32 character",
+			"emaillengthIsTooLong": "Email length is too long, max 128 character",
+			"countryAreaIsRequired": "Country/Area is required",
+			"provinceStateIsTooLong": "Province/State is too long, max 64 character",
+			"CityNameIsRequired": "City name is required",
+			"cityLengthIsTooLong": "City length is too long, max 64 character",
+			"districtIsRequired": "Administrative area is required",
+			"pleaseFillInThe": "Please fill in the correct city which can not be made up with numbers.",
+			"address1IsRequired": "Address1 is required",
+			"address1Length": "Address1 length is too long, max 1024 character",
+			"address2Length": "Address2 length is too long, max 1024 character",
+			"postCodeIsRequired": "Postc code is required",
+			"postCodeLength": "Post code length is too long, max 16 character",
+			"emailIsInvalid": "Email is invalid",
+			"passwordIsRequired": "Password is required",
+			"firstNameLengthIsTooLongMax32Character": "First name length is too long, max 32 character",
+			"lastNameLengthIsTooLongMax32Character": "Last name length is too long, max 32 character",
+			"nicknameLengthIsTooLong": "Nickname length is too long, max 64 character",
+			"taxNoFormatError": "Incorrect tax ID format!"
+		}
+	},
+	"service": {
+		"coupon": {
+			"unableToFind": "Unable to find a valid discount matching the code entered.",
+			"useOfCoupon": "Use of coupon is up to limit",
+			"yourCartDoesNot1": "Your cart does not meet the requirements for the",
+			"yourCartDoesNot2": "discount code",
+			"useOneCoupon": "Only one coupon can be used for per order",
+			"notSupportShipping": "The currently discount code does not apply to this delivery method",
+			"notSupportAreas": "The currently discount code is not used in this area"
+		},
+		"point": {
+			"exceedAvailBalance": "More than available points",
+			"aboveQuota": "More than 50% of the total amount",
+			"consumption": "Points consumption",
+			"accumulation": "Points accumulation",
+			"return": "Points return",
+			"adjustmentAdd": "Points adjustment (increase)",
+			"adjustmentReduce": "Points adjustment (decrease)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "This email address is already associated with an account. If this account is yours, you can reset your password",
+			"userDataInsertError": "User data insert error",
+			"incorrectAccount": "Incorrect account or password",
+			"googleLoginError": "Google login error",
+			"accountInfoError": "Account info error",
+			"userDoesNotExist": "User does not exist",
+			"thisEmailAlreadyExists": "This email already exists",
+			"userDataUpdateFail": "User data update fail",
+			"emailCannotBeEmpty": "Email cannot be empty.",
+			"noAccount": "No account found with that email.",
+			"theRecoverSession": "The recover session has been invalid, please start all over again.",
+			"theTwoPassword": "The two password entries are inconsistent.",
+			"thePasswordUpdate": "The password update fail! Please try again."
+		},
+		"address": {
+			"emailIsRequired": "Email is required",
+			"State": "State/Province is required.",
+			"postCode": "PostCode is required",
+			"countryNotExist": "Country not exist",
+			"AddressInsertFail": "Address insert fail",
+			"addressDoesNotExist": "Please add your shipping address.",
+			"stateIsRequired": "State is required",
+			"taxNoIsRequired": "Tax number is required",
+			"taxNoLength": "Tax ID number cannot exceed 64 digits",
+			"addressUpdateFail": "Address update fail",
+			"newAddressInsertFail": "New address insert fail",
+			"email": "email",
+			"state": "state",
+			"country": "country"
+		},
+		"usercoupon": {
+			"couponInsertFail": "Coupon insert fail",
+			"couponUpdateFail": "Coupon update fail"
+		},
+		"shopcart": {
+			"current": "Current user not exist"
+		},
+		"shopping": {
+			"shippingr": "Shipping request error"
+		},
+		"shared": {
+			"facebookAccess": "Facebook access token not found",
+			"facebook": "Facebook access result is empty",
+			"googleAccess": "Google access token not found",
+			"google": "Google access result is empty"
+		},
+		"payment": {
+			"paymentNotSupport": "Payment method is not supported",
+			"unknownPayment": "Unknown payment",
+			"paypalPayment": "Paypal payment create fail[Approval url not found]",
+			"orderPaymentCreateFail": "Order payment create fail",
+			"returnDataSignError": "Return data sign error",
+			"returnOrderKeyError": "Return order key error",
+			"orderPayment": "Order payment not exist"
+		},
+		"paymentDecline": "Payment Decline",
+		"order": {
+			"orderAddress": "Order address create fail",
+			"insertCoupon": "Insert coupon data fail",
+			"shoppingCart": "Shopping cart goods is empty",
+			"orderCannot": "Order cannot be submitted repeatedly",
+			"addressNotFound": "Address not found",
+			"orderCreateFail": "Order create fail",
+			"orderItem": "Order item create fail",
+			"orderDo": "Order dosen't exist!",
+			"shoppingCartGoodsIsEmpty": "Shopping cart goods is empty"
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "This email was sent from a notification-only address that cannot accept incoming email",
+			"pleaseDoNot": "PLEASE DO NOT REPLY to this message. If you have any questions or concerns, please",
+			"emailUs": "email us"
+		},
+		"regist": {
+			"welcomeTo": "Welcome to",
+			"youCanLoginYou": "You can login your account to manage your order using the credential below",
+			"login": "Login",
+			"password": "Password",
+			"ifYouWant": "If you want to reset your password, please",
+			"clickHere": "click here",
+			"to": "to proceed"
+		},
+		"passwordreset": {
+			"thanksFor": "Thanks for submitting a ticket",
+			"dear": "Dear",
+			"youHaveRequest": "You have requested to have your password reset for your account at ",
+			"pleaseVisit": "Please visit this url to reset your password",
+			"ifYouReceived": "If you received this email in error, you can safely ignore this email",
+			"sincerely": "Sincerely"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "You have successfully paid for order",
+			"thankYouFor": "Thank you for your order. Your order",
+			"isNowBeingProcessed": "is now being processed and will be dispatched normally within 3 – 7 days. An email with tracking information will be sent to you once the order is shipped out",
+			"items": "ITEM(S)",
+			"unit": "UNIT PRICE",
+			"quantity": "QUANTITY",
+			"amont": "AMOUNT",
+			"onSale": "On Sale",
+			"firstNaem": "First Name",
+			"lastName": "Last Names",
+			"address": "Address Line1",
+			"country": "Country",
+			"city": "City",
+			"postal": "Postal Code"
+		},
+		"deliveryOrder": {
+			"youOrder": "Your order",
+			"hasBeen": "has been shipped out",
+			"weHave": "We have shipped out your order",
+			"hereIs": "Here is your tracking information",
+			"trackingNumber": "Tracking Number",
+			"trackingWebsite": "Tracking website",
+			"items": "ITEM(S)",
+			"unitPrice": "UNIT PRICE",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"onSale": "On Sale",
+			"firstName": "First Name",
+			"ast": "Last Names",
+			"addressLine": "Address Line1",
+			"country": "Country",
+			"city": "City",
+			"postCode": "Postal Code"
+		},
+		"goodsStock": {
+			"outOf": "Out of stock notification",
+			"hi": "Hi",
+			"thankYou": "Thank you for shopping with",
+			"weAre": "We are sorry to inform you that the following item is out of stock",
+			"items": "ITEM(S)",
+			"unitPrice": "UNIT PRICE",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"onSale": "On Sale",
+			"noWorry": "No worry, you can choose either solution below",
+			"choose": "【Recommended!】Choose another item of up to",
+			"on": "on our website",
+			"let": "Let us know the SKU or the URL by responding to this email and we will replace it for you",
+			"accept": "Accept a refund of",
+			"please": "Please let us know your decision ASAP and we will assist accordingly"
+		},
+		"changeShip": {
+			"tracking": "Tracking No. is updated for",
+			"hi": "Hi",
+			"weFeel": "We feel so sorry for the inconvenience caused",
+			"trackingNumberFor": "Tracking Number for order",
+			"isUpdate": "is updated, please ignore the previous one and use the new one to track it",
+			"trackingNumber": "Tracking Number",
+			"trackingWebsite": "Tracking website",
+			"the": "The estimated time of arrival is 7-15 days",
+			"items": "ITEM(S)",
+			"unitPrice": "UNIT PRICE",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"on": "On Sale",
+			"first": "First Name",
+			"last": "Last Names",
+			"address": "Address Line1",
+			"count": "Country",
+			"city": "City",
+			"postal": "Postal Code"
+		},
+		"contactUs": {
+			"thanks": "Thanks for submitting a ticket",
+			"dear": "Dear customer",
+			"your": "Your ticket has been submitted sucessfully, our customer representatives will reply you within 36 hours. Please kindly wait for the reply",
+			"below": "Below are details of your message",
+			"type": "type",
+			"email": "email",
+			"name": "name",
+			"content": "content"
+		},
+		"newIn": {
+			"15": "$15",
+			"view": "VIEW MORE",
+			"to": "To make sure you can receive our latest style updates",
+			"please": "please remember to add our address to your contact book",
+			"if": "If you prefer not to receive our fashion news and offers, simply click here to",
+			"unsubscribe": "unsubscribe"
+		},
+		"hotSale": {
+			"view": "VIEW MORE",
+			"to": "To make sure you can receive our latest style updates",
+			"please": "please remember to add our address to your contact book",
+			"if": "If you prefer not to receive our fashion news and offers, simply click here to",
+			"unsubscribe": "unsubscribe"
+		},
+		"register": {
+			"subscribe": "SUBSCRIBE",
+			"title": "SUBSCRIBE AND GET",
+			"discount": "10% Discount",
+			"privacy{0}": "By clicking the button \"SUBSCRIBE\", you agree to our <a href=\"{0}\">\"Privacy Policy\"</a>",
+			"whySubscribe": "WHY SUBSCRIBE?",
+			"account": "Get every udapte in your account",
+			"information": "Be first to know the shipping information",
+			"enjoy": "Enjoy extra discounts and get latest information"
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty": "Please enter an email address.",
+				"used": "The Email has been used by others. Please change another one.",
+				"code": "CODE"
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay Only JPY currency is supported",
+			"countrycode": "konbini can only handle countrycode JP",
+			"phone": "the phone number must be between 10~11 digits"
+		},
+		"accountholder": {
+			"length": "the accountholder minimum 3 charaters, up to 100 characters"
+		},
+		"rapipago": {
+			"countrycode": "rapipago can only handle countrycode AR",
+			"currency": "rapipago pay Only USD currency is supported"
+		},
+		"giropay": {
+			"countrycode": "giropay can only handle countrycode DE",
+			"currency": "giropay pay Only EUR currency is supported"
+		}
+	}
+}

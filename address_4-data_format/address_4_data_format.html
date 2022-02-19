@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Address</title>
+  <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.6.0/jquery.js"></script>
+  <style>
+    body {
+      font-size: 14px;
+      font-family: "Microsoft YaHei", "微软雅黑", Helvetica, sans-serif, -apple-system
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 0 auto;
+      text-align: center;
+      width: 100%
+    }
+
+    table td,
+    table th {
+      border: 1px solid #cad9ea;
+      color: #666;
+      height: 30px
+    }
+
+    table thead th {
+      background-color: #cce8eb;
+      width: 100px
+    }
+
+    table tr:nth-child(odd) {
+      background: #fff
+    }
+
+    table tr:nth-child(even) {
+      background: #f5fafa
+    }
+
+    span.status {
+      color: red
+    }
+  </style>
+</head>
+
+<body>
+  <div id="box" style="display: none;">
+    <h2>手动导入</h2>
+    <input type="text" id="urlInp" placeholder="输入json链接url"
+      value="https://s3.forcloudcdn.com/dmc/0a193787-9c1e-4c7b-8c9a-b177e2da24b8.json" />
+    <button id="urlBtn">导入</button>
+    <span class="status" id="status"></span>
+    <hr />
+  </div>
+
+  <table>
+    <tbody id="tbody">
+      <!-- insert area -->
+    </tbody>
+  </table>
+  <script src="./js/malaixiya.js"></script>
+  <script src="./js/taiguo.js"></script>
+  <script src="./js/taiwan.js"></script>
+  <script src="./js/zhongdong6guo.js"></script>
+  <!-- <script src="./js/zhongdong6guo_lang.js"></script> -->
+  <script src="./js/feizhou5guo.js"></script>
+  <script>
+    // {"国家":"TH","省":"อุบลราชธานี","城市":"บุณฑริก","区":"โนนค้อ"},
+    var cacheArr = [].concat(malaixiya, taiguo, taiwan, zhongdong6guo, feizhoui)
+    var a = {};
+    var countryCode = ['AE', 'BH', 'JO',  'QA', 'SA', 'TW', 'MY', 'TH', 'GH', 'UG', 'KE', 'NG', 'MA','OM','KW']
+    // n_a_a_c_pca
+    countryCode.map(function (_e) {
+      var result = {}
+      var data = cacheArr.filter((e) => {
+        return e['国家'] == _e
+      })
+      // console.log(data)
+      data.map(e => {
+        if (result[e['省']] == undefined) {
+          result[e['省']] = {}
+        }
+        if (result[e['省']][e['城市']] == undefined) {
+          result[e['省']][e['城市']] = []
+        }
+        if (['JO', 'GH', 'UG', 'KE', 'NG', 'MA'].includes(_e)) {
+          // 需要四级的国家
+          if (e['区'] != '') {
+            result[e['省']][e['城市']].push(e['区'])
+          }
+        }
+      })
+      a[_e] = result
+    })
+    console.log(JSON.stringify(a)) // 全部
+    console.log('~~~~~~~~~~~~~~~~~~~~~~~')
+
+    for (let e in a) {
+      var b = [];
+      var b1 = {}
+      var b2 = {}
+
+      for (let _e in a[e]) {
+        b.push(_e)
+        b1[_e] = _e
+        b2[_e] = null
+      }
+
+      console.log(e)
+      console.log(
+        `"provinces": ${JSON.stringify(b)},\n"province_labels": ${JSON.stringify(b1)},\n"province_codes": ${JSON.stringify(b2)},\n"province_alternate_names": ${JSON.stringify(b2)},\n`
+        )
+      console.log('~~~~~~~~~~~~~~~~~~~~~~~')
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    var thead =
+      "<tr><th width='50'>序号</th><th width='100'>国家</th><th width='200'>省</th><th width='200'>城市</th><th width='200'>区</th></tr>";
+    var maxCacheCount = 10;
+
+    function renderHead() {
+      $("#tbody").append(thead);
+    }
+
+    function renderBody(arr) {
+      var str = "";
+      for (var i = 0; i < arr.length; i++) {
+        var temp = arr[i];
+        str += "<tr><td>" + i + "</td>";
+        for (var k in temp) {
+          str += "<td>" + temp[k] + "</td>";
+        }
+        str += "</tr>";
+
+        if (i > 0 && i % 10 === 0) {
+          $("#tbody").append(str);
+          str = "";
+        }
+      }
+      if (str) {
+        $("#tbody").append(str);
+      }
+    }
+
+    function renderTable(arr) {
+      $("#status").text("rendering...");
+      $("#tbody").html("");
+      renderHead();
+      renderBody(arr);
+      $("#status").text("");
+    }
+
+    function fetchJson() {
+      var url = $("#urlInp").val();
+      if (!url) {
+        alert("请输入一个json链接,然后会自动下载然后渲染");
+      }
+      $("#status").text("fetching...");
+
+      $.ajax({
+        url: url,
+        success: function (data) {
+          $("#status").text("");
+          try {
+            cacheArr = JSON.parse(data);
+            renderTable(cacheArr);
+          } catch (err) {
+            alert(JSON.stringify(err));
+          }
+        },
+        error: function (error) {
+          $("#status").text("");
+          alert(JSON.stringify(error));
+        },
+      });
+    }
+
+    window.onload = function () {
+      //renderTable(cacheArr);
+      //$("#urlBtn").click(fetchJson);
+    };
+  </script>
+</body>
+
+</html>

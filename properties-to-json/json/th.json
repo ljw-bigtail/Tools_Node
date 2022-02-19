@@ -1,0 +1,1191 @@
+{
+	"Color": "สี",
+	"Size": "ขนาด",
+	"view": {
+		"progress": {
+			"save": "บันทึก"
+		},
+		"common": {
+			"clearance": "ลดล้างสต๊อก",
+			"presale": "เกลือก่อน",
+			"presaleDeliveryTime{0}": "ส่งภายใน {0} วัน"
+		},
+		"head": {
+			"account": "บัญชีผู้ใช้งาน",
+			"language": "ภาษา",
+			"currency": "สกุลเงิน",
+			"help": "ศูนย์ช่วยเหลือ",
+			"cart": "รถเข็น",
+			"settings": "การตั้งค่า"
+		},
+		"foot": {
+			"subscribe": "กดติดตามเพื่อรับสิทธิพิเศษสุดๆจากเรา",
+			"go": "ไป",
+			"mail": {
+				"subscribed": "กล่องจดหมายนี้ได้รับการสมัคร",
+				"placeholder": "กรอกที่อยู่อีเมล์ของคุณ"
+			},
+			"yourMailBox": "กล่องอีเมลของคุณอยู่ในรูปแบบที่ไม่ถูกต้อง",
+			"menu": "เมนู",
+			"search": "ค้นหา",
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"pinterest": "Pinterest",
+			"youtube": "Youtube",
+			"snapchat": "Snapchat",
+			"twitter": "Twitter",
+			"bestSelling": "ขายดีที่สุด",
+			"categories": "หมวดหมู่"
+		},
+		"error": {
+			"404": {
+				"_value": "ไม่พบหน้านี้",
+				"title": "หน้าข้อผิดพลาด!",
+				"content": "ขออภัยไม่พบหน้าที่คุณค้นหา<br/>คุณอาจต้องการตรวจสอบคำแนะนำของเราหรือกลับไปที่หน้าแรกของเว็บไซต์"
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "\"{0}\" ไม่มีผลลัพธ์",
+				"content": "ลองตรวจสอบการสะกดของคุณหรือใช้คำทั่วไปมากขึ้น<br/>หรือคุณสามารถเรียกดูรายการที่แนะนำด้านล่าง"
+			},
+			"searchHistory": "search history",
+			"hotWord": "hot word"
+		},
+		"index": {
+			"viewAll": "ดูทั้งหมด",
+			"loadMore": "ดูเพิ่มเติม"
+		},
+		"goodsList": {
+			"home": "หน้าหลัก",
+			"sortBy": "เรียงลำดับตาม",
+			"price": "ราคา",
+			"yourSearchFor": "คุณกำลังค้นหา",
+			"revealedTheFollowing": "เปิดเผยต่อไปนี้",
+			"didNotYieldAnyResults": {
+				"": "ไม่ให้ผลลัพธ์ใด ๆ"
+			},
+			"quantity": "สินค้า",
+			"newIn": "มาใหม่",
+			"hotSale": "ขายร้อน",
+			"special": "ข้อเสนอพิเศษ",
+			"clearance": "ลดล้างสต๊อก",
+			"quickView": "ดูอย่างรวดเร็ว"
+		},
+		"goodsDetail": {
+			"color": "สี",
+			"size": "ขนาด",
+			"quantity": "ปริมาณ",
+			"addToCart": "เพิ่มไปที่รถเข็น",
+			"designPlaceHolder": "ใส่ชื่อหรือข้อความที่นี่ ...",
+			"charLeft": {
+				"limitItem{0}": "เหลือ {0} อักขระ"
+			},
+			"personlized": "ปรับแต่ง",
+			"description": "ลักษณะ",
+			"productCode": "รหัสสินค้า",
+			"shipping": "การส่งสินค้า",
+			"sizeChart": "แผนภูมิขนาด",
+			"youMayAlsoLike": "คุณอาจชอบ",
+			"youRecentlyView": "ที่ดูล่าสุด",
+			"shippingReturn": "การส่งสินค้า & กลับ",
+			"superSavings": "ประหยัดสูงสุด",
+			"secureOnlineShopping": "การช็อปปิ้งออนไลน์ที่ปลอดภัย 100%",
+			"promotion": "โปรโมชั่น",
+			"pleaseSelectColor": "โปรดเลือกสีของคุณ",
+			"pleaseSelect": "กรุณาเลือกขนาดของคุณ",
+			"limit5": "จำกัด ห้าคนต่อคน",
+			"limit10": "จำกัด 10 รายการต่อท่าน",
+			"personalize": "ปรับแต่ง",
+			"review": {
+				"customerReviews": "ความคิดเห็นของลูกค้า",
+				"writeAReview": "แสดงความคิดเห็น",
+				"example": {
+					"_value": "ตัวอย่าง： ฉันซื้อมาเมื่อเดือนที่แล้วและมีความสุขมากที่ฉัน ...",
+					"email": "ตัวอย่าง:",
+					"name": "jackie",
+					"example": "Youremail@example.com"
+				},
+				"review": "ทบทวน",
+				"reviews": "ทบทวน",
+				"nickname": "ชื่อเล่น",
+				"email": "อีเมล์",
+				"postReview": "โพสต์รีวิว",
+				"ratings": "คะแนนเฉลี่ยของลูกค้า",
+				"more": {
+					"reviews": "คะแนนเฉลี่ยของลูกค้า"
+				},
+				"many": {
+					"items": {
+						"error{0}": "คุณสามารถเลือกได้สูงสุด {0}"
+					}
+				},
+				"add": {
+					"photos": "เพิ่มไม่เกิน 6 รูป",
+					"photo": "เพิ่มรูปภาพ"
+				},
+				"ok": "ตกลง",
+				"enter": {
+					"address": {
+						"_value": "กรุณาใส่ที่อยู่อีเมล.",
+						"format": "กรุณากรอกอีเมลที่ถูกต้อง "
+					},
+					"review": {
+						"_value": "กรุณาใส่ความคิดเห็นของคุณ",
+						"length": "เนื้อหาเกินขีดจำกัด "
+					},
+					"nickname": "กรุณากรอกชื่อเล่นของคุณ"
+				},
+				"score": "คะแนน",
+				"thank": {
+					"review": "ขอบคุณสำหรับการโพสต์รีวิว"
+				},
+				"successful": "ที่ประสบความสำเร็จ",
+				"getCouponFailed": "คูปองล้มเหลว",
+				"oops": "อุ่ย...",
+				"post": {
+					"failed": "การโพสต์ความคิดเห็นล้มเหลวโปรดลองอีกครั้งในภายหลัง"
+				},
+				"click": "คลิกเพื่อให้คะแนน！",
+				"uploadFiles": "อัพโหลดไฟล์",
+				"processingDroppedFiles": "กำลังประมวลผลไฟล์ที่ถูกดร็อป ...",
+				"close": "ปิด",
+				"no": "ไม่",
+				"yes": "ใช่",
+				"cancel": "ยกเลิก",
+				"sellerReply": ": ผู้ขายตอบกลับ",
+				"couponCodeTip{0}": "รหัสคูปอง: {0} <br/> คุณสามารถใช้รหัสคูปองนี้เพื่อไปช็อปปิ้งได้! <br/> ในขณะเดียวกันเราได้ส่งรหัสคูปองไปยังอีเมลของคุณแล้ว",
+				"gotouse": "ไปใช้",
+				"sortby": {
+					"all": "ทั้งหมด"
+				}
+			},
+			"shortOfStock": "ขาดสต็อก",
+			"size_info": "หมายเหตุ: ขนาดเอเชียมีขนาดเล็กกว่าขนาด US เราขอแนะนำให้คุณเลือกขนาดที่ใหญ่กว่าขนาดปกติของคุณหนึ่งขนาด"
+		},
+		"activity": {
+			"activities": "กิจกรรม",
+			"endin": "สิ้นสุดใน",
+			"d": "วัน",
+			"h": "ชั่วโมง",
+			"m": "นาที",
+			"s": "วินาที"
+		},
+		"shopcart": {
+			"personalizedDetail": "รายละเอียดส่วนบุคคล",
+			"yourShoppingCart": "รถเข็นของคุณ",
+			"shoppingCart": "รถเข็น",
+			"product": "สินค้า",
+			"price": "ราคา",
+			"quantity": {
+				"_value": "ปริมาณ",
+				"desc{0}": "กระเป๋าช้อปปิ้ง (<span class=\"mz-cartCount\">{0}</span> รายการ)"
+			},
+			"total": "ทั้งหมด",
+			"remove": "ลบ",
+			"subtotal": "ทั้งหมด",
+			"yourCartIsCurrentlyEmpty": "รถเข็นของคุณยังว่างอยู่",
+			"continueBrowsing": "เรียกดูต่อ",
+			"here": "ที่นี่",
+			"updateCart": "อัปเดตรถเข็น",
+			"checkout": "เช็คเอาท์",
+			"checkValidityGoods": "ขออภัยมีสินค้าหมดสต็อกในรายการที่คุณเลือก!",
+			"order": {
+				"summary": "สรุปคำสั่งซื้อ"
+			},
+			"goShopping": "ไปซื้อของ",
+			"viewOrders": "ดูคำสั่งซื้อของฉัน",
+			"continueShopping": "ช็อปต่อ",
+			"viewBag": "ตรวจสอบ",
+			"priceRange": "ช่วงราคา",
+			"viewFullDetails": "ดูรายละเอียดทั้งหมด",
+			"add": "เพิ่ม",
+			"details": "รายละเอียด",
+			"productOption": "ตัวเลือกสินค้า",
+			"clear": "รีเซ็ต",
+			"addItems": "เพิ่มรายการ",
+			"shippingFee": "ค่าจัดส่ง",
+			"addToCartSuccess": "หยิบใส่ตะกร้าสำเร็จ!",
+			"eelThan{0}": "COD ใช้ได้เฉพาะเมื่อยอดสั่งซื้อมากกว่า {0}"
+		},
+		"shopcartSide": {
+			"yourCart": "รถเข็นของคุณ",
+			"yourCartIsEmpty": "รถเข็นของคุณว่างเปล่า",
+			"continueShopping": "ช้อปปิ้งต่อ",
+			"checkout": "เช็คเอาท์",
+			"shippingTaxes": "การจัดส่งและภาษีคำนวณที่เช็คเอาท์",
+			"remove": "เอาออก"
+		},
+		"login": {
+			"login": "เข้าสู่ระบบ",
+			"email": "อีเมล์",
+			"password": "รหัสผ่าน",
+			"forgotYourPassword": "ลืมรหัสผ่านหรือไม่?",
+			"returnToStore": "กลับไปที่หน้าหลัก",
+			"createAccount": "สร้างบัญชีผู้ใช้งาน",
+			"signIn": "ลงชื่อเข้าใช้",
+			"infoMsg": "กรุณากรอกอีเมลและรหัสผ่านของคุณ:",
+			"loginFrom": "ใช้บัญชีของคุณจาก",
+			"loginOr": "หรือ",
+			"luvEmail": "Sign up for Luvyle emails."
+		},
+		"recoverEmail": {
+			"resetYourPassword": "รีเซ็ตรหัสผ่านของคุณ",
+			"weWillSend": "เราจะส่งอีเมลเพื่อตั้งรหัสผ่านใหม่",
+			"cancel": "ยกเลิก",
+			"resetPassword": "รีเซ็ตรหัสผ่าน",
+			"password": "รหัสผ่าน",
+			"confirmPassword": "ยืนยันรหัสผ่าน",
+			"backToLogin": "กลับไปที่ล็อกอิน",
+			"submit": "เสนอ"
+		},
+		"regist": {
+			"createAccount": "สร้างบัญชีผู้ใช้งาน",
+			"firstName": "ชื่อจริง",
+			"lastName": "นามสกุล",
+			"email": "อีเมล์",
+			"password": "รหัสผ่าน",
+			"returnToStore": "กลับไปที่หน้าหลัก",
+			"create": "สร้าง",
+			"register": "บันทึก",
+			"stylePreference": "สไตล์ที่ต้องการ",
+			"signOut": "ออกจากระบบ",
+			"termsPart0": "ฉันเห็นด้วยกับ",
+			"termsPart1": "การลงชื่อเข้าใช้ด้วยวิธีนี้แสดงว่าคุณยอมรับ",
+			"termsPart2": "ข้อตกลงและเงื่อนไข",
+			"termsPart3": "และ",
+			"termsPart4": "นโยบายความเป็นส่วนตัว",
+			"termsPart5": "การสร้างบัญชีของคุณแสดงว่าคุณยอมรับ",
+			"succ": {
+				"congrate": "ยินดีด้วย! คุณได้ลงทะเบียนเรียบร้อยแล้ว!",
+				"shop_now": "ช้อปเลย",
+				"check": "ตรวจสอบกล่องจดหมายของคุณ",
+				"check_confirm": "เราได้ส่งอีเมลพร้อมรหัสส่วนลดไปยังกล่องจดหมายของคุณแล้วโปรดตรวจสอบ!",
+				"check_confirm_tip": "หากไม่ได้รับอีเมล",
+				"check_confirm_step1": "โปรดตรวจสอบโฟลเดอร์สแปมของคุณ",
+				"check_confirm_step2_part1": "หากคุณยังไม่เห็นอีเมลคุณสามารถทำได้",
+				"check_confirm_step2_part2": "คลิกที่นี่",
+				"check_confirm_step2_part3": "เพื่อติดต่อเรา",
+				"check_recent": "เคียดแค้น",
+				"bind": "โปรดป้อนที่อยู่อีเมลเพื่อผูกมัด"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "ฉันยอมรับ<a href=\"{0}\" style=\"color: #4099fc;text-decoration: underline;\">นโยบายความเป็นส่วนตัวและข้อกำหนดการใช้งาน</a>"
+		},
+		"checkout": {
+			"fillInInformationTip": "Please be sure to fill in personal and address information",
+			"customerInformation": "ข้อมูลลูกค้า",
+			"showOrderSummary": "แสดงการสรุปคำสั่งซื้อ",
+			"hideOrderSummary": "ซ่อนการสรุปคำสั่งซื้อ",
+			"orderNotice": "แสดงสรุปการสั่งซื้อและรับส่วนลด",
+			"cart": "รถเข็น",
+			"shippingMethod": "วิธีการจัดส่งสินค้า",
+			"paymentMethod": "วิธีการชำระเงิน",
+			"apply": "ใช้",
+			"discountHasBeenApplied": "ส่วนลดถูกนำไปใช้แล้ว",
+			"pointHasBeenApplied": "แลกคะแนนแล้ว!",
+			"discount": "ส่วนลด",
+			"allSoldout": "รายการในรายการช้อปปิ้งของคุณหมดและคุณไม่สามารถดำเนินการต่อในขั้นตอนถัดไป",
+			"allSoldoutAlert": "รายการในรายการช้อปปิ้งของคุณหมดสต็อกแล้ว โปรดเลือกรายการเพื่อการชำระบัญชีอีกครั้ง",
+			"partSoldout": "รายการในรายการช้อปปิ้งของคุณในปัจจุบันหมดแล้วและหากคุณไปยังขั้นตอนถัดไประบบจะลบรายการที่หมดแล้วออกจากรายการซื้อของโดยอัตโนมัติ",
+			"card_number": "หมายเลขบัตร",
+			"expiry_date": "วันหมดอายุ",
+			"security_code": "รหัสรักษาความปลอดภัย",
+			"card_holder": "ผู้ถือบัตร"
+		},
+		"orderSummary": {
+			"orderSummary": "สรุปใบสั่งซื้อ",
+			"shoppingCart": "ตะกร้าสินค้า",
+			"productImage": "ภาพสินค้า",
+			"description": "ลักษณะ",
+			"quantity": "ปริมาณ",
+			"price": "ราคา",
+			"scrollForMoreItems": "เลื่อนเพื่อดูรายการอื่น ๆ",
+			"costSummary": "ราคาทั้งหมด",
+			"subtotal": "ทั้งหมด",
+			"shipping": "การส่งสินค้า",
+			"salesTax": "ภาษีการขาย",
+			"total": "ทั้งหมด",
+			"giftCard": {
+				"_value": "แลกรหัสคูปองพิเศษของคุณที่นี่",
+				"title": "รหัสคูปอง"
+			},
+			"userCredit": {
+				"title": "คะแนนส่วนลด",
+				"label": "คะแนนของผู้ใช้",
+				"tag{0}": "คะแนน ({0})",
+				"total{0}": "คะแนนรวม: {0}",
+				"available{0}": "จุดจำหน่าย: {0}",
+				"tip": "<div> 1 คะแนนของคุณจะถูกหักออกจากบัญชีของคุณหลังจากสร้างคำสั่งซื้อ </div> <div> 2. คุณสามารถยกเลิกคำสั่งซื้อของคุณใน \"คำสั่งซื้อของฉัน\" และคะแนนที่คุณสมัครจะถูกส่งคืนไปยังบัญชีของคุณ </div> <div> 3. คะแนนสามารถใช้ได้ถึง 50% ของราคาสั่งซื้อทั้งหมด </div>"
+			},
+			"remoteAreaInfo{0}": "รวมถึงค่าธรรมเนียม {0} พื้นที่ห่างไกล",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "ส่วนลด {0} สำหรับการสั่งซื้อครั้งแรกของคุณ",
+				"firstOrderDiscountPrice{0}": "รับ {0} จากการสั่งซื้อครั้งแรกของคุณ",
+				"discountPrice{0}{1}": "รับส่วนลด {0} มากกว่า {1}",
+				"percentDiscount{0}{1}": "ลด {0} จาก {1}",
+				"discountPrice": {
+					"v1{0}{1}{2}": "ซื้อมากกว่า {0} รายการและมากกว่า {1} รับ {2} OFF",
+					"v2{0}{1}": "ซื้อมากกว่า {0} รายการ รับ {1} OFF"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "ซื้อมากกว่า {0} รายการและมากกว่า {1} รับ {2} OFF",
+					"v2{0}{1}": "ซื้อมากกว่า {0} รายการ รับ {1} OFF"
+				},
+				"selectTip": "หรือเลือกจากรหัสคูปองทั่วไปของเราด้านล่าง"
+			},
+			"chasepay": {
+				"discounts{0}": "จ่ายตอนนี้รับส่วนลด {0}%",
+				"discounts-kissnkid": "จ่ายตอนนี้รับส่วนลด 10%"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "ข้อมูลติดต่อ",
+			"alreadyHaveAnAccount": "มีบัญชีแล้วหรือยัง?",
+			"login": "เข้าสู่ระบบ",
+			"email": "อีเมล์",
+			"logOut": "ออกจากระบบ",
+			"shippingAddress": "ที่อยู่จัดส่ง",
+			"storedAddresses": "ที่อยู่ที่จัดเก็บไว้",
+			"newAddress": "ที่อยู่ใหม่...",
+			"firstName": "ชื่อจริง",
+			"lastName": "นามสกุล",
+			"middleName": "ชื่อกลาง",
+			"address1": "ที่อยู่บรรทัดที่ 1:",
+			"address2": "ถนน, ที่อยู่, ชื่อ บริษัท , C / O",
+			"apartmentSuite1": "ที่อยู่บรรทัดที่ 2:",
+			"apartmentSuite2": "อพาร์ทเม้นท์, ห้องชุด, หน่วย, อาคาร, ชั้น ฯลฯ (ไม่บังคับ)",
+			"city": "เมือง",
+			"country": "ประเทศ",
+			"province": "จังหวัด",
+			"postalCode": "รหัสไปรษณีย์",
+			"phone": "โทรศัพท์",
+			"continueToShipping": "คลิกต่อเพื่อเรียนรู้วิธีจัดส่ง",
+			"returnToCart": "กลับไปที่รถเข็น",
+			"district": "พื้นที่",
+			"road": "ถนน"
+		},
+		"shippingMethod": {
+			"shippingAddress": "ที่อยู่จัดส่ง",
+			"edit": "แก้ไข",
+			"editShippingAddress": "แก้ไขที่อยู่จัดส่ง",
+			"shippingMethod": "วิธีการจัดส่งสินค้า",
+			"continueToPayment": "ไปต่อเพื่อเรียนรู้วิธีการชำระเงิน",
+			"returnToCustomerInformation": "กลับไปที่ข้อมูลลูกค้า",
+			"onlyShippedToUS": "Some products can only be shipped to the United States.",
+			"desc": "วันทำการ"
+		},
+		"paymentMethod": {
+			"shippingAddress": "ที่อยู่จัดส่ง",
+			"edit": "แก้ไข",
+			"transitTime": "เวลาขนส่ง",
+			"shippingMethod": "วิธีการจัดส่งสินค้า",
+			"superSaving": "การจัดส่งสินค้ามาตรฐาน",
+			"expressShipping": "เร่งการจัดส่งสินค้า",
+			"economyShipping": "การจัดส่งสินค้าเศรษฐกิจ",
+			"cashOnDelivery": "เก็บเงินปลายทาง (COD)",
+			"paymentMethod": "วิธีการชำระเงิน",
+			"loading": "<span class=\"ctx-weight\">ส่งคำสั่งซื้อของคุณแล้ว!</span> ธนาคารกำลังประมวลผลธุรกรรมและอาจใช้เวลา 2 นาทีเมื่อการชำระเงินสำเร็จคุณจะได้รับอีเมล กรุณารอสักครู่",
+			"loadingAddtionalTxt{0}": "คุณสามารถ <a href=\"{0}\"> ตรวจสอบคำสั่งซื้อของคุณ </a> หรือ <a href=\"/\"> กลับบ้าน </a>",
+			"allTransactions": "ธุรกรรมทั้งหมดมีความปลอดภัยและมีการเข้ารหัส",
+			"buyLimitTips": "ค่าขนส่งเพิ่มขึ้นตามยอดสั่งซื้อ พยายามแยกคำสั่งซื้อของคุณและคุณอาจพบว่าค่าขนส่งถูกลงอย่างน่าตกใจ",
+			"creditCard": {
+				"_value": "บัตรเครดิต",
+				"oceanpay": "บัตรเครดิต",
+				"cardpay": "บัตรเครดิต",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "บัตรเครดิต",
+			"payPal": "เพย์พาล",
+			"payWith": "จ่ายด้วย",
+			"visa": "วีซ่า",
+			"mastercard": "มาสเตอร์การ์ด",
+			"americanExpress": "อเมริกันเอ็กซ์เพรส",
+			"discover": "ค้นพบ",
+			"yourOrderIsCovered": "คำสั่งซื้อของคุณครอบคลุมโดยบัตรของขวัญของคุณ",
+			"yourOrderIs": "ออเดอร์ของคุณคือ",
+			"free": "ฟรี",
+			"noPaymentIsRequired": "ไม่จำเป็นต้องชำระเงิน",
+			"notifications": "การแจ้งเตือน",
+			"completeOrder": "ชำระเงินต่อ",
+			"codWarning{0}": "COD ใช้ได้เฉพาะเมื่อยอดสั่งซื้อน้อยกว่า {0}",
+			"returnToShippingMethod": "กลับไปที่วิธีการจัดส่ง",
+			"editShippingAddress": "แก้ไขที่อยู่จัดส่ง",
+			"editShippingMethod": "แก้ไขวิธีการจัดส่ง",
+			"paypalContent": "หลังจากคลิก \"สั่งซื้อเรียบร้อยแล้ว\" คุณจะถูกเปลี่ยนเส้นทางไปที่ PayPal เพื่อทำการซื้อสินค้าอย่างปลอดภัย",
+			"pingpongContent": "หลังจากคลิก \"สั่งซื้อเรียบร้อยแล้ว\" คุณจะถูกเปลี่ยนเส้นทางไปที่ PingPong เพื่อทำการซื้อสินค้าอย่างปลอดภัย",
+			"cod": "ชำระเงินปลายทาง(COD)",
+			"codContentTitle": "ชำระเงินปลายทาง(COD)",
+			"codContent": "เรานำเสนอวิธีที่ง่ายที่สุดในการชำระเงินตามใบสั่งซื้อของคุณโดยใช้ COD คุณสามารถจ่ายเงินเมื่อสินค้าถูกจัดส่งถึงคุณ.",
+			"orderNo": "หมายเลขสั่งซื้อ",
+			"site859Extra": "Kent, สหราชอาณาจักร"
+		},
+		"paymentSkip": {
+			"tip": "การประมวลผลโปรดอย่าคลิกปุ่มรีเฟรชหรือย้อนกลับ"
+		},
+		"paymentResult": {
+			"order": "การสั่งซื้อสินค้า",
+			"thankYou": "ขอขอบคุณ",
+			"yourOrderIsConfirmed": "คำสั่งซื้อของคุณได้รับการยืนยันแล้ว",
+			"weHaveAccepted": "เราได้ยอมรับคำสั่งซื้อของคุณแล้วและเรากำลังดูแลออเดอร์ของคุณ สามารถกลับมาที่หน้านี้เพื่อดูสถานะการสั่งซื้อของคุณ",
+			"customerInformation": "ข้อมูลลูกค้า",
+			"shippingAddress": "ที่อยู่จัดส่ง",
+			"continueShopping": "ช้อปปิ้งต่อ",
+			"checkoutRetry": "ชำระเงินอีกครั้ง",
+			"opens": "เปิดเว็บไซต์ภายนอกในหน้าต่างใหม่",
+			"opensIn": "เปิดในหน้าต่างใหม่",
+			"opensExternalWebsite": "เปิดเว็บไซต์ภายนอก",
+			"customerInfo": "ข้อมูลลูกค้า",
+			"billingAddress": "ที่อยู่เรียกเก็บเงิน",
+			"shippingMethod": "วิธีจัดส่งสินค้า",
+			"paymentMethod": "วิธีการชำระเงิน",
+			"paypal": "Paypal",
+			"express": "การชำระเงินด่วน",
+			"creditCard": "บัตรเครดิต",
+			"oceanpay": "มหาสมุทร จ่าย",
+			"pacypay": "Pacypay",
+			"cod": "ชำระเงินปลายทาง(COD)",
+			"codNote": "หมายเหตุ",
+			"codNoteLine1": "ชำระเงินปลายทาง (COD-Cash On Delivery)",
+			"codNoteLine2": "กรุณาจ่ายเงินเมื่อสินค้าถึงมือคุณ",
+			"codNoteLine3": "อย่าหลงเชื่อมิจฉาชีพที่หลอกให้คุณโอนเงินก่อนในทุกช่องทาง",
+			"codNoteLine4": "เราให้บริการชำระเงินปลายทางเท่านั้น",
+			"cancel": "การทำธุรกรรมถูกยกเลิกโดยลูกค้า",
+			"forter": {
+				"reject": "การทำธุรกรรมล้มเหลวเนื่องจากปัญหาความปลอดภัยการชำระเงิน  หากคุณชำระเงินเสร็จเราจะคืนเงินให้ภายใน  3-5  วันทำการ"
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title": "ชำระเงินเรียบร้อยแล้ว！",
+				"subtitle": "กรุณากรอกที่อยู่โดยละเอียดของคุณในช่องว่างด้านล่าง"
+			}
+		},
+		"paymentFail": {
+			"paymentException": "ยกเว้นการชำระเงิน",
+			"checkoutRecordNotExist": "ไม่มีบันทึกการชำระเงิน",
+			"paypal": {
+				"ec": {
+					"unauthorized": "ลูกค้าไม่ได้อนุมัติธุรกรรม"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "กลับไปที่ประวัติคำสั่งซื้อ",
+			"accountDetails": "รายละเอียดบัญชี",
+			"name": "ชื่อ",
+			"edit": "แก้ไข",
+			"save": "บันทึกข้อมูลที่อย",
+			"cancel": "ยกเลิก",
+			"email": "อีเมล์",
+			"password": "รหัสผ่าน",
+			"reset": "รีเซ็ต",
+			"addressBook": "สมุดที่อยู่",
+			"youHaveNoAddresses": "ยังไม่มีที่อยู่",
+			"primaryAddress": "ที่อยู่หลัก",
+			"addAddress": "เพิ่มที่อยู่",
+			"anotherAddress": "เลือกที่อยู่อื่น",
+			"delete": "ลบ",
+			"setAsPrimaryAddress": "ตั้งเป็นที่อยู่หลัก",
+			"finish": "เสร็จสิ้น",
+			"editAddress": "แก้ไขที่อยู่"
+		},
+		"header": {
+			"home": "หน้าหลัก",
+			"myAccount": "บัญชีของฉัน",
+			"yourAccount": "บัญชีของคุณ",
+			"logOut": "ออกจากระบบ",
+			"closeMenu": "ปิดเมนู"
+		},
+		"main": {
+			"orderHistory": "ประวัติคำสั่งซื้อ",
+			"youHaveNotPlacedAnyOrders": "คุณยังไม่ได้สั่งซื้อใด ๆ",
+			"order": "ออเดอร์",
+			"date": "วันที่",
+			"orderStatus": "สถานะการสั่งซื้อ",
+			"paymentStatus": "สถานะการชำระเงิน",
+			"shippingStatus": "สถานะการจัดส่ง",
+			"total": "ทั้งหมด",
+			"action": "การกระทำ",
+			"buyAgain": "การซื้อหุ้นคืน",
+			"orderDetail": "รายละเอียดการสั่งซื้อ",
+			"Items": "รายการ",
+			"payNow": "จ่ายตอนนี้",
+			"trackOrder": "ติดตามการสั่งซื้อ",
+			"cancel": "ยกเลิก",
+			"contactUs": "ติดต่อเรา",
+			"repurchaseInvalid": "มีรายการที่หมดอายุในการสั่งซื้อของคุณและรายการที่หมดอายุจะไม่ถูกซื้ออีกครั้ง"
+		},
+		"orderDetail": {
+			"backToOrderHistory": "กลับไปที่ประวัติคำสั่งซื้อ",
+			"orderSummary": "สรุปออเดอร์",
+			"returnExchange": "คืน / เปลี่ยนสินค้า",
+			"item": "ชิ้น",
+			"shippingStatus": "สถานะการจัดส่ง",
+			"price": "ราคา",
+			"qty": "จำนวน",
+			"totalPrice": "ราคารวม",
+			"color": "สี",
+			"size": "ขนาด",
+			"subtotal": "ทั้งหมด",
+			"shipping": "การส่งสินค้า",
+			"total": "ทั้งหมด",
+			"shippingAddress": "ที่อยู่จัดส่ง",
+			"discount": "ส่วนลด"
+		},
+		"userSummery": {
+			"accountDetails": "รายละเอียดบัญชี",
+			"edit": "แก้ไข",
+			"name": "ชื่อ",
+			"email": "อีเมล์",
+			"primaryAddress": "ที่อยู่หลัก"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "ลืมรหัสผ่าน",
+			"emailSent": "ส่งอีเมล",
+			"anEmailHasBeenSent": "อีเมลถูกส่งไปยังที่อยู่อีเมลที่ให้ไว้",
+			"ifYouRequested": "หากคุณขอรหัสผ่านใหม่ แต่ไม่ได้รับอีเมลรีเซ็ตรหัสผ่านของคุณ",
+			"tryTo": "พยายามที่จะ",
+			"resetYourPassword": "รีเซ็ตรหัสผ่านของคุณ",
+			"again": "อีกครั้ง",
+			"ifYouStillDontReceive": "หากคุณยังไม่ได้รับอีเมลหลังจากขอให้รีเซ็ตรหัสผ่านให้รอ 24 ชั่วโมงและลองอีกครั้ง"
+		},
+		"contactUs": {
+			"contactUs": "ติดต่อเรา",
+			"submit": "เสนอ"
+		},
+		"orderBy": {
+			"bestSelling": "ขายดีที่สุด",
+			"mostPopular": "ที่นิยมมากที่สุด",
+			"priceLowToHigh": "ราคา: ต่ำไปสูง",
+			"priceHighToLow": "ราคา: สูงไปต่ำ",
+			"newest": "ใหม่ล่าสุด",
+			"recommend": "แนะนำ"
+		},
+		"shipping": {
+			"unshipped": "ไม่ได้จัดส่ง",
+			"shipped": "จัดส่ง",
+			"partialShipped": "บางส่วน_จัดส่ง"
+		},
+		"payment": {
+			"unpaid": "กำลังรอการชำระเงิน",
+			"pending": "รอดำเนินการ",
+			"paid": "ที่เรียกชำระแล้ว",
+			"canceled": "ยกเลิก",
+			"shipped": "จัดส่ง",
+			"refunded": "คืนเงิน",
+			"partialrefunded": "คืนเงินบางส่วน",
+			"fulfilled": "สนอง",
+			"processing": "การประมวลผล"
+		},
+		"application": {
+			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
+			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"download2get": "DOWNLOAD TO GET",
+			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"code": "CODE",
+			"download": {
+				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
+			}
+		},
+		"list": {
+			"apply": "ใช้",
+			"other": "อื่น ๆ",
+			"filter": {
+				"_value": "กรอง",
+				"by": "กรองตาม"
+			},
+			"category": "หมวดหมู่",
+			"over": "ยิ่งกว่า",
+			"noResults": "ไม่พบรายการ",
+			"onesize": "หนึ่งขนาด"
+		},
+		"amp": {
+			"sizeAndColor": "ขนาดและสี:",
+			"pleaseChoose": "---กรุณาเลือก---",
+			"buy": "ซื้อตอนนี้"
+		},
+		"paypal": {
+			"textPrompt": "หมายเลขโทรศัพท์ไม่ถูกต้อง",
+			"hrefPrompt": "โปรดเปลี่ยนหมายเลขโทรศัพท์",
+			"or": "หรือ",
+			"expressCheckout": "ชำระเงินด่วน",
+			"supportsHint": "สกุลเงินในการสั่งซื้อของคุณจะถูกแปลงเป็น USD ซึ่งเป็นสกุลเงินเดียวที่วิธีการชำระเงินนี้รองรับ"
+		},
+		"cart": {
+			"account": "มีบัญชีอยู่แล้ว",
+			"login": "เข้าสู่ระบบ"
+		},
+		"new_checkout": {
+			"postal_address": "เพิ่มที่อยู่จัดส่ง",
+			"order_confirmation ": "ยืนยันการสั่งซื้อ",
+			"address_editing ": "การแก้ไขที่อยู่",
+			"address ": "ที่อยู่",
+			"payment ": "การชำระเงิน",
+			"shipping ": "การส่งสินค้า",
+			"items ": "รายการ",
+			"save ": "บันทึกข้อมูลที่อย",
+			"addressRequired": "ต้องกรอกที่อยู่",
+			"shippingcart": "ตะกร้าสินค้า",
+			"ordersummary": "สรุปคำสั่งซื้อ"
+		},
+		"sitemap": {
+			"sitemap": "แผนผังเว็บไซต์",
+			"hot_categories": "หมวดหมู่ยอดฮิต",
+			"hot_sale": "ลดกระหน่ำ",
+			"see_more": "ดูเพิ่มเติม",
+			"new_in": "ใหม่ใน"
+		},
+		"personal": {
+			"center": "ศูนย์ส่วนบุคคล",
+			"account": "บัญชีของฉัน",
+			"profile": "ประวัติของฉัน",
+			"address": {
+				"_value": "สมุดที่อยู่",
+				"delete": "คุณแน่ใจหรือไม่ว่าจะลบที่อยู่นี้",
+				"cancel": "ยกเลิก",
+				"ok": "ตกลง",
+				"default": "ค่าเริ่มต้น"
+			},
+			"orders": "คำสั่งซื้อของฉัน",
+			"all": "ทั้งหมด",
+			"assets": "ทรัพย์สินของฉัน",
+			"coupons": {
+				"_value": "คูปองของฉัน",
+				"useit": "ใช้มัน"
+			},
+			"points": {
+				"_value": "คะแนนของฉัน",
+				"spent": "คะแนนที่ใช้ไป",
+				"details": "รายละเอียดคะแนน",
+				"exchanged": "แลกเปลี่ยนคะแนน",
+				"explaination": "คำอธิบาย",
+				"register": "คะแนนที่ได้รับจากการลงทะเบียน",
+				"subscribe": "คะแนนที่ได้รับจากการสมัครสมาชิก",
+				"gainedShopping": "คะแนนที่ได้รับจากการช้อปปิ้ง",
+				"spendShopping": "คะแนนใช้จ่ายจากการช้อปปิ้ง",
+				"activity": "คะแนนที่ได้รับจากกิจกรรม",
+				"shopWithPoints": "ซื้อสินค้าด้วยคะแนน"
+			},
+			"concern": "โฟกัสของฉัน",
+			"wishlist": "สิ่งที่ปรารถนา",
+			"viewed": "ดูล่าสุด",
+			"main": {
+				"coupons": "คูปอง",
+				"points": "คะแนน",
+				"viewAll": "ดูทั้งหมด",
+				"viewMore": "ดูเพิ่มเติม",
+				"more": "มากกว่า",
+				"changePwd": "เปลี่ยนรหัสผ่าน"
+			},
+			"empty": {
+				"orders": "คุณยังไม่ได้สั่งซื้อใด ๆ",
+				"coupons": "มันว่างเปล่าที่นี่",
+				"wishlist": "ขณะนี้คุณไม่มีสิ่งใดบันทึกลงใน Wishlist ของคุณ",
+				"viewed": "คุณยังไม่ได้ดูอะไรเลย"
+			},
+			"valid": {
+				"points": "คะแนนที่ถูกต้อง"
+			},
+			"data": "วันที่",
+			"recommend": "แนะนำสำหรับคุณ"
+		},
+		"sizeGuide": {
+			"sizeCharts": "SIZE CHARTS",
+			"sizeGuide": "SIZE GUIDE"
+		}
+	},
+	"web": {
+		"payment": {
+			"incorrectCardNumber": "Incorrect card number.",
+			"invalidExpiryDate": "Invalid expiry date.",
+			"invalidSecureCode": "Invalid secure code."
+		},
+		"screenfooter": {
+			"youHaveAlready": "คุณได้สมัครรับข้อมูลเรียบร้อยแล้ว",
+			"serviceResponseFailure": "ความล้มเหลวในการตอบสนองต่อบริการ"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "โปรดป้อนคำสำคัญ!",
+			"sorryThisProduct": "ขออภัยสินค้านี้ไม่สามารถใช้ได้",
+			"sorryWeDont": "ขออภัยเราไม่มีหุ้นมากพอ!",
+			"areYouSure": "คุณแน่ใจหรือไม่ว่าต้องการลบที่อยู่นี้",
+			"searchOurStore": "ค้นหาร้านค้าของเรา"
+		},
+		"login": {
+			"firstNameIsRequired": "ต้องระบุชื่อ",
+			"passwordIsRequired": "ต้องการรหัสผ่าน"
+		},
+		"regist": {
+			"lastNameIsRequired": "ต้องเป็นนามสกุล",
+			"emailIsInvalid": "อีเมล์ไม่ถูกต้อง"
+		},
+		"address": {
+			"thisFieldIsRequired": "ต้องระบุข้อมูลนี้",
+			"theMaximum": "จำนวนอักขระสูงสุดคือ 64",
+			"pleaseFillIn": "โปรดกรอกข้อมูลเมืองที่ถูกต้องซึ่งไม่สามารถประกอบขึ้นด้วยตัวเลข",
+			"email": "รูปแบบอีเมลไม่ถูกต้อง",
+			"subjectIsRequired": "จำเป็นต้องมี",
+			"messageIsRequired": "จำเป็นต้องมีข้อความ",
+			"taxNo": "รูปแบบรหัสภาษีไม่ถูกต้อง!",
+			"address1": "ที่อยู่ 1",
+			"address2": "ที่อยู่ 2 (ไม่จำเป็น)",
+			"city": "เมือง",
+			"country": "ประเทศ",
+			"state": "สถานะ",
+			"zipCode": "รหัสไปรษณีย์",
+			"phoneNumber": "หมายเลขโทรศัพท์",
+			"MailboxFillIn": "รหัสไปรษณีย์ไม่ถูกต้อง",
+			"SpainPhoneFillIn": "หมายเลขโทรศัพท์ควรเป็น 9 หลักเริ่มต้นด้วย 6 หรือ 9",
+			"SarPhoneFillIn": "หมายเลขโทรศัพท์ของคุณต้องเป็นตัวเลข 9 หลักและเริ่มต้นด้วย 5",
+			"QarPhoneFillIn": "หมายเลขโทรศัพท์ของคุณต้องเป็นตัวเลข 8 หลัก และเริ่มต้นด้วย 3/4/5/6/7",
+			"OmrPhoneFillIn": "หมายเลขโทรศัพท์ของคุณต้องเป็นตัวเลข 8 หลัก และเริ่มต้นด้วย 7/9",
+			"KwdPhoneFillIn": "หมายเลขโทรศัพท์ของคุณต้องเป็นตัวเลข 8 หลัก และเริ่มต้นด้วย5/6/9",
+			"BhdPhoneFillIn": "หมายเลขโทรศัพท์ของคุณต้องเป็นตัวเลข 8 หลัก และเริ่มต้นด้วย 3/6"
+		},
+		"contactus": {
+			"yourRequest": "ได้รับคำขอของคุณแล้ว เราจะตอบสนอง โดยเร็วที่สุด.ขอบคุณ!",
+			"sorrySubmission": "ขออภัยการส่งล้มเหลว กรุณาลองใหม่อีกครั้งในภายหลัง. ขอบคุณ",
+			"firstNameIsRequired": "ต้องระบุชื่อ",
+			"lastNameIsRequired": "ต้องเป็นนามสกุล",
+			"emailIsInvalid": "อีเมล์ไม่ถูกต้อง",
+			"subjectIsRequired": "จำเป็นต้องมี",
+			"messageIsRequired": "จำเป็นต้องมีข้อความ"
+		},
+		"concatinfo": {
+			"mail": "อีเมล์",
+			"firstname": "ชื่อจริง",
+			"middleName": "ชื่อกลาง",
+			"lastname": "นามสกุล",
+			"address": "ที่อยู่",
+			"apartment": "อพาร์ทเม้น",
+			"taxNo": "หมายเลขประจำตัวผู้เสียภาษี",
+			"city": "เมือง",
+			"province": "จังหวัด",
+			"phone": "โทรศัพท์",
+			"postalCode": "รหัสไปรษณีย์"
+		},
+		"goodsDetail": {
+			"addToCart": "เพิ่มไปที่รถเข็น",
+			"soldout": "ขายหมดแล้ว",
+			"sizeguide": "คู่มือขนาด"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "ซื้อเลย"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "คุณเหลือเพียง <span class=\"price money promo-currency\">{0}</span> <span class=\"free\">จากการส่งฟรี</span>!"
+			},
+			"free": {
+				"prompt": "คุณได้คะแนนจัดส่งฟรี!"
+			},
+			"coupon": {
+				"prompt": "ใช้ <span class=\"free\"> รหัสคูปอง </span> ในขั้นตอนถัดไป"
+			},
+			"invalid": {
+				"country": "รหัสประเทศไม่ถูกต้อง"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "รับส่วนลด <span class='promo-color'>{0}</span> มากกว่า <span class='promo-color'>{1}</span>",
+				"discount{0}{1}": "ลด <span class='promo-color'>{0}%</span> จาก <span class='promo-color'>{1}</span>",
+				"prompt": {
+					"manjian{0}{1}": "รับส่วนลด {0} มากกว่า {1}",
+					"discount{0}{1}": "ลด {0}% จาก {1}"
+				},
+				"matchedHighest": "สนุกกับการประหยัดของคุณ!",
+				"quantity": {
+					"manjian{0}{1}{2}": "ซื้อ<span class='promo-color'> {0}</span> รับ - <span class='promo-color'>{1}</span> รายการที่<span class='promo-color'> {2}</span>",
+					"discount{0}{1}{2}": "ซื้อ <span class='promo-color'>{0}</span> รับ -<span class='promo-color'>{1}% </span>รายการที่ <span class='promo-color'>{2}</span>",
+					"discount": {
+						"next{0}{1}{2}": "เพิ่ม {0} มากขึ้นรับ {1} ส่วนลด {2}%!"
+					},
+					"manjian": {
+						"next{0}{1}{2}": "เพิ่ม  {0} มากขึ้นรับ {1} ส่วนลด {2}!"
+					},
+					"currentDiscount{0}": "ประหยัด {0}",
+					"next{0}{1}{2}": "เพิ่ม <span class='promo-currency' > {0}</span> มากขึ้นรับ {1} ส่วนลด <span class='promo-currency' >{2}</span>!",
+					"next": {
+						"discount{0}{1}{2}": "เพิ่ม <span class='promo-currency' >{0}</span> มากขึ้นรับ {1} ส่วนลด <span class='promo-currency' >{2}</span>%!"
+					}
+				},
+				"package{0}{1}": "<span class='promo-color'>{0}</span> ใดๆ สำหรับราคาแพ็คเกจ<span class='promo-color'> {1}</span>",
+				"package": {
+					"current{0}{1}": "เพลิดเพลินกับ {0} สำหรับราคาแพ็คเกจ {1}",
+					"next{0}{1}": "เพิ่ม {0} เพิ่มเติมเพื่อเพลิดเพลินกับราคาแพ็คเกจ {1}",
+					"saved{0}": "บันทึก {0}",
+					"current": {
+						"next{0}{1}{2}{3}": "เพลิดเพลินกับ {0} สำหรับ {1} เพิ่ม {2} เพื่อเพลิดเพลินกับราคาแพ็คเกจ {3}"
+					}
+				},
+				"gift{0}": "ซื้อ {0} เพื่อรับของขวัญฟรี",
+				"gift": {
+					"current": "ของขวัญฟรี",
+					"next{0}": "เพิ่มอีก {0} เพื่อรับของขวัญฟรี"
+				},
+				"money": {
+					"gift{0}": "ของขวัญฟรีสำหรับการสั่งซื้อมากกว่า {0}",
+					"gift": {
+						"next{0}": "เพิ่มอีก {0} เพื่อรับของขวัญฟรี"
+					},
+					"exchange{0}": "{0} เต็มแลกได้ในราคาเบาๆ",
+					"exchange": {
+						"current{0}": "{0} เต็มแลกได้ในราคาเบาๆ ",
+						"next{0}": "คุณยังมี {0} เพื่อแลกในราคาต่ำ"
+					}
+				},
+				"gifts": "ของขวัญ",
+				"freeGifts": "ของขวัญฟรี",
+				"selectGift": "เลือกของขวัญ",
+				"viewGift": "ดูของขวัญ",
+				"updateItem": "อัพเดทไอเทม",
+				"cancel": "ยกเลิก",
+				"confirm": "ยืนยัน",
+				"exchange{0}": "ซื้อ {0} เพื่อเพลิดเพลินกับราคาต่ำ",
+				"exchange": {
+					"current{0}": "ซื้อ {0} เพื่อเพลิดเพลินกับราคาต่ำ",
+					"next{0}": "แลกได้ {0} ชิ้นในราคาต่ำ",
+					"meet": "เพลิดเพลินกับราคาซื้อเพิ่มเติมตอนนี้!",
+					"addon": "ราคาถูก",
+					"viewGoods": "รายการเพิ่มเติม",
+					"addonItems": "สินค้าต่อรองราคา"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "คุณสามารถรับ <span class='promo-currency' > {0} </span> ปิดโดย <span  class='promo-currency' > {1} </span> !",
+				"discount{0}{1}": "คุณสามารถรับ <span class='promo-currency' > {0}% </span> ปิดโดย <span  class='promo-currency' > {1} </span> !"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}{1}": "รับส่วนลด {0} มากกว่า {1}",
+					"discount{0}{1}": "ลด {0}% จาก {1}"
+				}
+			}
+		},
+		"advantage": {
+			"_value": "ทำไมต้องเลือกเรา",
+			"choose": {
+				"name": "รับประกันความพึงพอใจ 30 วันพร้อมการคืนเงิน",
+				"value": "หากคุณไม่พอใจกับผลิตภัณฑ์ของคุณเราจะคืนเงินเต็มจำนวนโดยไม่มีคำถามถาม"
+			},
+			"order": {
+				"name": "คำสั่งซื้อส่งมากกว่า 34.245 สำเร็จ",
+				"value": "เราสร้างความสุขให้กับลูกค้าได้มากเท่าคำสั่งซื้อที่เราจัดส่ง คุณเพียงแค่ต้องเข้าร่วมครอบครัวใหญ่ของเรา"
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "คำสั่งซื้อของคุณสงวนไว้สำหรับ",
+					"last": "นาที!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "รายการที่คุณสั่งมีความต้องการสูง ไม่ต้องกังวลเราได้จองคำสั่งซื้อของคุณแล้ว"
+				}
+			}
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "ต้องระบุรหัสคำสั่งซื้อ"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "ไม่จำเป็นต้องสั่งซื้อ",
+			"amountIsRequired": "ต้องระบุจำนวนเงิน"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "ต้องระบุรหัสสินค้า",
+			"goodsCountIsRequired": "จำเป็นต้องนับสินค้า",
+			"goodsCountGt0AndLt10000": "สินค้านับ gt 0 และ lt 10000"
+		},
+		"site": {
+			"emailisinvalid": "อีเมล์ไม่ถูกต้อง",
+			"emailIsRequired": "จำเป็นต้องใช้อีเมล",
+			"emailLengthIsTooLong": "ความยาวอีเมลยาวเกินไปไม่เกิน 128 ตัวอักษร",
+			"firstNameIsRequired": "ต้องระบุชื่อ",
+			"firstNameLengthIsTooLong": "ความยาวชื่อยาวเกินไปไม่เกิน 64 ตัวอักษร",
+			"subjectIsRequired": "ต้องระบุหัวเรื่อง",
+			"subjectLengthIsTooLong": "ความยาวหัวเรื่องยาวเกินไปอักขระไม่เกิน 256 ตัว",
+			"contentIsRequired": "จำเป็นต้องมีเนื้อหา"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "รหัสผ่านต้องไม่ว่างเปล่า",
+			"passwordLengthNeedsTo": "ความยาวรหัสผ่านต้องอยู่ระหว่าง 6-16 หลัก (ไม่มีช่องว่าง)",
+			"confirmPassword": "ยืนยันรหัสผ่านต้องไม่ว่างเปล่า",
+			"idIsRequired": "ต้องระบุรหัส",
+			"firstNameIsRequired": "ต้องระบุชื่อ",
+			"firstNameLengthIsTooLong": "ความยาวชื่อยาวเกินไปไม่เกิน 64 ตัวอักษร",
+			"middleNameLengthIsTooLong": "ความยาวชื่อยาวเกินไปไม่เกิน 64 ตัวอักษร",
+			"lastNameIsRequired": "ต้องเป็นนามสกุล",
+			"lastNameLengthIsTooLong": "ความยาวชื่อยาวเกินไปไม่เกิน 64 ตัวอักษร",
+			"phoneNumberIsRequired": "ต้องระบุหมายเลขโทรศัพท์",
+			"phoneNumberLengthIsTooLong": "หมายเลขโทรศัพท์ยาวเกินไปไม่เกิน 32 ตัว",
+			"emaillengthIsTooLong": "ความยาวอีเมลยาวเกินไปไม่เกิน 128 ตัวอักษร",
+			"countryAreaIsRequired": "ประเทศ/ต้องระบุพื้นที่",
+			"provinceStateIsTooLong": "จังหวัด/สถานะยาวเกินไปไม่เกิน 64 อักขระ",
+			"CityNameIsRequired": "ต้องระบุชื่อเมือง",
+			"cityLengthIsTooLong": "ความยาวเมืองยาวเกินไปไม่เกิน 64 อักขระ",
+			"districtIsRequired": "จำเป็นต้องมีพื้นที่ดูแล",
+			"pleaseFillInThe": "โปรดกรอกข้อมูลเมืองที่ถูกต้องซึ่งไม่สามารถใช้หมายเลขได้",
+			"address1Length": "ที่อยู่ 1 ยาวเกินไปยาวไม่เกิน 1024 ตัวอักษร",
+			"address2Length": "ที่อยู่ 2 ยาวเกินไปยาวไม่เกิน 1024 ตัวอักษร",
+			"postCodeIsRequired": "ต้องระบุรหัสไปรษณีย์",
+			"postCodeLength": "ความยาวของรหัสไปรษณีย์ยาวเกินไป 16 ตัวอักษร",
+			"emailIsInvalid": "อีเมล์ไม่ถูกต้อง",
+			"passwordIsRequired": "ต้องการรหัสผ่าน",
+			"firstNameLengthIsTooLongMax32Character": "ความยาวชื่อยาวเกินไปไม่เกิน 32 ตัวอักษร",
+			"lastNameLengthIsTooLongMax32Character": "ความยาวชื่อยาวเกินไปยาวไม่เกิน 32 ตัว",
+			"address1IsRequired": "ต้องระบุที่อยู่ 1",
+			"taxNoFormatError": "รูปแบบรหัสภาษีไม่ถูกต้อง!"
+		}
+	},
+	"domainuser": {
+		"Address1IsRequired": "ต้องระบุที่อยู่ 1",
+		"NicknameLengthIsTooLongMax64Character": "ชื่อเล่นยาวเกินไปยาวไม่เกิน 64 ตัวอักษร"
+	},
+	"service": {
+		"coupon": {
+			"unableToFind": "ไม่สามารถหาส่วนลดที่ถูกต้องตรงกับรหัสที่ป้อน",
+			"useOfCoupon": "การใช้คูปองขึ้นอยู่กับขีด จำกัด",
+			"yourCartDoesNot1": "รถเข็นของคุณไม่ตรงตามข้อกำหนดสำหรับ",
+			"yourCartDoesNot2": "รหัสส่วนลด",
+			"useOneCoupon": "รองรับคูปองเดียวเท่านั้นต่อการสั่งซื้อ",
+			"notSupportShipping": "รหัสส่วนลดปัจจุบันไม่สามารถใช้ได้กับวิธีการจัดส่งนี้",
+			"notSupportAreas": "รหัสส่วนลดปัจจุบันไม่ได้ใช้ในพื้นที่นี้"
+		},
+		"point": {
+			"exceedAvailBalance": "คะแนนไม่เพียงพอ",
+			"aboveQuota": "มากกว่า 50% ของจำนวนเงินทั้งหมด",
+			"consumption": "การบริโภคคะแนน",
+			"accumulation": "การสะสมคะแนน",
+			"return": "คะแนนกลับมา",
+			"adjustmentAdd": "การปรับคะแนน (เพิ่มขึ้น)",
+			"adjustmentReduce": "การปรับคะแนน (ลดลง)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "ที่อยู่อีเมลนี้เชื่อมโยงกับบัญชีแล้ว หากบัญชีนี้เป็นของคุณคุณสามารถรีเซ็ตรหัสผ่านของคุณได้",
+			"userDataInsertError": "ข้อผิดพลาดในการแทรกข้อมูลผู้ใช้",
+			"incorrectAccount": "บัญชีหรือรหัสผ่านไม่ถูกต้อง",
+			"googleLoginError": "ข้อผิดพลาดในการเข้าสู่ระบบ Google",
+			"accountInfoError": "ข้อผิดพลาดเกี่ยวกับข้อมูลบัญชี",
+			"userDoesNotExist": "ไม่มีผู้ใช้",
+			"thisEmailAlreadyExists": "อีเมลนี้มีอยู่แล้ว",
+			"userDataUpdateFail": "การอัปเดตข้อมูลผู้ใช้ล้มเหลว",
+			"emailCannotBeEmpty": "อีเมลต้องไม่ว่างเปล่า",
+			"noAccount": "ไม่พบบัญชีที่มีอีเมลดังกล่าว",
+			"theRecoverSession": "เซสชันการกู้คืนไม่ถูกต้องกรุณาเริ่มใหม่อีกครั้ง",
+			"theTwoPassword": "รายการรหัสผ่านสองรายการไม่สอดคล้องกัน",
+			"thePasswordUpdate": "การอัปเดตรหัสผ่านล้มเหลว! กรุณาลองอีกครั้ง."
+		},
+		"address": {
+			"emailIsRequired": "จำเป็นต้องใช้อีเมล",
+			"State": "สถานะ/จังหวัดเป็นสิ่งจำเป็น",
+			"postCode": "ต้องระบุรหัสไปรษณีย์",
+			"countryNotExist": "ประเทศไม่มีอยู่",
+			"AddressInsertFail": "แทรกที่อยู่ล้มเหลว",
+			"addressDoesNotExist": "กรุณาเพิ่มที่อยู่จัดส่งของคุณ",
+			"stateIsRequired": "รัฐเป็นสิ่งจำเป็น",
+			"taxNoIsRequired": "ต้องระบุหมายเลขภาษี",
+			"taxNoLength": "หมายเลขประจำตัวผู้เสียภาษีต้องไม่เกิน 64 หลัก",
+			"addressUpdateFail": "การอัปเดตที่อยู่ล้มเหลว",
+			"newAddressInsertFail": "แทรกที่อยู่ใหม่ล้มเหลว",
+			"email": "อีเมล",
+			"state": "สถานะ",
+			"country": "ประเทศ"
+		},
+		"usercoupon": {
+			"couponInsertFail": "แทรกคูปองล้มเหลว",
+			"couponUpdateFail": "การอัปเดตคูปองล้มเหลว"
+		},
+		"shopcart": {
+			"current": "ไม่มีผู้ใช้ปัจจุบัน"
+		},
+		"shopping": {
+			"shippingr": "ข้อผิดพลาดในการจัดส่ง"
+		},
+		"shared": {
+			"facebookAccess": "ไม่พบโทเค็นการเข้าถึงของ Facebook",
+			"facebook": "ผลลัพธ์การเข้าถึงของ Facebook ว่างเปล่า",
+			"googleAccess": "ไม่พบโทเค็นการเข้าถึงของ Google",
+			"google": "ผลการค้นหาของ Google ว่างเปล่า"
+		},
+		"payment": {
+			"paymentNotSupport": "วิธีการชำระเงินไม่ได้รับการสนับสนุน",
+			"unknownPayment": "การชำระเงินที่ไม่รู้จัก",
+			"paypalPayment": "การชำระเงิน Paypal สร้างล้มเหลว[ไม่พบ URL การอนุมัติ]",
+			"orderPaymentCreateFail": "การสั่งซื้อการชำระเงินสร้างล้มเหลว",
+			"returnDataSignError": "แสดงข้อผิดพลาดในการลงชื่อเข้าใช้ข้อมูล",
+			"returnOrderKeyError": "ส่งคืนข้อผิดพลาดสำคัญของใบสั่ง",
+			"orderPayment": "ไม่มีการชำระเงินสำหรับการสั่งซื้อ"
+		},
+		"paymentDecline": "การปฏิเสธการชำระเงิน",
+		"order": {
+			"orderAddress": "ที่อยู่คำสั่งซื้อสร้างล้มเหลว",
+			"insertCoupon": "แทรกข้อมูลคูปองล้มเหลว",
+			"shoppingCart": "สินค้าในตะกร้าว่างเปล่า",
+			"orderCannot": "ไม่สามารถส่งคำสั่งซื้อซ้ำได้",
+			"addressNotFound": "ไม่พบที่อยู่",
+			"orderCreateFail": "คำสั่งสร้างล้มเหลว",
+			"orderItem": "รายการสั่งซื้อสร้างล้มเหลว",
+			"orderDo": "ไม่มีคำสั่งซื้อ!",
+			"shoppingCartGoodsIsEmpty": "รถเข็นสินค้าว่างเปล่า"
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "อีเมลนี้ถูกส่งจากที่อยู่สำหรับการแจ้งเตือนเท่านั้นซึ่งไม่สามารถรับอีเมลขาเข้าได้",
+			"pleaseDoNot": "โปรดอย่าตอบกลับข้อความนี้ ถ้าคุณมี คำถามหรือข้อกังวลโปรด",
+			"emailUs": "ส่งอีเมลถึงเรา"
+		},
+		"regist": {
+			"welcomeTo": "ยินดีต้อนรับสู่",
+			"youCanLoginYou": "คุณสามารถเข้าสู่ระบบบัญชีของคุณเพื่อจัดการใบสั่งซื้อโดยใช้ข้อมูลประจำตัวด้านล่าง",
+			"login": "เข้าสู่ระบบ",
+			"password": "รหัสผ่าน",
+			"ifYouWant": "หากคุณต้องการตั้งรหัสผ่านใหม่โปรด",
+			"clickHere": "คลิกที่นี่",
+			"to": "เพื่อดำเนินการต่อ"
+		},
+		"passwordreset": {
+			"thanksFor": "ขอขอบคุณที่ส่งตั๋ว",
+			"dear": "ที่รัก",
+			"youHaveRequest": "คุณได้ขอให้คุณรีเซ็ตรหัสผ่านสำหรับบัญชีของคุณที่",
+			"pleaseVisit": "โปรดไปที่ URL นี้เพื่อรีเซ็ตรหัสผ่านของคุณ",
+			"ifYouReceived": "หากคุณได้รับอีเมลนี้เนื่องจากข้อผิดพลาดคุณสามารถละเว้นอีเมลนี้ได้อย่างปลอดภัย",
+			"sincerely": "อย่างจริงใจ"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "คุณได้ชำระเงินสำหรับการสั่งซื้อเรียบร้อยแล้ว",
+			"thankYouFor": "ขอขอบคุณสำหรับการสั่งซื้อของคุณ. คำสั่งของคุณ",
+			"isNowBeingProcessed": "ขณะนี้กำลังดำเนินการและจะถูกจัดส่งให้โดยปกติภายใน 3 - 7 วัน ระบบจะส่งอีเมลพร้อมข้อมูลการติดตามไปให้คุณเมื่อมีการส่งคำสั่งซื้อ",
+			"items": "รายการ (s)",
+			"unit": "ราคาต่อหน่วย",
+			"quantity": "ปริมาณ",
+			"amont": "จำนวน",
+			"onSale": "ลดราคา",
+			"firstNaem": "ชื่อจริง",
+			"lastName": "นามสกุล",
+			"address": "ที่อยู่บรรทัดที่ 1",
+			"country": "ประเทศ",
+			"city": "เมือง",
+			"postal": "รหัสไปรษณีย์"
+		},
+		"deliveryOrder": {
+			"youOrder": "คำสั่งของคุณ",
+			"hasBeen": "ได้รับการจัดส่งแล้ว",
+			"weHave": "เราได้จัดส่งคำสั่งซื้อของคุณแล้ว",
+			"hereIs": "นี่คือข้อมูลการติดตามของคุณ",
+			"trackingNumber": "หมายเลขติดตาม",
+			"trackingWebsite": "ติดตามเว็บไซต์",
+			"items": "รายการ (s)",
+			"unitPrice": "ราคาต่อหน่วย",
+			"quantity": "ปริมาณ",
+			"amount": "จำนวน",
+			"onSale": "ลดราคา",
+			"firstName": "ชื่อจริง",
+			"ast": "นามสกุล",
+			"addressLine": "ที่อยู่บรรทัดที่ 1",
+			"country": "ประเทศ",
+			"city": "เมือง",
+			"postCode": "รหัสไปรษณีย์"
+		},
+		"goodsStock": {
+			"outOf": "ออกจากการแจ้งเตือนหุ้น",
+			"hi": "สวัสดี",
+			"thankYou": "ขอบคุณที่ซื้อสินค้าด้วย",
+			"weAre": "เราเสียใจแจ้งให้ทราบว่ารายการต่อไปนี้เป็นสินค้าหมด",
+			"items": "รายการ (s)",
+			"unitPrice": "ราคาต่อหน่วย",
+			"quantity": "ปริมาณ",
+			"amount": "จำนวน",
+			"onSale": "ลดราคา",
+			"noWorry": "ไม่ต้องห่วงคุณสามารถเลือกวิธีแก้ปัญหาด้านล่างได้",
+			"choose": "【แนะนำ! 】เลือกรายการอื่นที่ไม่เกิน",
+			"on": "บนเว็บไซต์ของเรา",
+			"let": "แจ้งให้เราทราบ SKU หรือ URL โดยตอบกลับอีเมลฉบับนี้และเราจะแทนที่ URL นี้ให้กับคุณ",
+			"accept": "ยอมรับการคืนเงินของ",
+			"please": "โปรดแจ้งให้เราทราบโดยเร็วที่สุดเท่าที่จะทำได้"
+		},
+		"changeShip": {
+			"tracking": "หมายเลขติดตามมีการปรับปรุงแล้วสำหรับ",
+			"hi": "สวัสดี",
+			"weFeel": "เรารู้สึกเสียใจในความไม่สะดวกที่เกิดขึ้น",
+			"trackingNumberFor": "หมายเลขติดตามสำหรับการสั่งซื้อ",
+			"isUpdate": "ได้รับการอัปเดตโปรดละเว้นไฟล์ก่อนหน้าและใช้ใหม่เพื่อติดตาม",
+			"trackingNumber": "หมายเลขติดตาม",
+			"trackingWebsite": "ติดตามเว็บไซต์",
+			"the": "เวลาที่คาดว่าจะมาถึงคือ 7-15 วัน",
+			"items": "รายการ (s)",
+			"unitPrice": "ราคาต่อหน่วย",
+			"quantity": "ปริมาณ",
+			"amount": "จำนวน",
+			"on": "ลดราคา",
+			"first": "ชื่อจริง",
+			"last": "นามสกุล",
+			"address": "ที่อยู่บรรทัดที่ 1",
+			"count": "ประเทศ",
+			"city": "เมือง",
+			"postal": "รหัสไปรษณีย์"
+		},
+		"contactUs": {
+			"thanks": "Thanks for submitting a ticket",
+			"dear": "ลูกค้าที่รัก",
+			"your": "เราได้ส่งตั๋วของคุณเรียบร้อยแล้วตัวแทนลูกค้าของเราจะตอบกลับภายใน 36 ชั่วโมง โปรดรอการตอบกลับ",
+			"below": "ด้านล่างเป็นรายละเอียดของข้อความของคุณ",
+			"type": "ชนิด",
+			"email": "อีเมล",
+			"name": "ชื่อ",
+			"content": "เนื้อหา"
+		},
+		"newIn": {
+			"15": "$15",
+			"view": "ดูเพิ่มเติม",
+			"to": "เพื่อให้แน่ใจว่าคุณจะได้รับการอัปเดตสไตล์ล่าสุดของเรา",
+			"please": "โปรดอย่าลืมเพิ่มที่อยู่ลงในสมุดติดต่อของคุณ",
+			"if": "หากคุณไม่ต้องการรับข่าวแฟชั่นและข้อเสนอของเราเพียงคลิกที่นี่เพื่อ",
+			"unsubscribe": "ยกเลิกการเป็นสมาชิก"
+		},
+		"hotSale": {
+			"view": "ดูเพิ่มเติม",
+			"to": "เพื่อให้แน่ใจว่าคุณจะได้รับการอัปเดตสไตล์ล่าสุดของเรา",
+			"please": "โปรดอย่าลืมเพิ่มที่อยู่ลงในสมุดติดต่อของคุณ",
+			"if": "หากคุณไม่ต้องการรับข่าวแฟชั่นและข้อเสนอของเราเพียงคลิกที่นี่เพื่อ",
+			"unsubscribe": "ยกเลิกการเป็นสมาชิก"
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty": "กรุณาใส่ที่อยู่อีเมล.",
+				"used": "อีเมลถูกใช้โดยผู้อื่น โปรดเปลี่ยนอันอื่น",
+				"code": "รหัส"
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay รองรับสกุลเงิน JPY เท่านั้น",
+			"countrycode": "konbini สามารถจัดการได้เฉพาะรหัสประเทศ JP เท่านั้น",
+			"phone": "หมายเลขโทรศัพท์ต้องอยู่ระหว่าง 10 ~ 11 หลัก"
+		},
+		"accountholder": {
+			"length": "ผู้ถือบัญชีอย่างน้อย 3 อักขระสูงสุด 100 อักขระ"
+		},
+		"rapipago": {
+			"countrycode": "rapipago จัดการได้เฉพาะ countrycode AR",
+			"currency": "rapipago pay รองรับสกุลเงิน USD เท่านั้น"
+		},
+		"giropay": {
+			"countrycode": "giropay จัดการได้เฉพาะรหัสประเทศ DE เท่านั้น",
+			"currency": "giropay pay รองรับสกุลเงิน EUR เท่านั้น"
+		}
+	}
+}

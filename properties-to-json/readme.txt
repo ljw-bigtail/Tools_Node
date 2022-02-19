@@ -1,0 +1,4 @@
+java代码中的properties文件
+转换成egg项目中的json文件
+
+err中的为异常数据，需要在模板中查看处理

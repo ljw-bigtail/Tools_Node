@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width='device-width', initial-scale=1.0">
+  <title>Document</title>
+  <script type="text/javascript" src="./node_modules/mockjs/dist/mock.js"></script>
+  <!-- <script src="http://mockjs.com/dist/mock.js"></script> -->
+</head>
+<body>
+  <style type="text/css">
+    .box{border: 1px solid #ccc; box-shadow: 1px 1px 2px #eee;}
+  </style>
+
+  <!-- promise 封装 ajax -->
+  <script>
+    function Ajax(option){
+      return new Promise(function(resolve, reject){
+        if(typeof option !== 'object' || Array.isArray(Option)){
+          reject('option error')
+          return false
+        };
+        const options = {
+          method: option.method ? option.method.toUpperCase() : 'GET',
+          url: option.url,
+          ansync: new Boolean(option.ansync),
+          data: option.data || {},
+          type: option.type || 'json'
+        }
+        // 数据转换格式
+        let jsonData = [];
+        for(key in options.data) {
+          jsonData.push(''.concat(key, '=', options.data[key]))
+        }
+        if(options.method === 'GET' && jsonData.lenght > 0) {
+          options.url += ''.concat(options.url.indexOf('?') === -1 ? '?' : '&', jsonData.join('&')); 
+        }
+	      const xhr = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject('Microsoft.XMLHTTP')
+        xhr.responseType = options.type;
+        xhr.withCredentials = false;  //指示是否应使用Cookie或授权标头等凭据进行跨站点访问控制请求。
+        xhr.open(options.method, options.url, options.ansync)
+        xhr.onreadystatechange = function(){
+          if(xhr.readyState === 4){
+            if(xhr.status === 200){
+              resolve(JSON.parse(xhr.responseText))
+            }else{
+              reject(xhr)
+            }
+          }
+        }
+        if (options.method === 'GET') {
+          xhr.send();
+        }else{
+          xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded')
+          xhr.send(jsonData.join('&'));
+        }
+      })
+    }
+  </script>
+
+  <!-- mock数据 -->
+  <script>
+    var { dataList } = Mock.mock({
+      // 属性 list 的值是一个数组，其中含有 1 到 10 个元素
+      'dataList|10000': [{
+        // 属性 id 是一个自增数，起始值为 1，每次增 1
+        'id|+1': 1,
+        'province|1': '@province',
+      }]
+    })
+
+    Mock.mock('http://test/mock.com', 'post', (params)=>{
+      var info = {}
+      var p = params.body ? params.body : ''
+      p.replace(/([^?&=]+)=([^&]+)/g,(_,k,v)=>info[k]=v)
+      var [index, size, total] = [info.pageIndex, info.pageSize, dataList.length]
+      var len = total / size
+      var totalPages = len - parseInt(len) > 0 ? parseInt(len) + 1 : len
+      var newDataList = dataList.slice((index - 1) * size, index * size)
+      return {
+        'code': '0',
+        'message': 'success',
+        'data': {
+          'pageIndex': index,
+          'pageSize': size,
+          'content': newDataList,
+          'total': total,
+          'totalPages': totalPages,
+        }
+      }
+    })
+  </script>
+
+  <!-- 数据按照分页加载 -->
+  <!-- <script src="./virtual.js"></script>
+  <script>
+    Ajax({
+      url: 'http://test/mock.com',
+      method: 'POST',
+      data: {
+        pageIndex: 1,
+        pageSize: 1000,
+      },
+    }).then((res)=>{
+      console.log(res, 'data');
+      new VirtualList({
+        data: res.data.content,
+        size: 40,
+        template: (item, index)=>{
+          return `
+            <div class="box">
+              <h1>item: ${item.province}</h1>
+              <p>index: ${index}</p>
+            </div>
+          `
+        }
+      })
+    }).catch(err=>{
+      console.log(err);
+    })
+  </script> -->
+
+  <!-- 异步数据 + 局部加载 -->
+  <script src="./virtual_ajax.js"></script>
+  <script>
+    var list = new VirtualList({
+      size: 20,
+      timeOutNum: 200,
+      dataPromise: (page) => {
+        return Ajax({
+          url: 'http://test/mock.com',
+          method: 'POST',
+          data: {
+            pageIndex: page,
+            pageSize: 50,
+          },
+        }).then(res=>{
+          return res.data.content
+        })
+      },
+      template: (item, index)=>{
+        return `
+          <div class="box">
+            <h1>${item.province}</h1>
+            <p>ID: ${item.id}</p>
+          </div>
+        `
+      }
+    })
+  </script>
+</body>
+</html>

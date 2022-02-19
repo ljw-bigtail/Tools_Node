@@ -1,0 +1,1192 @@
+{
+	"Color": "Цвет",
+	"Size": "Размер",
+	"view": {
+		"progress": {
+			"save": "Cпасти"
+		},
+		"common": {
+			"clearance": "оформление",
+			"presale": "Pre Sale",
+			"presaleDeliveryTime{0}": "Отправляется в течение {0} дней."
+		},
+		"head": {
+			"account": "счета",
+			"language": "Язык",
+			"currency": "Валюта",
+			"help": "Центр помощи",
+			"cart": "Корзина",
+			"settings": "НАСТРОЙКИ"
+		},
+		"foot": {
+			"subscribe": "Подписаться на наши эксклюзивные предложения",
+			"go": "Go",
+			"mail": {
+				"subscribed": "Этот почтовый ящик подписан",
+				"placeholder": "Введите ваш адрес электронной почты"
+			},
+			"yourMailBox": "Ваш почтовый ящик неправильно форматирует",
+			"menu": "Меню",
+			"search": "Поиск",
+			"instagram": "Instagram",
+			"facebook": "Facebook",
+			"pinterest": "Pinterest",
+			"youtube": "Youtube",
+			"snapchat": "Snapchat",
+			"twitter": "Twitter",
+			"bestSelling": "Лучшие продажи",
+			"categories": "Категории"
+		},
+		"error": {
+			"404": {
+				"_value": "Страница не найдена",
+				"title": "Страница ошибки！",
+				"content": "Извините, страница, которую вы ищете, не может быть найдена. <br/> Вы можете проверить наши рекомендации или вернуться на главную страницу веб-сайта."
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "\"{0}\" не имеет результатов.",
+				"content": "Попробуйте проверить орфографию или используйте более общие термины. <br/> Вы также можете просмотреть рекомендуемые пункты ниже."
+			},
+			"searchHistory": "история поиска",
+			"hotWord": "горячее слово"
+		},
+		"index": {
+			"viewAll": "Просмотреть все",
+			"loadMore": "СМОТРЕТЬ БОЛЬШЕ"
+		},
+		"goodsList": {
+			"home": "Home",
+			"sortBy": "Сортировать по",
+			"price": "Цена",
+			"yourSearchFor": "Ваш поиск для",
+			"revealedTheFollowing": "обнаружил следующее",
+			"didNotYieldAnyResults": {
+				"": "не дал никаких результатов."
+			},
+			"quantity": "продукты",
+			"newIn": "New In",
+			"hotSale": "Горячие продажи",
+			"special": "Специальное предложение",
+			"clearance": "оформление",
+			"quickView": "БЫСТРЫЙ ПРОСМОТР"
+		},
+		"goodsDetail": {
+			"color": "Цвет",
+			"size": "Размер",
+			"quantity": "Количество",
+			"addToCart": "ДОБАВИТЬ В КОРЗИНУ",
+			"designPlaceHolder": "Введите имя или текст здесь ...",
+			"charLeft": {
+				"limitItem{0}": "Осталось {0} символов"
+			},
+			"personlized": "Персонализировать",
+			"description": "Описание",
+			"productCode": "Код товара",
+			"shipping": "Доставка",
+			"sizeChart": "Таблица размеров",
+			"youMayAlsoLike": "Вам также может понравиться",
+			"youRecentlyView": "Недавно просмотренные",
+			"shippingReturn": "Доставка и возврат",
+			"superSavings": "Супер экономия",
+			"secureOnlineShopping": "100% безопасных покупок в Интернете",
+			"promotion": "Сниженные",
+			"pleaseSelectColor": "Пожалуйста, выберите свой цвет",
+			"pleaseSelect": "Пожалуйста, выберите ваш размер",
+			"limit5": "Лимит пять на человека.",
+			"limit10": "Не более 10 предметов на человека.",
+			"personalize": "Персонализировать",
+			"review": {
+				"customerReviews": "отзывы клиентов",
+				"writeAReview": "Написать отзыв",
+				"example": {
+					"_value": "Пример: я купил это месяц назад и так счастлив, что сделал…",
+					"email": "Пример:",
+					"name": "jackie",
+					"example": "Youremail@example.com"
+				},
+				"review": "Обзор",
+				"reviews": "Обзоры",
+				"nickname": "Псевдоним",
+				"email": "Email",
+				"postReview": "ОБЗОР ПОЧТЫ",
+				"ratings": "Средние рейтинги клиентов",
+				"more": {
+					"reviews": "Больше отзывов"
+				},
+				"many": {
+					"items": {
+						"error{0}": "Вы можете выбрать только до {0}."
+					}
+				},
+				"add": {
+					"photos": "Добавить до 6 фотографий",
+					"photo": "Добавить фото"
+				},
+				"ok": "Ok",
+				"enter": {
+					"address": {
+						"_value": "Пожалуйста, введите адрес электронной почты.",
+						"format": "Неверный адрес электронной почты."
+					},
+					"nickname": "Пожалуйста, введите свой псевдоним.",
+					"review": {
+						"_value": "Пожалуйста, введите ваш отзыв.",
+						"length": "Максимальная длина была превышена."
+					}
+				},
+				"score": "Score",
+				"thank": {
+					"review": "Спасибо за публикацию отзыва"
+				},
+				"successful": "УСПЕШНЫЙ",
+				"getCouponFailed": "Ошибка купона.",
+				"oops": "К сожалению ...",
+				"post": {
+					"failed": "Сообщение не удалось, повторите попытку позже."
+				},
+				"click": "Нажмите, чтобы оценить！",
+				"uploadFiles": "Загрузить файлы",
+				"processingDroppedFiles": "Обработка удаленных файлов ...",
+				"close": "Закрыть",
+				"no": "Нет",
+				"yes": "Да",
+				"cancel": "Отменить",
+				"sellerReply ": ": продавец ответ",
+				"couponCodeTip{0}": "Код купона: {0} <br/> Вы можете использовать этот код купона для совершения покупок! <br/> В то же время мы отправили код купона на вашу электронную почту.",
+				"gotouse": "Перейти к использованию",
+				"sortby": {
+					"all": "Все"
+				}
+			},
+			"shortOfStock": "не хватает запасов",
+			"size_info": "Примечание: Азиатский размер меньше, чем размер США, мы предлагаем вам выбрать на один размер больше, чем ваш обычный размер."
+		},
+		"activity": {
+			"activities": "Деятельность",
+			"endin": "ENDS IN",
+			"d": "дни",
+			"h": "часы",
+			"m": "минуты",
+			"s": "секунды"
+		},
+		"shopcart": {
+			"personalizedDetail": "Персонализированная деталь",
+			"yourShoppingCart": "Ваша корзина",
+			"shoppingCart": "Корзина",
+			"product": "Продукт",
+			"price": "Цена",
+			"quantity": {
+				"_value": "Количество",
+				"desc{0}": "Корзина (<span class=\"mz-cartCount\"> {0} </span> Товары)"
+			},
+			"total": "Всего",
+			"remove": "Удалить",
+			"subtotal": "Итого",
+			"yourCartIsCurrentlyEmpty": "Ваша корзина пуста.",
+			"continueBrowsing": "Продолжить просмотр",
+			"here": "здесь",
+			"updateCart": "Обновить корзину",
+			"checkout": "Оформить заказ",
+			"checkValidityGoods": "Извините, в выбранном вами элементе нет товаров на складе!",
+			"order": {
+				"summary": "Сводка заказа"
+			},
+			"goShopping": "Перейти за покупками",
+			"viewOrders": "Посмотреть мои заказы",
+			"continueShopping": "продолжить покупки",
+			"viewBag": "ПОСМОТРЕТЬ СУМКУ",
+			"priceRange": "Ценовой диапазон",
+			"viewFullDetails": "Посмотреть полную информацию",
+			"add": "Добавить",
+			"details": "Детали",
+			"productOption": "Вариант продукта",
+			"clear": "Сброс",
+			"addItems": "Добавить элементы",
+			"shippingFee": "Стоимость доставки",
+			"addToCartSuccess": "Успешно добавлено в корзину!",
+			"eelThan{0}": "Наложенный платеж доступен только при сумме заказа более {0}"
+		},
+		"shopcartSide": {
+			"yourCart": "Ваша корзина",
+			"yourCartIsEmpty": "Ваша корзина пуста",
+			"continueShopping": "Продолжить покупки",
+			"checkout": "Оформить заказ",
+			"shippingTaxes": "Доставка и налоги рассчитываются при оформлении заказа",
+			"remove": "Удалить"
+		},
+		"login": {
+			"login": "Войти",
+			"email": "Email",
+			"password": "Пароль",
+			"forgotYourPassword": "Забыли пароль?",
+			"returnToStore": "Вернуться в магазин",
+			"createAccount": "Создать аккаунт",
+			"signIn": "Войти",
+			"infoMsg": "введите свой адрес электронной почты и пароль:",
+			"loginFrom": "Используйте свою учетную запись из",
+			"loginOr": "ИЛИ",
+			"luvEmail": "Sign up for Luvyle emails."
+		},
+		"recoverEmail": {
+			"resetYourPassword": "Сбросить пароль",
+			"weWillSend": "Мы вышлем вам электронное письмо для сброса пароля.",
+			"cancel": "Отменить",
+			"resetPassword": "Сбросить пароль",
+			"password": "Пароль",
+			"confirmPassword": "Подтвердить пароль",
+			"backToLogin": "Вернуться к входу",
+			"submit": "Submit"
+		},
+		"regist": {
+			"createAccount": "Создать аккаунт",
+			"firstName": "Имя",
+			"lastName": "Фамилия",
+			"email": "Email",
+			"password": "Пароль",
+			"returnToStore": "Вернуться в магазин",
+			"create": "Создать",
+			"register": "регистрировать",
+			"stylePreference": "ПРЕДПОЧТЕНИЕ СТИЛЯ",
+			"signOut": "Выход",
+			"termsPart0": "я согласен с",
+			"termsPart1": "Подписываясь таким образом, вы соглашаетесь с нашими",
+			"termsPart2": "Условия и положения",
+			"termsPart3": "и",
+			"termsPart4": "Политика конфиденциальности",
+			"termsPart5": "Создавая учетную запись, вы соглашаетесь с нашими",
+			"succ": {
+				"congrate": "Поздравляю! Вы успешно зарегистрировались!",
+				"shop_now": "КУПИТЬ СЕЙЧАС",
+				"check": "ПРОВЕРЬ СВОИ ВХОДЯЩИЕ",
+				"check_confirm": "Мы отправили электронное письмо с кодом скидки на ваш почтовый ящик, проверьте его!",
+				"check_confirm_tip": "Не получили письмо?",
+				"check_confirm_step1": "Пожалуйста, проверьте папку со спамом.",
+				"check_confirm_step2_part1": "Если вы по-прежнему не видите письмо, вы можете",
+				"check_confirm_step2_part2": "кликните сюда",
+				"check_confirm_step2_part3": "связаться с нами.",
+				"check_recent": "RESENT",
+				"bind": "Пожалуйста, введите адрес электронной почты для привязки"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "Я соглашаюсь с <a href=\"{0}\" style=\"color: #4099fc;text-decoration: underline;\"> Политикой конфиденциальности </a>."
+		},
+		"checkout": {
+			"fillInInformationTip": "Пожалуйста, обязательно заполните личную и адресную информацию",
+			"customerInformation": "Информация о клиенте",
+			"showOrderSummary": "Показать сводку заказа",
+			"hideOrderSummary": "Скрыть сводку заказа",
+			"orderNotice": "Показать сводку заказа и получить скидку",
+			"cart": "Корзина",
+			"shippingMethod": "Способ доставки",
+			"paymentMethod": "Способ оплаты",
+			"apply": "Применить",
+			"discountHasBeenApplied": "Купон был погашен!",
+			"pointHasBeenApplied": "Баллы погашены!",
+			"discount": "скидка",
+			"allSoldout": "Товаров в вашем списке покупок нет в наличии, и вы не можете перейти к следующему шагу",
+			"allSoldoutAlert": "Товаров в вашем списке покупок в настоящее время нет в наличии. Пожалуйста, повторно выберите пункты для расчета",
+			"partSoldout": "Товары в вашем списке покупок в настоящее время отсутствуют на складе, и если вы перейдете к следующему шагу, система автоматически удалит товары, отсутствующие на складе, из списка покупок.",
+			"card_number": "Номер карты",
+			"expiry_date": "Дата истечения",
+			"security_code": "Код безопасности",
+			"card_holder": "Держатель карты"
+		},
+		"orderSummary": {
+			"orderSummary": "Сводка заказа",
+			"shoppingCart": "Корзина",
+			"productImage": "Изображение продукта",
+			"description": "Описание",
+			"quantity": "Количество",
+			"price": "Цена",
+			"scrollForMoreItems": "Прокрутка для большего количества элементов",
+			"costSummary": "Сводная стоимость",
+			"subtotal": "Итого",
+			"shipping": "Доставка",
+			"salesTax": "налог с продаж",
+			"total": "Всего",
+			"giftCard": {
+				"_value": "Погасите свои эксклюзивные купоны",
+				"title": "код купона"
+			},
+			"userCredit": {
+				"title": "Скидки по баллам",
+				"label": "Пользовательские баллы",
+				"tag{0}": "Очки ({0})",
+				"total{0}": "Всего баллов: {0}",
+				"available{0}": "Доступные баллы: {0}",
+				"tip": "<div> 1. Ваши баллы будут списаны с вашего счета после создания заказа. </div> <div> 2. Вы можете отменить свой заказ в «Мой заказ», и баллы, на которые вы подали заявку, будут возвращены на ваш счет. </div> <div> 3. Баллы могут использовать до 50% от общей стоимости заказа. </div>"
+			},
+			"remoteAreaInfo{0}": "Включает {0} плату за удаленную область",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "{0} выкл для вашего первого заказа",
+				"firstOrderDiscountPrice{0}": "Получить {0} для вашего первого заказа",
+				"discountPrice{0}{1}": "Сохранить {0} более {1}",
+				"discountPrice": {
+					"v1{0}{1}{2}": "Купите более {0} предметов на сумму более {1} долларов, получите скидку на {2}",
+					"v2{0}{1}": "Купите более {0} товаров, получите {1} OFF"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "Купите более {0} товаров на сумму более {1} долларов и получите скидку {2}",
+					"v2{0}{1}": "Купите более {0} товаров, получите скидку {1}"
+				},
+				"percentDiscount{0}{1}": "{0} Выкл. {1}",
+				"selectTip": "ИЛИ выберите один из общих купонов"
+			},
+			"chasepay": {
+				"discounts{0}": "Оплатите сейчас и сэкономьте {0}%",
+				"discounts-kissnkid": "Оплатите сейчас и сэкономьте 10%"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "Контактная информация",
+			"alreadyHaveAnAccount": "Уже есть аккаунт?",
+			"login": "Войти",
+			"email": "Email",
+			"logOut": "Выйти",
+			"shippingAddress": "Адрес доставки",
+			"storedAddresses": "Сохраненные адреса",
+			"newAddress": "Новый адрес ...",
+			"firstName": "Имя",
+			"lastName": "Фамилия",
+			"middleName": "Второе имя",
+			"address1": "Адресная строка 1:",
+			"address2": "улица, адрес, название компании, C / O",
+			"apartmentSuite1": "Адресная строка 2:",
+			"apartmentSuite2": "Квартира, Люкс, Единица, Здание, Этаж и т. д. (необязательно)",
+			"city": "Город",
+			"country": "Страна / Регион",
+			"province": "Штат / провинция",
+			"postalCode": "Почтовый индекс",
+			"phone": "Телефон",
+			"continueToShipping": "ПРОДОЛЖИТЬ СПОСОБ ДОСТАВКИ",
+			"returnToCart": "Вернуться в корзину",
+			"district": "Область",
+			"road": "Дорога"
+		},
+		"shippingMethod": {
+			"shippingAddress": "Адрес доставки",
+			"edit": "Править",
+			"editShippingAddress": "Изменить адрес доставки",
+			"shippingMethod": "Способ доставки",
+			"continueToPayment": "ПРОДОЛЖИТЬ СПОСОБ ОПЛАТЫ",
+			"returnToCustomerInformation": "Вернуться к информации о клиенте",
+			"onlyShippedToUS": "Некоторые продукты могут быть отправлены только в Соединенные Штаты.",
+			"desc": "рабочие дни"
+		},
+		"paymentMethod": {
+			"shippingAddress": "Адрес доставки",
+			"edit": "Править",
+			"transitTime": "время перехода",
+			"shippingMethod": "Способ доставки",
+			"superSaving": "Стандартная доставка",
+			"expressShipping": "Ускоренная доставка",
+			"economyShipping": "Экономичная доставка",
+			"cashOnDelivery": "Оплата при доставке (COD)",
+			"paymentMethod": "Способ оплаты",
+			"loading": "<span class=\"ctx-weight\"> Ваш заказ был размещен! </span> Операция обрабатывается банком и может занять 2 минуты. Как только платеж будет успешным, вы получите Уведомление по электронной почте. Пожалуйста, терпеливо ждать.",
+			"loadingAddtionalTxt{0}": "Вы можете <a href=\"{0}\"> проверить свой заказ </a> или <a href=\"/\"> вернуться домой </a>.",
+			"allTransactions": "Все транзакции защищены и зашифрованы.",
+			"buyLimitTips": "Фрахт увеличивается вместе с суммой заказа. Попробуйте разделить свой заказ, и вы можете обнаружить на удивление более низкий фрахт.",
+			"creditCard": {
+				"_value": "Кредитная карта",
+				"oceanpay": "Кредитная карта",
+				"cardpay": "Кредитная карта",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "Кредитная карта",
+			"payPal": "PayPal",
+			"payWith": "Оплатить с помощью",
+			"visa": "Visa",
+			"mastercard": "Mastercard",
+			"americanExpress": "American Express",
+			"discover": "Discover",
+			"yourOrderIsCovered": "Ваш заказ покрывается вашими подарочными картами.",
+			"yourOrderIs": "Ваш заказ",
+			"free": "свободный",
+			"noPaymentIsRequired": "Оплата не требуется.",
+			"notifications": "Уведомления",
+			"completeOrder": "Продолжить оплату",
+			"codWarning{0}": "Наложенный платеж доступен только при сумме заказа менее {0} долларов США.",
+			"returnToShippingMethod": "Вернуться к способу доставки",
+			"editShippingAddress": "Изменить адрес доставки",
+			"editShippingMethod": "Изменить способ доставки",
+			"paypalContent": "После нажатия кнопки «Завершить заказ» вы будете перенаправлены в PayPal для безопасного совершения покупки.",
+			"pingpongContent": "После нажатия «Завершить заказ» вы будете перенаправлены на PingPong для безопасного совершения покупки.",
+			"cod": "Наложенный платеж (COD)",
+			"codContentTitle": "НАЛИЧНАЯ ДОСТАВКА (ХПК)",
+			"codContent": "Мы предлагаем самый простой способ оплаты ваших заказов с использованием наложенного платежа. Вы можете оплатить товар при его доставке.",
+			"orderNo": "Заказ №.",
+			"site859Extra": "Кент, Соединенное Королевство"
+		},
+		"paymentSkip": {
+			"tip": "Обработка, пожалуйста, не нажимайте кнопку обновления или назад."
+		},
+		"paymentResult": {
+			"order": "Заказать",
+			"thankYou": "Спасибо",
+			"yourOrderIsConfirmed": "Ваш заказ подтвержден",
+			"weHaveAccepted": "Мы приняли ваш заказ и готовим его. Вернитесь на эту страницу для получения обновлений статуса вашего заказа.",
+			"customerInformation": "Информация о клиенте",
+			"shippingAddress": "Адрес доставки",
+			"continueShopping": "Продолжить покупки",
+			"checkoutRetry": "Checkout Retry",
+			"opens": "Открывает внешний сайт в новом окне.",
+			"opensIn": "Открывается в новом окне.",
+			"opensExternalWebsite": "Открывает внешний сайт.",
+			"customerInfo": "Информация о клиенте - Bellalike - Оформить заказ",
+			"billingAddress": "Платежный адрес",
+			"shippingMethod": "Способ доставки",
+			"paymentMethod": "Способ оплаты",
+			"paypal": "Paypal",
+			"express": "Экспресс",
+			"creditCard": "Кредитная карта",
+			"oceanpay": "Oceanpayment",
+			"pacypay": "Pacypay",
+			"cod": "Наложенный платеж (COD)",
+			"codNote": "Примечание",
+			"codNoteLine1": "Оплата наложенным платежом",
+			"codNoteLine2": "Пожалуйста, заплатите, когда товар дойдет до вас",
+			"codNoteLine3": "Не дайте себя обмануть мошенникам, которые выманивают вас на перевод денег в любых каналах",
+			"codNoteLine4": "Мы предоставляем только услугу наложенным платежом",
+			"cancel": "Сделка отменена клиентом",
+			"forter": {
+				"reject": "Ошибка транзакции из-за проблемы безопасности платежа. Если вы завершили платеж, мы осуществим возврат в течение 3-5 рабочих дней."
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title": "Успешно оплачено！",
+				"subtitle": "Пожалуйста, укажите свой подробный адрес в полях ниже."
+			}
+		},
+		"paymentFail": {
+			"paymentException": "Исключение оплаты",
+			"checkoutRecordNotExist": "Контрольная запись не существует",
+			"paypal": {
+				"ec": {
+					"unauthorized": "Клиент не одобрил транзакцию"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "Вернуться к истории заказов",
+			"accountDetails": "Данные учетной записи",
+			"name": "Имя",
+			"edit": "Править",
+			"save": "Сохранить",
+			"cancel": "Отменить",
+			"email": "Email",
+			"password": "Пароль",
+			"reset": "Сброс",
+			"addressBook": "Адресная книга",
+			"youHaveNoAddresses": "У вас нет адресов",
+			"primaryAddress": "основной адрес",
+			"addAddress": "Добавить адрес",
+			"anotherAddress": "выберите другой адрес",
+			"delete": "Удалить",
+			"setAsPrimaryAddress": "Установить в качестве основного адреса",
+			"finish": "Готово",
+			"editAddress": "Изменить адрес"
+		},
+		"header": {
+			"home": "Home",
+			"myAccount": "Моя учетная запись",
+			"yourAccount": "Ваша учетная запись",
+			"logOut": "Выйти",
+			"closeMenu": "Закрыть меню"
+		},
+		"main": {
+			"orderHistory": "История заказов",
+			"youHaveNotPlacedAnyOrders": "Вы еще не разместили заказы.",
+			"order": "Заказать",
+			"date": "Дата",
+			"orderStatus": "Статус заказа",
+			"paymentStatus": "Статус платежа",
+			"shippingStatus": "Статус доставки",
+			"total": "Всего",
+			"action": "Действие",
+			"buyAgain": "Выкуп",
+			"orderDetail": "Детали заказа",
+			"Items": "Items",
+			"payNow": "Оплатить сейчас",
+			"trackOrder": "Отслеживать порядок",
+			"cancel": "Отменить",
+			"contactUs": "Связаться с нами",
+			"repurchaseInvalid": "В вашем заказе есть товары с истекшим сроком, и товары с истекшим сроком не будут повторно приобретены"
+		},
+		"orderDetail": {
+			"backToOrderHistory": "Вернуться к истории заказов",
+			"orderSummary": "Сводка заказа",
+			"returnExchange": "RETURN / EXCHANGE",
+			"item": "Пункт",
+			"shippingStatus": "Статус доставки",
+			"price": "Цена",
+			"qty": "Кол-во",
+			"totalPrice": "Общая стоимость",
+			"color": "Цвет",
+			"size": "Размер",
+			"subtotal": "Итого",
+			"shipping": "Доставка",
+			"total": "Всего",
+			"shippingAddress": "Адрес доставки",
+			"discount": "скидка"
+		},
+		"userSummery": {
+			"accountDetails": "Данные учетной записи",
+			"edit": "Править",
+			"name": "Имя",
+			"email": "Email",
+			"primaryAddress": "Основной адрес"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "ЗАБЫТЫЙ ПАРОЛЬ",
+			"emailSent": "EMAIL SENT",
+			"anEmailHasBeenSent": "Письмо было отправлено на указанный адрес электронной почты.",
+			"ifYouRequested": "Если вы запросили новый пароль, но не получили письмо для сброса пароля",
+			"tryTo": "Попробуйте",
+			"resetYourPassword": "сбросить пароль",
+			"again снова ": "",
+			"ifYouStillDontReceive": "Если вы все еще не получили письмо после запроса сброса пароля, подождите 24 часа и повторите попытку"
+		},
+		"contactUs": {
+			"contactUs": "Свяжитесь с нами",
+			"submit": "отправить"
+		},
+		"customerService": {
+			"customerService": "Обслуживание клиентов"
+		},
+		"orderBy": {
+			"bestSelling": "Лучшие продажи",
+			"mostPopular": "Самые популярные",
+			"priceLowToHigh": "Цена: от низкой к высокой",
+			"priceHighToLow": "Цена: по убыванию",
+			"newest": "Новые поступления",
+			"recommend": "Pекомендовать"
+		},
+		"shipping": {
+			"unshipped": "неотправленный",
+			"shipped": "ПОГРУЖЕНЫ",
+			"partialShipped": "PARTIAL_SHIPPED"
+		},
+		"payment": {
+			"unpaid": "Ожидание оплаты",
+			"pending": "В ожидании",
+			"paid": "Платная",
+			"canceled": "Отменено",
+			"shipped": "Shipped",
+			"refunded": "Возвращено",
+			"partialrefunded": "частичное возмещение",
+			"fulfilled": "Выполненные",
+			"processing": "Processing"
+		},
+		"application": {
+			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
+			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"download2get": "DOWNLOAD TO GET",
+			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"code": "CODE",
+			"download": {
+				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
+			}
+		},
+		"list": {
+			"apply": "Применить",
+			"other": "Другое",
+			"filter": {
+				"_value": "Фильтр",
+				"by": "Фильтровать по"
+			},
+			"category": "Категории",
+			"over": "Over",
+			"noResults": "Ничего не найдено！",
+			"onesize": "один размер"
+		},
+		"amp": {
+			"sizeAndColor": "Размер и цвет:",
+			"pleaseChoose": "--- Пожалуйста, выберите ---",
+			"buy": "КУПИТЬ СЕЙЧАС"
+		},
+		"paypal": {
+			"textPrompt": "Номер телефона указан неверно.",
+			"hrefPrompt": "Пожалуйста, измените номер телефона",
+			"or": "ИЛИ",
+			"expressCheckout": "Экспресс-касса",
+			"supportsHint": "Валюта вашего заказа будет конвертирована в доллары США, которые являются единственной валютой, поддерживаемой этим способом оплаты."
+		},
+		"cart": {
+			"account": "уже есть аккаунт",
+			"login": "войти"
+		},
+		"new_checkout": {
+			"postal_address": "+ Добавить адрес доставки",
+			"order_confirmation": "подтверждение заказа",
+			"address_editing": "Адрес доставки",
+			"address": "адрес",
+			"payment": "Оплата",
+			"shipping": "shipping",
+			"items": "items",
+			"save": "сохранить",
+			"addressRequired": "Адрес должен быть заполнен",
+			"shippingcart": "Корзина",
+			"ordersummary": "Сводка заказа"
+		},
+		"sitemap": {
+			"sitemap": "Карта сайта",
+			"hot_categories": "Горячие категории",
+			"hot_sale": "Распродажа",
+			"see_more": "Узнать больше",
+			"new_in": "Новое в"
+		},
+		"personal": {
+			"center": "Персональный центр",
+			"account": "Мой счет",
+			"profile": "Мой профиль",
+			"address": {
+				"_value": "Адресная книга",
+				"delete": "Вы уверены, что хотите удалить этот адрес?",
+				"cancel": "ОТМЕНА",
+				"ok": "OK",
+				"default": "Дефолт"
+			},
+			"orders": "Mои заказы",
+			"all": "Все",
+			"assets": "Мои активы",
+			"coupons": {
+				"_value": "Мои купоны",
+				"useit": "Использовать"
+			},
+			"points": {
+				"_value": "Мои очки",
+				"spent": "Очки потрачены",
+				"details": "Детали баллов",
+				"exchanged": "Обменены баллы",
+				"explaination": "Объяснение",
+				"register": "Очки, набранные за регистрацию",
+				"subscribe": "Очки, полученные при подписке",
+				"gainedShopping": "Очки, полученные за покупки",
+				"spendShopping": "Баллы тратятся на покупки",
+				"activity": "Очки, полученные за активность",
+				"shopWithPoints": "Магазин с баллами"
+			},
+			"concern": "Мои фокус",
+			"wishlist": "Список желаний",
+			"viewed": "Недавно просмотренные",
+			"main": {
+				"coupons": "купоны",
+				"points": "Точки",
+				"viewAll": "Посмотреть все",
+				"viewMore": "СМОТРЕТЬ БОЛЬШЕ",
+				"more": "Более",
+				"changePwd": "Изменить пароль"
+			},
+			"empty": {
+				"orders": "Вы еще не разместили ни одного заказа.",
+				"coupons": "Здесь пусто.",
+				"wishlist": "В настоящее время у вас нет ничего сохраненного в вашем списке желаний.",
+				"viewed": "Вы ничего не просматривали."
+			},
+			"valid": {
+				"points": "Действительные баллы"
+			},
+			"data": "Дата",
+			"recommend": "Рекомендую вам"
+		},
+		"sizeGuide": {
+			"sizeCharts": "SIZE CHARTS",
+			"sizeGuide": "SIZE GUIDE"
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "Требуется идентификатор заказа"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "OrderNo требуется",
+			"amountIsRequired": "Требуется сумма"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "Идентификатор товара требуется",
+			"goodsCountIsRequired": "Количество товаров обязательно",
+			"goodsCountGt0AndLt10000": "количество товаров gt 0 и lt 10000"
+		},
+		"site": {
+			"emailIsRequired": "Требуется адрес электронной почты",
+			"emailLengthIsTooLong": "Длина электронной почты слишком длинная, не более 128 символов",
+			"emailisinvalid": "Email недействителен",
+			"firstNameIsRequired": "Имя обязательно",
+			"firstNameLengthIsTooLong": "Длина имени слишком длинная, не более 64 символов",
+			"subjectIsRequired": "Тема обязательна",
+			"subjectLengthIsTooLong": "Слишком длинная тема, не более 256 символов",
+			"contentIsRequired": "Содержание обязательно"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "Пароль не может быть пустым.",
+			"passwordLengthNeedsTo": "Длина пароля должна быть в пределах 6-16 цифр (без пробелов)",
+			"confirmPassword": "Подтверждение пароля не может быть пустым.",
+			"idIsRequired": "Id требуется",
+			"firstNameIsRequired": "Имя обязательно",
+			"firstNameLengthIsTooLong": "Длина имени слишком длинная, не более 64 символов",
+			"middleNameLengthIsTooLong": "Длина имени слишком длинная, не более 64 символов",
+			"lastNameIsRequired": "Фамилия требуется",
+			"lastNameLengthIsTooLong": "Слишком длинная фамилия, не более 64 символов",
+			"phoneNumberIsRequired": "номер телефона требуется",
+			"phoneNumberLengthIsTooLong": "Длина телефонного номера слишком длинная, не более 32 символов",
+			"emaillengthIsTooLong": "Длина электронной почты слишком длинная, не более 128 символов",
+			"countryAreaIsRequired": "Страна / Область требуется",
+			"provinceStateIsTooLong": "Провинция / штат слишком длинный, не более 64 символов",
+			"CityNameIsRequired": "Требуется название города",
+			"cityLengthIsTooLong": "Длина города слишком длинная, не более 64 символов",
+			"districtIsRequired": "Административная зона обязательна",
+			"pleaseFillInThe": "Пожалуйста, заполните правильный город, который не может быть составлен с номерами.",
+			"address1IsRequired": "Адрес1 требуется",
+			"address1Length": "Длина адреса1 слишком длинная, не более 1024 символов",
+			"address2Length": "Длина адреса 2 слишком длинная, не более 1024 символов",
+			"postCodeIsRequired": "Код почтового индекса требуется",
+			"postCodeLength": "Длина почтового кода слишком велика",
+			"emailIsInvalid": "Email недействителен",
+			"passwordIsRequired": "Требуется пароль",
+			"firstNameLengthIsTooLongMax32Character": "Длина имени слишком длинная, не более 32 символов",
+			"lastNameLengthIsTooLongMax32Character": "слишком длинная фамилия, не более 32 символов",
+			"nicknameLengthIsTooLong": "Длина псевдонима слишком длинная, не более 64 символов",
+			"taxNoFormatError": "Неверный формат налогового идентификатора!"
+		}
+	},
+	"\\domain": {},
+	"service": {
+		"coupon": {
+			"unableToFind": "Невозможно найти действительную скидку, соответствующую введенному коду.",
+			"useOfCoupon": "Использование купона ограничено",
+			"yourCartDoesNot1": "Ваша корзина не соответствует требованиям для",
+			"yourCartDoesNot2": "код скидки",
+			"useOneCoupon": "Для одного заказа можно использовать только один купон",
+			"notSupportShipping": "Текущий код скидки не применяется к этому способу доставки",
+			"notSupportAreas": "Текущий код скидки в этой области не используется"
+		},
+		"point": {
+			"exceedAvailBalance": "Недостаточно очков",
+			"aboveQuota": "Более 50% от общей суммы",
+			"consumption": "Расход баллов",
+			"accumulation": "Накопление баллов",
+			"return": "Возврат баллов",
+			"adjustmentAdd": "Поправка по очкам (увеличение)",
+			"adjustmentReduce": "Корректировка баллов (уменьшение)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "Этот адрес электронной почты уже связан с учетной записью. Если эта учетная запись принадлежит вам, вы можете сбросить пароль",
+			"userDataInsertError": "Ошибка вставки данных пользователя",
+			"incorrectAccount": "Неверный аккаунт или пароль",
+			"googleLoginError": "Ошибка входа в Google",
+			"accountInfoError": "Ошибка информации об учетной записи",
+			"userDoesNotExist": "Пользователь не существует",
+			"thisEmailAlreadyExists": "Это письмо уже существует",
+			"userDataUpdateFail": "Ошибка обновления данных пользователя",
+			"emailCannotBeEmpty": "Email не может быть пустым.",
+			"noAccount": "Нет учетной записи с этим электронным письмом.",
+			"theRecoverSession": "Сессия восстановления была недействительной, пожалуйста, начните все сначала.",
+			"theTwoPassword": "Две записи пароля несовместимы.",
+			"thePasswordUpdate": "Ошибка обновления пароля! Пожалуйста, попробуйте еще раз."
+		},
+		"address": {
+			"emailIsRequired": "Требуется адрес электронной почты",
+			"State": "Штат / Провинция требуется.",
+			"postCode": "PostCode требуется",
+			"countryNotExist": "Страна не существует",
+			"AddressInsertFail": "Ошибка вставки адреса",
+			"addressDoesNotExist": "Пожалуйста, добавьте ваш адрес доставки.",
+			"stateIsRequired": "требуется состояние",
+			"taxNoIsRequired": "Номер налога требуется",
+			"taxNoLength": "Идентификационный номер налогоплательщика не может превышать 64 цифры",
+			"addressUpdateFail": "Ошибка обновления адреса",
+			"newAddressInsertFail": "Ошибка вставки нового адреса",
+			"email": "электронная почта",
+			"state": "состояние",
+			"country": "страна"
+		},
+		"usercoupon": {
+			"couponInsertFail": "Ошибка вставки купона",
+			"couponUpdateFail": "Ошибка обновления купона"
+		},
+		"shopcart": {
+			"current": "Текущий пользователь не существует"
+		},
+		"shopping": {
+			"shippingr": "Ошибка запроса доставки"
+		},
+		"shared": {
+			"facebookAccess": "токен доступа к Facebook не найден",
+			"facebook": "Результат доступа к Facebook пуст",
+			"googleAccess": "токен доступа Google не найден",
+			"google": "Результат доступа к Google пуст"
+		},
+		"payment": {
+			"paymentNotSupport": "Способ оплаты не поддерживается",
+			"unknownPayment": "Неизвестный платеж",
+			"paypalPayment": "Ошибка создания платежа Paypal [URL подтверждения не найден]",
+			"orderPaymentCreateFail": "Ошибка при создании заказа",
+			"returnDataSignError": "Ошибка возврата данных",
+			"returnOrderKeyError": "Ошибка возврата ключа заказа",
+			"orderPayment": "Оплата заказа не существует"
+		},
+		"paymentDecline": "Отклонение платежа",
+		"order": {
+			"orderAddress": "Ошибка создания адреса заказа",
+			"insertCoupon": "Ошибка вставки данных купона",
+			"shoppingCart": "Корзина товаров пуста",
+			"orderCannot": "Заказ не может быть отправлен повторно",
+			"addressNotFound": "Адрес не найден",
+			"orderCreateFail": "Ошибка создания заказа",
+			"orderItem": "Ошибка создания элемента заказа",
+			"orderDo": "Заказа не существует!",
+			"shoppingCartGoodsIsEmpty": "Корзина товаров пуста"
+		}
+	},
+	"web": {
+		"screenfooter": {
+			"youHaveAlready": "Вы уже успешно подписались",
+			"serviceResponseFailure": "Ошибка ответа службы"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "Пожалуйста, введите ключевое слово!",
+			"sorryThisProduct": "Извините, этот продукт недоступен",
+			"sorryWeDont": "Извините, нам не хватает на складе!",
+			"areYouSure": "Вы уверены, что хотите удалить этот адрес?",
+			"searchOurStore": "Поиск в нашем магазине"
+		},
+		"login": {
+			"firstNameIsRequired": "Имя обязательно",
+			"passwordIsRequired": "Требуется пароль"
+		},
+		"regist": {
+			"lastNameIsRequired": "Фамилия требуется",
+			"emailIsInvalid": "Email недействителен"
+		},
+		"address": {
+			"thisFieldIsRequired": "Это поле обязательно для заполнения",
+			"theMaximum": "Максимальное количество символов - 64",
+			"pleaseFillIn": "Пожалуйста, укажите правильный город, который не может быть составлен из цифр.",
+			"email": "неправильный формат электронной почты",
+			"subjectIsRequired": "тема обязательна",
+			"messageIsRequired": "Требуется сообщение",
+			"taxNo": "Неверный формат налогового идентификатора!",
+			"address1": "Адрес 1",
+			"address2": "Адрес 2 (необязательно)",
+			"city": "Город",
+			"country": "Страна",
+			"state": "состояние",
+			"zipCode": "Почтовый индекс",
+			"phoneNumber": "PhoneNumber",
+			"MailboxFillIn": "Почтовый индекс недействителен",
+			"SpainPhoneFillIn": "Номер телефона должен состоять из 9 цифр, начиная с 6 или 9",
+			"SarPhoneFillIn": "Ваш номер телефона должен состоять из 9 цифр и начинаться с 5.",
+			"QarPhoneFillIn": "Ваш номер телефона должен состоять из 8 цифр и начинаться с 3/4/5/6/7.",
+			"OmrPhoneFillIn": "Ваш номер телефона должен состоять из 8 цифр и начинаться с 7/9.",
+			"KwdPhoneFillIn": "Ваш номер телефона должен состоять из 8 цифр и начинаться с 5/6/9.",
+			"BhdPhoneFillIn": "Ваш номер телефона должен состоять из 8 цифр и начинаться с 3/6."
+		},
+		"payment": {
+			"incorrectCardNumber": "Неверный номер карты.",
+			"invalidExpiryDate": "Неверная дата истечения.",
+			"invalidSecureCode": "Неверный безопасный код."
+		},
+		"contactus": {
+			"yourRequest": "Ваш запрос был получен. Мы ответим как можно скорее. Спасибо!",
+			"sorrySubmission": "Извините, отправка не удалась. Пожалуйста, попробуйте позже. Спасибо",
+			"firstNameIsRequired": "Имя обязательно",
+			"lastNameIsRequired": "Фамилия требуется",
+			"emailIsInvalid": "Email недействителен",
+			"subjectIsRequired": "тема обязательна",
+			"messageIsRequired": "Требуется сообщение"
+		},
+		"concatinfo": {
+			"mail": "Email",
+			"firstname": "Имя",
+			"middleName": "Второе имя",
+			"lastname": "Фамилия",
+			"address": "Адрес",
+			"apartment": "Apartment",
+			"taxNo": "налоговый номер файла",
+			"city": "Город",
+			"province": "Штат / провинция",
+			"phone": "Телефон",
+			"postalCode": "Почтовый индекс"
+		},
+		"goodsDetail": {
+			"addToCart": "ДОБАВИТЬ В КОРЗИНУ",
+			"soldout": "ПРОДАНО",
+			"sizeguide": "Руководство по размерам"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "КУПИТЬ СЕЙЧАС"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "Вы находитесь всего в <span class=\"price money  promo-currency \"> {0} </span> от <span class=\"free\"> бесплатной доставки </span>!"
+			},
+			"free": {
+				"prompt": "Сладкое! Вы набрали <span class=\"free\"> БЕСПЛАТНАЯ ДОСТАВКА </span>!"
+			},
+			"coupon": {
+				"prompt": "Применить <span class=\"free\"> Код купона </span> на следующем шаге!"
+			},
+			"invalid": {
+				"country": "Неверный код страны"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "Скидка <span class='promo-color'>{0}</span> на заказы свыше <span class='promo-color'>{1}</span>",
+				"discount{0}{1}": "<span class='promo-color'>{0}</span> СКИДКА на <span class='promo-color'>{1}</span>",
+				"prompt": {
+					"manjian{0}{1}": "СОХРАНИТЬ {0} Более {1}",
+					"discount{0}{1}": "{0}% СКИДКА на {1}"
+				},
+				"matchedHighest": "Приятного вам сохранения!",
+				"quantity": {
+					"manjian{0}{1}{2}": "Купите <span class='promo-color'>{0}</span>, получите - <span class='promo-color'>{1}</span> Товар <span class='promo-color'>{2}</span>",
+					"discount{0}{1}{2}": "Купите <span class='promo-color'>{0}</span>, получите -<span class='promo-color'>{1}%</span> Товар <span class='promo-color'>{2}</span>",
+					"discount": {
+						"next{0}{1}{2}": "Добавьте {0} больше получите {1} СКИДКА {2}%!"
+					},
+					"manjian": {
+						"next{0}{1}{2}": "Добавьте {0} больше получите {1} СКИДКА {2}!"
+					},
+					"currentDiscount{0}": "Сэкономьте {0}",
+					"next{0}{1}{2}": "Добавьте <span class='promo-currency' >{0} </span>больше получите {1} СКИДКА <span class='promo-currency' >{2}</span>!",
+					"next": {
+						"discount{0}{1}{2}": "Добавьте <span class='promo-currency' >{0} </span>больше получите {1} СКИДКА <span class='promo-currency' >{2}</span>%!"
+					}
+				},
+				"package{0}{1}": "Любой <span class='promo-color'>{0}</span> по цене пакета <span class='promo-color'>{1}</span>",
+				"package": {
+					"current{0}{1}": "Понравился {0} по цене пакета {1}",
+					"next{0}{1}": "Добавьте {0} больше, чтобы получить удовольствие Цена пакета {1}",
+					"saved{0}": "Сэкономлено {0}",
+					"current": {
+						"next{0}{1}{2}{3}": "Понравился {0} по цене пакета {1}, добавьте {2}, чтобы насладиться пакетной ценой {3}"
+					}
+				},
+				"gift{0}": "Купите {0}, чтобы получить бесплатные подарки",
+				"gift": {
+					"current": "Бесплатный подарок",
+					"next{0}": "Добавьте еще {0}, чтобы получить бесплатные подарки"
+				},
+				"money": {
+					"gift{0}": "Бесплатные подарки для заказов от {0} ",
+					"gift": {
+						"next{0}": "Добавьте еще {0}, чтобы получить бесплатные подарки"
+					},
+					"exchange{0}": "Купите {0}, чтобы насладиться низкой ценой.",
+					"exchange": {
+						"current{0}": "Купите {0}, чтобы насладиться низкой ценой.",
+						"next{0}": "У вас все еще есть {0} можно обменять по низкой цене"
+					}
+				},
+				"gifts": "ПОДАРКИ",
+				"freeGifts": "Бесплатный подарок",
+				"selectGift": "Выбрать подарок",
+				"viewGift": "Посмотреть подарок",
+				"updateItem": "ОБНОВИТЬ ПУНКТ",
+				"cancel": "ОТМЕНИТЬ",
+				"confirm": "ПОДТВЕРЖДАТЬ",
+				"exchange{0}": "Купите {0}, чтобы насладиться низкой ценой.",
+				"exchange": {
+					"current{0}": "Купите {0}, чтобы насладиться низкой ценой.",
+					"next{0}": "{0} штук можно обменять по низкой цене",
+					"meet": "Воспользуйтесь дополнительной покупной ценой прямо сейчас!",
+					"addon": "низкая цена",
+					"viewGoods": "Больше предметов",
+					"addonItems": "Товары со скидкой"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "Вы можете получить <span class='promo-currency' > {0} </span> с помощью <span  class='promo-currency'> {1} </span>!",
+				"discount{0}{1}": "Вы можете получить <span class='promo-currency'> {0}% </span> с помощью <span  class='promo-currency' > {1} </span>!"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}{1}": "СОХРАНИТЬ {0} Более {1}",
+					"discount{0}{1}": "{0}% СКИДКА на {1}"
+				}
+			}
+		},
+		"advantage": {
+			"_value": "Почему выбирают нас?",
+			"choose": {
+				"name": "30-дневная гарантия удовлетворенности с возвратом денег",
+				"value": "Если вы не удовлетворены своей продукцией, мы выполним полный возврат средств, без вопросов."
+			},
+			"order": {
+				"name": "Более 34.245 успешно отправленных заказов",
+				"value": "Мы сделали столько счастливых клиентов, сколько заказов было отправлено. Вы просто должны присоединиться к нашей большой семье."
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "Ваш заказ зарезервирован для",
+					"last": "минуты!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "Заказанный вами товар пользуется большим спросом. Не беспокойтесь, мы зарезервировали ваш заказ."
+				}
+			}
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "Это письмо было отправлено с адреса только для уведомлений, который не может принимать входящую почту",
+			"pleaseDoNot": "ПОЖАЛУЙСТА, НЕ ОТВЕЧАЙТЕ на это сообщение. Если у вас есть какие-либо вопросы или проблемы, пожалуйста,",
+			"emailUs": "напишите нам"
+		},
+		"regist": {
+			"welcomeTo": "Добро пожаловать в",
+			"youCanLoginYou": "Вы можете войти в свою учетную запись, чтобы управлять своим заказом, используя учетные данные ниже",
+			"login": "Войти",
+			"password": "Пароль",
+			"ifYouWant": "Если вы хотите сбросить пароль, пожалуйста,",
+			"clickHere": "нажмите здесь",
+			"to": "продолжить"
+		},
+		"passwordreset": {
+			"thanksFor": "Спасибо за отправку заявки",
+			"dear": "Уважаемая",
+			"youHaveRequest": "Вы запросили сброс пароля для вашей учетной записи на",
+			"pleaseVisit": "Пожалуйста, посетите этот URL, чтобы сбросить пароль",
+			"ifYouReceived": "Если вы получили это письмо по ошибке, вы можете смело игнорировать это письмо",
+			"sincerely": "С уважением"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "Вы успешно оплатили заказ",
+			"thankYouFor": "Спасибо за ваш заказ. Твоя очередь",
+			"isNowBeingProcessed": "в настоящее время обрабатывается и будет отправлен в обычном режиме в течение 3-7 дней. Электронная почта с информацией для отслеживания будет отправлена ​​вам после отправки заказа",
+			"items": "ЭЛЕМЕНТ (S),",
+			"unit": "UNIT PRICE",
+			"quantity": "КОЛИЧЕСТВО",
+			"amont": "СУММА",
+			"onSale": "В продаже",
+			"firstNaem": "Имя",
+			"lastName": "Фамилии",
+			"address": "Address Line1",
+			"country": "Страна",
+			"city": "Город",
+			"postal": "Почтовый индекс"
+		},
+		"deliveryOrder": {
+			"youOrder": "Ваш заказ",
+			"hasBeen": "был отправлен",
+			"weHave": "Мы отправили ваш заказ",
+			"hereIs": "Вот ваша информация отслеживания",
+			"trackingNumber": "номер для отслеживания",
+			"trackingWebsite": "Отслеживание веб-сайта",
+			"items": "ЭЛЕМЕНТ (S),",
+			"unitPrice": "ЦЕНА ЕДИНИЦЫ",
+			"quantity": "КОЛИЧЕСТВО",
+			"amount": "СУММА",
+			"onSale": "В продаже",
+			"firstName": "Имя",
+			"ast": "Фамилии",
+			"addressLine": "Address Line1",
+			"country": "Страна",
+			"city": "Город",
+			"postCode": "Почтовый индекс"
+		},
+		"goodsStock": {
+			"outOf": "Нет в наличии уведомления",
+			"hi": "Привет",
+			"thankYou": "Спасибо за покупку с",
+			"weAre": "С сожалением сообщаем, что следующего товара нет в наличии",
+			"items": "ЭЛЕМЕНТ (S),",
+			"unitPrice": "ЦЕНА В ЕДИНИЦЕ",
+			"quantity": "КОЛИЧЕСТВО",
+			"amount": "СУММА",
+			"onSale": "В продаже",
+			"noWorry": "Не беспокойтесь, вы можете выбрать любое решение ниже",
+			"choose": "【Рекомендуется!】 Выберите другой товар до",
+			"on": "на нашем сайте",
+			"let": "Дайте нам знать SKU или URL, ответив на это письмо, и мы заменим его для вас",
+			"accept": "Принять возврат",
+			"please": "Пожалуйста, дайте нам знать ваше решение как можно скорее, и мы поможем соответственно"
+		},
+		"changeShip": {
+			"tracking": "Номер отслеживания обновлен для",
+			"hi": "Привет",
+			"weFeel": "Нам очень жаль за причиненные неудобства",
+			"trackingNumberFor": "номер для отслеживания заказа",
+			"isUpdate": "обновлен, пожалуйста, проигнорируйте предыдущий и используйте новый для его отслеживания",
+			"trackingNumber": "номер для отслеживания",
+			"trackingWebsite": "Отслеживание веб-сайта",
+			"the": "Расчетное время прибытия 7-15 дней",
+			"items": "ЭЛЕМЕНТ (S),",
+			"unitPrice": "ЦЕНА ЕДИНИЦЫ",
+			"quantity": "КОЛИЧЕСТВО",
+			"amount": "СУММА",
+			"on": "В продаже",
+			"first": "Имя",
+			"last": "Фамилии",
+			"address": "Address Line1",
+			"count": "Страна",
+			"city": "Город",
+			"postal": "Почтовый индекс"
+		},
+		"contactUs": {
+			"thanks": "Спасибо за отправку тикета",
+			"dear": "Уважаемый покупатель",
+			"your": "Ваш билет был успешно отправлен, наши представители клиента ответят вам в течение 36 часов. Пожалуйста, дождитесь ответа",
+			"below": "Ниже приведены детали вашего сообщения",
+			"type": "тип",
+			"email": "электронная почта",
+			"name": "имя",
+			"content": "содержание"
+		},
+		"newIn": {
+			"15": "$ 15",
+			"view": "СМОТРЕТЬ БОЛЬШЕ",
+			"to": "Чтобы убедиться, что вы можете получать наши последние обновления стиля",
+			"please": "пожалуйста, не забудьте добавить наш адрес в вашу контактную книгу",
+			"if": "Если вы предпочитаете не получать наши модные новости и предложения, просто нажмите здесь, чтобы",
+			"unsubscribe": "отменить подписку"
+		},
+		"hotSale": {
+			"view": "СМОТРЕТЬ БОЛЬШЕ",
+			"to": "Чтобы убедиться, что вы можете получать наши последние обновления стиля",
+			"please": "пожалуйста, не забудьте добавить наш адрес в вашу контактную книгу",
+			"if": "Если вы предпочитаете не получать наши модные новости и предложения, просто нажмите здесь, чтобы",
+			"unsubscribe": "отменить подписку"
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty": "Пожалуйста введите адрес электронной почты.",
+				"used": "Электронная почта была использована другими. Пожалуйста, измените другой.",
+				"code": "КОД"
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay Поддерживается только валюта JPY",
+			"countrycode": "konbini может обрабатывать только код страны JP",
+			"phone": "номер телефона должен содержать от 10 до 11 цифр"
+		},
+		"accountholder": {
+			"length": "владелец аккаунта минимум 3 символа, до 100 символов"
+		},
+		"rapipago": {
+			"countrycode": "rapipago может обрабатывать только код страны AR",
+			"currency": "rapipago pay Поддерживается только валюта USD"
+		},
+		"giropay": {
+			"countrycode": "giropay может обрабатывать только код страны DE",
+			"currency": "giropay pay Поддерживается только валюта EUR"
+		}
+	}
+}
