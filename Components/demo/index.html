@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>components demo</title>
+  <link rel="stylesheet" href="./common.css">
+</head>
+<body>
+  <div id="app"></div>
+  <script src="../dist/Tools/publicType.js"></script>
+  <script src="../dist/Tools/ElementsUtils.js"></script>
+  <link rel="stylesheet" href="../Dialog/index.css">
+  <script src="../dist/Tools/Utils.js"></script>
+  <script src="../dist/Hotzones/index.js"></script>
+  <script src="../dist/Dialog/index.js"></script>
+  <script src="../dist/Overlay/index.js"></script>
+  <link rel="stylesheet" href="../Overlay/index.css">
+  <script>
+      var hotzones = new Hotzones([{
+      img: {
+        src: 'https://ups.aopcdn.com/s894/common/18975/884u03ced30791c045129d66a16c4a201e41.jpg',
+        width: 1480,
+        height: 179,
+      },
+      area: [{
+        coords: [194,79,366,122],
+        copyVal: 'WG60',
+        data: {
+          a: 'qwe'
+        },
+      },{
+        coords: [543,77,719,125],
+        copyVal: 'WG30',
+        data: {
+          a: 'asd'
+        },
+      },{
+        coords: [899,79,1068,126],
+        copyVal: 'WG15',
+        data: {
+          a: 'zxc'
+        },
+      },{
+        coords: [1255,80,1428,123],
+        copyVal: 'WG6',
+        data: {
+          a: 'fgh'
+        },
+      }]
+    },{
+      img: {
+        src: 'https://ups.aopcdn.com/s894/common/18975/884u03ced30791c045129d66a16c4a201e41.jpg',
+        width: 1480,
+        height: 179,
+      },
+      area: [{
+        coords: [194,79,366,122],
+        copyVal: 'WG60',
+        type: 'copy',
+      },{
+        coords: [543,77,719,125],
+        copyVal: 'WG30',
+        type: 'copy',
+      },{
+        coords: [899,79,1068,126],
+        copyVal: 'WG15',
+        type: 'copy',
+      },{
+        coords: [1255,80,1428,123],
+        copyVal: 'WG6',
+        type: 'copy',
+     }]
+    }], {
+      type: 'click',
+      domSelector: '#app',
+      shape: 'rect',
+      callback: function(res){
+        console.log(res);
+      }
+    })
+    console.log(hotzones);
+    var dialogs = new Dialogs({
+      id: 'test',
+      needClose: true,
+      header: 'string',
+      content: 'asdfkhsdf',
+      footer: 'string',
+    })
+    // dialogs.open()
+    // dialogs.close()
+    // dialogs.loading()
+    // dialogs.desory()
+    console.log(dialogs);
+    var overlay = new Overlay({
+      'z-index': 2000,
+    })
+    // overlay.open()
+    // overlay.close()
+    console.log(overlay);
+  </script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+.dialog{position: fixed; top: 5000px; left: 5000px; z-index: 5000;transform: translate(-50%, -50%);display: none;}
+.dialog.open{top: 50%; left: 50%;display: block;}
+.dialog .dialog-loading.show{display: flex;}
+.dialog .dialog-center-box{overflow: hidden;background: var(--bg-color);border-radius: var(--radius-l); box-shadow: var(--shadow-dark);opacity: 0;visibility:hidden;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:opacity,visibility;transition-property:opacity,visibility;will-change:opacity;display: flex;flex-direction: column;max-width: 80vw; max-height: 80vh;}
+.dialog.dialog-xxl .dialog-center-box{width: 960px; height: 574px;}
+.dialog.dialog-xl .dialog-center-box{min-width: 800px; height: 722px;}
+.dialog.dialog-m .dialog-center-box{min-width: 680px; height: 720px;}
+.dialog.dialog-xs .dialog-center-box{width: 496px; min-height: 204px;}
+.dialog.dialog-xxs .dialog-center-box{width: 449px;}
+.dialog.dialog-auto .dialog-center-box{}
+.dialog .dialog-center-box .dialog-close{position: absolute; right: var(--space-m); top: var(--space-m); font-size: var(--font-size-m);cursor: pointer;z-index: 2000;line-height: 1;}
+.dialog.open .dialog-loading.show + .dialog-center-box{opacity: 0;visibility:hidden;}
+.dialog.open .dialog-loading + .dialog-center-box{opacity: 1;visibility:visible;}
+.dialog .dialog-content{display: flex;height: 100%;flex: 1;}
+.dialog .dialog-header{font-size: var(--font-size-l);padding: var(--space-l) var(--space-l) var(--space-s);font-weight: 700;}
+.dialog .dialog-header + .dialog-content{padding: 0 var(--space-l) var(--space-l);height: auto;display: block;}
+/*兼容样式*/
+.dialog{z-index: 9000;}
+.dialog .dialog-content{background: #fff}
+.dialog .dialog-center-box .dialog-close span{font-size: 24px;display: inline-block;margin-top: -8px}

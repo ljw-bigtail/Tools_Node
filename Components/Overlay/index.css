@@ -1,0 +1,5 @@
+.overlay{position:fixed;top:-5000px;right:-5000px;bottom:-5000px;left:-5000px;z-index:2000;background:rgba(0,0,0,.4);-webkit-backface-visibility:hidden;backface-visibility:hidden;visibility:hidden;opacity:0;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:opacity,visibility;transition-property:opacity,visibility;will-change:opacity}
+.overlay.overlay-show{visibility:visible;opacity:1}
+.overlay.overlay_2000{z-index:2000;}
+.overlay.overlay_5000{z-index:5000;}
+.overlay.overlay_8000{z-index:8000;}
