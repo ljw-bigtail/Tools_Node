@@ -1,3 +1,5 @@
 node_modules
 .DS_Store
 *.local
+xlsx-format/end
+xlsx-format/file
