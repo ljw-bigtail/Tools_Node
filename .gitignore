@@ -3,3 +3,7 @@ node_modules
 *.local
 xlsx-format/end
 xlsx-format/file
+api-key.js
+translate-tool/file
+translate-tool/end
+translate-tool/cache.json
