@@ -8,3 +8,5 @@ translate-tool/file
 translate-tool/end
 translate-tool/cache.json
 dist
+comic-crawling/end
+comic-crawling/cache.json
