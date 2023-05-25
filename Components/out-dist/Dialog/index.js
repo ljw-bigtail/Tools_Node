@@ -8,8 +8,8 @@ class Dialogs {
         this.appendHTML = ElementsUtils.appendHTML;
         this.dom = null;
         this.isInit = false;
-        this.isRefresh = false;
         this.options = options;
+        this.init();
     }
     init() {
         if (this.options.id === "") {
@@ -22,20 +22,30 @@ class Dialogs {
     }
     close() {
         var _a;
-        if (this.isRefresh) {
-            location.reload();
-        }
         // OverlayMask.close()
         (_a = this.dom) === null || _a === void 0 ? void 0 : _a.classList.remove("open");
+        this.options.onClose && this.options.onClose();
     }
     open(isRefresh) {
         var _a;
         if (!this.isInit) {
             this.init();
         }
-        this.isRefresh = isRefresh;
         // OverlayMask.open(8000)
         (_a = this.dom) === null || _a === void 0 ? void 0 : _a.classList.add("open");
+        this.options.onOpen && this.options.onOpen();
+    }
+    fresh(contentData) {
+        var _a;
+        if (!this.options.contentRender ||
+            typeof this.options.contentRender !== "function") {
+            return;
+        }
+        const content = (_a = this.dom) === null || _a === void 0 ? void 0 : _a.querySelector(".dialog-content");
+        if (!content) {
+            return;
+        }
+        content.innerHTML = this.options.contentRender(contentData);
     }
     destory() {
         var _a;
@@ -57,15 +67,17 @@ class Dialogs {
         // if (!window.OverlayMask) {
         //   window.OverlayMask = new Overlay() // 标准遮罩层 初始化
         // }
-        let contentHtml = this.options.content;
-        // TODO 模版拼接卸载外面就行
-        // if (this.options.templateName && this.options.templateData) {
-        //   if (document.querySelectorAll(`script[id="${this.options.templateName}"]`).length != 1) {
-        //     console.info('Dialog 模板异常，请检查。', this.options);
-        //     return
-        //   }
-        //   contentHtml = this.renderFunction(this.options.templateName, this.options.templateData)
-        // }
+        // contentRender
+        // defaultContentData
+        let contentHtml = "";
+        if (this.options.content) {
+            contentHtml = this.options.content;
+        }
+        else if (this.options.contentRender &&
+            typeof this.options.contentRender === "function" &&
+            this.options.defaultContentData) {
+            contentHtml = this.options.contentRender(this.options.defaultContentData);
+        }
         const needCloseHtml = this.options.needClose
             ? '<div class="dialog-close"><span class="iconfont">×</span></div>'
             : "";
@@ -87,11 +99,19 @@ class Dialogs {
       </div>
     `);
         this.dom = document.querySelector(`#${this.options.id}`);
+        console.log(this.dom);
     }
     initEvent() {
-        var _a, _b;
+        var _a, _b, _c;
         const that = this;
-        (_b = (_a = this.dom) === null || _a === void 0 ? void 0 : _a.querySelector(".dialog-close")) === null || _b === void 0 ? void 0 : _b.addEventListener("click", function () {
+        (_a = this.dom) === null || _a === void 0 ? void 0 : _a.addEventListener('click', function (e) {
+            e.stopPropagation();
+            return false;
+        });
+        document.body.addEventListener("click", function () {
+            that.close();
+        }, false);
+        (_c = (_b = this.dom) === null || _b === void 0 ? void 0 : _b.querySelector(".dialog-close")) === null || _c === void 0 ? void 0 : _c.addEventListener("click", function () {
             that.close();
         }, false);
     }

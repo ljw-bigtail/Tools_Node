@@ -4,10 +4,10 @@
  * 支持页面缩放；支持自定义事件、复制功能、链接跳转功能
 **/
 class Hotzones {
-    constructor(data, options) {
+    constructor(options) {
         this.appendHTML = ElementsUtils.appendHTML;
         this.dom = document.querySelector(options.domSelector);
-        this.data = data;
+        this.data = options.data;
         this.options = options;
         this.init();
     }

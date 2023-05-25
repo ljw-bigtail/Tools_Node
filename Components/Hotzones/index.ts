@@ -31,6 +31,7 @@ interface Hotzone {
 }
 
 interface HotzoneOptions {
+  data: Hotzone[],
   type?: HotzoneAreaClickEvent, // 可操作类型
   domSelector: string, // dom 选择 querySelector
   shape?: HotzoneAreaShape,
@@ -42,9 +43,9 @@ class Hotzones {
   private dom: HTMLElement
   private data: Hotzone[]
   private options: HotzoneOptions
-  constructor( data: Hotzone[], options: HotzoneOptions ){
+  constructor( options: HotzoneOptions ){
     this.dom = document.querySelector(options.domSelector) as HTMLElement
-    this.data = data
+    this.data = options.data
     this.options = options
     this.init()
   }

@@ -1,0 +1,9 @@
+.notification{position: fixed; top: 0; bottom: 0; right: 0; z-index: 5000;display: none;padding: var(--space-s);max-width: 300px;color:var(--font-color-dark)}
+.notification.open{display: block;}
+.notification .notification-box{display: flex;flex-direction: column;justify-content: flex-end;height: 100%;align-items: flex-end;}
+.notification .notification-item{overflow: hidden;background: var(--bg-color);border-radius: var(--radius-l); box-shadow: var(--shadow-dark);opacity: 0;visibility:hidden;-webkit-transition-duration:.3s;transition-duration:.3s;-webkit-transition-property:opacity,visibility;transition-property:opacity,visibility;will-change:opacity;display: flex;flex-direction: column;max-width: 80vw; max-height: 80vh;position: relative;margin-top: var(--space-s);width: max-content;}
+.notification .notification-item.open{opacity: 1;visibility:visible;}
+.notification .notification-item .notification-item-close{position: absolute; right: var(--space-s); top: var(--space-xs); font-size: var(--font-size-m);cursor: pointer;z-index: 2000;line-height: 1;}
+.notification .notification-item .notification-item-content{display: flex;height: 100%;flex: 1;}
+.notification .notification-item .notification-item-header{font-size: var(--font-size-l);padding: var(--space-xs) var(--space-l) var(--space-xs) var(--space-s);font-weight: 700;}
+.notification .notification-item .notification-item-header + .notification-item-content{padding: 0 var(--space-s) var(--space-xs);height: auto;display: block;}
