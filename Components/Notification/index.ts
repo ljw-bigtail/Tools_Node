@@ -32,12 +32,24 @@ class Notifications {
     const that = this;
     this.dom?.classList.add("open");
     const dom_item = this.renderItem(data);
-    if(!dom_item || this.keep < 0) return
-    (function(item: Element){
-      setTimeout(function(){
-        item.remove()
-      }, that.keep)
-    })(dom_item)
+    setTimeout(function(){
+      dom_item?.classList.add('open')
+    }, 100)
+    if(!dom_item) return
+    var timer: number | null | undefined = null
+    if(this.keep >= 0){
+      (function(item: Element){
+        timer = setTimeout(function(){
+          item.remove()
+        }, that.keep)
+      })(dom_item)
+    }
+    dom_item.addEventListener('mouseover', function(){
+      timer && clearTimeout(timer)
+    })
+    return function(){
+      that.close(dom_item as HTMLElement);
+    }
   }
   private renderItem(item:MesData){
     const dom = (this.dom?.querySelector('.notification-box')) as HTMLElement
@@ -45,7 +57,7 @@ class Notifications {
     this.appendHTML(
       dom,
       `
-        <div class="notification-item open">
+        <div class="notification-item">
           <div class="notification-item-close"><span class="iconfont">×</span></div>
           ${item.header ? `<div class="notification-item-header">${item.header}</div>` : ''}
           <div class="notification-item-content">${item.content}</div>

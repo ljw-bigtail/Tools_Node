@@ -131,14 +131,16 @@
     // console.log(overlay);
 
     var notifications = new Notifications({
-      keep: -1
+      keep: 2000
     });
     
     function add_notifications(){
-      notifications.add({
+      window.close_item = notifications.add({
         header: Math.random(),
         content: Math.random(),
       })
+
+      // close_item()
     }
   </script>
 </body>

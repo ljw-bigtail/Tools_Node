@@ -20,13 +20,25 @@ class Notifications {
         const that = this;
         (_a = this.dom) === null || _a === void 0 ? void 0 : _a.classList.add("open");
         const dom_item = this.renderItem(data);
-        if (!dom_item || this.keep < 0)
+        setTimeout(function () {
+            dom_item === null || dom_item === void 0 ? void 0 : dom_item.classList.add('open');
+        }, 100);
+        if (!dom_item)
             return;
-        (function (item) {
-            setTimeout(function () {
-                item.remove();
-            }, that.keep);
-        })(dom_item);
+        var timer = null;
+        if (this.keep >= 0) {
+            (function (item) {
+                timer = setTimeout(function () {
+                    item.remove();
+                }, that.keep);
+            })(dom_item);
+        }
+        dom_item.addEventListener('mouseover', function () {
+            timer && clearTimeout(timer);
+        });
+        return function () {
+            that.close(dom_item);
+        };
     }
     renderItem(item) {
         var _a;
@@ -34,7 +46,7 @@ class Notifications {
         if (!dom)
             return;
         this.appendHTML(dom, `
-        <div class="notification-item open">
+        <div class="notification-item">
           <div class="notification-item-close"><span class="iconfont">×</span></div>
           ${item.header ? `<div class="notification-item-header">${item.header}</div>` : ''}
           <div class="notification-item-content">${item.content}</div>
