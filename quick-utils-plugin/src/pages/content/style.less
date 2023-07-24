@@ -1,0 +1,75 @@
+@import "@/components/common.less";
+
+.topLinkMode-status{
+  &.close{
+    .topLinkMode-box{
+      .topLinkMode-selector{
+        display: none;
+      }
+    }    
+  }
+}
+
+.topLinkMode-box{
+  position: relative;
+  .topLinkMode-selector{
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.6);
+    z-index: 99999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .topLinkMode-selector-btn{
+      background: #fff;
+      border-radius: var(--leoui-radius);
+      overflow: hidden;
+      .toTop{
+        span:first-child{
+          display: block;
+        }
+        span:last-child{
+          display: none;
+        }
+        &.toggled{
+          span:first-child{
+            display: none;
+          }
+          span:last-child{
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+.topLinkMode-tip{
+  position: fixed;
+  bottom: var(--leoui-space-1);
+  right: var(--leoui-space-1);
+  box-shadow: var(--leoui-shadow);
+  border-radius: var(--leoui-radius);
+  overflow: hidden;
+  background: var(--leoui-color-white);
+  display: none;
+  max-width: 280px;
+  &.open{
+    display: block;
+  }
+  .copyBtn{
+    display: block;
+    margin: 0 auto;
+  }
+  dl{
+    border-top: var(--leoui-border-main);
+    dd{
+      line-height: 1.2em;
+      margin: var(--leoui-space-1);
+    }
+  }
+
+}

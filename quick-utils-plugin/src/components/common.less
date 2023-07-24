@@ -1,0 +1,426 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+:root {
+  --leoui-color-A: #ec612a; // 红
+  --leoui-color-B: rgb(81,178,249); // 蓝
+  --leoui-color-C: #f7d0eb; // 粉
+  --leoui-color-D: #62d590; // 绿
+  --leoui-color-white: #ffffff;
+  --leoui-color-black: #000000;
+  --leoui-color-dark-gray: #94989c8c;
+  --leoui-color-light-gray: #e9e9e9;
+
+  --leoui-main-color: var(--leoui-color-B);
+  --leoui-main-color-opacity: rgba(81,178,249,0.2);
+  --leoui-font-color: var(--leoui-color-black);
+  --leoui-min-size: 10px;
+  --leoui-radius: 8px;
+  --leoui-radius-mini: 4px;
+  --leoui-border-main: 1px solid var(--leoui-color-black);
+  --leoui-border: 1px solid var(--leoui-color-light-gray);
+  // --leoui-max-width: 1000px;
+  --leoui-max-width: 1200px;
+  --leoui-header-height: 40px;
+  --leoui-shadow: 0 0 20px 2px var(--leoui-color-light-gray);
+  --leoui-shadow-dark: 0 0 20px 2px var(--leoui-color-dark-gray);
+  --leoui-shadow-light: 0 0 0 2px #fff;
+  --leoui-title-size: 18px;
+  --leoui-min-size: 14px;
+  --leoui-large-size: 20px;
+
+  --leoui-space-1: var(--leoui-min-size);
+  --leoui-space-1_5: calc(var(--leoui-min-size) * 1.5);
+  --leoui-space-2: calc(var(--leoui-min-size) * 2);
+  --leoui-space-3: calc(var(--leoui-min-size) * 3);
+  --leoui-space-4: calc(var(--leoui-min-size) * 4);
+}
+
+.leoui{
+  //滚动条样式
+  ::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+  }
+  /*滚动条的设置*/
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--leoui-color-light-gray) !important;
+    background-clip: padding-box !important;
+    -webkit-border-radius: 10em !important;
+    -moz-border-radius: 10em !important;
+    border-radius: 10em !important;
+  }
+  /*滚动条凹槽的颜色，还可以设置边框属性 */
+  ::-webkit-scrollbar-track-piece {
+    background-color: transparent !important;
+    -webkit-border-radius: 0em !important;
+    -moz-border-radius: 0em !important;
+    border-radius: 0em !important;
+  }
+  /*滚动条鼠标移上去*/
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #bbb !important;
+  }
+}
+
+body.leoui {
+  color: var(--leoui-font-color);
+  input[type="number"],
+  input[type="text"],
+  select {
+    border: var(--leoui-border);
+    &:focus {
+      outline: none;
+    }
+  }
+  button {
+    border: none;
+    background-color: transparent;
+  }
+  a{
+    color: initial;
+    text-decoration: none;
+  }
+}
+
+
+.leoui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+  background-color: transparent;
+  color: var(--leoui-color-black);
+  padding: var(--leoui-space-1);
+  font-size: var(--leoui-min-size);
+  border-radius: var(--leoui-radius-mini);
+  border: none;
+  z-index: 1;
+  &.large {
+    font-size: var(--leoui-large-size);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background-color: var(--leoui-color-D);
+    border-radius: 50%;
+    left: 80%;
+    top: 58%;
+    z-index: -1;
+    transition: all 0.5s;
+  }
+  &.A::after {background-color: var(--leoui-color-A);}
+  &.B::after {background-color: var(--leoui-color-B);}
+  &.C::after {background-color: var(--leoui-color-C);}
+  &.D::after {background-color: var(--leoui-color-D);}
+  &:hover {
+    &::after {
+      transform: translateX(-100%) scale(1.3) translateY(-20%);
+    }
+  }
+  &.button-icon{
+    background-color: var(--leoui-border-main);
+    padding: 3px var(--leoui-space-1);
+    color: var(--leoui-color-white);
+    &.A {background-color: var(--leoui-color-A) !important;}
+    &.B {background-color: var(--leoui-color-B) !important;}
+    &.C {background-color: var(--leoui-color-C) !important;}
+    &.D {background-color: var(--leoui-color-D) !important;}
+    .css-icon {
+      width: 24px;
+      height: 24px;
+      margin-right: 2px;
+      transform: scale(0.7);
+      &::after, &::before{
+        border-color: var(--leoui-color-white)
+      }
+    }
+    &:hover {
+      box-shadow: var(--leoui-shadow);
+    }
+  }
+}
+
+.leoui-btn-group {
+  position: relative;
+  z-index: 0;
+  text-align: left;
+  display: block;
+  &.right {
+    text-align: right;
+  }
+  &.left {
+    text-align: left;
+  }
+  &.center {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.leoui-icon-group{
+  .icon,
+  .css-icon{
+    margin-right: var(--leoui-space-1);
+    &:last-child{
+      margin-right: 0;
+    }
+  }
+}
+
+.leoui-css-icon,
+.leoui-icon-btn{
+  display: inline-block;
+  position: relative;
+  width: 32px;
+  height: 32px;
+  transition: all .3s;
+  font-size: 0;
+  &::before,
+  &::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-bottom: 2px solid var(--leoui-color-black);
+  }
+  &.delete,
+  &.plus {
+    &::before,
+    &::after {
+      width: 16px;
+    }
+    &::after {
+      transform: translate(-50%, -50%) rotateZ(90deg);
+    }
+  }
+  &.delete {
+    transform: rotateZ(45deg);
+    &.bold{
+      &::before,
+      &::after {
+        box-shadow: var(--leoui-shadow-light);
+      }
+    }
+  }
+  &.select {
+    &::before{
+      width: 6px;
+      transform: translate(-100%, 80%) rotateZ(45deg);
+    }
+    &::after {
+      width: 16px;
+      transform: translate(-10%, 200%) rotateZ(-60deg);
+      transform-origin: 0;
+    }
+  }
+  &.resize,
+  &.left,
+  &.right,
+  &.top,
+  &.bottom {
+    transform: scale(.6);
+    transform-origin: 50% 50%;
+    &::before,
+    &::after {
+      width: 16px;
+    }
+    &::after {
+      transform: translate(-50%) rotateZ(-90deg);
+      transform-origin: left;
+    }
+  }
+  &.left {
+    transform: rotateZ(45deg) scale(.6);
+  }
+  &.right {
+    transform: rotateZ(-135deg) scale(.6);
+  }
+  &.top {
+    transform: rotateZ(135deg) scale(.6);
+  }
+  &.bottom {
+    transform: rotateZ(-45deg) scale(.6);
+  }
+  &.resize{
+    transform: rotateZ(270deg) scale(.6);
+    cursor: nwse-resize;
+  }
+}
+
+.leoui-icon-btn {
+  transform: translate(26%, -26%);
+  opacity: 0.5;
+  position: absolute;
+  top: 0;
+  right: 0;
+  &.delete {
+    transform: translate(26%, -26%) rotateZ(45deg)!important;
+  }
+  &:hover {
+    opacity: 1;
+  }
+  &.round {
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 50%;
+    &::before,
+    &::after {
+      border-color: var(--leoui-color-white)!important;
+    }
+  }
+}
+
+.leoui-flex-box {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  > div {
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-sizing: border-box;
+  }
+  > .left {
+    width: 40%;
+    max-width: 500px;
+    // border-right: 1px solid #ccc;
+  }
+  // > .center {
+  //   flex: 1;
+  //   padding: 0 var(--leoui-space-1);
+  //   // border-right: 1px solid #ccc;
+  // }
+  > .right {
+    flex: 1;
+    // width: 30%;
+    // max-width: 400px;
+    padding-left: var(--leoui-space-1);
+  }
+}
