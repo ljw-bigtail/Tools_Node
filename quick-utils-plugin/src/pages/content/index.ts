@@ -29,20 +29,27 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
     $productItems: NodeListOf<Element>|null|undefined
     $tips: HTMLElement|null
     list: string[]
+    cacheKey: string
     init: Function
     initDom: Function
     initEvent: Function
     refresh: Function
     renderTop: Function
+    getCache: Function
+    updateCache: Function
     getUrl: Function
   } = {
     $products: null,
     $productItems: null,
     $tips: null,
+    cacheKey: "qup-TopLinkMode",
     list:[],
     init(){
+      // 初始化dom
       this.$products = document.querySelector("#ProductGridContainer #product-grid")
       this.$productItems = this.$products?.querySelectorAll('.grid__item')
+
+      // 初始化赋值弹窗
       ElementsUtils.appendHTML(document.body, `
         <div class="topLinkMode-tip">
           <button class="leoui-button copyBtn">复制</button>
@@ -52,14 +59,16 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
       `)
       this.$tips = document.querySelector(".topLinkMode-tip")
 
-      // 初始化置顶
-      const url = new URL(window.location.href)
-      const sort_by = url.searchParams.get("sort_by")?.split(",")
-      if(sort_by){
-        this.list = sort_by
-      }
+      // 初始化置顶缓存
+      const cache = this.getCache()
+      const sort_by = ((url)=>{
+        const params = url.searchParams.get("sort_by")
+        return params ? params.split(",") : []
+      })(new URL(window.location.href))
+      this.list = [...new Set([...cache, ...sort_by])];
       this.renderTop()
       
+      // 初始化按钮
       this.initDom()
       this.initEvent()
     },
@@ -80,22 +89,15 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
     },
     async getUrl(){
       const url = new URL(window.location.href)
+      url.searchParams.delete("page") 
       url.searchParams.set("sort_by", this.list.join(','))
       const isCopy = await copy(url.href)
       if(!isCopy){
         alert(`自动复制异常，请手动复制：\n${url.href}`)
       }else{
-        // alert('文本已成功复制到剪贴板');
-
-        // chrome.runtime.sendMessage({
-        //   data: 1,
-        //   meg: "复制成功，关闭置顶模式"                                                                                                                                                                                                                                                                                                                                                
-        // })
-
         configCache.topLinkMode = false
         TopLinkMode.refresh(configCache.topLinkMode) 
         Cache.set(cacheKey, configCache);
-
         this.$tips?.classList.remove("open")
       }
     },
@@ -147,11 +149,22 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
           }
         }
         _this.renderTop()
+        _this.updateCache() 
       })
-      // ElementsUtils.delegateEvent(this.$products, "click", ".toTop", function(event){
-      document.querySelector(".topLinkMode-tip .copyBtn")?.addEventListener("click", function(){
-        _this.getUrl()
-      })
+      if(_this.$tips){
+        ElementsUtils.delegateEvent(_this.$tips, "click", ".copyBtn", function(){
+          _this.getUrl()
+        })
+      }
+    },
+    getCache(){
+      const cache = Cache.get(this.cacheKey)
+      return cache && cache[window.location.pathname] ? cache[window.location.pathname] : []
+    },
+    updateCache(){
+      const cache = Cache.get(this.cacheKey)
+      cache[window.location.pathname] = this.list
+      Cache.set(this.cacheKey, cache)
     },
     refresh(state: boolean){
       console.log("运营工具箱 -- Starting", state);
