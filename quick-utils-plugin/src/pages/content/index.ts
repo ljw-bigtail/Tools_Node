@@ -11,10 +11,15 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
   let configCache: AppConfig = Cache.get(cacheKey);
 
   const Listening = (callback: Function)=>{
-    chrome.runtime.onMessage.addListener(({data}, _sender, sendResponse) => {
-      if(data){
-        callback(data as AppConfig)
-        sendResponse("success")
+    chrome.runtime.onMessage.addListener((message, _sender, sendResponse) => {
+      const {actions, data} = message.data
+      switch(actions){
+        case "get": 
+          sendResponse(configCache);
+          break;
+        case "set": 
+          callback(data as AppConfig)
+          break;
       }
     })
   }

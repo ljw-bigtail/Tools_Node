@@ -26,25 +26,13 @@
 <script setup lang="ts">
 import { ref, Ref } from "vue";
 import { Switch, Line } from "@/components/index";
-import { Cache } from "@/utils/utils";
 import { AppConfig } from "@/utils/types";
 import homeSvg from "@/assets/home.svg";
 import topSvg from "@/assets/top.svg";
 
-const cacheKey = "quick-utils-config";
-
-const config: AppConfig = Cache.get(cacheKey);
-
 const setting: Ref<AppConfig> = ref({
-  topLinkMode: config.topLinkMode ?? false,
+  topLinkMode: false,
 });
-
-const handleChange = () => {
-  Cache.set(cacheKey, setting.value);
-  sendToContent(setting.value, function (res: any) {
-    console.log("get content res:" + res);
-  });
-};
 
 const sendToContent = (data: any, callback?: Function) => {
   chrome.tabs.query({
@@ -58,6 +46,24 @@ const sendToContent = (data: any, callback?: Function) => {
     });
   });
 };
+
+const handleChange = () => {
+  sendToContent({
+    actions: "set",
+    data: setting.value
+  }, function (res: any) {
+    console.log("get content res:" + res);
+  });
+};
+
+sendToContent({
+  actions: 'get'
+}, (data: AppConfig) => {
+  console.log(data)
+  if(data){
+    setting.value = data
+  }
+})
 
 // chrome.runtime.onMessage.addListener((req, _sender, sendResponse) => {
 //   if(req.data == 1){

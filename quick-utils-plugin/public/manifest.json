@@ -30,7 +30,7 @@
 
   "background": [{
     "matches": ["<all_urls>"],
-    "js": ["content.js"],
+    "js": ["assets/background.bundle.js"],
     "run_at": "document_idle"
   }],
 
