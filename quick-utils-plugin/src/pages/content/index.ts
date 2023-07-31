@@ -38,6 +38,7 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
     getCache: Function
     updateCache: Function
     getUrl: Function
+    clearCache: Function
   } = {
     $products: null,
     $productItems: null,
@@ -52,7 +53,10 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
       // 初始化赋值弹窗
       ElementsUtils.appendHTML(document.body, `
         <div class="topLinkMode-tip">
-          <button class="leoui-button copyBtn">复制</button>
+          <div class="leoui-btn-group">
+            <button class="leoui-button copyBtn">复制</button>
+            <button class="leoui-button B clearBtn">清除</button>
+          </div>
           <dl>
           </dl>
         </div>
@@ -95,6 +99,10 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
       if(!isCopy){
         alert(`自动复制异常，请手动复制：\n${url.href}`)
       }else{
+        // 清除缓存
+        this.clearCache()
+
+        // 关闭
         configCache.topLinkMode = false
         TopLinkMode.refresh(configCache.topLinkMode) 
         Cache.set(cacheKey, configCache);
@@ -155,6 +163,9 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
         ElementsUtils.delegateEvent(_this.$tips, "click", ".copyBtn", function(){
           _this.getUrl()
         })
+        ElementsUtils.delegateEvent(_this.$tips, "click", ".clearBtn", function(){
+          _this.clearCache()
+        })
       }
     },
     getCache(){
@@ -165,6 +176,13 @@ import { ElementsUtils, Cache, copy } from "@/utils/utils";
       const cache = Cache.get(this.cacheKey)
       cache[window.location.pathname] = this.list
       Cache.set(this.cacheKey, cache)
+    },
+    clearCache(){
+      this.list = []
+      this.renderTop()
+      document.querySelectorAll(".topLinkMode-box .toTop.toggled").forEach(item=>{
+        item.classList.remove("toggled")
+      })
     },
     refresh(state: boolean){
       console.log("运营工具箱 -- Starting", state);
