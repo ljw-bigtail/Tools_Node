@@ -1,8 +1,17 @@
  {
   "manifest_version": 3,
   "name": "运营工具箱",
+  "author": "747624075@qq.com",  
   "version": "1.0.0",
-
+  "default_locale": "zh_CN",
+  "description": "快捷生成置顶链接",
+  "icons": {
+    "16": "img/logo16.png",
+    "48": "img/logo48.png",
+    "128": "img/logo128.png"
+   },
+  "homepage_url": "https://www.numplanet.com/",
+  
   "action": {
     "default_popup": "action.html",
     "default_title": "Click Me",
@@ -12,16 +21,7 @@
       "128": "img/logo128.png"
     }
   },
-  "default_locale": "zh_CN",
-  "description": "快捷生成置顶链接",
-  "icons": {
-    "16": "img/logo16.png",
-    "48": "img/logo48.png",
-    "128": "img/logo128.png"
-   },
-   
-  "author": "747624075@qq.com",  
-  
+
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "js": ["assets/content.bundle.js"],
@@ -32,7 +32,6 @@
     "matches": ["<all_urls>"],
     "js": ["assets/background.bundle.js"],
     "run_at": "document_idle"
-  }],
+  }]
 
-  "homepage_url": "https://www.numplanet.com/"
 }
