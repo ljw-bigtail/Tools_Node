@@ -82,7 +82,7 @@ class FileCache {
       console.error("arguments err");
     }
     const absPath = path.resolve(__dirname, this.filename);
-    await fs.writeFileSync(absPath, JSON.stringify(this.cache, null, '\n'));
+    await fs.writeFileSync(absPath, JSON.stringify(this.cache));
     return this.cache;
   }
   async exitsFile(reaPath) {
