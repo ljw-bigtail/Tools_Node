@@ -82,7 +82,7 @@ class FileCache {
       console.error("arguments err");
     }
     const absPath = path.resolve(__dirname, this.filename);
-    await fs.writeFileSync(absPath, JSON.stringify(this.cache));
+    await fs.writeFileSync(absPath, JSON.stringify(this.cache, null, '\n'));
     return this.cache;
   }
   async exitsFile(reaPath) {
@@ -173,7 +173,8 @@ const imgToPDF = async function (imgs, outFilename) {
   }catch(err){
     console.error('PDF 存储异常：', outFilename);
     console.log(err);
-    fs.rmSync(pdfName)
+    await fs.rmSync(pdfName)
+    console.error('异常PDF删除：', pdfName);
   }
 };
 
@@ -304,7 +305,7 @@ process.on("uncaughtException", async function (err) {
   }
   global.log("任务开始");
   browser = await puppeteer.launch({ 
-    headless: false, // 无头模式 [false 启动界面]
+    headless: true, // 无头模式 [false 启动界面]
     // slowMo: 10, //有时候因为网络原因或者其他页面渲染的原因，默认模式下 puppeteer 操作过快，会出现找不到页面元素等各种意想不到的异常，这时候我们可以设置 slowMo: number 来让 puppeteer 的每一步操作都间隔一定时间
     args: [ //启动 Chrome 的参数
       '--window-size=390,844'
@@ -326,6 +327,9 @@ process.on("uncaughtException", async function (err) {
   global.log(`列表获取完毕`);
 
   await run_img(browser, cache)
+  global.log(`图片获取完毕`);
 
   await run_pdf(cache.list)
+  global.log(`PDF生成完毕`);
+
 })()
