@@ -19,7 +19,7 @@
     <Line />
     <div class="flexbox">
       <img :src="homeSvg" alt="" srcset="" />
-      <a href="https://www.numplanet.com/" target="_blank">鹿酒的院子 Go!</a>
+      <a href="https://ljw-bigtail.github.io/" target="_blank">鹿酒的院子 Go!</a>
     </div>
   </div>
 </template>

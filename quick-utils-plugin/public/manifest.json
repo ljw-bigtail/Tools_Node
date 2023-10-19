@@ -10,7 +10,7 @@
     "48": "img/logo48.png",
     "128": "img/logo128.png"
    },
-  "homepage_url": "https://www.numplanet.com/",
+  "homepage_url": "https://ljw-bigtail.github.io/",
   
   "action": {
     "default_popup": "action.html",
