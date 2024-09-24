@@ -13,6 +13,7 @@
 		"head": {
 			"account": "帳戶",
 			"language": "語言",
+			"languageTiile": "選擇您的貨幣和語言",
 			"currency": "貨幣",
 			"help": "幫助中心",
 			"cart": "购物车",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "訂閱我們的獨家優惠",
+			"subscribe1": "立即訂閱並獲得額外 <span>15% OFF</span> 的折扣",
 			"go": "訂閱",
 			"mail": {
 				"subscribed": "該郵箱已經訂閱",
@@ -35,7 +37,8 @@
 			"snapchat": "Snapchat",
 			"twitter": "Twitter",
 			"bestSelling": "熱賣",
-			"categories": "分類"
+			"categories": "分類",
+			"follow": "關注我們！"
 		},
 		"error": {
 			"404": {
@@ -77,6 +80,7 @@
 			"size": "尺寸",
 			"quantity": "數量",
 			"addToCart": "添加到購物車",
+			"goCustomDetail": "去定制",
 			"designPlaceHolder": "在此處輸入名稱或文本...",
 			"charLeft": {
 				"limitItem{0}": "剩下{0}個字符"
@@ -161,17 +165,16 @@
 				}
 			},
 			"shortOfStock": "缺貨",
-			"size_info": "注意：亞洲尺碼比美國尺碼小，我們建議您選擇比平時尺碼大一號的尺碼。"
-		},
-		"activity": {
-			"activities": "活動",
-			"endin": "結束",
-			"d": "天",
-			"h": "時",
-			"m": "分",
-			"s": "秒"
+			"size_info": "注意：亞洲尺碼比美國尺碼小，我們建議您選擇比平時尺碼大一號的尺碼。",
+			"combinationRecommendation": "組合推薦",
+			"hrs": "24 小時內發貨"
 		},
 		"shopcart": {
+			"combinationDiscount": "組合折扣金額",
+			"combination": "組合",
+			"frequentBought": "經常一起購買",
+			"items": "{0}件",
+			"off": "{0}{1}OFF",
 			"yourShoppingCart": "你的購物車",
 			"shoppingCart": "購物車",
 			"product": "產品",
@@ -183,6 +186,8 @@
 			"total": "總",
 			"remove": "移除",
 			"subtotal": "小計",
+			"itemsTotal": "項目總計",
+			"limitDiscount": "限時折扣",
 			"yourCartIsCurrentlyEmpty": "您的購物車目前是空的。",
 			"continueBrowsing": "繼續瀏覽",
 			"here": "這裡",
@@ -206,7 +211,16 @@
 			"shippingFee": "運輸費用",
 			"addToCartSuccess": "添加到購物車成功！",
 			"personalizedDetail": "定制信息",
-			"eelThan{0}": "貨到付款僅在訂單金額超過 {0} 時可用"
+			"eelThan{0}": "貨到付款僅在訂單金額超過 {0} 時可用",
+			"cartsSelect ": " 全選"
+		},
+		"activity": {
+			"activities": "活動",
+			"endin": "結束",
+			"d": "天",
+			"h": "時",
+			"m": "分",
+			"s": "秒"
 		},
 		"shopcartSide": {
 			"yourCart": "你的購物車",
@@ -287,12 +301,30 @@
 			"pointHasBeenApplied": "積分已兌換！",
 			"discount": "折扣",
 			"allSoldout": "購物清單中的商品全部缺貨，您無法繼續下一步",
-			"allSoldoutAlert": "購物清單中的商品目前缺貨。 請重新選擇要結算的項目",
+			"allSoldoutAlert": "您的訂單已下達，請不要重新提交。轉到“我的訂單”頁面繼續付款。",
 			"partSoldout": "購物清單中的商品目前缺貨，如果您繼續執行下一步操作，系統會自動從購物清單中刪除缺貨商品。",
 			"card_number": "卡號",
 			"expiry_date": "到期日",
 			"security_code": "安全碼",
-			"card_holder": "持卡人"
+			"card_holder": "持卡人",
+			"pleaseEnterCode": "請輸入驗證碼。",
+			"codeIncorrect": "驗證碼不正確。",
+			"enterCode": "輸入驗證碼",
+			"makeSurePhone": "為確保我們可以通過電話與您聯繫，請驗證您的電話號碼：",
+			"needChangePhone": "如需更改電話號碼，請在收貨地址頁面修改。",
+			"changeNumber": "更改號碼",
+			"sendSMS": "發簡訊",
+			"verify": "校驗",
+			"verifyReject": "操作被拒絕！ 驗證碼無效。",
+			"sendmsg": {
+				"success": "發送成功！",
+				"err": "發送失敗！",
+				"frequently": {
+					"_value": "頻繁操作！",
+					"rule": "操作頻繁，請等待10分鐘再試。"
+				}
+			},
+			"saleTax": "销售税"
 		},
 		"orderSummary": {
 			"orderSummary": "訂單摘要",
@@ -308,7 +340,7 @@
 			"salesTax": "銷售稅",
 			"total": "總計",
 			"giftCard": {
-				"_value": "在這裡兌換您的獨家優惠券代碼",
+				"_value": "輸入代碼",
 				"title": "優惠卷"
 			},
 			"userCredit": {
@@ -321,7 +353,7 @@
 			},
 			"remoteAreaInfo{0}": "包括{0}的偏遠地區費用",
 			"coupon": {
-				"firstOrderPercentDiscount{0}": "首單享受 {0} 折優惠",
+				"firstOrderPercentDiscount{0}": "首單立享 {0} 折",
 				"firstOrderDiscountPrice{0}": "首單立減 {0}",
 				"discountPrice{0}{1}": "滿 {0} 減 {1}",
 				"percentDiscount{0}{1}": "滿 {0} 打 {1}折",
@@ -333,7 +365,8 @@
 					"v1{0}{1}{2}": "買滿 {0} 件商品且總金額滿 {1}, 立減 {2} OFF",
 					"v2{0}{1}": "買滿 {0} 件商品, 立減 {1} OFF"
 				},
-				"selectTip": "或從下面的一般優惠券代碼中選擇"
+				"selectTip": "推薦代碼",
+				"postAgeDeducted{0}": " 減免{0}運費"
 			},
 			"chasepay": {
 				"discounts{0}": "立即付款並節省{0}%",
@@ -458,10 +491,18 @@
 			"forter": {
 				"reject": "由於付款安全問題，交易失敗。如果您已完成付款，我們將在3-5個工作日內退款。"
 			},
+			"preforter": {
+				"reject": "由於付款安全問題，交易失敗。"
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "付款成功！",
 				"subtitle": "請在下面的空白處填寫您的詳細地址。"
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "当前国家不支持dlocal,请使用其他支付方式!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -517,7 +558,25 @@
 			"trackOrder": "跟踪訂單",
 			"cancel": "取消",
 			"contactUs": "聯繫我們",
-			"repurchaseInvalid": "您的訂單中有過期商品，過期商品將不會被重新購買"
+			"repurchaseInvalid": "您的訂單中有過期商品，過期商品將不會被重新購買",
+			"writeReview": "寫評論",
+			"viewReview": "查看評論",
+			"postReview": "發表評論",
+			"orderList": "訂單列表",
+			"couponcopied": "已被複製！"
+		},
+		"order": {
+			"cancelOrder": "您要取消此訂單嗎？",
+			"reviewWriteDown": "感謝您完成產品評估。",
+			"repurchaseConfirm": "您確定要將此訂單中的這些商品再次添加到您的購物車嗎？",
+			"repurchaseDone": "商品已成功加入購物車。（售罄商品除外）。請檢查您的購物車。",
+			"status": {
+				"unpaid": "未支付",
+				"processing": "處理中",
+				"shipped": "已發貨",
+				"delivered": "已簽收",
+				"returns": "退貨"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "返回訂單歷史",
@@ -566,26 +625,29 @@
 			"recommend": "推薦"
 		},
 		"shipping": {
+			"partial": "部分發貨",
 			"unshipped": "未發貨",
 			"shipped": "發貨",
 			"partialShipped": "部分發貨"
 		},
 		"payment": {
 			"unpaid": "等待付款",
-			"pending": "Pending",
+			"pending": "支付中",
 			"paid": "已支付",
-			"canceled": "已取消",
 			"shipped": "已出貨",
-			"refunded": "已退款",
-			"partialrefunded": "部分退款",
-			"fulfilled": "已完成",
+			"partialshipped": "部分出貨",
+			"delivered": "已完成",
+			"canceled": "已取消",
+			"return": "已退款",
+			"partialreturn": "部分退款",
 			"processing": "處理中"
 		},
 		"application": {
 			"downloadTitle": "Popopie: 時尚童裝&親子裝購物平台",
-			"downloadMes": "APP專享8.5折!",
+			"downloadMes": "APP專享8折!",
+			"downloadTitle1": "Fashionme 時尚服裝、配飾等。",
 			"download2get": "下載APP可享",
-			"exclusive15off": "專屬折扣 <strong>15% OFF</strong>",
+			"exclusive15off": "專屬折扣 <strong>20% OFF</strong>",
 			"code": "CODE",
 			"download": {
 				"popopie": "更多專屬折扣和額外優惠,盡在POPOPIE APP!"
@@ -601,7 +663,8 @@
 			"category": "分類",
 			"over": "超過",
 			"noResults": "未找到任何項目",
-			"onesize": "一個尺寸"
+			"onesize": "一個尺寸",
+			"salesName": "售出"
 		},
 		"amp": {
 			"sizeAndColor": "顏色和尺碼:",
@@ -614,6 +677,13 @@
 			"or": "或",
 			"expressCheckout": "快速結賬",
 			"supportsHint": "您的訂單貨幣將轉換為美元，這是此付款方式支持的唯一貨幣。"
+		},
+		"klarna": {
+			"supportsHint": "抱歉，Klarna 不支持當前貨幣交易，我們會將其轉換為支持的貨幣進行支付。",
+			"text1": "永遠不會錯過付款。",
+			"text2": "對於付款問題，您可以直接聯繫 Klarna 尋求幫助。",
+			"contact": "聯繫Klarna",
+			"getapp": "獲取 Klarna 應用程序"
 		},
 		"cart": {
 			"account": "已經有一個帳戶",
@@ -696,6 +766,54 @@
 		"sizeGuide": {
 			"sizeCharts": "尺碼表",
 			"sizeGuide": "尺碼表"
+		},
+		"secureDetail": {
+			"hostTitle ": " 購物安全",
+			"firstTitle ": " 安全支付",
+			"firstBranchOneTitle ": " 1.付款方式",
+			"firstBranchTwoTitle ": " 2.安全認證",
+			"secondTitle ": " 安全物流",
+			"secondBranchOneTitle ": " 1.訂單追跡",
+			"secondBranchOneContent ": " 實时物流更新系統。",
+			"secondBranchTwoTitle ": " 2.包裝安全 ",
+			"secondBranchTwoContent ": " 全額退款或重新寄送損壞或遺失的包裹。",
+			"secondBranchThreeTitle ": " 3.關於Covid-19",
+			"secondBranchThreeContent ": " BLUSH MARK遵循嚴格的協定在發貨前對倉庫和包裹進行消毒。",
+			"thirdTitle ": " 客戶服務",
+			"thirdBranchOneTitle ": " 經常問的問題",
+			"thirdBranchTwoTitle ": " 會員福利",
+			"thirdBranchthreeTitle ": " 聯系客戶支援",
+			"fourthTitle ": " 隱私保護",
+			"firstContent {0}": " 您在{{SiteNum}}的付款受到全球支付安全認證的保護。",
+			"fourthContent {0}": " {{SiteNum}}認真履行適用隱私法律和法規規定的責任，並致力於尊重{{SiteNum}}網站和移動應用程序所有用戶的隱私權和關注點"
+		},
+		"carts": {
+			"cartSelectNum {0}": " 購物袋(<span class=\"mz-cartCount\">{{lengthSelect}}</span>件物品)"
+		},
+		"proDetail": {
+			"small ": " 小的",
+			"big ": " 大的",
+			"color ": " 顏色",
+			"size ": " 訂購的尺寸",
+			"filter ": " 優化評論依據",
+			"starTitle ": " 星級評定",
+			"stars ": " 星星",
+			"allFit ": " 整體貼合度",
+			"fit ": " 適合",
+			"clear ": " 清除",
+			"search ": " 顯示結果",
+			"fitEnd ": " 與尺寸相符",
+			"filters ": " 篩檢",
+			"noData ": " 暫無",
+			"Ends ": " 結束"
+		},
+		"price": {
+			"priceTitle ": " 價格差异"
+		}
+	},
+	"# view": {
+		"checkout": {
+			"firstOrderOff": ""
 		}
 	},
 	"web": {
@@ -771,7 +889,8 @@
 		"goodsDetail": {
 			"addToCart": "添加購物車",
 			"soldout": "售罄",
-			"sizeguide": "尺 碼"
+			"sizeguide": "尺 碼",
+			"specification": "請選擇顏色、尺碼、數量"
 		},
 		"aggr": {
 			"goods": {
@@ -857,9 +976,11 @@
 				"freeGifts": "免費贈品",
 				"selectGift": "選擇贈品",
 				"viewGift": "查看贈品",
+				"viewDetail": "查看詳細資訊",
 				"updateItem": "更換贈品",
 				"cancel": "取消",
 				"confirm": "確認",
+				"desc": "此禮物清單僅供您參考。 如果您的訂單中有贈品，您可以在購物車頁面選擇贈品的商品、尺寸或顏色。",
 				"exchange{0}": "滿{0}件可低價換購",
 				"exchange": {
 					"current{0}": "滿{0}件可低價換購",
@@ -885,6 +1006,9 @@
 						"zh{0}{1}": "滿{0}打{1}折"
 					}
 				}
+			},
+			"combination": {
+				"updateItem": "更新商品"
 			}
 		},
 		"advantage": {
@@ -956,7 +1080,9 @@
 			"pleaseFillInThe": "請填寫無法用數字組成的正確城市。",
 			"address1IsRequired": "地址1是必需的",
 			"address1Length": "地址1長度太長，最多1024個字符",
+			"address1LengthGt": "地址行應至少包含 5 個字母和數字。",
 			"address2Length": "地址2長度太長，最多1024個字符",
+			"addressReg": "請輸入正確的地址信息。",
 			"postCodeIsRequired": "郵政編碼是必需的",
 			"postCodeLength": "郵政編碼長度太長，最多16個字符",
 			"emailIsInvalid": "電子郵件無效",
@@ -997,6 +1123,7 @@
 			"userDataUpdateFail": "用戶數據更新失敗",
 			"emailCannotBeEmpty": "電子郵件不能為空。",
 			"noAccount": "找不到該電子郵件的帳戶。",
+			"urloverdue": "The link is invalid, please re-operate on the site for a new valid link.",
 			"theRecoverSession": "恢復會話無效，請重新開始。",
 			"theTwoPassword": "這兩個密碼條目不一致。",
 			"thePasswordUpdate": "密碼更新失敗!請再試一次。"
@@ -1179,7 +1306,7 @@
 		"register": {
 			"subscribe": "立即訂閲",
 			"title": "訂閲郵件咨詢可獲",
-			"discount": "10%的折扣",
+			"discount": "15%的折扣",
 			"privacy{0}": "點擊“立即訂閲”按鈕代表你已同意<a href=\"{0}\">《隱私政策》</a>",
 			"whySubscribe": "爲什麽訂閲郵件？",
 			"account": "隨時獲得跟蹤你訂單的最新資訊",

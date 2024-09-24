@@ -1,0 +1,1 @@
+json["view"]["carts"]["cartSelectNum "]=' Пакеты для покупок (<span class="mz-cartCount">{{lengthSelect}}</span> предмет)'

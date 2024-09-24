@@ -1,0 +1,1 @@
+json["view"]["carts"]["cartSelectNum "]=' ショッピングバッグ（<span class="mz-cartCount">{{lengthSelect}}</span>アイテム）'

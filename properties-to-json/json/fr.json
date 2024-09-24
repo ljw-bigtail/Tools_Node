@@ -13,6 +13,7 @@
 		"head": {
 			"account": "Compte",
 			"language": "Langue",
+			"languageTiile": "Choisissez votre devise et votre langue",
 			"currency": "Devise",
 			"help": "Centre d'aide",
 			"cart": "Panier",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "Abonnez-vous à nos offres exclusives",
+			"subscribe1": "INSCRIVEZ-VOUS MAINTENANT ET OBTENEZ <span>15% OFF</span> DE RÉDUCTION SUPPLÉMENTAIRE",
 			"go": "C'est parti",
 			"mail": {
 				"subscribed": "Cette boîte aux lettres a été abonnée",
@@ -35,7 +37,8 @@
 			"snapchat": "Snapshat",
 			"twitter": "Twitter",
 			"bestSelling": "Meilleures Ventes",
-			"categories": "Les catégories"
+			"categories": "Les catégories",
+			"follow": "Suivez-nous!"
 		},
 		"error": {
 			"404": {
@@ -54,7 +57,10 @@
 		},
 		"index": {
 			"viewAll": "Tout Afficher",
-			"loadMore": "VOIR PLUS"
+			"loadMore": "Voir plus",
+			"discover": "DÉCOUVRIR",
+			"desc": "Plus De 1000 Styles AjoutÉs",
+			"endsin": "Se termine dans"
 		},
 		"goodsList": {
 			"home": "Accueil",
@@ -77,6 +83,7 @@
 			"size": "Taille",
 			"quantity": "Quantité",
 			"addToCart": "AJOUTER AU PANIER",
+			"goCustomDetail": "Aller à la personnalisation",
 			"designPlaceHolder": "Entrez le nom ou le texte ici ...",
 			"charLeft": {
 				"limitItem{0}": "{0} caractère (s) restant (s)"
@@ -98,7 +105,7 @@
 			"limit10": "Limite de 10 articles par personne",
 			"personalize": "Personnaliser",
 			"review": {
-				"customerReviews": "avis clients",
+				"customerReviews": "Commentaires des clients",
 				"writeAReview": "Écrire un commentaire",
 				"example": {
 					"_value": "exemple: j'ai acheté ceci il y a un mois et je suis tellement heureux de l'avoir fait…",
@@ -161,17 +168,16 @@
 				}
 			},
 			"shortOfStock": "rupture de stock",
-			"size_info": "Remarque : la taille asiatique est plus petite que la taille américaine, nous vous suggérons de choisir une taille plus grande que votre taille habituelle."
-		},
-		"activity": {
-			"activities": "Activités",
-			"endin": "FINI DANS",
-			"d": "journées",
-			"h": "heures",
-			"m": "minutes",
-			"s": "seconds"
+			"size_info": "Remarque : la taille asiatique est plus petite que la taille américaine, nous vous suggérons de choisir une taille plus grande que votre taille habituelle.",
+			"combinationRecommendation": "Recommandation de combinaison",
+			"hrs": "Expédition sous 24 heures"
 		},
 		"shopcart": {
+			"combinationDiscount": "Remise combinée",
+			"combination": "Combinaison",
+			"frequentBought": "Produits fréquemment achetés ensemble",
+			"items": "{0}Items",
+			"off": "{0}{1}OFF",
 			"personalizedDetail": "Détail personnalisé",
 			"yourShoppingCart": "Votre Panier d'Achats",
 			"shoppingCart": "Panier d'Achats",
@@ -184,6 +190,8 @@
 			"total": "Total",
 			"remove": "Supprimer",
 			"subtotal": "Sous-total",
+			"itemsTotal": "Total des articles",
+			"limitDiscount": "Remise limite",
 			"yourCartIsCurrentlyEmpty": "Votre panier est actuellement vide.",
 			"continueBrowsing": "Continuer vos recherches",
 			"here": "ici",
@@ -206,7 +214,18 @@
 			"addItems": "Ajouter des articles",
 			"shippingFee": "Frais d'expédition",
 			"addToCartSuccess": "Ajouter au panier avec succès!",
-			"eelThan{0}": "COD n'est disponible que lorsque le montant de la commande est supérieur à {0}"
+			"eelThan{0}": "COD n'est disponible que lorsque le montant de la commande est supérieur à {0}",
+			"sellsText{0}": "{0} personnes ont acheté au cours des dernières 24 heures",
+			"cartsText{0}": "Dépêchez-vous！<span style=\"color:#E71212;\">Plus de {0} personnes</span> ont ce produit dans leur panier",
+			"cartsSelect ": " Tout sélectionner"
+		},
+		"activity": {
+			"activities": "Activités",
+			"endin": "SE TERMINE DANS",
+			"d": "journées",
+			"h": "heures",
+			"m": "minutes",
+			"s": "seconds"
 		},
 		"shopcartSide": {
 			"yourCart": "Votre Panier",
@@ -287,12 +306,31 @@
 			"pointHasBeenApplied": "Les points ont été échangés!",
 			"discount": "Remise",
 			"allSoldout": "Les articles de votre sélection sont tous en rupture de stock et vous ne pouvez pas passer à l'étape suivante.",
-			"allSoldoutAlert": "Les articles de votre sélection sont actuellement en rupture de stock. Veuillez sélectionner d'autres articles pour passer la commande.",
+			"allSoldoutAlert": "Votre commande a été passée, veuillez ne pas soumettre à nouveau. Accédez à la page 'Mes commandes' pour continuer le paiement.",
 			"partSoldout": "Des articles de votre sélection sont actuellement en rupture de stock. Si vous passez à l'étape suivante, le système les supprimera automatiquement de votre sélection.",
+			"firstOrderOff": "10% DE RÉDUCTION PREMIER ORDRE",
 			"card_number ": " Numéro de carte",
 			"expiry_date ": " Date d'expiration",
 			"security_code ": " Code de sécurité",
-			"card_holder ": " Titulaire de la carte"
+			"card_holder ": " Titulaire de la carte",
+			"pleaseEnterCode": "Veuillez saisir le code de validation.",
+			"codeIncorrect": "Le code de validation est incorrect.",
+			"enterCode": "Entrez le code de vérification",
+			"makeSurePhone": "Pour être sûr que nous puissions vous contacter par téléphone, veuillez vérifier votre numéro :",
+			"needChangePhone": "Si vous avez besoin de changer de numéro de téléphone, veuillez le modifier dans la page d'adresse de livraison.",
+			"changeNumber": "Changer de numéro",
+			"sendSMS": "Envoyer un SMS",
+			"verify": "Vérifier",
+			"verifyReject": "Opération refusée ! Le code de vérification est invalide.",
+			"sendmsg": {
+				"success": "Bien envoyé!",
+				"err": "Échec de l'envoi !",
+				"frequently": {
+					"_value": "Opération fréquente !",
+					"rule": "L'opération est fréquente, veuillez patienter 10 minutes et réessayer."
+				}
+			},
+			"saleTax": "Taxe de vente"
 		},
 		"orderSummary": {
 			"orderSummary": "Récapitulatif de la commande",
@@ -308,7 +346,7 @@
 			"salesTax": "taxe de vente",
 			"total": "Total",
 			"giftCard": {
-				"_value": "Utilisez votre code promo exclusif ici",
+				"_value": "code d'entrée",
 				"title": "Code de coupon"
 			},
 			"userCredit": {
@@ -333,7 +371,8 @@
 					"v1{0}{1}{2}": "Achetez plus de {0} articles et plus de {1}, obtenez {2} OFF",
 					"v2{0}{1}": "Achetez plus de {0} articles, obtenez {1} OFF"
 				},
-				"selectTip": "OU choisissez parmi des coupons généraux"
+				"selectTip": "Recommander le code",
+				"postAgeDeducted{0}": " Frais De Port Déduits De {0}"
 			},
 			"chasepay": {
 				"discounts{0}": "Payez maintenant et économisez {0}%",
@@ -457,10 +496,18 @@
 			"forter": {
 				"reject": "La  transaction  a  échoué  en  raison  du  problème  de  sécurité  du  paiement.  Si  vous  avez  effectué  le  paiement,  nous  effectuerons  le  remboursement  dans  un  délai  de  3  à  5  jours  ouvrables."
 			},
+			"preforter": {
+				"reject": "La transaction a échoué en raison de problèmes de sécurité de paiement."
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title ": " Payé avec succès！",
 				"subtitle ": " Veuillez remplir votre adresse détaillée dans les espaces ci-dessous."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "Le pays actuel ne prend pas en charge dlocal, veuillez utiliser d'autres méthodes de paiement!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -516,7 +563,25 @@
 			"trackOrder": "Suivi de la commande",
 			"cancel": "Annuler",
 			"contactUs": "Contactez nous",
-			"repurchaseInvalid": "Votre commande contient des articles expirés et ceux-ci ne seront pas rachetés"
+			"repurchaseInvalid": "Votre commande contient des articles expirés et ceux-ci ne seront pas rachetés",
+			"writeReview": "Ecrire une critique",
+			"viewReview": "Voir l'avis",
+			"postReview": "POST REVUE",
+			"orderList": "Liste de commandes",
+			"couponcopied": "a été copié !"
+		},
+		"order": {
+			"cancelOrder": "Voulez-vous annuler cette commande ?",
+			"reviewWriteDown": "Merci d'avoir complété l'évaluation du produit.",
+			"repurchaseConfirm": "Êtes-vous sûr de vouloir ajouter à nouveau ces articles de cette commande à votre panier ?",
+			"repurchaseDone": "Articles ajoutés au panier avec succès. (sauf les articles en rupture de stock). Veuillez vérifier votre panier.",
+			"status": {
+				"unpaid": "Non payé",
+				"processing": "Traitement",
+				"shipped": "Expédié",
+				"delivered": "Livré",
+				"returns": "Retour"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "Retourner à l'Historique des Commandes",
@@ -568,6 +633,7 @@
 			"recommend": "Recommander"
 		},
 		"shipping": {
+			"partial": "Partiellement expédié",
 			"unshipped": "NON-EXPÉDIÉ",
 			"shipped": "EXPÉDIÉ",
 			"partialShipped": "PARTIELLEMENT_EXPÉDIÉ"
@@ -576,18 +642,20 @@
 			"unpaid": "En attente de paiement",
 			"pending": "En attente",
 			"paid": "Payé",
-			"canceled": "Annulé",
 			"shipped": "Expédié",
-			"refunded": "Remboursé",
-			"partialrefunded": "Remboursement partiel",
-			"fulfilled": "Rempli",
+			"partialshipped": "Livraison partielle",
+			"delivered": "Rempli",
+			"canceled": "Annulé",
+			"return": "Remboursé",
+			"partialreturn": "Remboursement partiel",
 			"processing": "En traitement"
 		},
 		"application": {
 			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
-			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"downloadMes": "Enjoy Extra 20% OFF on APP!",
+			"downloadTitle1": "Fashionme Vêtements, accessoires tendance et plus encore.",
 			"download2get": "DOWNLOAD TO GET",
-			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"exclusive15off": "EXCLUSIVE <strong>20% OFF</strong>",
 			"code": "CODE",
 			"download": {
 				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
@@ -603,7 +671,8 @@
 			"category": "Catalogue",
 			"over": "Plus que",
 			"noResults": "Aucun élément trouvé",
-			"onesize": "taille unique"
+			"onesize": "taille unique",
+			"salesName": "vendus"
 		},
 		"amp": {
 			"sizeAndColor": "Taille et couleur:",
@@ -616,6 +685,13 @@
 			"or": "OU",
 			"expressCheckout": "Paiement express",
 			"supportsHint": "La devise de votre commande sera convertie en USD, qui est la seule devise prise en charge par ce mode de paiement."
+		},
+		"klarna": {
+			"supportsHint": "Désolé, Klarna ne prend pas en charge la transaction de devise actuelle, et nous la convertirons dans une devise prise en charge pour le paiement.",
+			"text1": "Ne manquez jamais un paiement.",
+			"text2": "Pour les problèmes de paiement, vous pouvez contacter directement Klarna pour obtenir de l'aide.",
+			"contact": "Contacter Klarna",
+			"getapp": "obtenir l'application Klarna"
 		},
 		"cart": {
 			"account ": " avez-vous déjà un compte",
@@ -691,6 +767,87 @@
 		"sizeGuide": {
 			"sizeCharts": "SIZE CHARTS",
 			"sizeGuide": "SIZE GUIDE"
+		},
+		"secureDetail": {
+			"hostTitle ": " SÉCURITÉ DES ACHATS",
+			"firstTitle ": " Paiement sécurisé",
+			"firstBranchOneTitle ": " 1.Méthode de paiement",
+			"firstBranchTwoTitle ": " 2.Certifications de sécurité",
+			"secondTitle ": " Logistique sécurisée",
+			"secondBranchOneTitle ": " 1.Sécurité des emballages",
+			"secondBranchOneContent ": " Système de mise à jour logistique en temps réel.",
+			"secondBranchTwoTitle ": " 2.Sécurité du colis",
+			"secondBranchTwoContent ": " Remboursement intégral ou renvoi de votre colis endommagé ou perdu.",
+			"secondBranchThreeTitle ": " 3. À propos de covid - 19",
+			"secondBranchThreeContent ": " Blush Mark suit des procédures strictes pour désinfecter l'entrepôt et l'emballage avant l'expédition.",
+			"thirdTitle ": " Service Clients",
+			"thirdBranchOneTitle ": " Questions fréquemment posées",
+			"thirdBranchTwoTitle ": " Avantages d'affiliation",
+			"thirdBranchthreeTitle ": " Contactez l'assistance clientèle",
+			"fourthTitle ": " La protection de la vie privée",
+			"hostTitle1 ": " Les engagements de Faciway",
+			"firstTitle1 ": " Sécurité et confidentialité",
+			"firstBranchOneTitle1 ": " 1.Payez en toute confiance avec nos méthodes sécurisées",
+			"firstBranchOneContent1 ": " Faciway suit la norme de sécurité des données de l'industrie des cartes de paiement (PCI DSS) et d'autres normes de sécurité lors du traitement des données de carte.",
+			"firstBranchTwoTitle1 ": " 2.Nous gardons vos données personnelles privées, sûres et sécurisées",
+			"secondTitle1 ": " Livraison gratuite et retours faciles",
+			"secondBranchOneTitle1 ": " 1.Livraison gratuite pour les commandes de plus de 89 $",
+			"secondBranchTwoTitle1 ": " 2.Garantie de livraison",
+			"secondBranchTwoContent1 ": " Nous garantissons que votre colis vous parviendra en toute sécurité et à temps. S'il y a des problèmes, nous ferons de notre mieux pour résoudre les problèmes et fournir les meilleures solutions.",
+			"secondBranchThreeTitle1 ": " 3.Le retour ou l'échange dans les 30 jours à compter de la date de livraison est accepté",
+			"thirdTitle1 ": " Politique d'ajustement des prix",
+			"thirdContent1 ": " Nous indiquerons la différence de prix, en fonction du prix et du type de devise de la commande payée, si le prix catalogue du même article a été réduit dans les 30 jours suivant l'achat dans le même pays ou région. Les articles en promotion, qui ne sont plus disponibles, en liquidation, etc. peuvent ne pas être éligibles à notre politique d'ajustement des prix.",
+			"fourthTitle1 ": " Service client",
+			"fourthContent1 ": " Si vous avez des questions, veuillez nous contacter à service@faciway.com.",
+			"firstContent {0}": " Votre paiement chez {{SiteNum}} est sécurisé avec des certifications mondiales de sécurité des paiements. ",
+			"fourthContent {0}": " {{SiteNum}} prend au sérieux ses responsabilités en vertu des lois et réglementations applicables en matière de confidentialité et s'engage à respecter les droits et les préoccupations en matière de confidentialité de tous les utilisateurs de notre site Web {{SiteNum}}."
+		},
+		"carts": {
+			"taxText ": " TVA incluse",
+			"taxEnd ": " Total, TVA incluse",
+			"cartSelectNum {0}": " Sacs à provisions (<span class=\"mz-cartCount\">{{lengthSelect}}</span>articles)"
+		},
+		"proDetail": {
+			"small ": " Le petit",
+			"big ": " Le grand",
+			"color ": " Couleur",
+			"size ": " Dimensions commandées",
+			"filter ": " Optimiser la base de commentaires",
+			"starTitle ": " Évaluation par étoiles",
+			"stars ": " Les étoiles",
+			"allFit ": " Ajustement global",
+			"fit ": " Convient pour",
+			"clear ": " Clairement",
+			"search ": " Afficher les résultats",
+			"fitEnd ": " Conforme à la taille",
+			"filters ": " Filtres",
+			"noData ": " Pas encore",
+			"Ends ": " Se termine dans"
+		},
+		"price": {
+			"priceTitle ": " Différence de prix"
+		},
+		"cookies": {
+			"consTitle": "Nous protégeons vos données personnelles.",
+			"consDesc{0}": "Nous utilisons des cookies pour améliorer votre expérience utilisateur sur notre site web et pour nous permettre, ainsi qu'à des tiers, de personnaliser votre expérience d'achat sur et en dehors de notre site web. Vous pouvez accepter tous les cookies ou effectuer des réglages individuels. Pour plus d'informations, consultez notre <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"consAll": "C'est bon!",
+			"consDialog": "Changer",
+			"consLink": "Informations sur les cookies",
+			"privacyPolicy": "Politique de confidentialité",
+			"popHead": "Nous protégeons vos données personnelles",
+			"popContent{0}": "Nous utilisons des cookies pour améliorer votre expérience utilisateur sur notre site web et pour nous permettre, ainsi qu'à des tiers, de personnaliser votre expérience d'achat sur et en dehors de notre site web. Vous pouvez accepter tous les cookies ou effectuer des réglages individuels. Pour plus d'informations, consultez notre <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"subTitle": "Déclaration de cookie",
+			"text1": "Cookies strictement nécessaires",
+			"content1": "Ces cookies sont strictement nécessaires pour l'application de certaines fonctions sur notre site web, telles que le paiement. Les cookies ne peuvent pas être désactivés mais ne stockent aucune information personnelle.",
+			"text2": "Cookies de performance",
+			"content2": "Ces cookies nous permettent de déterminer les sources de trafic des visiteurs afin que nous puissions mesurer et améliorer les performances de notre site web.",
+			"text3": "Cookies fonctionnels",
+			"content3": "Les cookies fonctionnels améliorent votre expérience d'achat en se souvenant des articles déjà achetés, de vos préférences et de l'historique de votre panier d'achat. Le refus de ces cookies peut entraîner le non fonctionnement de certains ou de tous nos services client.",
+			"text4": "Cookies à des fins marketing",
+			"content4": "Ces cookies sont utilisés pour suivre les visiteurs sur différents sites web. L'objectif est d'afficher des annonces pertinentes et attrayantes pour l'utilisateur individuel.",
+			"popOk": "Enregistrer les paramètres",
+			"popAll": "Accepter tout",
+			"disabled": "Toujours actif"
 		}
 	},
 	"web": {
@@ -766,7 +923,8 @@
 		"goodsDetail": {
 			"addToCart": "AJOUTER AU PANIER",
 			"soldout": "ÉPUISÉ",
-			"sizeguide": "Guide des tailles"
+			"sizeguide": "Guide des tailles",
+			"specification": "Veuillez sélectionner la couleur, la taille, la quantité"
 		},
 		"aggr": {
 			"goods": {
@@ -840,9 +998,11 @@
 				"freeGifts": "Cadeau gratuit",
 				"selectGift": "Sélectionnez un cadeau",
 				"viewGift": "Voir le cadeau",
+				"viewDetail": "Voir detail",
 				"updateItem": "ÉLÉMENT DE MISE À JOUR",
 				"cancel": "ANNULER",
 				"confirm": "CONFIRMER",
+				"desc": "Cette liste de cadeaux est uniquement pour votre référence. Vous pouvez choisir l'article, la taille ou la couleur du cadeau gratuit sur la page du panier si des cadeaux sont disponibles dans votre commande.",
 				"exchange{0}": "Achetez {0} pour profiter de prix bas.",
 				"exchange": {
 					"current{0}": "Achetez {0} pour profiter de prix bas.",
@@ -862,6 +1022,9 @@
 					"manjian{0}{1}": "-{0} dès {1}",
 					"discount{0}{1}": "-{0}% dès {1}"
 				}
+			},
+			"combination": {
+				"updateItem": "élément de mise à jour"
 			}
 		},
 		"advantage": {
@@ -933,7 +1096,9 @@
 			"pleaseFillInThe": "Veuillez saisir un nom de ville correct qui ne soit pas composé de chiffres.",
 			"address1IsRequired": "L'adresse1 est requise",
 			"address1Length": "L'adresse1 est trop longue, 1024 caractères max.",
+			"address1LengthGt": "La ligne d'adresse doit contenir au moins 5 lettres et chiffres.",
 			"address2Length": "L'adresse2 est trop longue, 1024 caractères max.",
+			"addressReg": "Veuillez entrer les informations d'adresse correctes.",
 			"postCodeIsRequired": "Un code postal est requis",
 			"postCodeLength": "Le code postale est trop long, 16 caractères max.",
 			"emailIsInvalid": "L'adresse électronique n'est pas valide",
@@ -974,6 +1139,7 @@
 			"userDataUpdateFail": "Échec de la mise à jour des données utilisateur",
 			"emailCannotBeEmpty": "L'adresse électronique ne peut pas être vide.",
 			"noAccount": "Aucun compte associé à ce courriel.",
+			"urloverdue": "Le lien est valide pendant 24 heures et ne peut être utilisé qu'une seule fois.",
 			"theRecoverSession": "La session de récupération a été invalidée, veuillez recommencer depuis le début.",
 			"theTwoPassword": "Les deux mots de passe saisis sont différents.",
 			"thePasswordUpdate": "La mise à jour du mot de passe a échoué ! Veuillez réessayer."

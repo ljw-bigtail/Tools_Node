@@ -13,6 +13,7 @@
 		"head": {
 			"account": "الحساب",
 			"language": "غةلغة",
+			"languageTiile": "اختر عملتك ولغتك",
 			"currency": "عملة",
 			"help": "مركز المساعدة",
 			"cart": "عربة التسوق",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "اشترك للحصول على عروضنا الحصرية",
+			"subscribe1": "اشترك الآن واحصل على خصم إضافي <span>15٪</span>",
 			"go": "اذهب",
 			"mail": {
 				"subscribed": "تم الاشتراك في صندوق البريد هذا",
@@ -35,7 +37,8 @@
 			"snapchat": "سناب شات",
 			"twitter": "تويتر",
 			"bestSelling": "أفضل مبيعات",
-			"categories": "الاقسام"
+			"categories": "الاقسام",
+			"follow": "تابعنا!"
 		},
 		"error": {
 			"404": {
@@ -97,7 +100,7 @@
 			"limit10": "حد 10 عناصر لكل شخص",
 			"personalize": "أضفى طابع شخصي",
 			"review": {
-				"customerReviews": "مراجعات العملاء",
+				"customerReviews": " تعليقات العملا ",
 				"writeAReview": "اكتب رأيك",
 				"example": {
 					"_value": "مثلا: اشتريت هذا المنتج منذ شهر وأنا سعيد جدًا ...",
@@ -161,17 +164,16 @@
 			},
 			"secureOnlineShopping": "100 ٪ آمنة للتسوق عبر الإنترنت",
 			"shortOfStock": "نقص المخزون",
-			"size_info": "ملاحظة: المقاس الآسيوي أصغر من المقاس الأمريكي ، نقترح عليك اختيار مقاس واحد أكبر من مقاسك المعتاد."
-		},
-		"activity": {
-			"activities": "الأنشطة",
-			"endin": "ينتهي في",
-			"d": "أيام",
-			"h": "ساعات",
-			"m": "الدقائق",
-			"s": "ثواني"
+			"size_info": "ملاحظة: المقاس الآسيوي أصغر من المقاس الأمريكي ، نقترح عليك اختيار مقاس واحد أكبر من مقاسك المعتاد.",
+			"combinationRecommendation": "توصية الجمع",
+			"hrs": "الشحن خلال 24 ساعة"
 		},
 		"shopcart": {
+			"combinationDiscount": "خصم المجموعة",
+			"combination": "مزيج ",
+			"frequentBought": "اشترى في كثير من الأحيان جنبا إلى جنب",
+			"items": "مادة {0}",
+			"off": "خصم {0}{1}",
 			"personalizedDetail": "تفاصيل شخصية",
 			"yourShoppingCart": "سلة التسوق الخاصة بك",
 			"shoppingCart": "عربة التسوق",
@@ -184,6 +186,8 @@
 			"total": "مجموع",
 			"remove": "إزالة",
 			"subtotal": "الإجمالي الفرعي",
+			"itemsTotal": "مجموع العناصر",
+			"limitDiscount": "حد الخصم",
 			"yourCartIsCurrentlyEmpty": "عربة التسوق فارغة حاليا.",
 			"continueBrowsing": "مواصلة التصفح",
 			"here": "هنا",
@@ -206,7 +210,16 @@
 			"addItems": "إضافة عناصر",
 			"shippingFee": "رسوم الشحن",
 			"addToCartSuccess": "أضف إلى عربة التسوق بنجاح!",
-			"eelThan{0}": "لدفع عند الاستلام متاح فقط عندما يكون مبلغ الطلب أكثر من {0} "
+			"eelThan{0}": "لدفع عند الاستلام متاح فقط عندما يكون مبلغ الطلب أكثر من {0} ",
+			"cartsSelect ": " اختيار كامل"
+		},
+		"activity": {
+			"activities": "الأنشطة",
+			"endin": "ينتهي في",
+			"d": "أيام",
+			"h": "ساعات",
+			"m": "الدقائق",
+			"s": "ثواني"
 		},
 		"shopcartSide": {
 			"yourCart": "عربتك",
@@ -287,12 +300,30 @@
 			"pointHasBeenApplied": "تم استبدال النقاط!",
 			"discount": "خصم",
 			"allSoldout": "العناصر الموجودة في قائمة التسوق الخاصة بك كلها مخزنة ولا يمكنك المتابعة إلى الخطوة التالية",
-			"allSoldoutAlert": "العناصر الموجودة في قائمة التسوق الخاصة بك غير متوفرة حالياً. يرجى إعادة تحديد العناصر للتسوية",
+			"allSoldoutAlert": "تم تقديم طلبك ، من فضلك لا تعيد تقديمها. انتقل إلى صفحة 'طلبات' لمواصلة الدفع.",
 			"partSoldout": "العناصر الموجودة في قائمة التسوق الخاصة بك غير متوفرة حالياً ، وإذا انتقلت إلى الخطوة التالية ، سيقوم النظام تلقائيًا بإزالة عناصر المخزون من قائمة التسوق.",
 			"card_number": "رقم البطاقة",
 			"expiry_date": "تاريخ الانتهاء",
 			"security_code": "رمز الحماية",
-			"card_holder": "حامل البطاقة"
+			"card_holder": "حامل البطاقة",
+			"pleaseEnterCode": "الرجاء إدخال رمز الرأس.",
+			"codeIncorrect": "رمز الرأس غير صحيح.",
+			"enterCode": "أدخل كود الترقيم",
+			"makeSurePhone": "للتأكد من أنه يمكننا الاتصال بك عبر الهاتف ، يرجى التحقق من رقمك:",
+			"needChangePhone": "إذا كنت بحاجة إلى تغيير رقم الهاتف ، فيرجى تعديله في صفحة عنوان الشحن.",
+			"changeNumber": "تغيير رقم",
+			"sendSMS": "أرسل رسالة نصية قصيرة",
+			"verify": "تحقق",
+			"verifyReject": "العملية مرفوضة! رمز التحقق غير صالح.",
+			"sendmsg": {
+				"success": "أرسلت بنجاح!",
+				"err": "فشل فى الارسال!",
+				"frequently": {
+					"_value": "كثرة التشغيل!",
+					"rule": "العملية متكررة ، يرجى الانتظار لمدة 10 دقائق والمحاولة مرة أخرى."
+				}
+			},
+			"saleTax": "ضريبة المبيعات"
 		},
 		"orderSummary": {
 			"orderSummary": "ملخص الطلب",
@@ -308,7 +339,7 @@
 			"salesTax": "ضريبة المبيعات",
 			"total": "المجموع",
 			"giftCard": {
-				"_value": "سترداد رمز القسيمة الحصري الخاص بك هنا",
+				"_value": "إدخال رمز",
 				"title": "رمز الكوبون"
 			},
 			"userCredit": {
@@ -333,7 +364,8 @@
 					"v1{0}{1}{2}": "توفير{0}عند تسوّق أكثر من {1} وكميّات السلع تبلغ {2} قطع",
 					"v2{0}{1}": "توفير{0}عند كميّات السلع تبلغ {1} قطع"
 				},
-				"selectTip": "أو اختر من أكواد القسيمة العامة أدناه"
+				"selectTip": "يوصي رمز",
+				"postAgeDeducted{0}": "تم اقتطاع أجرة البريد {0}"
 			},
 			"chasepay": {
 				"discounts{0}": "ادفع الآن ووفر {0}%٪",
@@ -458,10 +490,18 @@
 			"forter": {
 				"reject": "فشلت  المعاملة  بسبب  مشكلة  أمان  الدفع.  إذا  كنت  قد  أكملت  الدفعة  ،  فسنقوم  برد  المبلغ  خلال  3-5  أيام  عمل."
 			},
+			"preforter": {
+				"reject": " الصفقة فشلت بسبب دفع الأمن . "
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "تم الدفع بنجاح！",
 				"subtitle": "يرجى ملء عنوانك المفصل في الفراغات أدناه."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "البلد الحالي لا يدعم dlocal ، يرجى استخدام طرق دفع أخرى!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -517,7 +557,25 @@
 			"trackOrder": "تتبع الطلب",
 			"cancel": "الغاء",
 			"contactUs": "اتصل بنا",
-			"repurchaseInvalid": "هناك عناصر منتهية الصلاحية في طلبك ، ولن تتم إعادة شراء العناصر منتهية الصلاحية"
+			"repurchaseInvalid": "هناك عناصر منتهية الصلاحية في طلبك ، ولن تتم إعادة شراء العناصر منتهية الصلاحية",
+			"writeReview": "أكتب مراجعة",
+			"viewReview": "مشاهدة الاستعراض",
+			"postReview": "مراجعة آخر",
+			"orderList": "لائحة الطلبات",
+			"couponcopied": "تم نسخ "
+		},
+		"order": {
+			"cancelOrder": "هل تريد إلغاء هذا الطلب؟",
+			"reviewWriteDown": "شكرا لاستكمال تقييم المنتج.",
+			"repurchaseConfirm": "هل أنت متأكد أنك تريد إضافة هذه العناصر من هذا الطلب إلى عربة التسوق الخاصة بك مرة أخرى؟",
+			"repurchaseDone": "تمت إضافة العناصر إلى عربة التسوق بنجاح (باستثناء العناصر المباعة) ، يرجى التحقق من عربة التسوق الخاصة بك.",
+			"status": {
+				"unpaid": "غير مدفوعة",
+				"processing": "معالجة",
+				"shipped": "شحنها",
+				"delivered": "تم التوصيل",
+				"returns": "عائدات"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "العودة إلى تاريخ الطلب",
@@ -569,6 +627,7 @@
 			"recommend": "يوصي"
 		},
 		"shipping": {
+			"partial": "تم الشحن جزئيًا",
 			"unshipped": "غير المشحونة",
 			"shipped": "شحنها",
 			"partialShipped": "شحنت جزئيا"
@@ -577,18 +636,20 @@
 			"unpaid": "في انتظار الدفع",
 			"pending": "قيد الانتظار",
 			"paid": "مدفوع",
-			"canceled": "ألغيت",
 			"shipped": "يشحن",
-			"refunded": "المردودة",
-			"partialrefunded": "رد جزئي",
-			"fulfilled": "الصادق",
+			"partialshipped": "شحنة جزئية",
+			"delivered": "الصادق",
+			"canceled": "ألغيت",
+			"return": "المردودة",
+			"partialreturn": "رد جزئي",
 			"processing": "معالجة"
 		},
 		"application": {
 			"downloadTitle": "popopie: متجر ملابس للأطفال والأسر",
-			"downloadMes": "استمتع بخصم إضافي %15 على التطبيق!",
+			"downloadMes": "استمتع بخصم إضافي %20 على التطبيق!",
+			"downloadTitle1": "Fashionme الملابس العصرية والاكسسوارات وأكثر من ذلك.",
 			"download2get": "تحميل التطبيق للحصول على",
-			"exclusive15off": "خصم 15% حصري",
+			"exclusive15off": "خصم 20% حصري",
 			"code": "الرمز",
 			"download": {
 				"popopie": "تحميل تطبيق POPOPIE لتوفير أكثر بكثير!"
@@ -604,7 +665,8 @@
 			"category": "تصنيف",
 			"over": "أكثر من",
 			"noResults": "لم يتم العثور على العناصر",
-			"onesize": "حجم واحد"
+			"onesize": "حجم واحد",
+			"salesName": "تباع"
 		},
 		"amp": {
 			"sizeAndColor": "الحجم واللون:",
@@ -617,6 +679,13 @@
 			"or": "أو",
 			"expressCheckout": "الخروج السريع",
 			"supportsHint": "سيتم تحويل عملة الطلب إلى الدولار الأمريكي ، وهي العملة الوحيدة التي تدعمها طريقة الدفع هذه."
+		},
+		"klarna": {
+			"supportsHint": "عذرًا ، لا تدعم Klarna معاملة العملة الحالية ، وسنقوم بتحويلها إلى عملة مدعومة للدفع.",
+			"text1": "لا تفوت دفعة.",
+			"text2": "بالنسبة إلى مشكلات الدفع ، يمكنك الاتصال بـ Klarna مباشرةً للحصول على المساعدة.",
+			"contact": "اتصل بـ Klarna",
+			"getapp": "احصل على تطبيق Klarna"
 		},
 		"cart": {
 			"account": "لديك بالفعل حساب",
@@ -699,6 +768,56 @@
 		"sizeGuide": {
 			"sizeCharts": "SIZE CHARTS",
 			"sizeGuide": "دليل  المقاسات"
+		},
+		"secureDetail": {
+			"hostTitle ": " SHOPPING SECURITY",
+			"firstTitle ": " Safe Payment",
+			"firstBranchOneTitle ": " 1.Payment Method",
+			"firstBranchTwoTitle ": " 2.Security Certifications",
+			"secondTitle ": " Secure Logistics ",
+			"secondBranchOneTitle ": " 1.Order Tracking",
+			"secondBranchOneContent ": " Real-time logistics update system.",
+			"secondBranchTwoTitle ": " 2.Package Safety",
+			"secondBranchTwoContent ": " Full refund or resend shipment of your damaged or lost package.",
+			"secondBranchThreeTitle ": " 3.About Covid-19",
+			"secondBranchThreeContent ": " BLUSH MARK follows strict protocols to sterilize warehouse and packages prior to shipment.",
+			"thirdTitle ": " Customer Service",
+			"thirdBranchOneTitle ": " Frequently Asked Questions",
+			"thirdBranchTwoTitle ": " Affiliate Benefits",
+			"thirdBranchthreeTitle ": " Contact Customer Support ",
+			"fourthTitle ": " Privacy Protection",
+			"firstContent {0}": " Your payment at {{SiteNum}} is secured with global payment security certifications.",
+			"fourthContent {0}": " {{SiteNum}} takes its responsibilities under applicable privacy laws and regualations seriously and is committed to respecting the privacy rights and concerns of all Users of our {{SiteNum}} website."
+		},
+		"carts": {
+			"taxText ": " شامل ضريبة القيمة المضافة",
+			"taxEnd ": " إجمالي شامل. ضريبة القيمة المضافة",
+			"cartSelectNum {0}": " حقيبة تسوق (<span class=\"mz-cartCount\">{{lengthSelect}}</span> البند)"
+		},
+		"proDetail": {
+			"small ": " صغير",
+			"big ": " كبير",
+			"color ": " الألوان",
+			"size ": " حجم النظام",
+			"filter ": " تحسين أساس التعليق",
+			"starTitle ": " نجمة التقييم",
+			"stars ": " نجوم .",
+			"allFit ": " جزءا لا يتجزأ من درجة الالتصاق",
+			"fit ": " صالح",
+			"clear ": " واضح",
+			"search ": " عرض النتائج",
+			"fitEnd ": " مع حجم",
+			"filters ": " فلاتر",
+			"noData ": "  في الوقت الحاضر ",
+			"Ends ": " نهاية"
+		},
+		"price": {
+			"priceTitle ": " فرق السعر"
+		}
+	},
+	"# view": {
+		"checkout": {
+			"firstOrderOff": ""
 		}
 	},
 	"domain": {
@@ -745,7 +864,9 @@
 			"pleaseFillInThe": "يرجى ملء المدينة الصحيحة التي لا يمكن جمعها مع الأرقام.",
 			"address1IsRequired": "العنوان 1 مطلوب",
 			"address1Length": "طول العنوان الاول طويل جدًا ، والحد الأقصى 1024 حرفًا",
+			"address1LengthGt": "يجب أن يحتوي سطر العنوان على 5 أحرف وأرقام على الأقل",
 			"address2Length": "طولالعنوان الثاني طويل جدًا ، والحد الأقصى 1024 حرفًا",
+			"addressReg": "الرجاء إدخال معلومات العنوان الصحيحة.",
 			"postCodeIsRequired": "مطلوب الرمز البريدي",
 			"postCodeLength": "طول الرمز البريدي طويل جدًا ، بحد أقصى 16 حرفًا",
 			"emailIsInvalid": "البريد الإلكتروني غير صالح",
@@ -786,6 +907,7 @@
 			"userDataUpdateFail": "فشل تحديث بيانات المستخدم",
 			"emailCannotBeEmpty": "لا يمكن أن يكون البريد الإلكتروني فارغًا.",
 			"noAccount": "لم يتم العثور على حساب بهذا البريد الإلكتروني.",
+			"urloverdue": "The link is invalid, please re-operate on the site for a new valid link.",
 			"theRecoverSession": "جلسة الاسترداد كانت غير صالحة ، يرجى البدء من جديد.",
 			"theTwoPassword": "إدخالات كلمة المرور اثنين غير متناسقة.",
 			"thePasswordUpdate": "فشل تحديث كلمة المرور! حاول مرة اخرى."
@@ -912,7 +1034,8 @@
 		"goodsDetail": {
 			"addToCart": "أضف إلى السلة",
 			"soldout": "بيعت كلها",
-			"sizeguide": "دليل المقاسات"
+			"sizeguide": "دليل المقاسات",
+			"specification": "يرجى تحديد اللون والحجم والكمية"
 		},
 		"aggr": {
 			"goods": {
@@ -972,13 +1095,13 @@
 					"next{0}": "تستمتع بالهبات عند زيادة {0} قطع"
 				},
 				"money": {
-					"gift{0}": "تستمتع بالهبات عند تسوّق أكثر من{0}",
+					"gift{0}": "تستمتع بالهبات عند تسوّق أكثر م ن{0}",
 					"gift": {
 						"next{0}": "تستمتع بالهبات اذا اضافة {0}"
 					},
-					"exchange{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من ر.س{0}.",
+					"exchange{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من {0}.",
 					"exchange": {
-						"current{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من ر.س{0}.",
+						"current{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق أكثر من {0}.",
 						"next{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص اذا إضافة ر.س{0}."
 					}
 				},
@@ -986,9 +1109,11 @@
 				"freeGifts": "هبة مجانية",
 				"selectGift": "اختيار الهبة",
 				"viewGift": "فحص الهبة",
+				"viewDetail": "عرض ديتيل",
 				"updateItem": "تغيير الهبة",
 				"cancel": "الغاء",
 				"confirm": "تأكيد",
+				"desc": "قائمة الهدايا هذه للإشارة فقط. إذا كانت الهدية متاحة عند الطلب ، فيمكنك تحديد منتج الهدية أو الحجم أو اللون في صفحة عربة التسوق.",
 				"exchange{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق {0} قطع.",
 				"exchange": {
 					"current{0}": "يمكنك شراء المنتج الإضافي بسعر أرخص عند تسوّق {0} قطع.",
@@ -1008,6 +1133,9 @@
 					"manjian{0}{1}": "وفر {0} على {1}",
 					"discount{0}{1}": "خصم %{0} على {1}"
 				}
+			},
+			"combination": {
+				"updateItem": "تحديث البند"
 			}
 		},
 		"advantage": {

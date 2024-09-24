@@ -1,0 +1,3 @@
+json["view"]["secureDetail"]["firstContent "]=' Votre paiement chez {{SiteNum}} est sécurisé avec des certifications mondiales de sécurité des paiements. '
+json["view"]["secureDetail"]["fourthContent "]=' {{SiteNum}} prend au sérieux ses responsabilités en vertu des lois et réglementations applicables en matière de confidentialité et s@#@engage à respecter les droits et les préoccupations en matière de confidentialité de tous les utilisateurs de notre site Web {{SiteNum}}.'
+json["view"]["carts"]["cartSelectNum "]=' Sacs à provisions (<span class="mz-cartCount">{{lengthSelect}}</span>articles)'

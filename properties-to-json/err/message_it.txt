@@ -1,0 +1,3 @@
+json["view"]["secureDetail"]["firstContent "]=' Il tuo pagamento presso {{SiteNum}} è protetto da certificazioni di sicurezza dei pagamenti globali. '
+json["view"]["secureDetail"]["fourthContent "]=' {{SiteNum}} prende sul serio le proprie responsabilità ai sensi delle leggi e dei regolamenti sulla privacy applicabili e si impegna a rispettare i diritti e le preoccupazioni sulla privacy di tutti gli Utenti del nostro sito Web {{SiteNum}}.'
+json["view"]["carts"]["cartSelectNum "]=' Shopping bag (<span class="mz-cartCount">{{lengthSelect}}</span>articoli)'

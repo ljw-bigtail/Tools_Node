@@ -1,0 +1,3 @@
+json["view"]["secureDetail"]["firstContent "]=' Your payment at {{SiteNum}} is secured with global payment security certifications.'
+json["view"]["secureDetail"]["fourthContent "]=' {{SiteNum}} takes its responsibilities under applicable privacy laws and regualations seriously and is committed to respecting the privacy rights and concerns of all Users of our {{SiteNum}} website.'
+json["view"]["carts"]["cartSelectNum "]=' Tas belanja (<span class="mz-cartCount">{{lengthSelect}}</span>item)'

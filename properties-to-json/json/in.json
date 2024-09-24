@@ -13,6 +13,7 @@
 		"head": {
 			"account": "Akun",
 			"language": "Bahasa",
+			"languageTiile": "Pilih mata uang dan bahasa Anda",
 			"currency": "Mata uang",
 			"help": "Pusat Bantuan",
 			"cart": "Keranjang",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "Berlangganan untuk penawaran eksklusif kami",
+			"subscribe1": "BERLANGGANAN SEKARANG DAN DAPATKAN DISKON <span>15% OFF</span> TAMBAHAN",
 			"go": "Pergi",
 			"mail": {
 				"subscribed": "Kotak surat ini telah berlangganan",
@@ -35,7 +37,8 @@
 			"snapchat": "Snapchat",
 			"twitter": "Twitter",
 			"bestSelling": "Penjualan terbaik",
-			"categories": "Kategori"
+			"categories": "Kategori",
+			"follow": "Ikuti kami!"
 		},
 		"error": {
 			"404": {
@@ -54,7 +57,7 @@
 		},
 		"index": {
 			"viewAll": "Lihat semua",
-			"loadMore": "LIHAT LEBIH LANJUT"
+			"loadMore": "melihat lebih banyak"
 		},
 		"goodsList": {
 			"home": "Beranda",
@@ -77,6 +80,7 @@
 			"size": "Ukuran",
 			"quantity": "Kuantitas",
 			"addToCart": "MASUKAN KE KERANJANG",
+			"goCustomDetail": "Pergi ke penyesuaian",
 			"description": "Deskripsi",
 			"designPlaceHolder": "Masukkan Nama atau Teks di sini ...",
 			"charLeft": {
@@ -98,7 +102,7 @@
 			"limit10": "Batasi 10 item per orang",
 			"personalize": "Personalisasi",
 			"review": {
-				"customerReviews": "ulasan pelanggan",
+				"customerReviews": "Revisi Klien",
 				"writeAReview": "Menulis review",
 				"example": {
 					"_value": "contoh �� Saya membeli ini sebulan yang lalu dan sangat senang saya melakukannya��",
@@ -161,17 +165,16 @@
 				}
 			},
 			"shortOfStock": "kekurangan stok",
-			"size_info": "PEMBERITAHUAN: ukuran Asia lebih kecil dari ukuran AS, kami sarankan Anda memilih satu ukuran lebih besar dari ukuran biasa Anda."
-		},
-		"activity": {
-			"activities": "Aktivitas",
-			"endin": "BERAKHIR DI",
-			"d": "hari",
-			"h": "jam",
-			"m": "menit",
-			"s": "detik"
+			"size_info": "PEMBERITAHUAN: ukuran Asia lebih kecil dari ukuran AS, kami sarankan Anda memilih satu ukuran lebih besar dari ukuran biasa Anda.",
+			"combinationRecommendation": "Rekomendasi Kombinasi",
+			"hrs": "Kapal dalam 24 jam"
 		},
 		"shopcart": {
+			"combinationDiscount": "Diskon kombinasi",
+			"combination": "kombinasi",
+			"frequentBought": "Sering Dibeli Bersama",
+			"items": "{0}Items",
+			"off": "{0}{1}OFF",
 			"personalizedDetail": "Detail yang Dipersonalisasi",
 			"yourShoppingCart": "Keranjang Belanja Anda",
 			"shoppingCart": "Keranjang Belanja",
@@ -184,6 +187,8 @@
 			"total": "Total",
 			"remove": "Memindahkan",
 			"subtotal": "Subtotal",
+			"itemsTotal": "Item Total",
+			"limitDiscount": "Batasi Diskon",
 			"yourCartIsCurrentlyEmpty": "Saat Ini Keranjang Belanja Anda Kosong",
 			"continueBrowsing": "Lanjutkan Penelusuran",
 			"here": "di sini",
@@ -206,7 +211,16 @@
 			"addItems": "Tambahkan Item",
 			"shippingFee": "Biaya pengiriman",
 			"addToCartSuccess": "Berhasil menambahkan ke keranjang!",
-			"eelThan{0}": "COD hanya tersedia jika jumlah pesanan lebih dari {0}"
+			"eelThan{0}": "COD hanya tersedia jika jumlah pesanan lebih dari {0}",
+			"cartsSelect ": " Pilih Semua"
+		},
+		"activity": {
+			"activities": "Aktivitas",
+			"endin": "BERAKHIR DI",
+			"d": "hari",
+			"h": "jam",
+			"m": "menit",
+			"s": "detik"
 		},
 		"shopcartSide": {
 			"yourCart": "keranjang Anda",
@@ -238,6 +252,12 @@
 			"confirmPassword": "Konfirmasi Kata Sandi",
 			"backToLogin": "Kembali ke Log in",
 			"submit": "Menyerahkan"
+		},
+		"recoverTransaction": {
+			"resetPassword": "Atur Ulang Kata Sandi Transaksi",
+			"password": "Kata Sandi Transaksi",
+			"confirmPassword": "Konfirmasi Password Transaksi",
+			"resetPasswordBtn": "Konfirmasi Atur Ulang"
 		},
 		"regist": {
 			"createAccount": "Buat Akun",
@@ -287,12 +307,30 @@
 			"pointHasBeenApplied": "Poin telah ditebus!",
 			"discount": "Diskon",
 			"allSoldout": "Barang-barang di daftar belanja Anda sudah habis dan Anda tidak dapat melanjutkan ke langkah berikutnya",
-			"allSoldoutAlert": "Barang-barang dalam daftar belanja Anda saat ini kehabisan stok. Harap pilih kembali item untuk penyelesaian",
+			"allSoldoutAlert": "Pesanan Anda telah dilakukan, tolong jangan kirim ulang. Buka halaman 'Pesanan Saya' untuk melanjutkan pembayaran.",
 			"partSoldout": "Item dalam daftar belanja Anda saat ini kehabisan stok, dan jika Anda melanjutkan ke langkah berikutnya, sistem akan secara otomatis menghapus stok barang dari daftar belanja.",
 			"card_number": "Nomor kartu",
 			"expiry_date": "Tanggal kadaluarsa",
 			"security_code": "Kode keamanan",
-			"card_holder": "Pemegang kartu"
+			"card_holder": "Pemegang kartu",
+			"pleaseEnterCode": "Silakan masukkan kode verifikasi.",
+			"codeIncorrect": "Kode verifikasi salah.",
+			"enterCode": "Masukkan Kode Verifikasi",
+			"makeSurePhone": "Untuk memastikan kami dapat menghubungi Anda melalui telepon, harap verifikasi nomor Anda:",
+			"needChangePhone": "Jika Anda perlu mengubah nomor telepon, harap ubah di halaman alamat pengiriman.",
+			"changeNumber": "Ganti Nomor",
+			"sendSMS": "Kirim SMS",
+			"verify": "Memeriksa",
+			"verifyReject": "Operasi ditolak! Kode verifikasi tidak valid.",
+			"sendmsg": {
+				"success": "Berhasil dikirim!",
+				"err": "Gagal mengirim!",
+				"frequently": {
+					"_value": "Operasi yang sering!",
+					"rule": "Operasi ini sering terjadi, harap tunggu 10 menit dan coba lagi."
+				}
+			},
+			"saleTax": "Pajak penjualan"
 		},
 		"orderSummary": {
 			"orderSummary": "Ringkasan Pemesanan",
@@ -308,7 +346,7 @@
 			"salesTax": "pajak Penjualan",
 			"total": "Total",
 			"giftCard": {
-				"_value": "Tukarkan kupon eksklusif Anda di sini",
+				"_value": "kode masukan",
 				"title": "Kode Kupon"
 			},
 			"userCredit": {
@@ -333,7 +371,8 @@
 					"v1{0}{1}{2}": "Beli Lebih Dari {0} Item Dan Lebih Dari {1}, Dapatkan {2} OFF",
 					"v2{0}{1}": "Beli Lebih Dari {0} Item, Dapatkan {1} OFF"
 				},
-				"selectTip": "ATAU pilih dari kupon umum"
+				"selectTip": "Merekomendasikan kode",
+				"postAgeDeducted{0}": " Ongkos Kirim {0} Dipotong"
 			},
 			"chasepay": {
 				"discounts{0}": "Bayar Sekarang dan Hemat {0}%",
@@ -352,10 +391,10 @@
 			"firstName": "Nama Depan",
 			"lastName": "Nama Belakang",
 			"middleName": "Nama tengah",
-			"address1": "Address:",
-			"address2": "Please enter your detailed address (Colony/ Street/ Locality)",
-			"apartmentSuite1": "Building:",
-			"apartmentSuite2": "Please enter your detailed Building Information (Room NO./ Floor/ House NO./ Building name)",
+			"address1": "Alamat:",
+			"address2": "Jalan, Alamat, Nama Perusahaan, C/O",
+			"apartmentSuite1": "Bangunan:",
+			"apartmentSuite2": "Apartemen, Suite, Unit, Gedung, Lantai, Dll (Opsional)",
 			"city": "Kota",
 			"country": "Negara",
 			"province": "Provinsi",
@@ -457,10 +496,18 @@
 			"forter": {
 				"reject": "Transaksi  gagal  karena  masalah  keamanan  pembayaran.  Jika  Anda  telah  menyelesaikan  pembayaran,  kami  akan  melakukan  pengembalian  uang  dalam  3-5  hari  kerja."
 			},
+			"preforter": {
+				"reject": "Transaksi gagal karena masalah keamanan pembayaran."
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "Berhasil dibayar��",
 				"subtitle": "Mohon isi alamat rinci Anda di bawah ini."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "Negara saat ini tidak mendukung dlocal, harap gunakan metode pembayaran lain!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -516,7 +563,25 @@
 			"trackOrder": "Lacak Pesanan",
 			"cancel": "Batalkan",
 			"contactUs": "Hubungi kami",
-			"repurchaseInvalid": "Ada barang kadaluarsa dalam pesanan Anda, dan barang kadaluarsa tidak akan dibeli kembali"
+			"repurchaseInvalid": "Ada barang kadaluarsa dalam pesanan Anda, dan barang kadaluarsa tidak akan dibeli kembali",
+			"writeReview": "Menulis ulasan",
+			"viewReview": "Lihat Ulasan",
+			"postReview": "ULASAN POSTING",
+			"orderList": "Daftar Pesanan",
+			"couponcopied": "telah disalin!"
+		},
+		"order": {
+			"cancelOrder": "Apakah Anda ingin membatalkan pesanan ini?",
+			"reviewWriteDown": "Terima kasih telah menyelesaikan evaluasi produk.",
+			"repurchaseConfirm": "Apakah Anda yakin ingin menambahkan item ini dari pesanan ini ke keranjang belanja Anda lagi?",
+			"repurchaseDone": "Item berhasil ditambahkan ke keranjang belanja. (kecuali item yang terjual habis). Silakan periksa keranjang belanja Anda.",
+			"status": {
+				"unpaid": "belum dibayar",
+				"processing": "Pengolahan",
+				"shipped": "Dikirim",
+				"delivered": "Terkirim",
+				"returns": "Kembali"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "Kembali ke Riwayat pemesanan",
@@ -565,6 +630,7 @@
 			"recommend": "Sarankan"
 		},
 		"shipping": {
+			"partial": "Dikirim sebagian",
 			"unshipped": "tidak dilepas",
 			"shipped": "DIKIRIM",
 			"partialShipped": "Pengiriman sebagian"
@@ -573,18 +639,20 @@
 			"unpaid": "Menunggu Pembayaran",
 			"pending": "Tertunda",
 			"paid": "Dibayar",
-			"canceled": "Dibatalkan",
 			"shipped": "Dikirimkan",
-			"refunded": "Dikembalikan",
-			"partialrefunded": "Pengembalian Dana Sebagian",
-			"fulfilled": "Terpenuhi",
+			"partialshipped": "Pengiriman sebagian",
+			"delivered": "Terpenuhi",
+			"canceled": "Dibatalkan",
+			"return": "Dikembalikan",
+			"partialreturn": "Pengembalian Dana Sebagian",
 			"processing": "Pengolahan"
 		},
 		"application": {
 			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
-			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"downloadMes": "Enjoy Extra 20% OFF on APP!",
+			"downloadTitle1": "Fashionme Pakaian trendi, aksesori, dan lainnya.",
 			"download2get": "DOWNLOAD TO GET",
-			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"exclusive15off": "EXCLUSIVE <strong>20% OFF</strong>",
 			"code": "CODE",
 			"download": {
 				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
@@ -600,7 +668,8 @@
 			"category": "Kategori",
 			"over": "Lebih dari",
 			"noResults": "Tidak ada barang yang ditemukan",
-			"onesize": "satu ukuran"
+			"onesize": "satu ukuran",
+			"salesName": "terjual"
 		},
 		"amp": {
 			"sizeAndColor": "Ukuran dan warna:",
@@ -613,6 +682,13 @@
 			"or": "ATAU",
 			"expressCheckout": "Pembayaran ekspres",
 			"supportsHint": "Mata uang pesanan Anda akan dikonversi ke USD, yang merupakan satu-satunya mata uang yang didukung metode pembayaran ini."
+		},
+		"klarna": {
+			"supportsHint": "Maaf, Klarna tidak mendukung transaksi mata uang saat ini, dan kami akan mengonversinya ke mata uang yang didukung untuk pembayaran.",
+			"text1": "Jangan pernah melewatkan pembayaran.",
+			"text2": "Untuk masalah pembayaran, Anda dapat menghubungi Klarna secara langsung untuk mendapatkan bantuan.",
+			"contact": "Hubungi Klarna",
+			"getapp": "Dapatkan aplikasi Klarna"
 		},
 		"cart": {
 			"account": "Sudah memiliki akun",
@@ -695,6 +771,54 @@
 		"sizeGuide": {
 			"sizeCharts": "SIZE CHARTS",
 			"sizeGuide": "SIZE GUIDE"
+		},
+		"secureDetail": {
+			"hostTitle ": " SHOPPING SECURITY",
+			"firstTitle ": " Safe Payment",
+			"firstBranchOneTitle ": " 1.Payment Method",
+			"firstBranchTwoTitle ": " 2.Security Certifications",
+			"secondTitle ": " Secure Logistics ",
+			"secondBranchOneTitle ": " 1.Order Tracking",
+			"secondBranchOneContent ": " Real-time logistics update system.",
+			"secondBranchTwoTitle ": " 2.Package Safety",
+			"secondBranchTwoContent ": " Full refund or resend shipment of your damaged or lost package.",
+			"secondBranchThreeTitle ": " 3.About Covid-19",
+			"secondBranchThreeContent ": " BLUSH MARK follows strict protocols to sterilize warehouse and packages prior to shipment.",
+			"thirdTitle ": " Customer Service",
+			"thirdBranchOneTitle ": " Frequently Asked Questions",
+			"thirdBranchTwoTitle ": " Affiliate Benefits",
+			"thirdBranchthreeTitle ": " Contact Customer Support ",
+			"fourthTitle ": " Privacy Protection",
+			"firstContent {0}": " Your payment at {{SiteNum}} is secured with global payment security certifications.",
+			"fourthContent {0}": " {{SiteNum}} takes its responsibilities under applicable privacy laws and regualations seriously and is committed to respecting the privacy rights and concerns of all Users of our {{SiteNum}} website."
+		},
+		"carts": {
+			"cartSelectNum {0}": " Tas belanja (<span class=\"mz-cartCount\">{{lengthSelect}}</span>item)"
+		},
+		"proDetail": {
+			"small ": " Kecil",
+			"big ": " Besar",
+			"color ": " Warna",
+			"size ": " Ukuran Diperintahkan",
+			"filter ": " Refine Reviews By",
+			"starTitle ": " Nilai Bintang",
+			"stars ": " Bintang",
+			"allFit ": " Overall Fit",
+			"fit ": " Fit",
+			"clear ": " Bersihkan",
+			"search ": " Tampilkan Hasil",
+			"fitEnd ": " Benar untuk Ukuran",
+			"filters ": " Penapis",
+			"noData ": " Saat ini tidak tersedia",
+			"Ends ": " Akhir di"
+		},
+		"price": {
+			"priceTitle ": " Differenza di prezzo"
+		}
+	},
+	"# view": {
+		"checkout": {
+			"firstOrderOff": ""
 		}
 	},
 	"web": {
@@ -770,7 +894,8 @@
 		"goodsDetail": {
 			"addToCart": "MASUKKAN KE KERANJANG",
 			"soldout": "HABIS TERJUAL",
-			"sizeguide": "Panduan Ukuran"
+			"sizeguide": "Panduan Ukuran",
+			"specification": "Silahkan pilih warna, ukuran, jumlah"
 		},
 		"aggr": {
 			"goods": {
@@ -844,9 +969,11 @@
 				"freeGifts": "Hadiah gratis",
 				"selectGift": "Pilih Hadiah",
 				"viewGift": "Lihat Hadiah",
+				"viewDetail": "Rincian Tampilan",
 				"updateItem": "PERBARUI BARANG",
 				"cancel": "MEMBATALKAN",
 				"confirm": "KONFIRMASI",
+				"desc": "Daftar hadiah ini hanya untuk referensi Anda. Anda dapat memilih item, ukuran atau warna hadiah gratis di halaman keranjang belanja jika hadiah tersedia dalam pesanan Anda.",
 				"exchange{0}": "Beli {0} menikmati harga murah.",
 				"exchange": {
 					"current{0}": "Beli {0} menikmati harga murah.",
@@ -866,6 +993,9 @@
 					"manjian{0}{1}": "HEMAT {0} Lebih dari {1}",
 					"discount{0}{1}": "Diskon {0}% lebih dari {1}"
 				}
+			},
+			"combination": {
+				"updateItem": "perbarui barang"
 			}
 		},
 		"advantage": {
@@ -937,7 +1067,9 @@
 			"pleaseFillInThe": "Harap isi kota yang benar yang tidak bisa dihitung dengan angka.",
 			"address1IsRequired": "Address1 diperlukan",
 			"address1Length": "Panjang address1 terlalu panjang, maks 1024 karakter",
+			"address1LengthGt": "Baris alamat harus berisi setidaknya 5 huruf dan angka.",
 			"address2Length": "Panjang address2 terlalu panjang, maks 1024 karakter",
+			"addressReg": "Harap masukkan informasi alamat yang benar.",
 			"postCodeIsRequired": "Kode postingan diperlukan",
 			"postCodeLength": "Panjang kode posting terlalu panjang, maksimal 16 karakter",
 			"emailIsInvalid": "Email tidak valid",
@@ -978,6 +1110,7 @@
 			"userDataUpdateFail": "Pembaruan data pengguna gagal",
 			"emailCannotBeEmpty": "Email tidak boleh kosong.",
 			"noAccount": "Tidak ada akun yang ditemukan dengan email itu.",
+			"urloverdue": "The link is invalid, please re-operate on the site for a new valid link.",
 			"theRecoverSession": "Sesi pemulihan telah tidak valid, silakan mulai dari awal lagi.",
 			"theTwoPassword": "Kedua entri kata sandi tidak konsisten.",
 			"thePasswordUpdate": "Pembaruan kata sandi gagal! Silakan coba lagi."

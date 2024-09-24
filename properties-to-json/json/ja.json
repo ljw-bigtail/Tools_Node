@@ -13,6 +13,7 @@
 		"head": {
 			"account": "ログイン",
 			"language": "言語",
+			"languageTiile": "通貨と言語を選択してください",
 			"currency": "通貨",
 			"help": "ヘルプセンター",
 			"cart": "カート",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "会員限定のセール情報を購読する",
+			"subscribe1": "今すぐ登録してさらに<span>15% OFF</span>オフ",
 			"go": "進む",
 			"mail": {
 				"subscribed": "このメールボックスは購読されています",
@@ -35,7 +37,8 @@
 			"snapchat": "スナップチャット",
 			"twitter": "ツイッター",
 			"bestSelling": "ベストセラー",
-			"categories": "カテゴリー"
+			"categories": "カテゴリー",
+			"follow": "フォローする！"
 		},
 		"error": {
 			"404": {
@@ -77,6 +80,7 @@
 			"size": "サイズ",
 			"quantity": "数量",
 			"addToCart": "カートに入れる",
+			"goCustomDetail": "カスタマイズに移動",
 			"designPlaceHolder": "ここに名前またはテキストを入力してください...",
 			"charLeft": {
 				"limitItem{0}": "{0}文字が残っています"
@@ -98,7 +102,7 @@
 			"limit10": "お一人様10点まで。",
 			"personalize": "パーソナライズ ",
 			"review": {
-				"customerReviews": "お客様のレビュー",
+				"customerReviews": "お客様のコメント",
 				"writeAReview": "レビューを書く",
 				"example": {
 					"_value": "例：１か月前に購入しましたが、とても嬉しかったです...",
@@ -161,17 +165,16 @@
 				}
 			},
 			"shortOfStock": "残りわずか",
-			"size_info": "注意：アジアサイズは米国サイズよりも小さいため、通常のサイズより1サイズ大きいサイズを選択することをお勧めします。"
-		},
-		"activity": {
-			"activities": "おすすめの特集",
-			"endin": "終了",
-			"d": "日",
-			"h": "時間",
-			"m": "分",
-			"s": "秒"
+			"size_info": "注意：アジアサイズは米国サイズよりも小さいため、通常のサイズより1サイズ大きいサイズを選択することをお勧めします。",
+			"combinationRecommendation": "組み合わせの推奨事項",
+			"hrs": "24時間以内の発送"
 		},
 		"shopcart": {
+			"combinationDiscount": "組み合わせ割引",
+			"combination": "コンビネーション",
+			"frequentBought": "よく一緒に購入",
+			"items": "{0}点",
+			"off": "{0}{1}OFF",
 			"personalizedDetail": "パーソナライズされた詳細",
 			"yourShoppingCart": "ショッピングカート",
 			"shoppingCart": "ショッピングカート",
@@ -184,6 +187,8 @@
 			"total": "合計",
 			"remove": "削除",
 			"subtotal": "小計",
+			"itemsTotal": "項目合計",
+			"limitDiscount": "限度額割引",
 			"yourCartIsCurrentlyEmpty": "カートに商品が入っていません",
 			"continueBrowsing": "ショッピングを続ける",
 			"here": "こちら",
@@ -206,7 +211,16 @@
 			"addItems": "アイテム追加",
 			"shippingFee": "送料無料",
 			"addToCartSuccess": "カートにアイテムを入れました",
-			"eelThan{0}": "COD is only available when the order amount is more than {0}"
+			"eelThan{0}": "COD is only available when the order amount is more than {0}",
+			"cartsSelect ": " すべて選択"
+		},
+		"activity": {
+			"activities": "おすすめの特集",
+			"endin": "終了",
+			"d": "日",
+			"h": "時間",
+			"m": "分",
+			"s": "秒"
 		},
 		"shopcartSide": {
 			"yourCart": "ショッピングカート",
@@ -288,12 +302,30 @@
 			"pointHasBeenApplied": "ポイントが交換されました！",
 			"discount": "割引",
 			"allSoldout": "商品は在庫切れのため、次のステップに進むことができません",
-			"allSoldoutAlert": "商品は現在在庫切れのため、 決済する項目を再選択してください",
+			"allSoldoutAlert": "ご注文は配置されています。再送信しないでください。 「注文」ページに移動して、支払いを続けます。",
 			"partSoldout": "商品は現在在庫切れのため、次のステップに進むと、自動的に在庫切れの商品が削除されます",
 			"card_number": "カードナンバー",
 			"expiry_date": "有効期限",
 			"security_code": "セキュリティコード",
-			"card_holder": "カードホルダー"
+			"card_holder": "カードホルダー",
+			"pleaseEnterCode": "頂点コードを入力してください。",
+			"codeIncorrect": "検証コードが正しくありません。",
+			"enterCode": "検証コードを入力してください",
+			"makeSurePhone": "電話でご連絡できるように、番号を確認してください。",
+			"needChangePhone": "電話番号を変更する必要がある場合は、配送先住所ページで変更してください。",
+			"changeNumber": "番号の変更",
+			"sendSMS": "SMSを送信",
+			"verify": "確認",
+			"verifyReject": "操作が拒否されました！ 確認コードが無効です。",
+			"sendmsg": {
+				"success": "正常に送信されました。",
+				"err": "送信に失敗しました！",
+				"frequently": {
+					"_value": "頻繁な操作！",
+					"rule": "操作は頻繁に行われます。10分待ってから再試行してください。"
+				}
+			},
+			"saleTax": "消费税"
 		},
 		"orderSummary": {
 			"orderSummary": "注文内容",
@@ -309,7 +341,7 @@
 			"salesTax": "消費税",
 			"total": "合計",
 			"giftCard": {
-				"_value": "こちらで限定クーポンをご利用ください",
+				"_value": "入力コード",
 				"title": "クーポンコード"
 			},
 			"userCredit": {
@@ -322,19 +354,26 @@
 			},
 			"remoteAreaInfo{0}": "{0}の遠隔地使用料が含まれる",
 			"coupon": {
-				"firstOrderPercentDiscount{0}": "初ホーダーが {0} オフっす",
+				"firstOrderPercentDiscount{0}": "初注文で{0} OFF",
+				"firstOrderPercentDiscount": {
+					"50": "初注文で半額",
+					"100": "初注文で無料"
+				},
 				"firstOrderDiscountPrice{0}": "初オーダーが {0} 減らっす",
-				"discountPrice{0}{1}": "{0} 以上で {1}  OFF",
-				"percentDiscount{0}{1}": "{0} 以上で {1} OFF",
+				"discountPrice{0}{1}": "{0} 円以上で {1} 円引き",
+				"percentDiscount{0}{1}": "{0} 円以上で {1} OFF",
+				"percentDiscount": {
+					"50{0}": "{0} 円以上で半額",
+					"100{0}": "{0} 円以上で無料",
+					"v1{0}{1}{2}": "よりどり{0}点、合計{1}以上の商品をご購入で、{2}オフ",
+					"v2{0}{1}": "{0}点以上ご購入で、{1}オフ"
+				},
 				"discountPrice": {
 					"v1{0}{1}{2}": "よりどり{0}点、合計{1}以上の商品をご購入で、{2}オフ",
 					"v2{0}{1}": "{0}点以上ご購入で、{1}オフ"
 				},
-				"percentDiscount": {
-					"v1{0}{1}{2}": "よりどり{0}点、合計{1}以上の商品をご購入で、{2}オフ",
-					"v2{0}{1}": "{0}点以上ご購入で、{1}オフ"
-				},
-				"selectTip": "または一般クーポンからお選びください"
+				"selectTip": "おすすめコード",
+				"postAgeDeducted{0}": "送料{0}円割引"
 			},
 			"chasepay": {
 				"discounts{0}": "今すぐ支払い、{0}%割引",
@@ -458,10 +497,18 @@
 			"forter": {
 				"reject": "支払いセキュリティの問題のため、トランザクションは失敗しました。支払いが完了した場合、3〜5営業日以内に払い戻しを行います。"
 			},
+			"preforter": {
+				"reject": "支払セキュリティの問題で取引に失敗しました"
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "支払いが完了しました！",
 				"subtitle": "以下の空欄に詳細な住所を記入してください。"
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "現在の国はdlocalをサポートしていません。他の支払い方法を使用してください!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -517,7 +564,25 @@
 			"trackOrder": "トラック注文",
 			"cancel": "キャンセル",
 			"contactUs": "お問い合わせ",
-			"repurchaseInvalid": "注文には期限切れのアイテムがあり、期限切れのアイテムは再購入されません"
+			"repurchaseInvalid": "注文には期限切れのアイテムがあり、期限切れのアイテムは再購入されません",
+			"writeReview": "レビューを書く",
+			"viewReview": "レビューを見る",
+			"postReview": "レビューの投稿",
+			"orderList": "オーダーリスト",
+			"couponcopied": "がコピーされました！"
+		},
+		"order": {
+			"cancelOrder": "この注文をキャンセルしますか？",
+			"reviewWriteDown": "製品評価を完了していただきありがとうございます。",
+			"repurchaseConfirm": "これらのアイテムをこの注文からショッピングカートに再度追加してもよろしいですか？",
+			"repurchaseDone": "ショッピングカートに正常に追加されたアイテム（売り切れのアイテムを除く）。ショッピングカートを確認してください。",
+			"status": {
+				"unpaid": "未払い",
+				"processing": "処理",
+				"shipped": "発送済み",
+				"delivered": "配信",
+				"returns": "戻り値"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "注文履歴へ戻る",
@@ -569,6 +634,7 @@
 			"recommend": "おすすめ"
 		},
 		"shipping": {
+			"partial": "部分的に出荷",
 			"unshipped": "未発送",
 			"shipped": "配送済み",
 			"partialShipped": "一部出荷完了"
@@ -577,18 +643,20 @@
 			"unpaid": "支払い待ち",
 			"pending": "保留中",
 			"paid": "有料",
-			"canceled": "キャンセルされました",
 			"shipped": "発送済み",
-			"refunded": "払い戻し済み",
-			"partialrefunded": "一部払い戻し済み",
-			"fulfilled": "履行済み",
+			"partialshipped": "分割出荷",
+			"delivered": "履行済み",
+			"canceled": "キャンセルされました",
+			"return": "払い戻し済み",
+			"partialreturn": "一部払い戻し済み",
 			"processing": "処理"
 		},
 		"application": {
 			"downloadTitle": "Popopie: 子供服・親子ペアルックファッション通販",
-			"downloadMes": "アプリ限定 15%割引!",
+			"downloadMes": "アプリ限定 20%割引!",
+			"downloadTitle1": "Fashionme トレンディな衣類、アクセサリーなど。",
 			"download2get": "アプリ 限定クーポン",
-			"exclusive15off": "限定 <strong>15% OFF</strong>",
+			"exclusive15off": "限定 <strong>20% OFF</strong>",
 			"code": "CODE",
 			"download": {
 				"popopie": "アプリをダウンロードして、もっとおトクに楽しもう！"
@@ -604,7 +672,8 @@
 			"category": "カテゴリー",
 			"over": "以上",
 			"noResults": "項目は見つかりませんでした!",
-			"onesize": "ワンサイズ"
+			"onesize": "ワンサイズ",
+			"salesName": "販売"
 		},
 		"amp": {
 			"sizeAndColor": "サイズと色：",
@@ -617,6 +686,13 @@
 			"or": "または",
 			"expressCheckout": "エクスプレスチェックアウト",
 			"supportsHint": "ご注文の通貨は、このお支払い方法でサポートされている唯一の通貨である米ドルに変換されます。"
+		},
+		"klarna": {
+			"supportsHint": "申し訳ありませんが、Klarnaは現在の通貨取引をサポートしておらず、支払いのためにサポートされている通貨に変換します。",
+			"text1": "支払いを逃さないでください。",
+			"text2": "支払いの問題については、Klarnaに直接お問い合わせください。",
+			"contact": "Klarnaに連絡する",
+			"getapp": "Klarnaアプリを入手する"
 		},
 		"cart": {
 			"account": "すでにアカウントをお持ちですか",
@@ -699,6 +775,36 @@
 		"sizeGuide": {
 			"sizeCharts": "サイズチャート",
 			"sizeGuide": "サイズチャート"
+		},
+		"carts": {
+			"taxText ": " VAT込み",
+			"taxEnd ": " 含まれる付加価値税の総額",
+			"cartSelectNum {0}": " ショッピングバッグ（<span class=\"mz-cartCount\">{{lengthSelect}}</span>アイテム）"
+		},
+		"proDetail": {
+			"small ": " より小さい",
+			"big ": " 大きい",
+			"color ": " カラー",
+			"size ": " 注文サイズ",
+			"filter ": " コメントの最適化",
+			"starTitle ": " 星ランク評価",
+			"stars ": " 星",
+			"allFit ": " ソリッドフィット",
+			"fit ": " に似合う",
+			"clear ": " はっきりした",
+			"search ": " 結果の表示",
+			"fitEnd ": " 寸法に合わせる",
+			"filters ": " フィルタ",
+			"noData ": " しばらく",
+			"Ends ": " 終了"
+		},
+		"price": {
+			"priceTitle ": " 価格差異"
+		}
+	},
+	"# view": {
+		"checkout": {
+			"firstOrderOff": ""
 		}
 	},
 	"web": {
@@ -774,7 +880,8 @@
 		"goodsDetail": {
 			"addToCart": "カートに入れる",
 			"soldout": "売り切れ",
-			"sizeguide": "サイズガイド"
+			"sizeguide": "サイズガイド",
+			"specification": "カラー、サイズ、数量 選択してください"
 		},
 		"aggr": {
 			"goods": {
@@ -800,8 +907,8 @@
 				"manjian{0}{1}": "<span class='promo-color'>{0}</span>円以上で<span class='promo-color'>{1}</span>円OFF",
 				"discount{0}{1}": "<span class='promo-color'>{0}</span>円以上で<span class='promo-color'>{1}％</span>OFF",
 				"prompt": {
-					"manjian{0}{1}": "{0}以上で{1} OFF",
-					"discount{0}{1}": "{0}以上で{1}％OFF"
+					"manjian{0}{1}": "{0}円以上で{1} 円引き",
+					"discount{0}{1}": "{0}円以上で{1}％OFF"
 				},
 				"matchedHighest": "おめでとうございます　購入しました",
 				"quantity": {
@@ -818,8 +925,8 @@
 					"next": {
 						"discount{0}{1}{2}": "あと <span class='promo-currency'>{0}</span> 点購入で{1}点目 <span class='promo-currency'>{2}</span>% OFF !"
 					},
-					"manjian50{0}{1}": "{0}点購入で{1}点目半額 !",
-					"manjian100{0}{1}": "{0}点購入で{1}点目無料 !"
+					"manjian50{0}{1}": "<span class='promo-color'>{0}</span>点購入で<span class='promo-color'>{1}</span>点目<span class='promo-color'>半額</span> !",
+					"manjian100{0}{1}": "<span class='promo-color'>{0}</span>点購入で<span class='promo-color'>{1}</span>点目<span class='promo-color'>無料</span> !"
 				},
 				"package{0}{1}": "<span class='promo-color'>{0}</span>点よりどり<span class='promo-color'>{1}</span>円",
 				"package": {
@@ -850,9 +957,11 @@
 				"freeGifts": "無料プレゼント",
 				"selectGift": "プレゼント選択",
 				"viewGift": "詳細を見る",
+				"viewDetail": "詳細の表示",
 				"updateItem": "切り替える",
 				"cancel": "キャンセル",
 				"confirm": "確定する",
+				"desc": "このギフトリストは参照用です。 ギフトが注文に応じて利用できる場合は、ショッピングカートページでギフトの製品、サイズ、または色を選択できます。",
 				"exchange{0}": "{0}点以上なら、お買得品を買える",
 				"exchange": {
 					"current{0}": "{0}点以上なら、お買得品を買える",
@@ -869,9 +978,12 @@
 			},
 			"order": {
 				"promot": {
-					"manjian{0}{1}": "{0}以上で{1} OFF",
-					"discount{0}{1}": "{0}以上で{1}％OFF"
+					"manjian{0}{1}": "{0}円以上で{1} 円引き",
+					"discount{0}{1}": "{0}円以上で{1}％OFF"
 				}
+			},
+			"combination": {
+				"updateItem": "アイテムを更新"
 			}
 		},
 		"advantage": {
@@ -943,7 +1055,9 @@
 			"pleaseFillInThe": "市区町村名を正しく入力してください",
 			"address1IsRequired": "住所１を入力してください",
 			"address1Length": "住所１は最大1024文字で入力してください",
+			"address1LengthGt": "住所行には、少なくとも5つの文字と数字が含まれている必要があります。",
 			"address2Length": "住所２は最大1024文字で入力してください",
+			"addressReg": "正しい住所情報を入力してください。",
 			"postCodeIsRequired": "郵便番号を入力してください",
 			"postCodeLength": "郵便番号は最大16文字で入力してください",
 			"emailIsInvalid": "無効なメールアドレスです",
@@ -984,6 +1098,7 @@
 			"userDataUpdateFail": "ユーザーデータの更新に失敗しました",
 			"emailCannotBeEmpty": "メールアドレスを入力してください",
 			"noAccount": "このメールアドレスを持つアカウントが見つかりません",
+			"urloverdue": "The link is invalid, please re-operate on the site for a new valid link.",
 			"theRecoverSession": "回復セッションが無効になりましたので、最初からやり直してください",
 			"theTwoPassword": "パスワードが一致しません",
 			"thePasswordUpdate": "パスワードの変更に失敗しましたので、もう一度やり直してください"
@@ -1166,7 +1281,7 @@
 		"register": {
 			"subscribe": "申し込み",
 			"title": "購読サービス申し込んで",
-			"discount": "10%割引",
+			"discount": "15%割引",
 			"privacy{0}": "「申し込み」ボタンを押していただいた際は <a href=\"{0}\">プライバシーポリシー</a> に同意します",
 			"whySubscribe": "購読はじめませんか？",
 			"account": "ご注文の更新<br>に関する<br>最新情報を入手",

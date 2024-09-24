@@ -1,0 +1,1351 @@
+{
+	"Color": "צבע",
+	"Size": "גודל",
+	"view": {
+		"progress": {
+			"save": "שומר"
+		},
+		"common": {
+			"clearance": "אישור",
+			"presale": "מכירה מוקדמת",
+			"presaleDeliveryTime{0}": "נשלח תוך {0} ימים."
+		},
+		"head": {
+			"account": "חשבון",
+			"language": "שפה",
+			"languageTiile": "בחר את המטבע והשפה שלך",
+			"currency": "מטבע",
+			"help": "מרכז העזרה",
+			"cart": "עגלה",
+			"settings": "הגדרות"
+		},
+		"foot": {
+			"subscribe": "הירשם לקבלת ההצעות הבלעדיות שלנו",
+			"subscribe1": "הירשם עכשיו וקבל <span>15% הנחה נוספת</span>",
+			"go": "לך",
+			"mail": {
+				"subscribed": "תיבת דואר זו נרשמה כמנוי",
+				"placeholder": "הזן את כתובת הדואא ל שלך"
+			},
+			"yourMailBox": "תיבת הדואר שלך בעיצוב שגוי",
+			"menu": "תפריט",
+			"search": "חיפוש",
+			"instagram": "אינסטגרם",
+			"facebook": "פא סבוק",
+			"pinterest": "Pinterest",
+			"youtube": "YouTube",
+			"snapchat": "Snapchat",
+			"twitter": "טוויטר",
+			"bestSelling": "הנמכר ביותר",
+			"categories": "קטגוריות",
+			"follow": "עקוב אחרינו!"
+		},
+		"error": {
+			"404": {
+				"_value": "דף לא נמצא",
+				"title": "דף שגיאה!",
+				"content": "מצטערים, הדף שאתה מחפש לא נמצא.<br/>א תכן שתרצה לבדוק את ההמלצות שלנו או לחזור לדף הבית של האתר."
+			}
+		},
+		"search": {
+			"noresult": {
+				"title{0}": "א {0}א  אין תוצאות.",
+				"content": "נסה לבדוק את האיות שלך או השתמש במונחים כללא ם יותר.<br/>או שאתה יכול לעא ן בפריטים המומלצים למטה."
+			},
+			"searchHistory": "היסטורא ת חיפושים",
+			"hotWord": "מילה חמה"
+		},
+		"index": {
+			"viewAll": "הצג הכל",
+			"loadMore": "הצג עוד",
+			"discover": "גילוי",
+			"desc": "1000+ סגנונות נוספו",
+			"endsin": "מסתא ם ב"
+		},
+		"goodsList": {
+			"home": "בית",
+			"sortBy": "מא ן לפי",
+			"price": "מחיר",
+			"yourSearchFor": "החיפוש שלך עבור",
+			"revealedTheFollowing": "חשף את הדברים הבאים",
+			"didNotYieldAnyResults": {
+				"": "לא הניב תוצאות."
+			},
+			"quantity": "מוצרים",
+			"newIn": "חדש ב",
+			"hotSale": "מכירה חמה",
+			"special": "הצעה מיוחדת",
+			"clearance": "פינוי",
+			"quickView": "חנות מהירה"
+		},
+		"goodsDetail": {
+			"color": "צבע",
+			"size": "גודל",
+			"quantity": "כמות",
+			"addToCart": "הוסף לעגלת הקניות",
+			"description": "תיאור",
+			"productCode": "קוד מוצר",
+			"designPlaceHolder": "הזן שם או טקסט כאן...",
+			"charLeft": {
+				"limitItem{0}": " נותרו {0} תווים"
+			},
+			"personlized": "התאמה אישית",
+			"shipping": "משלוח",
+			"sizeChart": "תרשים מידות",
+			"youMayAlsoLike": "אתה עשוי גם לאהוב",
+			"youRecentlyView": "נצפה לאחרונה",
+			"shippingReturn": "משלוח והחזרה",
+			"superSavings": "חיסכון סופר",
+			"secureOnlineShopping": "100% קניות מקוונות מאובטחות",
+			"promotion": "מבצעים",
+			"pleaseSelectColor": "אנא בחר את הצבע שלך",
+			"pleaseSelect": "אנא בחר את הגודל שלך",
+			"limit5": "הגבלה של חמישה לאדם.",
+			"limit10": "הגבלה של 10 לאדם.",
+			"personalize": "התאם אישית",
+			"review": {
+				"customerReviews": "ביקורות של לקוחות",
+				"writeAReview": "כתוב ביקורת",
+				"example": {
+					"_value": "דוגמה: קניתי את זה לפני חודש ואני כל כך שמח שעשיתי...",
+					"email": "דוגמה:",
+					"example": "yourmail@example.com",
+					"name": "ג'קי"
+				},
+				"review": "סקירה",
+				"reviews": "ביקורות",
+				"nickname": "כינוי",
+				"email": "אימא ל",
+				"postReview": "פוסט סקירה",
+				"ratings": "דירוג לקוחות ממוצע",
+				"more": {
+					"reviews": "עוד ביקורות"
+				},
+				"many": {
+					"items": {
+						"error{0}": "תוכל לבחור רק עד {0}."
+					}
+				},
+				"add": {
+					"photos": "הוסף עד 6 תמונות",
+					"photo": "הוסף תמונה"
+				},
+				"ok": "בסדר",
+				"enter": {
+					"address": {
+						"_value": "אנא הזן כתובת דואא ל.",
+						"format": "אימא ל לא חוקי."
+					},
+					"nickname": "אנא הזן את הכינוי שלך.",
+					"review": {
+						"_value": "אנא הזן את הביקורת שלך.",
+						"length": "חרגת מהאורך המקסימלי."
+					}
+				},
+				"score": "ציון",
+				"thank": {
+					"review": "תודה שפרסמת ביקורת"
+				},
+				"successful": "מוצלח",
+				"getCouponFailed": "כשל בקופון.",
+				"oops": "אופס...",
+				"post": {
+					"failed": "פוסט התגובה נכשל, אנא נסה שוב מאוחר יותר."
+				},
+				"click": "לחץ כדי לדרג！",
+				"uploadFiles": "העלה קבצים",
+				"processingDroppedFiles": "מעבד קבצים שהורדו...",
+				"close": "סגור",
+				"no": "לא",
+				"yes": "כן",
+				"cancel": "בטל",
+				"sellerReply": ": תשובת המוכר",
+				"couponCodeTip{0}": "קוד קופון: {0} <br/> אתה יכול להשתמש בקוד קופון זה כדי לצאת לקניות! <br/> במקביל, שלחנו את קוד הקופון למא ל שלך.",
+				"gotouse": "עבור לשימוש",
+				"sortby": {
+					"all": "הכל"
+				}
+			},
+			"shortOfStock": "מחסור במלאי",
+			"size_info": "שים לב: הגודל האסא תי קטן מגודל ארהא ב, אנו ממליצים לך לבחור מידה אחת יותר מהגודל הרגיל שלך.",
+			"combinationRecommendation": "המלצה על שילוב",
+			"hrs": "נשלח תוך 24 שעות"
+		},
+		"shopcart": {
+			"combinationDiscount": "הנחה משולבת",
+			"combination": "שילוב",
+			"frequentBought": "נרכשים לעתים קרובות ביחד",
+			"items": "{0}פריטים",
+			"off": "{0}{1}כבוי",
+			"personalizedDetail": "פרט מותאם אישית",
+			"yourShoppingCart": "עגלת הקניות שלך",
+			"shoppingCart": "עגלת קניות",
+			"product": "מוצר",
+			"price": "מחיר",
+			"quantity": {
+				"_value": "כמות",
+				"desc{0}": "שקית קניות (<span class=א mz-cartCountא >{0}</span> פריטים)"
+			},
+			"total": "סהא כ",
+			"remove": "הסר",
+			"subtotal": "סך משנה",
+			"itemsTotal": "סהא כ פריטים",
+			"limitDiscount": "הגבלת הנחה",
+			"yourCartIsCurrentlyEmpty": "העגלה שלך ריקה כרגע.",
+			"continueBrowsing": "המשך לגלוש",
+			"here": "כאן",
+			"updateCart": "עדכון עגלה",
+			"checkout": "צ'ק אאוט",
+			"checkValidityGoods": "מצטערים, יש פריטים שאזלו מהמלאי בפריט שבחרת!",
+			"order": {
+				"summary": "סיכום הזמנה"
+			},
+			"goShopping": "צא לקניות",
+			"viewOrders": "הצג את ההזמנות שלי",
+			"continueShopping": "המשך קניות",
+			"viewBag": "צפה בעגלה",
+			"priceRange": "טווח מחירים",
+			"viewFullDetails": "הצג את הפרטים המלאים",
+			"add": "הוסף",
+			"details": "פרטים",
+			"productOption": "אפשרות מוצר",
+			"clear": "נקה",
+			"addItems": "הוסף פריטים",
+			"shippingFee": "דמי משלוח",
+			"addToCartSuccess": "הוסף לעגלה בהצלחה!",
+			"eelThan{0}": "COD זמין רק כאשר סכום ההזמנה גבוה מ-{0}",
+			"sellsText{0}": "{0} אנשים קנו ב-24 השעות האחרונות",
+			"cartsText{0}": "מהר! <span style=א color:#E71212;א >למעלה מ-{0} אנשים</span> יש את זה בעגלותיהם",
+			"cartsSelect ": " בחר הכל"
+		},
+		"activity": {
+			"activities": "פעילויות",
+			"endin": "מסתא ם ב",
+			"d": "ימים",
+			"h": "שעות",
+			"m": "דקות",
+			"s": "seconds"
+		},
+		"shopcartSide": {
+			"yourCart": "העגלה שלך",
+			"yourCartIsEmpty": "העגלה שלך ריקה",
+			"continueShopping": "המשך קניות",
+			"checkout": "צ'ק אאוט",
+			"shippingTaxes": "משלוח ומסים מחושבים בקופה",
+			"remove": "הסר"
+		},
+		"login": {
+			"login": "התחבר",
+			"email": "אימא ל",
+			"password": "סיסמה",
+			"forgotYourPassword": "שכחת את הסיסמה שלך?",
+			"returnToStore": "חזור לחנות",
+			"createAccount": "צור חשבון",
+			"signIn": "היכנס",
+			"luvEmail": "הירשם לאימא לים של Luvyle.",
+			"infoMsg": "אנא הזן את הדואר האלקטרוני והסיסמה שלך:",
+			"loginFrom": "השתמש בחשבון שלך מ",
+			"loginOr": "או"
+		},
+		"recoverEmail": {
+			"resetYourPassword": "אפס את הסיסמה שלך",
+			"weWillSend": "נשלח לך אימא ל לאיפוס הסיסמה שלך.",
+			"cancel": "בטל",
+			"resetPassword": "אפס סיסמה",
+			"password": "סיסמה",
+			"confirmPassword": "אשר סיסמה",
+			"backToLogin": "חזרה לכניסה",
+			"submit": "שלח"
+		},
+		"recoverTransaction": {
+			"resetPassword": "אפס את סיסמת העסקה",
+			"password": "סיסמת עסקה",
+			"confirmPassword": "אשר את סיסמת העסקה",
+			"resetPasswordBtn": "אשר איפוס"
+		},
+		"regist": {
+			"createAccount": "צור חשבון",
+			"firstName": "שם פרטי",
+			"lastName": "שם משפחה",
+			"email": "אימא ל",
+			"password": "סיסמה",
+			"returnToStore": "חזור לחנות",
+			"create": "צור",
+			"register": "הירשם",
+			"stylePreference": "העדפת סגנון",
+			"signOut": "צא",
+			"termsPart0": "אני מסכים",
+			"termsPart1": "על ידי חתימה בדרך זו, אתה מסכים לנו",
+			"termsPart2": "תנאים והגבלות",
+			"termsPart3": "and",
+			"termsPart4": "מדיניות פרטיות",
+			"termsPart5": "על ידי יצירת חשבונך, אתה מסכים לנו",
+			"succ": {
+				"congrate": "מזל טוב! נרשמת בהצלחה!",
+				"shop_now": "קנה עכשיו",
+				"check": "בדוק את תיבת הדואר הנכנס שלך",
+				"check_confirm": "שלחנו אימא ל עם קוד הנחה לתיבת הדואר שלך, אנא בדוק זאת!",
+				"check_confirm_tip": "לא קיבלת את האימא ל?",
+				"check_confirm_step1": "אנא בדוק את תיקא ת הספאם שלך.",
+				"check_confirm_step2_part1": "אם אתה עדא ן לא רואה את האימא ל, אתה יכול",
+				"check_confirm_step2_part2": "לחץ כאן",
+				"check_confirm_step2_part3": "כדי ליצור איתנו קשר.",
+				"check_recent": "נשלח שוב",
+				"bind": "אנא הזן כתובת דואא ל כדי לאגד"
+			}
+		},
+		"regitst": {
+			"privacy{0}": "אני מסכים ל<a href=א {0}א  style=א color: #4099fc;text-decoration: underline;א >מדיניות הפרטיות</a>."
+		},
+		"checkout": {
+			"fillInInformationTip": "אנא הקפד למלא מידע אישי וכתובת",
+			"customerInformation": "פרטי לקוח",
+			"showOrderSummary": "הצג סיכום הזמנה",
+			"hideOrderSummary": "הסתר סיכום הזמנה",
+			"orderNotice": "הצג סיכום הזמנה וקבל הנחה",
+			"cart": "עגלה",
+			"shippingMethod": "שיטת משלוח",
+			"paymentMethod": "שיטת תשלום",
+			"apply": "החל",
+			"discountHasBeenApplied": "הקופון מומש!",
+			"pointHasBeenApplied": "נקודות מומשו!",
+			"discount": "הנחה",
+			"allSoldout": "כל הפריטים ברשימת הקניות שלך אזלו מהמלאי ולא תוכל להמשיך לשלב הבא",
+			"allSoldoutAlert": "ההזמנה שלך בוצעה, נא לא לשלוח מחדש. עבור לדף 'ההזמנות שלי' כדי להמשיך בתשלום.",
+			"partSoldout": "הפריטים ברשימת הקניות שלך אזלו כעת מהמלאי, ואם תמשיך לשלב הבא, המערכת תסיר אוטומטית פריטים שאזלו מהמלאי מרשימת הקניות.",
+			"firstOrderOff": "10% הנחה להזמנה ראשונה",
+			"card_number": "מספר כרטיס",
+			"expiry_date": "תאריך תפוגה",
+			"security_code": "קוד אבטחה",
+			"card_holder": "בעל כרטיס",
+			"pleaseEnterCode": "אנא הזן קוד אימות.",
+			"codeIncorrect": "קוד האימות שגוי.",
+			"enterCode": "הזן קוד אימות",
+			"makeSurePhone": "כדי לוודא שנוכל ליצור איתך קשר בטלפון, אנא אמת את מספר הטלפון שלך:",
+			"needChangePhone": "אם אתה צריך לשנות את מספר הטלפון, אנא שנה אותו בדף הכתובת למשלוח.",
+			"changeNumber": "שנה מספר",
+			"sendSMS": "שלח SMS",
+			"verify": "אמת",
+			"verifyReject": "הפעולה נדחתה! קוד האימות אינו חוקי.",
+			"sendmsg": {
+				"success": "נשלח בהצלחה!",
+				"err": "שליחה נכשלה!",
+				"frequently": {
+					"_value": "פעולה תכופה!",
+					"rule": "הפעולה היא תכופה, אנא המתן 10 דקות ונסה שוב."
+				}
+			},
+			"saleTax": "מס מכירה"
+		},
+		"orderSummary": {
+			"orderSummary": "סיכום הזמנה",
+			"shoppingCart": "עגלת קניות",
+			"productImage": "תמונת מוצר",
+			"description": "תיאור",
+			"quantity": "כמות",
+			"price": "מחיר",
+			"scrollForMoreItems": "גלול לפריטים נוספים",
+			"costSummary": "סיכום עלויות",
+			"subtotal": "סך משנה",
+			"shipping": "משלוח",
+			"salesTax": "מס מכירה",
+			"total": "סהא כ",
+			"giftCard": {
+				"_value": "קוד קלט",
+				"title": "קוד קופון"
+			},
+			"userCredit": {
+				"title": "הנחות נקודות",
+				"label": "נקודות משתמש",
+				"tag{0}": "נקודות({0})",
+				"total": "סהא כ נקודות: {{סהא כ}}",
+				"available": "נקודות זמינות: {{זמינות}}",
+				"tip": "<div>1. הנקודות שלך ינוכו מחשבונך לאחר יצירת ההזמנה.</div><div>2. תוכל לבטל את הזמנתך בא ההזמנה שליא , והנקודות שהגשת בקשה יוחזרו לחשבונך.</div><div>3. נקודות יכולות להשתמש בעד 50% ממחיר ההזמנה הכולל.</div>"
+			},
+			"remoteAreaInfo{0}": "כולל עמלת אזור מרוחק {0}",
+			"coupon": {
+				"firstOrderPercentDiscount{0}": "{0} הנחה עבור ההזמנה הראשונה שלך",
+				"firstOrderDiscountPrice{0}": "קבל {0} עבור ההזמנה הראשונה שלך",
+				"postAgeDeducted{0}": "{0} נוכה דמי משלוח",
+				"discountPrice{0}{1}": "חסוך {0} מעל {1}",
+				"percentDiscount{0}{1}": "{0} הנחה מעל {1}",
+				"discountPrice": {
+					"v1{0}{1}{2}": "קנה יותר מ-{0} פריטים ומעלה {1}, קבל הנחה של {2}",
+					"v2{0}{1}": "קנה יותר מ-{0} פריטים, קבל הנחה של {1}"
+				},
+				"percentDiscount": {
+					"v1{0}{1}{2}": "קנה יותר מ-{0} פריטים ומעלה {1}, קבל הנחה של {2}",
+					"v2{0}{1}": "קנה יותר מ-{0} פריטים, קבל הנחה של {1}"
+				},
+				"selectTip": "המלץ על קוד"
+			},
+			"chasepay": {
+				"discounts{0}": "שלם עכשיו וחסוך {0}%",
+				"discounts-kissnkid": "שלם עכשיו וחסוך 10%"
+			}
+		},
+		"contactInfo": {
+			"contactInformation": "מידע ליצירת קשר",
+			"alreadyHaveAnAccount": "כבר יש לך חשבון?",
+			"login": "התחבר",
+			"email": "אימא ל",
+			"logOut": "צא",
+			"shippingAddress": "כתובת למשלוח",
+			"storedAddresses": "כתובות מאוחסנות",
+			"newAddress": "כתובת חדשה...",
+			"firstName": "שם פרטי",
+			"lastName": "שם משפחה",
+			"middleName": "שם אמצעי",
+			"address1": "שורת כתובת 1:",
+			"address2": "רחוב, כתובת, שם חברה, C/O",
+			"apartmentSuite1": "שורת כתובת 2:",
+			"apartmentSuite2": "דירה, סוויטה, יחידה, בנא ן, קומה וכו' (אופציונלי)",
+			"city": "City",
+			"country": "מדינה/אזור",
+			"province": "מדינה/מחוז",
+			"postalCode": "מיקוד",
+			"phone": "טלפון",
+			"continueToShipping": "המשך לשיטת המשלוח",
+			"returnToCart": "חזרה לעגלה",
+			"district": "אזור",
+			"road": "כביש"
+		},
+		"shippingMethod": {
+			"shippingAddress": "כתובת למשלוח",
+			"edit": "ערוך",
+			"editShippingAddress": "ערוך כתובת למשלוח",
+			"shippingMethod": "שיטת משלוח",
+			"continueToPayment": "המשך לשיטת התשלום",
+			"returnToCustomerInformation": "חזרה לפרטי לקוח",
+			"onlyShippedToUS": "חלק מהמוצרים יכולים להישלח רק לארצות הברית.",
+			"desc": "ימי עסקים"
+		},
+		"paymentMethod": {
+			"shippingAddress": "כתובת למשלוח",
+			"edit": "ערוך",
+			"transitTime": "זמן מעבר",
+			"shippingMethod": "שיטת משלוח",
+			"superSaving": "משלוח רגיל",
+			"expressShipping": "משלוח מזורז",
+			"economyShipping": "משלוח כלכלי",
+			"cashOnDelivery": "מזומן בעת משלוח (COD)",
+			"paymentMethod": "שיטת תשלום",
+			"loading": "<span class=א ctx-weightא >ההזמנה שלך בוצעה!</span> העסקה מעובדת על ידי הבנק ועשויה להימשך 2 דקות. לאחר שהתשלום יצליח, תקבל הודעת דואא ל. אנא המתן בסבלנות.",
+			"loadingAddtionalTxt{0}": "תוכל <a href=א {0}א >לבדוק את ההזמנה שלך</a> או <a href=א /א >לחזור הביתה</a>.",
+			"allTransactions": "כל העסקאות מאובטחות ומוצפנות.",
+			"buyLimitTips": "המשלוח גדל יחד עם סכום ההזמנה. נסה להפריד את ההזמנה שלך ואולי תגלה את ההובלה הנמוכה באופן מפתיע.",
+			"creditCard": {
+				"_value": "כרטיס אשראי",
+				"oceanpay": "כרטיס אשראי",
+				"cardpay": "כרטיס אשראי",
+				"ebanx": "Ebanx",
+				"credorax": "Credorax",
+				"oceancashpay": "oceancashpay"
+			},
+			"creditCardPacyPay": "כרטיס אשראי",
+			"payPal": "PayPal",
+			"payWith": "שלם עם",
+			"visa": "ויזה",
+			"mastercard": "מאסטרקארד",
+			"americanExpress": "אמריקן אקספרס",
+			"discover": "גלה",
+			"yourOrderIsCovered": "ההזמנה שלך מכוסה על ידי כרטיסי המתנה שלך.",
+			"yourOrderIs": "ההזמנה שלך היא",
+			"free": "חינם",
+			"noPaymentIsRequired": "אין צורך בתשלום.",
+			"notifications": "התראות",
+			"completeOrder": "המשך לתשלום",
+			"codWarning{0}": "COD זמין רק כאשר סכום ההזמנה נמוך מ-{0}",
+			"returnToShippingMethod": "חזרה לשיטת המשלוח",
+			"editShippingAddress": "ערוך כתובת למשלוח",
+			"editShippingMethod": "ערוך את שיטת המשלוח",
+			"paypalContent": "לאחר לחיצה על א השלם הזמנהא , תופנה אל PayPal כדי להשלים את הרכישה שלך בצורה מאובטחת.",
+			"pingpongContent": "לאחר לחיצה על א השלם הזמנהא , תופנה ל-PingPong כדי להשלים את הרכישה שלך בצורה מאובטחת.",
+			"cod": "מזומן בעת משלוח (COD)",
+			"codContentTitle": "מזומן במשלוח (COD)",
+			"codContent": "אנו מציעים את הדרך הקלה ביותר לבצע תשלום עבור ההזמנות שלך באמצעות COD. אתה יכול לשלם את הסחורה כאשר היא נמסרת אליך.",
+			"orderNo": "מס' הזמנה",
+			"site859Extra": "קנט, בריטניה"
+		},
+		"paymentSkip": {
+			"tip": "מעבד, נא לא ללחוץ על כפתור הרענון או החזרה."
+		},
+		"paymentResult": {
+			"order": "הזמנה",
+			"thankYou": "תודה",
+			"yourOrderIsConfirmed": "ההזמנה שלך אושרה",
+			"weHaveAccepted": "קיבלנו את ההזמנה שלך, ואנו מכינים אותה. אנא בדוק את הדואא ל שלך לקבלת עדכונים על סטטוס ההזמנה שלך. (זה עלול לרוץ לדואר הזבל, אנא בדוק אותו אם לא הצלחת למצוא אותו בתיבת הדואר הנכנס שלך)",
+			"customerInformation": "פרטי לקוח",
+			"shippingAddress": "כתובת למשלוח",
+			"continueShopping": "המשך קניות",
+			"checkoutRetry": "נסה שוב לקופה",
+			"opens": "פותח אתר חיצוני בחלון חדש.",
+			"opensIn": "נפתח בחלון חדש.",
+			"opensExternalWebsite": "פותח אתר חיצוני.",
+			"customerInfo": "פרטי לקוח - Bellalike - Checkout",
+			"billingAddress": "כתובת לחיוב",
+			"shippingMethod": "שיטת משלוח",
+			"paymentMethod": "שיטת תשלום",
+			"paypal": "Paypal",
+			"express": "אקספרס",
+			"creditCard": "כרטיס אשראי",
+			"oceanpay": "תשלום באוקא נוס",
+			"pacypay": "Pacypay",
+			"cod": "מזומן בעת משלוח (COD)",
+			"codNote": "הערה",
+			"codNoteLine0": "כדי לספק את החבילה שלך, ניצור איתך קשר תוך 1-2 ימי עסקים כדי לאשר את פרטי ההזמנה שלך. נא להגיע לשיחת הטלפון שלנו בזמן.",
+			"codNoteLine1": "מזומן בעת משלוח",
+			"codNoteLine2": "אנא שלם כשהפריט יגיע אליך",
+			"codNoteLine3": "אל תלך שולל על ידי רמאים שמרמות אותך כדי להעביר כסף בכל ערוצים",
+			"codNoteLine4": "אנו מספקים שירות מזומן במשלוח בלבד",
+			"cancel": "העסקה בוטלה על ידי הלקוח",
+			"forter": {
+				"reject": "העסקה נכשלה עקב בעא ת אבטחת התשלום. אם השלמת את התשלום, אנו נבצע את ההחזר בתוך 3-5 ימי עסקים."
+			},
+			"preforter": {
+				"reject": "העסקה נכשלה עקב בעיות אבטחת תשלום."
+			},
+			"cardpay": "Cardpay",
+			"modal": {
+				"title": "שולם בהצלחה!",
+				"subtitle": "אנא מלא את כתובתך המפורטת בחסר למטה."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "המדינה הנוכחית אינה תומכת ב-dlocal, אנא השתמש באמצעי תשלום אחרים!"
+				}
+			}
+		},
+		"paymentFail": {
+			"paymentException": "חריג תשלום",
+			"checkoutRecordNotExist": "רשומת קופה לא קא מת",
+			"paypal": {
+				"ec": {
+					"unauthorized": "הלקוח לא אישר את העסקה"
+				}
+			}
+		},
+		"address": {
+			"backToOrderHistory": "חזרה להיסטורא ת הזמנות",
+			"accountDetails": "פרטי חשבון",
+			"name": "שם",
+			"edit": "ערוך",
+			"save": "שמור",
+			"cancel": "בטל",
+			"email": "אימא ל",
+			"password": "סיסמה",
+			"reset": "אפס",
+			"addressBook": "פנקס כתובות",
+			"youHaveNoAddresses": "אין לך כתובות",
+			"primaryAddress": "כתובת ראשית",
+			"addAddress": "הוסף כתובת",
+			"anotherAddress": "בחר כתובת אחרת",
+			"delete": "מחק",
+			"setAsPrimaryAddress": "הגדר ככתובת ראשית",
+			"finish": "סיום",
+			"editAddress": "ערוך כתובת"
+		},
+		"header": {
+			"home": "בית",
+			"myAccount": "החשבון שלי",
+			"yourAccount": "החשבון שלך",
+			"logOut": "צא",
+			"closeMenu": "סגור תפריט"
+		},
+		"main": {
+			"orderHistory": "היסטורא ת הזמנות",
+			"youHaveNotPlacedAnyOrders": "עדא ן לא ביצעת הזמנות.",
+			"order": "הזמנה",
+			"date": "תאריך",
+			"orderStatus": "סטטוס הזמנה",
+			"paymentStatus": "סטטוס תשלום",
+			"shippingStatus": "סטטוס משלוח",
+			"total": "סהא כ",
+			"action": "פעולה",
+			"buyAgain": "רכישה חוזרת",
+			"orderDetail": "פרטי הזמנה",
+			"Items": "פריטים",
+			"payNow": "שלם עכשיו",
+			"trackOrder": "עקוב אחר הזמנה",
+			"cancel": "בטל",
+			"contactUs": "צור קשר",
+			"repurchaseInvalid": "יש פריטים שפג תוקפם בהזמנה שלך, ופריטים שפג תוקפם לא א רכשו מחדש",
+			"writeReview": "כתוב סקירה",
+			"viewReview": "הצג סקירה",
+			"postReview": "פוסט סקירה",
+			"orderList": "רשימת הזמנות",
+			"couponcopied": "הועתק!"
+		},
+		"order": {
+			"cancelOrder": "האם ברצונך לבטל הזמנה זו?",
+			"reviewWriteDown": "תודה שהשלמת את הערכת המוצר.",
+			"repurchaseConfirm": "האם אתה בטוח שברצונך להוסיף שוב פריטים אלה מהזמנה זו לעגלת הקניות שלך?",
+			"repurchaseDone": "פריטים נוספו לעגלת הקניות בהצלחה.(למעט פריטים אזלו). אנא בדוק את עגלת הקניות שלך.",
+			"status": {
+				"unpaid": "לא שולם",
+				"processing": "מעבד",
+				"shipped": "נשלח",
+				"delivered": "נמסר",
+				"returns": "מחזיר"
+			}
+		},
+		"orderDetail": {
+			"backToOrderHistory": "חזרה להיסטורא ת הזמנות",
+			"orderSummary": "סיכום הזמנה",
+			"returnExchange": "החזר/החלפה",
+			"item": "פריט",
+			"shippingStatus": "סטטוס משלוח",
+			"price": "מחיר",
+			"qty": "כמות",
+			"totalPrice": "מחיר כולל",
+			"color": "צבע",
+			"size": "גודל",
+			"subtotal": "סך משנה",
+			"shipping": "משלוח",
+			"total": "סהא כ",
+			"shippingAddress": "כתובת למשלוח",
+			"discount": "הנחה"
+		},
+		"userSummery": {
+			"accountDetails": "פרטי חשבון",
+			"edit": "ערוך",
+			"name": "שם",
+			"email": "אימא ל",
+			"primaryAddress": "כתובת ראשית"
+		},
+		"recoverEmailSuccess": {
+			"forgetPassword": "שכחת סיסמה",
+			"emailSent": "אימא ל נשלח",
+			"anEmailHasBeenSent": "דואא ל נשלח לכתובת הדואא ל שסופקה.",
+			"ifYouRequested": "אם ביקשת סיסמה חדשה אך לא קיבלת את הדואא ל שלך לאיפוס הסיסמה",
+			"tryTo": "נסה",
+			"resetYourPassword": "אפס את הסיסמה שלך",
+			"again": "שוב",
+			"ifYouStillDontReceive": "אם עדא ן אינך מקבל את הדואא ל לאחר בקשת איפוס סיסמה, המתן 24 שעות ונסה שוב"
+		},
+		"contactUs": {
+			"contactUs": "צור קשר",
+			"submit": "submit"
+		},
+		"customerService": {
+			"customerService": "שירות לקוחות"
+		},
+		"orderBy": {
+			"bestSelling": "הנמכר ביותר",
+			"mostPopular": "הפופולרי ביותר",
+			"priceLowToHigh": "מחיר: נמוך עד גבוה",
+			"priceHighToLow": "מחיר: גבוה עד נמוך",
+			"newest": "כניסות חדשות",
+			"recommend": "המליץ"
+		},
+		"shipping": {
+			"partial": "PARTIAL_SHIPPED",
+			"unshipped": "לא נשלח",
+			"shipped": "נשלח",
+			"partialShipped": "PARTIAL_SHIPPED"
+		},
+		"payment": {
+			"unpaid": "מחכה לתשלום",
+			"pending": "בהמתנה",
+			"paid": "בתשלום",
+			"shipped": "נשלח",
+			"partialshipped": "משלוח חלקי",
+			"delivered": "מומש",
+			"cancelled": "בוטל",
+			"return": "החזר כספי",
+			"partialreturn": "החזר חלקי",
+			"processing": "מעבד"
+		},
+		"application": {
+			"downloadTitle": "Popopie: חנות לילדים ובגדים תואמים",
+			"downloadMes": "תהנה מ-20% הנחה נוספים על אפליקציה!",
+			"downloadTitle1": "Fashionme ביגוד טרנדי, אביזרים ועוד.",
+			"download2get": "הורד כדי לקבל",
+			"exclusive15off": "EXCLUSIVE <strong>20% הנחה</strong>",
+			"code": "קוד",
+			"download": {
+				"popopie": "הורד את אפליקצא ת POPOPIE כדי לחסוך יותר!"
+			}
+		},
+		"list": {
+			"apply": "החל",
+			"other": "אחר",
+			"filter": {
+				"_value": "מסנן",
+				"by": "סנן לפי"
+			},
+			"category": "קטגוריות",
+			"over": "נגמר",
+			"noResults": "לא נמצאו פריטים!",
+			"onesize": "גודל אחד",
+			"salesName": "נמכר"
+		},
+		"amp": {
+			"sizeAndColor": "גודל וצבע:",
+			"pleaseChoose": "---אנא בחר---",
+			"buy": "קנה את זה עכשיו"
+		},
+		"paypal": {
+			"textPrompt": "מספר הטלפון שגוי.",
+			"hrefPrompt": "אנא שנה את מספר הטלפון",
+			"or": "OR",
+			"expressCheckout": "תשלום מהיר",
+			"supportsHint": "מטבע ההזמנה שלך יומר לדולר ארהא ב, שהוא המטבע היחיד ששיטת תשלום זו תומכת בו."
+		},
+		"klarna": {
+			"supportsHint": "מצטערים, Klarna לא תומכת בעסקת המטבע הנוכחית, ואנו נמיר אותה למטבע נתמך לצורך תשלום.",
+			"text1": "לעולם אל תחמיצו תשלום.",
+			"text2": "לבעיות תשלום, אתה יכול ליצור קשר ישירות עם Klarna לקבלת סיוע.",
+			"contact": "צור קשר עם Klarna",
+			"getapp": "קבל את אפליקצא ת Klarna"
+		},
+		"cart": {
+			"account": "יש כבר חשבון",
+			"login": "התחבר"
+		},
+		"new_checkout": {
+			"postal_address": "+ הוסף כתובת למשלוח",
+			"order_confirmation": "אישור הזמנה",
+			"address_editing": "כתובת למשלוח",
+			"address": "כתובת",
+			"payment": "תשלום",
+			"shipping": "משלוח",
+			"items": "items",
+			"save": "שמור",
+			"addressRequired": "יש למלא את הכתובת",
+			"shippingcart": "עגלת משלוח",
+			"ordersummary": "סיכום הזמנות"
+		},
+		"sitemap": {
+			"sitemap": "מפת אתר",
+			"hot_categories": "קטגוריות חמות",
+			"hot_sale": "מכירה חמה",
+			"see_more": "ראה עוד",
+			"new_in": "New In"
+		},
+		"personal": {
+			"center": "מרכז אישי",
+			"account": "החשבון שלי",
+			"profile": "הפרופיל שלי",
+			"address": {
+				"_value": "פנקס כתובות",
+				"delete": "האם אתה בטוח למחוק כתובת זו?",
+				"cancel": "ביטול",
+				"ok": "בסדר",
+				"default": "ברירת מחדל"
+			},
+			"orders": "ההזמנות שלי",
+			"all": "הכל",
+			"assets": "הנכסים שלי",
+			"coupons": {
+				"_value": "הקופונים שלי",
+				"useit": "השתמש בו"
+			},
+			"points": {
+				"_value": "הנקודות שלי",
+				"spent": "נקודות שהוצאו",
+				"details": "פרטי נקודות",
+				"exchanged": "נקודות הוחלפו",
+				"explaination": "הסבר",
+				"register": "נקודות שנצברו על ידי רישום",
+				"subscribe": "נקודות שהושגו על ידי הרשמה",
+				"gainedShopping": "נקודות שנצברו בקניות",
+				"spendShopping": "הוצאת נקודות בקניות",
+				"activity": "נקודות שנצברו על ידי פעילות",
+				"shopWithPoints": "קנה עם נקודות"
+			},
+			"concern": "הדאגה שלי",
+			"wishlist": "רשימת משאלות",
+			"viewed": "נצפה לאחרונה",
+			"main": {
+				"coupons": "קופונים",
+				"points": "נקודות",
+				"viewAll": "הצג הכל",
+				"viewMore": "הצג עוד",
+				"more": "עוד",
+				"changePwd": "שנה סיסמה"
+			},
+			"empty": {
+				"orders": "לא ביצעת עדא ן הזמנות.",
+				"coupons": "זה ריק כאן.",
+				"wishlist": "אין לך כרגע שום דבר שמור ברשימת המשאלות שלך.",
+				"viewed": "לא צפית בכלום."
+			},
+			"valid": {
+				"points": "נקודות תקפות"
+			},
+			"data": "תאריך",
+			"recommend": "ממליץ עבורך"
+		},
+		"sizeGuide": {
+			"sizeCharts": "תרשימי גודל",
+			"sizeGuide": "מדריך גודל"
+		},
+		"secureDetail": {
+			"hostTitle ": " אבטחת קניות",
+			"firstTitle ": " תשלום בטוח",
+			"firstBranchOneTitle ": " 1.שיטת תשלום",
+			"firstBranchTwoTitle ": " 2. אישורי אבטחה",
+			"secondTitle ": " לוגיסטיקה מאובטחת",
+			"secondBranchOneTitle ": " 1. מעקב אחר הזמנות",
+			"secondBranchOneContent ": " מערכת עדכון לוגיסטית בזמן אמת.",
+			"secondBranchTwoTitle ": " 2. בטיחות חבילה",
+			"secondBranchTwoContent ": " החזר מלא או שלח שוב משלוח של החבילה הפגומה או האבודה שלך.",
+			"secondBranchThreeTitle ": " 3. אודות קוביד-19",
+			"secondBranchThreeContent ": " BLUSH MARK עוקב אחר פרוטוקולים קפדנא ם לסטריליזציה של מחסן וחבילות לפני המשלוח.",
+			"thirdTitle ": " שירות לקוחות",
+			"thirdBranchOneTitle ": " שאלות נפוצות",
+			"thirdBranchTwoTitle ": " הטבות שותפים",
+			"thirdBranchthreeTitle ": " צור קשר עם תמיכת לקוחות",
+			"fourthTitle ": " הגנת פרטיות",
+			"hostTitle1 ": " ההתחא בויות של Faciway",
+			"firstTitle1 ": " אבטחה ופרטיות",
+			"firstBranchOneTitle1 ": " 1.שלם בביטחון עם השיטות המאובטחות שלנו",
+			"firstBranchOneContent1 ": " Faciway פועלת לפי תקן אבטחת הנתונים של תעשא ת כרטיסי התשלום (PCI DSS) ותקני אבטחה אחרים בעת טיפול בנתוני כרטיסים",
+			"firstBranchTwoTitle1 ": " 2. אנו שומרים על הנתונים האישא ם שלך פרטא ם, בטוחים ומאובטחים",
+			"secondTitle1 ": " משלוח חינם והחזרות קלות",
+			"secondBranchOneTitle1 ": " 1. משלוח חינם בהזמנות מעל $89",
+			"secondBranchTwoTitle1 ": " 2.הבטחת משלוח",
+			"secondBranchTwoContent1 ": " אנו מבטיחים שהחבילה שלך תגיע אליך בבטחה ובזמן. אם יש בעיות, אנו נעשה כמיטב יכולתנו לפתור את הבעיות ולספק את הפתרונות הטובים ביותר.",
+			"secondBranchThreeTitle1 ": " 3. החזרה או החלפה בתוך 30 יום מתאריך המסירה יתקבלו",
+			"thirdTitle1 ": " מדיניות התאמת מחירים",
+			"thirdContent1 ": "אנו נספק את הפרש המחיר, בהתבסס על המחיר וסוג המטבע של ההזמנה בתשלום, אם מחיר המחירון של אותו פריט הופחת תוך 30 יום מרגע הרכישה באותה מדינה או אזור. פריטים שהם קידום מכירות, שאינם זמינים עוד, באישור וכו' עשוא ם שלא להיות זכאים למדיניות התאמת המחירים שלנו.",
+			"fourthTitle1 ": " שירות לקוחות",
+			"fourthContent1 ": " אם יש לך שאלות כלשהן, אנא צור איתנו קשר בכתובת service@faciway.com.",
+			"firstContent {0}": " התשלום שלך ב-{{SiteNum}} מאובטח באמצעות אישורי אבטחת תשלום גלובלא ם.",
+			"fourthContent {0}": " {{SiteNum}} לוקחת ברצינות את אחריותה על פי חוקי הפרטיות והתקנות החלים ומחויבת לכבד את זכויות הפרטיות והדאגות של כל המשתמשים באתר {{SiteNum}} שלנו."
+		},
+		"carts": {
+			"taxText ": " מעא מ כלול",
+			"taxEnd ": " סך הכל כולל מס ערך מוסף",
+			"cartSelectNum {0}": " שקית קניות (<span class=א mz-cartCountא >{{lengthSelect}}</span>פריטים)"
+		},
+		"proDetail": {
+			"small ": " קטן",
+			"big ": " גדול",
+			"color ": " צבע",
+			"size ": " גודל הוזמן",
+			"filter ": " צמצם ביקורות לפי",
+			"starTitle ": " דירוג כוכבים",
+			"stars ": " כוכבים",
+			"allFit ": " כושר כללי",
+			"fit ": " התאמה",
+			"clear ": " נקה",
+			"search ": " הצג תוצאות",
+			"fitEnd ": " נכון לגודל",
+			"filters ": " מסננים",
+			"noData ": " אין",
+			"Ends ": " מסתא ם ב"
+		},
+		"price": {
+			"priceTitle ": " הפרש במחיר"
+		}
+	},
+	"web": {
+		"address": {
+			"MailboxFillIn": "מיקוד לא חוקי",
+			"SpainPhoneFillIn": "מספר הטלפון צריך להיות בן 9 ספרות המתחיל ב-6 או 9",
+			"SarPhoneFillIn": "מספר הטלפון שלך חא ב להיות בן 9 ספרות ומתחיל ב-5",
+			"QarPhoneFillIn": "מספר הטלפון שלך חא ב להיות בן 8 ספרות ומתחיל ב-3/4/5/6/7",
+			"OmrPhoneFillIn": "מספר הטלפון שלך חא ב להיות בן 8 ספרות ומתחיל ב-7/9",
+			"KwdPhoneFillIn": "מספר הטלפון שלך חא ב להיות בן 8 ספרות ומתחיל ב5/6/9",
+			"BhdPhoneFillIn": "מספר הטלפון שלך חא ב להיות בן 8 ספרות ומתחיל ב-3/6",
+			"thisFieldIsRequired": "שדה זה נדרש",
+			"theMaximum": "מספר התווים המרבי הוא 64",
+			"pleaseFillIn": "אנא מלא את העיר הנכונה שאינה יכולה להיות מורכבת ממספרים.",
+			"email": "פורמט הדואר האלקטרוני שגוי",
+			"subjectIsRequired": "נדרש נושא",
+			"messageIsRequired": "נדרשת הודעה",
+			"taxNo": "פורמט מזהה מס שגוי!",
+			"address1": "כתובת 1",
+			"address2": "כתובת 2 (אופציונלי)",
+			"city": "עיר",
+			"country": "מדינה",
+			"state": "מדינה",
+			"zipCode": "מיקוד",
+			"phoneNumber": "מספר טלפון"
+		},
+		"screenfooter": {
+			"youHaveAlready": "כבר הצלחת להירשם כמנוי",
+			"serviceResponseFailure": "כשל בתגובת השירות"
+		},
+		"screenheader": {
+			"pleaseEnterAKeyword": "אנא הזן מילת מפתח!",
+			"sorryThisProduct": "מצטערים שהמוצר הזה אינו זמין",
+			"sorryWeDont": "מצטערים שאין לנו מספיק מלאי!",
+			"areYouSure": "האם אתה בטוח שברצונך למחוק כתובת זו?",
+			"searchOurStore": "חפש בחנות שלנו"
+		},
+		"login": {
+			"firstNameIsRequired": "דרוש שם פרטי",
+			"passwordIsRequired": "נדרשת סיסמה"
+		},
+		"regist": {
+			"lastNameIsRequired": "נדרש שם משפחה",
+			"emailIsInvalid": "אימא ל לא חוקי"
+		},
+		"payment": {
+			"incorrectCardNumber": "מספר כרטיס שגוי.",
+			"invalidExpiryDate": "תאריך תפוגה לא חוקי.",
+			"invalidSecureCode": "קוד מאובטח לא חוקי."
+		},
+		"contactus": {
+			"yourRequest": "בקשתך התקבלה. אנחנו נגיב בהקדם האפשרי. תודה!",
+			"sorrySubmission": "מצטערים, ההגשה נכשלה. בבקשה נסה שוב מאוחר יותר. תודה",
+			"firstNameIsRequired": "נדרש שם פרטי",
+			"lastNameIsRequired": "נדרש שם משפחה",
+			"emailIsInvalid": "אימא ל לא חוקי",
+			"subjectIsRequired": "נדרש נושא",
+			"messageIsRequired": "נדרשת הודעה"
+		},
+		"concatinfo": {
+			"mail": "אימא ל",
+			"firstname": "שם פרטי",
+			"middleName": "שם אמצעי",
+			"lastname": "שם משפחה",
+			"address": "כתובת",
+			"apartment": "דירה",
+			"taxNo": "מספר קובץ מס.",
+			"city": "עיר",
+			"province": "מדינה/מחוז",
+			"phone": "טלפון",
+			"postalCode": "מיקוד"
+		},
+		"goodsDetail": {
+			"addToCart": "הוסף לעגלת הקניות",
+			"soldout": "אזל",
+			"sizeguide": "מדריך מידות",
+			"specification": "אנא בחר צבע, גודל, כמות"
+		},
+		"aggr": {
+			"goods": {
+				"buy": "קנה עכשיו"
+			}
+		},
+		"freight": {
+			"difference": {
+				"prompt{0}": "אתה במרחק <span class=א price money promo-currencyא >{0}</span> בלבד מ<span class=א freeא >משלוח חינם</span>!"
+			},
+			"free": {
+				"prompt": "מתוק! קיבלת ציון <span class=א freeא >משלוח חינם</span>!"
+			},
+			"coupon": {
+				"prompt": "החל <span class=א freeא >קוד קופון</span> בשלב הבא!"
+			},
+			"invalid": {
+				"country": "קוד מדינה לא חוקי"
+			}
+		},
+		"promotion": {
+			"condition": {
+				"manjian{0}{1}": "להציל <span class='promo-color'>{0}</span> מעל <span class='promo-color'>{1}</span>",
+				"discount{0}{1}": "<span class='promo-color'>{0}%</span> הנחה מעל <span class='promo-color'>{1}</span>",
+				"prompt": {
+					"manjian{0}": "חסוך {{הנחה}} מעל {0}",
+					"discount{0}{1}": "{0}% הנחה מעל {1}"
+				},
+				"matchedHighest": "תהנה מהחיסכון שלך!",
+				"quantity": {
+					"manjian{0}{1}{2}": "קנה <span class='promo-color'>{0}</span> קבל <span class='promo-color'>{1}</span> <span class='promo-color'>{2}</span> הנחה",
+					"discount{0}{1}{2}": "קנה <span class='promo-color'>{0}</span> קבל<span class='promo-color'> {1}</span> <span class='promo-color'>{2}%</span> הנחה",
+					"manjian": {
+						"next{0}{1}{2}": "הוסף עוד {0} קבל הנחה של {1} {2}!"
+					},
+					"discount": {
+						"next{0}{1}{2}": "הוסף עוד {0} קבל {1} {2}% הנחה!"
+					},
+					"currentDiscount{0}": "חסוך {0}",
+					"next{0}{1}": "הוסף<span class='promo-currency'>{0}</span> עוד קבל {1} <span class='promo-currency'>{{discount }}</span>כבוי!",
+					"next": {
+						"discount{0}{1}": "הוסף<span class='promo-currency'>{0}</span> עוד קבל {1} <span class='promo-currency'>{ {discount}}</span>% הנחה!"
+					}
+				},
+				"package{0}{1}": "Any <span class='promo-color'>{0}</span> עבור <span class='promo-color'>{1}</span>",
+				"package": {
+					"current{0}{1}": "נהנו {0} למחיר החבילה {1}",
+					"next{0}{1}": "הוסף עוד {0} כדי ליהנות ממחיר החבילה {1}",
+					"saved": "שמר {{הנחה}}",
+					"current": {
+						"next{0}{1}{2}{3}": "נהניתי {0} למחיר החבילה {1}, הוסף עוד {2} כדי ליהנות ממחיר החבילה {3}"
+					}
+				},
+				"gift{0}": "קנה {0} כדי לקבל מתנות חינם",
+				"gift": {
+					"current": "מתנה חינם",
+					"next{0}": "הוסף עוד {0} כדי לקבל מתנות חינם"
+				},
+				"money": {
+					"gift{0}": "מתנות חינם להזמנות מעל {0}",
+					"gift": {
+						"next{0}": "הוסף עוד {0} כדי לקבל מתנות חינם"
+					},
+					"exchange{0}": "קנה {0} כדי ליהנות ממחיר תוסף.",
+					"exchange": {
+						"current{0}": "קנה {0} כדי ליהנות ממחיר תוסף.",
+						"next{0}": "קנה עוד {0} כדי ליהנות ממחיר תוסף."
+					}
+				},
+				"gifts": "רשימת מתנות",
+				"freeGifts": "מתנה חינם",
+				"selectGift": "בחר מתנה",
+				"viewGift": "הצג מתנה",
+				"viewDetail": "הצג פרטים",
+				"updateItem": "עדכון פריט",
+				"cancel": "ביטול",
+				"confirm": "אשר",
+				"desc": "רשימת המתנות הזו היא לעיונך בלבד. אתה יכול לבחור את הפריט, את הגודל או הצבע של המתנה החינמית בדף עגלת הקניות אם מתנות זמינות בהזמנה שלך.",
+				"exchange{0}": "קנה {0} כדי ליהנות ממחיר תוסף.",
+				"exchange": {
+					"current{0}": "קנה {0} כדי ליהנות ממחיר תוסף.",
+					"next{0}": "קנה עוד {0} כדי ליהנות ממחיר תוסף.",
+					"meet": "תהנה ממחיר תוסף עכשיו!!",
+					"addon": "תוסף",
+					"viewGoods": "פריטים נוספים",
+					"addonItems": "פריטי תוסף"
+				}
+			},
+			"spread": {
+				"manjian{0}{1}": "תוכל לקבל הנחה של <span class='promo-currency'>{0}</span> ב-<span class='promo-currency'>{1}</span >!",
+				"discount{0}{1}": "תוכל לקבל הנחה של <span class='promo-currency'>{0}%</span> עד <span class='promo-currency'>{1}</ span>!"
+			},
+			"order": {
+				"promot": {
+					"manjian{0}": "חסוך {{הנחה}} מעל {0}",
+					"discount{0}{1}": "{0}% הנחה מעל {1}"
+				}
+			},
+			"combination": {
+				"updateItem": "עדכן פריט"
+			}
+		},
+		"advantage": {
+			"_value": "מדוע לבחור בנו?",
+			"choose": {
+				"name": "30 יום ערבות שביעות רצון עם החזר כספי",
+				"value": "אם אינך מרוצה מהמוצרים שלך, ננפיק החזר מלא, ללא שאלות."
+			},
+			"order": {
+				"name": "מעל 34.245 הזמנות שנשלחו בהצלחה",
+				"value": "עשינו לקוחות מרוצים באותה מידה כמו הזמנות רבות ששלחנו. אתה פשוט צריך להצטרף למשפחה הגדולה שלנו."
+			}
+		},
+		"checkout": {
+			"contact": {
+				"info": {
+					"first": "ההזמנה שלך שמורה עבור",
+					"last": "minutes!"
+				}
+			},
+			"contack": {
+				"prompt": {
+					"info": "לפריט שהזמנת יש ביקוש גבוה. אל דאגה, שמרנו את ההזמנה שלך."
+				}
+			}
+		}
+	},
+	"domain": {
+		"orderSelectVO": {
+			"orderIdIsRequired": "מזהה הזמנה נדרש"
+		},
+		"paymentRefundVO": {
+			"orderNoIsRequired": "נדרש מספר הזמנה",
+			"amountIsRequired": "נדרש סכום"
+		},
+		"shopcart": {
+			"goodsIdIsRequired": "מזהה סחורה נדרש",
+			"goodsCountIsRequired": "נדרשת ספירת סחורות",
+			"goodsCountGt0AndLt10000": "סחורה סופרת gt 0 ו-lt 10000"
+		},
+		"site": {
+			"emailIsRequired": "נדרשת דואא ל",
+			"emailLengthIsTooLong": "אורך הדואא ל ארוך מדי, מקסימום 128 תווים",
+			"emailisinvalid": "אימא ל לא חוקי",
+			"firstNameIsRequired": "נדרש שם פרטי",
+			"firstNameLengthIsTooLong": "אורך השם הפרטי ארוך מדי, מקסימום 64 תווים",
+			"subjectIsRequired": "נדרש נושא",
+			"subjectLengthIsTooLong": "אורך הנושא ארוך מדי, מקסימום 256 תווים",
+			"contentIsRequired": "דרוש תוכן"
+		},
+		"user": {
+			"passwordCannotBeEmpty": "הסיסמה לא יכולה להיות ריקה.",
+			"passwordLengthNeedsTo": "אורך הסיסמה צריך להיות בין 6-16 ספרות (ללא רווחים)",
+			"confirmPassword": "אשר את הסיסמה לא יכולה להיות ריקה.",
+			"idIsRequired": "מזהה נדרש",
+			"firstNameIsRequired": "נדרש שם פרטי",
+			"firstNameLengthIsTooLong": "אורך השם הפרטי ארוך מדי, מקסימום 64 תווים",
+			"middleNameLengthIsTooLong": "אורך השם האמצעי ארוך מדי, עם מקסימום 64 תווים.",
+			"lastNameIsRequired": "נדרש שם משפחה",
+			"lastNameLengthIsTooLong": "אורך שם המשפחה ארוך מדי, מקסימום 64 תווים",
+			"phoneNumberIsRequired": "נדרש מספר טלפון",
+			"phoneNumberLengthIsTooLong": "אורך מספר הטלפון ארוך מדי, מקסימום 32 תווים",
+			"emaillengthIsTooLong": "אורך הדואא ל ארוך מדי, מקסימום 128 תווים",
+			"countryAreaIsRequired": "נדרש מדינה/אזור",
+			"provinceStateIsTooLong": "מחוז/מדינה ארוך מדי, מקסימום 64 תווים",
+			"CityNameIsRequired": "נדרש שם עיר",
+			"cityLengthIsTooLong": "אורך העיר ארוך מדי, מקסימום 64 תווים",
+			"districtIsRequired": "דרוש אזור ניהול",
+			"pleaseFillInThe": "אנא מלא את העיר הנכונה שלא ניתן להמציא עם מספרים.",
+			"address1IsRequired": "נדרשת כתובת1",
+			"address1Length": "אורך כתובת 1 ארוך מדי, מקסימום 1024 תווים",
+			"address1LengthGt": "שורת הכתובת צריכה להכיל לפחות 5 אותיות וספרות.",
+			"address2Length": "אורך כתובת2 ארוך מדי, מקסימום 1024 תווים",
+			"addressReg": "אנא הזן פרטי כתובת נכונה.",
+			"postCodeIsRequired": "נדרשת מיקוד",
+			"postCodeLength": "אורך המיקוד ארוך מדי, מקסימום 16 תווים",
+			"emailIsInvalid": "אימא ל לא חוקי",
+			"passwordIsRequired": "נדרשת סיסמה",
+			"firstNameLengthIsTooLongMax32Character": "אורך השם הפרטי ארוך מדי, מקסימום 32 תווים",
+			"lastNameLengthIsTooLongMax32Character": "אורך שם המשפחה ארוך מדי, מקסימום 32 תווים",
+			"nicknameLengthIsTooLong": "אורך הכינוי ארוך מדי, מקסימום 64 תווים",
+			"taxNoFormatError": "פורמט מזהה מס שגוי!"
+		}
+	},
+	"service": {
+		"coupon": {
+			"unableToFind": "לא ניתן למצוא הנחה תקפה התואמת לקוד שהוזן.",
+			"useOfCoupon": "השימוש בקופון מוגבל",
+			"yourCartDoesNot1": "העגלה שלך אינה עומדת בדרישות עבור",
+			"yourCartDoesNot2": "קוד הנחה",
+			"useOneCoupon": "ניתן להשתמש בקופון אחד בלבד לכל הזמנה",
+			"notSupportShipping": "קוד ההנחה הנוכחי אינו חל על שיטת משלוח זו",
+			"notSupportAreas": "קוד ההנחה הנוכחי אינו בשימוש באזור זה"
+		},
+		"point": {
+			"exceedAvailBalance": "יותר מנקודות זמינות",
+			"aboveQuota": "יותר מ-50% מהסכום הכולל",
+			"consumption": "צריכת נקודות",
+			"accumulation": "צבירת נקודות",
+			"return": "החזרת נקודות",
+			"adjustmentAdd": "התאמת נקודות (הגדלה)",
+			"adjustmentReduce": "התאמת נקודות (ירידה)"
+		},
+		"siteuser": {
+			"thisEmailAddressIs": "כתובת דואא ל זו כבר משויכת לחשבון. אם החשבון הזה הוא שלך, אתה יכול לאפס את הסיסמה שלך",
+			"userDataInsertError": "שגיאה בהכנסת נתוני משתמש",
+			"incorrectAccount": "חשבון או סיסמה שגוא ם",
+			"googleLoginError": "שגיאת התחברות של Google",
+			"accountInfoError": "שגיאה בפרטי חשבון",
+			"userDoesNotExist": "המשתמש אינו קא ם",
+			"thisEmailAlreadyExists": "דואא ל זה כבר קא ם",
+			"userDataUpdateFail": "עדכון נתוני המשתמש נכשל",
+			"emailCannotBeEmpty": "אימא ל לא יכול להיות ריק.",
+			"noAccount": "לא נמצא חשבון עם האימא ל הזה.",
+			"urloverdue": "פג תוקף הקישור, אנא הכנס מחדש את חשבון הדואא ל הנדרש.",
+			"theRecoverSession": "הפעלת השחזור לא הא תה חוקית, אנא התחל מחדש.",
+			"theTwoPassword": "שתי כניסות הסיסמה אינן עקביות.",
+			"thePasswordUpdate": "עדכון הסיסמה נכשל! בבקשה נסה שוב."
+		},
+		"address": {
+			"emailIsRequired": "נדרשת דואא ל",
+			"State": "נדרש מדינה/מחוז.",
+			"postCode": "נדרש קוד",
+			"countryNotExist": "מדינה לא קא מת",
+			"AddressInsertFail": "הכנסת כתובת נכשלה",
+			"addressDoesNotExist": "אנא הוסף את כתובת המשלוח שלך.",
+			"stateIsRequired": "מדינה נדרשת",
+			"taxNoIsRequired": "נדרש מספר מס",
+			"taxNoLength": "מספר מזהה מס לא יכול לעלות על 64 ספרות",
+			"addressUpdateFail": "עדכון הכתובת נכשל",
+			"newAddressInsertFail": "הכנסת כתובת חדשה נכשלה",
+			"email": "email",
+			"state": "מדינה",
+			"country": "country"
+		},
+		"usercoupon": {
+			"couponInsertFail": "הכנסת הקופון נכשלה",
+			"couponUpdateFail": "עדכון הקופון נכשל"
+		},
+		"shopcart": {
+			"current": "המשתמש הנוכחי אינו קא ם"
+		},
+		"shopping": {
+			"shippingr": "שגיאה בבקשת משלוח"
+		},
+		"shared": {
+			"facebookAccess": "אסימון גישה לפא סבוק לא נמצא",
+			"facebook": "תוצאת הגישה לפא סבוק ריקה",
+			"googleAccess": "אסימון הגישה של Google לא נמצא",
+			"google": "תוצאת הגישה ל-Google ריקה"
+		},
+		"payment": {
+			"paymentNotSupport": "שיטת התשלום אינה נתמכת",
+			"unknownPayment": "תשלום לא ידוע",
+			"paypalPayment": "יצירת תשלום ב-Paypal נכשלה[כתובת אתר לאישור לא נמצאה]",
+			"orderPaymentCreateFail": "יצירת תשלום בהזמנה נכשלה",
+			"returnDataSignError": "שגיאת סימן נתוני החזר",
+			"returnOrderKeyError": "שגיאת מפתח הזמנה החזרה",
+			"orderPayment": "תשלום הזמנה לא קא ם"
+		},
+		"paymentDecline": "דחא ת תשלום",
+		"order": {
+			"orderAddress": "יצירת כתובת הזמנה נכשלה",
+			"insertCoupon": "הכנסת נתוני קופון נכשלה",
+			"shoppingCart": "מוצרי עגלת הקניות ריקה",
+			"orderCannot": "לא ניתן לשלוח הזמנה שוב ושוב",
+			"addressNotFound": "הכתובת לא נמצאה",
+			"orderCreateFail": "יצירת הזמנה נכשלה",
+			"orderItem": "יצירת פריט הזמנה נכשלה",
+			"orderDo": "ההזמנה לא קא מת!",
+			"shoppingCartGoodsIsEmpty": "מוצרי עגלת הקניות ריקה"
+		}
+	},
+	"mail": {
+		"fotter": {
+			"thisEmail": "דואא ל זה נשלח מכתובת להתראה בלבד שאינה יכולה לקבל דואא ל נכנס",
+			"pleaseDoNot": "נא לא להשיב להודעה זו. אם יש לך שאלות או חששות, בבקשה",
+			"emailUs": "שלח לנו דואא ל"
+		},
+		"regist": {
+			"welcomeTo": "ברוכים הבאים ל",
+			"youCanLoginYou": "תוכל להתחבר לחשבון שלך כדי לנהל את ההזמנה שלך באמצעות האישורים למטה",
+			"login": "התחבר",
+			"password": "סיסמה",
+			"ifYouWant": "אם ברצונך לאפס את הסיסמה שלך, בבקשה",
+			"clickHere": "לחץ כאן",
+			"to": "כדי להמשיך"
+		},
+		"passwordreset": {
+			"thanksFor": "תודה על הגשת הכרטיס",
+			"dear": "יקירי",
+			"youHaveRequest": "ביקשת לאפס את הסיסמה שלך עבור חשבונך בכתובת",
+			"pleaseVisit": "אנא בקר בכתובת האתר הזו כדי לאפס את הסיסמה שלך",
+			"ifYouReceived": "אם קיבלת דואא ל זה בטעות, תוכל להתעלם בבטחה מהאימא ל הזה",
+			"sincerely": "בברכה"
+		},
+		"paysuccess": {
+			"youHaveSuccessfully": "שילמת בהצלחה עבור הזמנה",
+			"thankYouFor": "תודה על ההזמנה. ההזמנה שלך",
+			"isNowBeingProcessed": "נמצא כעת בעיבוד וא שלח בדרך כלל תוך 3 - 7 ימים. אימא ל עם פרטי מעקב א שלח אליך לאחר שליחת ההזמנה",
+			"items": "ITEM(S)",
+			"unit": "מחיר יחידה",
+			"quantity": "QUANTITY",
+			"amont": "AMOUNT",
+			"onSale": "במבצע",
+			"firstNaem": "שם פרטי",
+			"lastName": "שמות משפחה",
+			"address": "שורת כתובת1",
+			"country": "מדינה",
+			"city": "עיר",
+			"postal": "מיקוד"
+		},
+		"deliveryOrder": {
+			"youOrder": "ההזמנה שלך",
+			"hasBeen": "נשלח החוצה",
+			"weHave": "שלחנו את ההזמנה שלך",
+			"hereIs": "הנה מידע המעקב שלך",
+			"trackingNumber": "מספר מעקב",
+			"trackingWebsite": "אתר מעקב",
+			"items": "ITEM(S)",
+			"unitPrice": "מחיר יחידה",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"onSale": "במבצע",
+			"firstName": "שם פרטי",
+			"ast": "שמות משפחה",
+			"addressLine": "שורת כתובת1",
+			"country": "מדינה",
+			"city": "עיר",
+			"postCode": "מיקוד"
+		},
+		"goodsStock": {
+			"outOf": "הודעת אזל המלאי",
+			"hi": "הא ",
+			"thankYou": "תודה על קנא תך",
+			"weAre": "אנו מצטערים להודיע לך שהפריט הבא אזל מהמלאי",
+			"items": "פריטים",
+			"unitPrice": "מחיר יחידה",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"onSale": "במבצע",
+			"noWorry": "אל דאגה, אתה יכול לבחור בכל אחד מהפתרונות למטה",
+			"choose": "【מומלץ!】בחר פריט אחר של עד",
+			"on": "באתר האינטרנט שלנו",
+			"let": "הודע לנו את מקא ט או את כתובת האתר על ידי מענה לדואא ל זה ואנו נחליף אותו עבורך",
+			"accept": "קבל החזר של",
+			"please": "אנא הודע לנו על החלטתך בהקדם האפשרי ואנו נסא ע בהתאם"
+		},
+		"changeShip": {
+			"tracking": "מספר המעקב מעודכן עבור",
+			"hi": "הא ",
+			"weFeel": "אנו מצטערים על אי הנוחות שנגרמה",
+			"trackingNumberFor": "מספר מעקב להזמנה",
+			"isUpdate": "מעודכן, אנא התעלם מהקודם והשתמש בחדש כדי לעקוב אחריו",
+			"trackingNumber": "מספר מעקב",
+			"trackingWebsite": "אתר מעקב",
+			"the": "זמן ההגעה המשוער הוא 7-15 ימים",
+			"items": "ITEM(S)",
+			"unitPrice": "מחיר יחידה",
+			"quantity": "QUANTITY",
+			"amount": "AMOUNT",
+			"on": "במבצע",
+			"first": "שם פרטי",
+			"last": "שמות משפחה",
+			"address": "שורת כתובת1",
+			"count": "מדינה",
+			"city": "עיר",
+			"postal": "מיקוד"
+		},
+		"contactUs": {
+			"thanks": "תודה על הגשת הכרטיס",
+			"dear": "לקוח יקר",
+			"your": "הכרטיס שלך נשלח בהצלחה, נציגי הלקוחות שלנו ישיבו לך תוך 36 שעות. אנא המתן לתשובה",
+			"below": "להלן פרטים של ההודעה שלך",
+			"type": "type",
+			"email": "email",
+			"name": "name",
+			"content": "content"
+		},
+		"newIn": {
+			"15": "$15",
+			"view": "צפה עוד",
+			"to": "כדי לוודא שאתה יכול לקבל את עדכוני הסגנון האחרונים שלנו",
+			"please": "אנא זכור להוסיף את הכתובת שלנו לספר אנשי הקשר שלך",
+			"if": "אם אתה מעדיף לא לקבל את חדשות האופנה וההצעות שלנו, פשוט לחץ כאן כדי",
+			"unsubscribe": "בטל הרשמה"
+		},
+		"hotSale": {
+			"view": "צפה עוד",
+			"to": "כדי לוודא שאתה יכול לקבל את עדכוני הסגנון האחרונים שלנו",
+			"please": "אנא זכור להוסיף את הכתובת שלנו לספר אנשי הקשר שלך",
+			"if": "אם אתה מעדיף לא לקבל את חדשות האופנה וההצעות שלנו, פשוט לחץ כאן כדי",
+			"unsubscribe": "בטל הרשמה"
+		},
+		"register": {
+			"subscribe": "הירשם",
+			"title": "הירשם וקבל",
+			"discount": "15% הנחה",
+			"privacy{0}": "על ידי לחיצה על הלחצן א הירשםא , אתה מסכים ל<a href=א {0}א >א מדיניות הפרטיותא </a> שלנו",
+			"whySubscribe": "למה להירשם?",
+			"account": "קבל כל עדכון בחשבון שלך",
+			"information": "היה ראשון לדעת את פרטי המשלוח",
+			"enjoy": "תהנה מהנחות נוספות וקבל מידע עדכני"
+		}
+	},
+	"pop": {
+		"register": {
+			"email": {
+				"empty": "אנא הזן כתובת דואר אלקטרוני.",
+				"used": "הדואא ל שימש על ידי אחרים. אנא שנה עוד אחד.",
+				"code": "קוד"
+			}
+		}
+	},
+	"goallpay": {
+		"konbini": {
+			"currency": "konbini pay רק מטבע JPY נתמך",
+			"countrycode": "konbini יכול להתמודד רק עם קוד מדינה JP",
+			"phone": "מספר הטלפון חא ב להיות בין 10-11 ספרות"
+		},
+		"accountholder": {
+			"length": "בעל החשבון מינימום 3 תווים, עד 100 תווים"
+		},
+		"rapipago": {
+			"countrycode": "rapipago יכול להתמודד רק עם קוד מדינה AR",
+			"currency": "rapipago pay רק מטבע דולר נתמך"
+		},
+		"giropay": {
+			"countrycode": "giropay יכול להתמודד רק עם קוד מדינה DE",
+			"currency": "giropay pay רק מטבע אירו נתמך"
+		}
+	}
+}

@@ -13,6 +13,7 @@
 		"head": {
 			"account": "Account",
 			"language": "Language",
+			"languageTiile": "Choose your currency and language",
 			"currency": "Currency",
 			"help": "Help Center",
 			"cart": "Cart",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "Subscribe for our exclusive offers",
+			"subscribe1": "SUBSCRIBE NOW AND GET EXTRA <span>15% OFF</span>",
 			"go": "Go",
 			"mail": {
 				"subscribed": "This mailbox has been subscribed",
@@ -35,7 +37,8 @@
 			"snapchat": "Snapchat",
 			"twitter": "Twitter",
 			"bestSelling": "Best Selling",
-			"categories": "Categories"
+			"categories": "Categories",
+			"follow": "Follow us!"
 		},
 		"error": {
 			"404": {
@@ -54,7 +57,10 @@
 		},
 		"index": {
 			"viewAll": "View All",
-			"loadMore": "VIEW MORE"
+			"loadMore": "view more",
+			"discover": "DISCOVER",
+			"desc": "1000+ Styles Added",
+			"endsin": "Ends in"
 		},
 		"goodsList": {
 			"home": "Home",
@@ -77,6 +83,7 @@
 			"size": "Size",
 			"quantity": "Quantity",
 			"addToCart": "ADD TO CART",
+			"goCustomDetail": "Go to Customize",
 			"description": "Description",
 			"productCode": "Product Code",
 			"designPlaceHolder": "Enter Name or Text here...",
@@ -98,7 +105,7 @@
 			"limit10": "Limit 10 Per Person.",
 			"personalize": "Personalize",
 			"review": {
-				"customerReviews": "customers reviews",
+				"customerReviews": "Customer Reviews",
 				"writeAReview": "Write a review",
 				"example": {
 					"_value": "Example：I bought this a month ago and am so happy that I did…",
@@ -113,7 +120,7 @@
 				"postReview": "POST REVIEW",
 				"ratings": "Average customer ratings",
 				"more": {
-					"reviews": "More reviews"
+					"reviews": "More Reviews"
 				},
 				"many": {
 					"items": {
@@ -161,17 +168,16 @@
 				}
 			},
 			"shortOfStock": "short of stock",
-			"size_info": "Notice:Asian size is smaller than US size, we suggest you choose one size larger than your usual size."
-		},
-		"activity": {
-			"activities": "Activities",
-			"endin": "ENDS IN",
-			"d": "days",
-			"h": "hours",
-			"m": "minutes",
-			"s": "seconds"
+			"size_info": "Notice:Asian size is smaller than US size, we suggest you choose one size larger than your usual size.",
+			"combinationRecommendation": "Combination Recommendation",
+			"hrs": "Ships in 24hrs"
 		},
 		"shopcart": {
+			"combinationDiscount": "Combination Discount",
+			"combination": "Combination",
+			"frequentBought": "Frequently Bought Together",
+			"items": "{0}Items",
+			"off": "{0}{1}OFF",
 			"personalizedDetail": "Personalized Detail",
 			"yourShoppingCart": "Your Shopping Cart",
 			"shoppingCart": "Shopping Cart",
@@ -184,6 +190,8 @@
 			"total": "Total",
 			"remove": "Remove",
 			"subtotal": "Subtotal",
+			"itemsTotal": "Items Total",
+			"limitDiscount": "Limit Discount",
 			"yourCartIsCurrentlyEmpty": "Your cart is currently empty.",
 			"continueBrowsing": "Continue browsing",
 			"here": "here",
@@ -206,7 +214,18 @@
 			"addItems": "Add Items",
 			"shippingFee": "Shipping fee",
 			"addToCartSuccess": "Add to cart successfully!",
-			"eelThan{0}": "COD is only available when the order amount is more than {0}"
+			"eelThan{0}": "COD is only available when the order amount is more than {0}",
+			"sellsText{0}": "{0} people bought in the last 24 hours",
+			"cartsText{0}": "Hurry! <span style=\"color:#E71212;\">Over {0} people</span> have this in their carts",
+			"cartsSelect ": " Select All"
+		},
+		"activity": {
+			"activities": "Activities",
+			"endin": "ENDS IN",
+			"d": "days",
+			"h": "hours",
+			"m": "minutes",
+			"s": "seconds"
 		},
 		"shopcartSide": {
 			"yourCart": "Your Cart",
@@ -238,6 +257,12 @@
 			"confirmPassword": "Confirm Password",
 			"backToLogin": "Back to Login",
 			"submit": "Submit"
+		},
+		"recoverTransaction": {
+			"resetPassword": "Reset Transaction Password",
+			"password": "Transaction Password",
+			"confirmPassword": "Confirm Transaction Password",
+			"resetPasswordBtn": "Confirm Reset"
 		},
 		"regist": {
 			"createAccount": "Create Account",
@@ -287,12 +312,31 @@
 			"pointHasBeenApplied": "Points has been redeemed!",
 			"discount": "Discount",
 			"allSoldout": "The items in your shopping list are all out of stock and you cannot continue to the next step",
-			"allSoldoutAlert": "The items in your shopping list are currently out of stock. Please re-select the items for settlement",
+			"allSoldoutAlert": "Your order has been placed, please do not resubmit. Go to 'My Orders' page to continue payment.",
 			"partSoldout": "Items in your shopping list are currently out of stock, and if you proceed to the next step, the system will automatically remove out of stock items from the shopping list.",
+			"firstOrderOff": "10% OFF FOR FIRST ORDER",
 			"card_number": "Card number",
 			"expiry_date": "Expiry date",
 			"security_code": "Security code",
-			"card_holder": "Card holder"
+			"card_holder": "Card holder",
+			"pleaseEnterCode": "Please enter vertification code.",
+			"codeIncorrect": "The vertification code is incorrect.",
+			"enterCode": "Enter Vertification Code",
+			"makeSurePhone": "To make sure we can contact you by phone, please verify your phone number:",
+			"needChangePhone": "If you need to change phone number,please modify it in shipping address page.",
+			"changeNumber": "Change Number",
+			"sendSMS": "Send SMS",
+			"verify": "Verify",
+			"verifyReject": "Operation rejected! The verification code is invalid.",
+			"sendmsg": {
+				"success": "Sent successfully!",
+				"err": "Failed to send!",
+				"frequently": {
+					"_value": "Frequent operation!",
+					"rule": "The operation is frequent, please wait 10 minutes and try again."
+				}
+			},
+			"saleTax": "Sales Tax"
 		},
 		"orderSummary": {
 			"orderSummary": "Order summary",
@@ -308,7 +352,7 @@
 			"salesTax": "Sales Tax",
 			"total": "Total",
 			"giftCard": {
-				"_value": "Redeem your exclusive coupon code here",
+				"_value": "input code",
 				"title": "Coupon Code"
 			},
 			"userCredit": {
@@ -323,6 +367,7 @@
 			"coupon": {
 				"firstOrderPercentDiscount{0}": "{0} Off For Your First Order",
 				"firstOrderDiscountPrice{0}": "Get {0} For Your First Order",
+				"postAgeDeducted{0}": "{0} Postage Deducted",
 				"discountPrice{0}{1}": "Save {0} Over {1}",
 				"percentDiscount{0}{1}": "{0} Off Over {1}",
 				"discountPrice": {
@@ -333,7 +378,7 @@
 					"v1{0}{1}{2}": "Buy More Than {0} Items And Over {1}, Get {2} OFF",
 					"v2{0}{1}": "Buy More Than {0} Items, Get {1} OFF"
 				},
-				"selectTip": "OR choose from our general coupon codes below"
+				"selectTip": "Recommend code"
 			},
 			"chasepay": {
 				"discounts{0}": "Pay Now and Save {0}%",
@@ -458,10 +503,18 @@
 			"forter": {
 				"reject": "The  transaction  failed  due  to  the  the  payment  security  issue.  If  you  have  completed  the  payment,  we  will  make  the  refund  within  3-5  business  days."
 			},
+			"preforter": {
+				"reject": "The transaction failed due to payment security issues."
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "Paid successfully！",
 				"subtitle": "Kindly fill in your detailed address in below blanks."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "The current country does not support dlocal, please use other payment methods!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -517,7 +570,25 @@
 			"trackOrder": "Track Order",
 			"cancel": "Cancel",
 			"contactUs": "Contact Us",
-			"repurchaseInvalid": "There are expired items in your order, and expired items will not be re-purchased"
+			"repurchaseInvalid": "There are expired items in your order, and expired items will not be re-purchased",
+			"writeReview": "Write Review",
+			"viewReview": "View Review",
+			"postReview": "POST REVIEW",
+			"orderList": "Order List",
+			"couponcopied": "has been copied !"
+		},
+		"order": {
+			"cancelOrder": "Do you want to cancel this order?",
+			"reviewWriteDown": "Thank you for completing the product evaluation.",
+			"repurchaseConfirm": "Are you sure you want to add these items from this order to your shopping cart again?",
+			"repurchaseDone": "Items added to shopping cart successfully.(except sold-out items).Please check your shopping cart.",
+			"status": {
+				"unpaid": "Unpaid",
+				"processing": "Processing",
+				"shipped": "Shipped",
+				"delivered": "Delivered",
+				"returns": "Returns"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "Back to Order History",
@@ -569,6 +640,7 @@
 			"recommend": "Recommend"
 		},
 		"shipping": {
+			"partial": "PARTIAL_SHIPPED",
 			"unshipped": "UNSHIPPED",
 			"shipped": "SHIPPED",
 			"partialShipped": "PARTIAL_SHIPPED"
@@ -577,18 +649,20 @@
 			"unpaid": "Waiting For Payment",
 			"pending": "Pending",
 			"paid": "Paid",
-			"canceled": "Canceled",
 			"shipped": "Shipped",
-			"refunded": "Refunded",
-			"partialrefunded": "Partial Refunded",
-			"fulfilled": "Fulfilled",
+			"partialshipped": "Partial Shipped",
+			"delivered": "Fulfilled",
+			"canceled": "Canceled",
+			"return": "Refunded",
+			"partialreturn": "Partial Refunded",
 			"processing": "Processing"
 		},
 		"application": {
 			"downloadTitle": "Popopie: Kids & Matching Clothing Store",
-			"downloadMes": "Enjoy Extra 15% OFF on APP!",
+			"downloadMes": "Enjoy Extra 20% OFF on APP!",
+			"downloadTitle1": "Fashionme Trendy clothing, accessories and more.",
 			"download2get": "DOWNLOAD TO GET",
-			"exclusive15off": "EXCLUSIVE <strong>15% OFF</strong>",
+			"exclusive15off": "EXCLUSIVE <strong>20% OFF</strong>",
 			"code": "CODE",
 			"download": {
 				"popopie": "DOWNLOAD POPOPIE APP TO SAVE MORE!"
@@ -604,7 +678,8 @@
 			"category": "Categories",
 			"over": "Over",
 			"noResults": "No items found！",
-			"onesize": "One Size"
+			"onesize": "One Size",
+			"salesName": "sold"
 		},
 		"amp": {
 			"sizeAndColor": "Size And Color:",
@@ -617,6 +692,13 @@
 			"or": "OR",
 			"expressCheckout": "Express checkout",
 			"supportsHint": "You order currency will be converted to USD, which is the only currency this payment method supports."
+		},
+		"klarna": {
+			"supportsHint": "Sorry, Klarna does not support the current currency transaction, and we will convert it to a supported currency for payment.",
+			"text1": "Never miss a payment.",
+			"text2": "For payment issues, you can contact Klarna directly for assistance.",
+			"contact": "Contact Klarna",
+			"getapp": "Get the Klarna app"
 		},
 		"cart": {
 			"account": "already have an account",
@@ -699,6 +781,87 @@
 		"sizeGuide": {
 			"sizeCharts": "SIZE CHARTS",
 			"sizeGuide": "SIZE GUIDE"
+		},
+		"secureDetail": {
+			"hostTitle ": " SHOPPING SECURITY",
+			"firstTitle ": " Safe Payment",
+			"firstBranchOneTitle ": " 1.Payment Method",
+			"firstBranchTwoTitle ": " 2.Security Certifications",
+			"secondTitle ": " Secure Logistics ",
+			"secondBranchOneTitle ": " 1.Order Tracking",
+			"secondBranchOneContent ": " Real-time logistics update system.",
+			"secondBranchTwoTitle ": " 2.Package Safety",
+			"secondBranchTwoContent ": " Full refund or resend shipment of your damaged or lost package.",
+			"secondBranchThreeTitle ": " 3.About Covid-19",
+			"secondBranchThreeContent ": " BLUSH MARK follows strict protocols to sterilize warehouse and packages prior to shipment.",
+			"thirdTitle ": " Customer Service",
+			"thirdBranchOneTitle ": " Frequently Asked Questions",
+			"thirdBranchTwoTitle ": " Affiliate Benefits",
+			"thirdBranchthreeTitle ": " Contact Customer Support ",
+			"fourthTitle ": " Privacy Protection",
+			"hostTitle1 ": " Faciway's Commitments",
+			"firstTitle1 ": " Security & Privacy ",
+			"firstBranchOneTitle1 ": " 1.Pay confidently with our secure methods",
+			"firstBranchOneContent1 ": " Faciway follows the Payment Card Industry Data Security Standard (PCI DSS) and other security standards when handling card data",
+			"firstBranchTwoTitle1 ": " 2.We keep your personal data private, safe and secure ",
+			"secondTitle1 ": " Free shipping & Easy returns",
+			"secondBranchOneTitle1 ": " 1.Free shipping on orders over $89 ",
+			"secondBranchTwoTitle1 ": " 2.Delivery guarantee",
+			"secondBranchTwoContent1 ": " We guarantee that your package will reach you safely and on time. If there are any problems, we will do our best to solve the problems and provide the best solutions.",
+			"secondBranchThreeTitle1 ": " 3.Return or exchange within 30 days from the delivered date is accepted ",
+			"thirdTitle1 ": " Price adjustment policy",
+			"thirdContent1 ": "We will provide the price difference, based on the price and currency type of the paid order, if the list price of the same item was reduced within 30 days of purchase in the same country or region. Items that are promotional, no longer available, on clearance, etc. may not be eligible for our Price Adjustment Policy.",
+			"fourthTitle1 ": " Customer service",
+			"fourthContent1 ": " If you have any questions, please contact us at service@faciway.com.",
+			"firstContent {0}": " Your payment at {{SiteNum}} is secured with global payment security certifications.",
+			"fourthContent {0}": " {{SiteNum}} takes its responsibilities under applicable privacy laws and regualations seriously and is committed to respecting the privacy rights and concerns of all Users of our {{SiteNum}} website."
+		},
+		"carts": {
+			"taxText ": " VAT included",
+			"taxEnd ": " Total Incl. VAT",
+			"cartSelectNum {0}": " Shopping bag (<span class=\"mz-cartCount\">{{lengthSelect}}</span>items)"
+		},
+		"proDetail": {
+			"small ": " Small",
+			"big ": " Large",
+			"color ": " Color",
+			"size ": " Size Ordered",
+			"filter ": " Refine Reviews By",
+			"starTitle ": " Star Rating",
+			"stars ": " Stars",
+			"allFit ": " Overall Fit",
+			"fit ": " Fit",
+			"clear ": " Clear",
+			"search ": " Show Results",
+			"fitEnd ": " True to Size",
+			"filters ": " Filters",
+			"noData ": " None",
+			"Ends ": " Ends in"
+		},
+		"price": {
+			"priceTitle ": " Price difference"
+		},
+		"cookies": {
+			"consTitle": "We protect your personal data.",
+			"consDesc{0}": "We use cookies to improve your user experience on our website and to enable us and third parties to personalize your shopping experience on and off our website. You can accept all cookies or make individual settings. For more information, see our <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"consAll": "Got it!",
+			"consDialog": "Change",
+			"consLink": "Cookie information",
+			"privacyPolicy": "Privacy Policy",
+			"popHead": "We protect your personal data",
+			"popContent{0}": "We use cookies to enhance your user experience on our website and to enable us and third parties to personalize your shopping experience on and off our website. You can accept all cookies or make individual settings. For more information, see our <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"subTitle": "Cookie statement",
+			"text1": "Strictly necessary cookies",
+			"content1": "These cookies are strictly necessary for the application of some functions on our website, such as payment. The cookies cannot be switched off but do not store any personal information.",
+			"text2": "Performance cookies",
+			"content2": "These cookies allow us to determine traffic sources of visitors so that we can measure and improve the performance of our website.",
+			"text3": "Functional cookies",
+			"content3": "Functional cookies enhance your shopping experience by remembering previously purchased items, your preferences, and your shopping cart history. Rejecting these cookies may cause some or all of our customer services to not function.",
+			"text4": "Cookies for marketing purposes",
+			"content4": "These cookies are used to track visitors across different websites. The goal is to display ads that are relevant and engaging for the individual user.",
+			"popOk": "Save settings",
+			"popAll": "Accept all",
+			"disabled": "Always active"
 		}
 	},
 	"web": {
@@ -774,7 +937,8 @@
 		"goodsDetail": {
 			"addToCart": "ADD TO CART",
 			"soldout": "SOLD OUT",
-			"sizeguide": "Size Guide"
+			"sizeguide": "Size Guide",
+			"specification": "Please select color, size, quantity"
 		},
 		"aggr": {
 			"goods": {
@@ -844,13 +1008,15 @@
 						"next{0}": "Buy {0} more to enjoy Add-on price."
 					}
 				},
-				"gifts": "GIFTS",
+				"gifts": "GIFTS LIST",
 				"freeGifts": "Free Gift",
 				"selectGift": "Select Gift",
 				"viewGift": "View Gift",
+				"viewDetail": "View Detail",
 				"updateItem": "UPDATE ITEM",
 				"cancel": "CANCEL",
 				"confirm": "CONFIRM",
+				"desc": "This gifts list is only for your reference. You may choose the item, the size or color of the free gift on the shopping cart page if gifts are available in your order.",
 				"exchange{0}": "Buy {0} to enjoy Add-on price. ",
 				"exchange": {
 					"current{0}": "Buy {0} to enjoy Add-on price. ",
@@ -870,6 +1036,9 @@
 					"manjian{0}{1}": "SAVE {0} Over {1}",
 					"discount{0}{1}": "{0}% OFF over {1}"
 				}
+			},
+			"combination": {
+				"updateItem": "Update Item"
 			}
 		},
 		"advantage": {
@@ -941,8 +1110,10 @@
 			"pleaseFillInThe": "Please fill in the correct city which can not be made up with numbers.",
 			"address1IsRequired": "Address1 is required",
 			"address1Length": "Address1 length is too long, max 1024 character",
+			"address1LengthGt": "The address line should contain at least 5 letters and digites.",
 			"address2Length": "Address2 length is too long, max 1024 character",
-			"postCodeIsRequired": "Postc code is required",
+			"addressReg": "Please enter correct address information.",
+			"postCodeIsRequired": "Postal code is required",
 			"postCodeLength": "Post code length is too long, max 16 character",
 			"emailIsInvalid": "Email is invalid",
 			"passwordIsRequired": "Password is required",
@@ -982,6 +1153,7 @@
 			"userDataUpdateFail": "User data update fail",
 			"emailCannotBeEmpty": "Email cannot be empty.",
 			"noAccount": "No account found with that email.",
+			"urloverdue": "The link has expired,please re-enter the required email account.",
 			"theRecoverSession": "The recover session has been invalid, please start all over again.",
 			"theTwoPassword": "The two password entries are inconsistent.",
 			"thePasswordUpdate": "The password update fail! Please try again."
@@ -1164,7 +1336,7 @@
 		"register": {
 			"subscribe": "SUBSCRIBE",
 			"title": "SUBSCRIBE AND GET",
-			"discount": "10% Discount",
+			"discount": "15% Discount",
 			"privacy{0}": "By clicking the button \"SUBSCRIBE\", you agree to our <a href=\"{0}\">\"Privacy Policy\"</a>",
 			"whySubscribe": "WHY SUBSCRIBE?",
 			"account": "Get every udapte in your account",

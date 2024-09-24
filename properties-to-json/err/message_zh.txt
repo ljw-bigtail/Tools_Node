@@ -1,0 +1,3 @@
+json["view"]["secureDetail"]["firstContent "]=' 您在{{SiteNum}}的付款受到全球支付安全認證的保護。'
+json["view"]["secureDetail"]["fourthContent "]=' {{SiteNum}}認真履行適用隱私法律和法規規定的責任，並致力於尊重{{SiteNum}}網站和移動應用程序所有用戶的隱私權和關注點'
+json["view"]["carts"]["cartSelectNum "]=' 購物袋(<span class="mz-cartCount">{{lengthSelect}}</span>件物品)'

@@ -13,6 +13,7 @@
 		"head": {
 			"account": "Conta",
 			"language": "Língua",
+			"languageTiile": "Escolha sua moeda e idioma",
 			"currency": "Moeda",
 			"help": "Centro de ajuda",
 			"cart": "Carrinho",
@@ -20,6 +21,7 @@
 		},
 		"foot": {
 			"subscribe": "Assine nossas ofertas exclusivas",
+			"subscribe1": "ASSINE AGORA E OBTENHA <span>15% OFF</span> DE DESCONTO EXTRA",
 			"go": "Ir",
 			"mail": {
 				"subscribed": "Esta caixa de correio foi assinada",
@@ -35,7 +37,8 @@
 			"snapchat": "Snapchat",
 			"twitter": "Twitter",
 			"bestSelling": "Venda Quente",
-			"categories": "Categorias"
+			"categories": "Categorias",
+			"follow": "Siga-nos!"
 		},
 		"error": {
 			"404": {
@@ -54,7 +57,10 @@
 		},
 		"index": {
 			"viewAll": "Ver tudo",
-			"loadMore": "VEJA MAIS"
+			"loadMore": "Veja mais",
+			"discover": "DESCOBRIR",
+			"desc": "Mais De 1000 Estilos Adicionados",
+			"endsin": "Termina em"
 		},
 		"goodsList": {
 			"home": "Página inicial",
@@ -77,6 +83,7 @@
 			"size": "Tamanho",
 			"quantity": "Quantidade",
 			"addToCart": "ADICIONAR AO CARRINHO",
+			"goCustomDetail": "Ir para personalização",
 			"designPlaceHolder": "Insira o nome ou texto aqui ...",
 			"charLeft": {
 				"limitItem{0}": "{0} personagem (s) restantes"
@@ -98,7 +105,7 @@
 			"limit10": "Limite de 10 itens por pessoa.",
 			"personalize": "Personalizar",
 			"review": {
-				"customerReviews": "comentários de clientes",
+				"customerReviews": "Comentários dos Clientes",
 				"writeAReview": "Escreva uma revisão",
 				"example": {
 					"_value": "Exemplo: Comprei há um mês e estou tão feliz por ter comprado ...",
@@ -161,17 +168,16 @@
 				}
 			},
 			"shortOfStock": "falta de estoque",
-			"size_info": "Aviso: o tamanho asiático é menor que o tamanho dos EUA, sugerimos que você escolha um tamanho maior do que o normal."
-		},
-		"activity": {
-			"activities": "Atividades",
-			"endin": "END IN",
-			"d": "dias",
-			"h": "horas",
-			"m": "minutos",
-			"s": "segundos"
+			"size_info": "Aviso: o tamanho asiático é menor que o tamanho dos EUA, sugerimos que você escolha um tamanho maior do que o normal.",
+			"combinationRecommendation": "Recomendação de combinação",
+			"hrs": "Envio em 24 horas"
 		},
 		"shopcart": {
+			"combinationDiscount": "Desconto de combinação",
+			"combination": "Combinação",
+			"frequentBought": "Frequentemente comprados juntos",
+			"items": "{0}Itens",
+			"off": "{0}{1}OFF",
 			"personalizedDetail": "Detalhe Personalizado",
 			"yourShoppingCart": "Seu carrinho de compras",
 			"shoppingCart": "Carrinho de compras",
@@ -184,6 +190,8 @@
 			"total": "Total",
 			"remove": "Remover",
 			"subtotal": "Subtotal",
+			"itemsTotal": "Total de Itens",
+			"limitDiscount": "Limite de desconto",
 			"yourCartIsCurrentlyEmpty": "Seu carrinho está vazio no momento.",
 			"continueBrowsing": "Continue navegando",
 			"here": "aqui",
@@ -206,7 +214,18 @@
 			"addItems": "Adicionar itens",
 			"shippingFee": "Taxa de envio",
 			"addToCartSuccess": "Adicionar ao carrinho com sucesso!",
-			"eelThan{0}": "COD só está disponível quando o valor do pedido é superior a {0}"
+			"eelThan{0}": "COD só está disponível quando o valor do pedido é superior a {0}",
+			"sellsText{0}": "{0} pessoas compraram nas últimas 24 horas",
+			"cartsText{0}": "Pressa!<span style=\"color:#E71212;\"> Mais de {0} pessoas</span> têm isso em seus carrinhos",
+			"cartsSelect ": " Seleccionar Tudo"
+		},
+		"activity": {
+			"activities": "Atividades",
+			"endin": "TERMINA EM",
+			"d": "dias",
+			"h": "horas",
+			"m": "minutos",
+			"s": "segundos"
 		},
 		"shopcartSide": {
 			"yourCart": "Seu carrinho",
@@ -287,12 +306,31 @@
 			"pointHasBeenApplied": "Os pontos foram resgatados!",
 			"discount": "Desconto",
 			"allSoldout": "Os itens da sua lista de compras estão esgotados e você não pode continuar na próxima etapa",
-			"allSoldoutAlert": "Os itens da sua lista de compras estão esgotados. Selecione novamente os itens para liquidação",
+			"allSoldoutAlert": "Seu pedido foi feito, por favor, não reenvie. Vá para a página 'Meus pedidos' para continuar o pagamento.",
 			"partSoldout": "Os itens da sua lista de compras estão atualmente sem estoque e, se você continuar com a próxima etapa, o sistema removerá automaticamente itens sem estoque da lista de compras.",
+			"firstOrderOff": "10% DE DTO PRIMEIRA ORDEM",
 			"card_number": "Número do cartão",
 			"expiry_date": "Data de validade",
 			"security_code": "Código de segurança",
-			"card_holder": "Titular do cartão"
+			"card_holder": "Titular do cartão",
+			"pleaseEnterCode": "Insira o código de verificação.",
+			"codeIncorrect": "O código de verificação está incorreto.",
+			"enterCode": "Digite o código de verificação",
+			"makeSurePhone": "Para garantir que possamos entrar em contato com você por telefone, verifique seu número:",
+			"needChangePhone": "Se você precisar alterar o número de telefone, modifique-o na página de endereço de entrega.",
+			"changeNumber": "Alterar número",
+			"sendSMS": "Enviar SMS",
+			"verify": "Verificar",
+			"verifyReject": "Operação rejeitada! O código de verificação é inválido.",
+			"sendmsg": {
+				"success": "Enviado com sucesso!",
+				"err": "Falha ao enviar!",
+				"frequently": {
+					"_value": "Operação frequente!",
+					"rule": "A operação é frequente, aguarde 10 minutos e tente novamente."
+				}
+			},
+			"saleTax": "Imposto sobre vendas"
 		},
 		"orderSummary": {
 			"orderSummary": "Resumo do pedido",
@@ -308,7 +346,7 @@
 			"salesTax": "imposto sobre vendas",
 			"total": "Total",
 			"giftCard": {
-				"_value": "Resgate seus cupons exclusivos aqui",
+				"_value": "código de entrada",
 				"title": "Código do cupom"
 			},
 			"userCredit": {
@@ -321,10 +359,10 @@
 			},
 			"remoteAreaInfo{0}": "Inclui taxa de área remota {0}",
 			"coupon": {
-				"firstOrderPercentDiscount{0}": "{0} desativado para seu pedido inicial",
+				"firstOrderPercentDiscount{0}": "{0} Off Para 1ST Pedido",
 				"firstOrderDiscountPrice{0}": "Obtenha {0} pelo seu pedido em primeiro lugar",
-				"discountPrice{0}{1}": "Salvar {0} acima de {1}",
-				"percentDiscount{0}{1}": "{0} desativado em {1}",
+				"discountPrice{0}{1}": "{0} OFF Sobre {1}",
+				"percentDiscount{0}{1}": "{0} OFF Sobre {1}",
 				"discountPrice": {
 					"v1{0}{1}{2}": "Obtenha {0} OFF Por Comprar Mais De {1} Itens E Mais De {2}",
 					"v2{0}{1}": "Obtenha {0} OFF Por Comprar Mais De {1} Itens"
@@ -333,7 +371,8 @@
 					"v1{0}{1}{2}": "Obtenha {0} OFF Por Comprar Mais De {1} Itens E Mais De {2}",
 					"v2{0}{1}": "Obtenha {0} OFF Por Comprar Mais De {1} Itens"
 				},
-				"selectTip": "OU escolha cupons gerais"
+				"selectTip": "Recomendar código",
+				"postAgeDeducted{0}": "{0} OFF De Porte"
 			},
 			"chasepay": {
 				"discounts{0}": "Pague agora e economize {0}%",
@@ -457,10 +496,18 @@
 			"forter": {
 				"reject": "A  transação  falhou  devido  ao  problema  de  segurança  de  pagamento.  Se  você  concluiu  o  pagamento,  faremos  o  reembolso  dentro  de  3-5  dias  úteis."
 			},
+			"preforter": {
+				"reject": "A transação falhou devido a problemas de segurança de pagamento"
+			},
 			"cardpay": "Cardpay",
 			"modal": {
 				"title": "Pago com sucesso！",
 				"subtitle": "Por favor, preencha seu endereço detalhado nos espaços em branco abaixo."
+			},
+			"dlocal": {
+				"country": {
+					"unsupport": "O país atual não suporta dlocal, use outros métodos de pagamento!"
+				}
 			}
 		},
 		"paymentFail": {
@@ -516,7 +563,25 @@
 			"trackOrder": "Rastrear pedido",
 			"cancel": "Cancelar",
 			"contactUs": "Entre em contato",
-			"repurchaseInvalid": "Existem itens expirados no seu pedido e os itens expirados não serão comprados novamente"
+			"repurchaseInvalid": "Existem itens expirados no seu pedido e os itens expirados não serão comprados novamente",
+			"writeReview": "Escrever análise",
+			"viewReview": "Ver Revisão",
+			"postReview": "POSTAR REVISÃO",
+			"orderList": "Lista de pedidos",
+			"couponcopied": "foi copiado!"
+		},
+		"order": {
+			"cancelOrder": "Deseja cancelar este pedido?",
+			"reviewWriteDown": "Obrigado por completar a avaliação do produto.",
+			"repurchaseConfirm": "Tem certeza de que deseja adicionar esses itens deste pedido ao seu carrinho de compras novamente?",
+			"repurchaseDone": "Itens adicionados ao carrinho de compras com sucesso (exceto itens esgotados). Por favor, verifique seu carrinho de compras.",
+			"status": {
+				"unpaid": "Não pago",
+				"processing": "Em processamento",
+				"shipped": "Enviado",
+				"delivered": "Entregue",
+				"returns": "Devoluções"
+			}
 		},
 		"orderDetail": {
 			"backToOrderHistory": "Voltar ao histórico de pedidos",
@@ -568,6 +633,7 @@
 			"recommend": "Recomendar"
 		},
 		"shipping": {
+			"partial": "Enviado parcialmente",
 			"unshipped": "UNSHIPPED",
 			"shipped": "SHIPPED",
 			"partialShipped": "PARTIAL_SHIPPED"
@@ -576,18 +642,20 @@
 			"unpaid": "Aguardando pagamento",
 			"pending": "Pendente",
 			"paid": "Pago",
-			"canceled": "Cancelado",
 			"shipped": "Enviado",
-			"refunded": "Reembolsado",
-			"partialrefunded": "Reembolsado parcialmente",
-			"fulfilled": "Cumprido",
+			"partialshipped": "Remessa parcial",
+			"delivered": "Cumprido",
+			"canceled": "Cancelado",
+			"return": "Reembolsado",
+			"partialreturn": "Reembolsado parcialmente",
 			"processing": "Processando"
 		},
 		"application": {
 			"downloadTitle": "Popopie: Loja De Roupas Para Meninos e Família.",
-			"downloadMes": "Aproveite Extra 15% OFF No APP!",
+			"downloadMes": "Aproveite Extra 20% OFF No APP!",
+			"downloadTitle1": "Fashionme Roupas da moda, acessórios e muito mais.",
 			"download2get": "DESCARGAR PARA OBTENER",
-			"exclusive15off": "EXCLUSIVO <strong>15% OFF</strong>",
+			"exclusive15off": "EXCLUSIVO <strong>20% OFF</strong>",
 			"code": "CÓDIGO",
 			"download": {
 				"popopie": "BAIXE O APP POPOPIE PARA ECONOMIZAR MAIS!"
@@ -603,7 +671,8 @@
 			"category": "Categorias",
 			"over": "Mais de",
 			"noResults": "Nenhum item encontrado！",
-			"onesize": "Tamanho único"
+			"onesize": "Tamanho único",
+			"salesName": "vendido"
 		},
 		"amp": {
 			"sizeAndColor": "Tamanho e cor:",
@@ -616,6 +685,13 @@
 			"or": "OU",
 			"expressCheckout": "Checkout expresso",
 			"supportsHint": "A moeda do seu pedido será convertida em USD, que é a única moeda compatível com este método de pagamento."
+		},
+		"klarna": {
+			"supportsHint": "Desculpe, o Klarna não suporta a transação de moeda atual e nós a converteremos para uma moeda suportada para pagamento.",
+			"text1": "Nunca perca um pagamento.",
+			"text2": "Para problemas de pagamento, você pode entrar em contato diretamente com a Klarna para obter assistência.",
+			"contact": "Entre em contato com Klarna",
+			"getapp": "Obtenha o aplicativo Klarna"
 		},
 		"cart": {
 			"account": "já possui uma conta",
@@ -698,6 +774,73 @@
 		"sizeGuide": {
 			"sizeCharts": "GUIA DE TAMANHO",
 			"sizeGuide": "GUIA DE TAMANHO"
+		},
+		"secureDetail": {
+			"hostTitle ": " SEGURANÇA PARA COMPRAS",
+			"firstTitle ": " Pagamento seguro",
+			"firstBranchOneTitle ": " 1.Forma de pagamento",
+			"firstBranchTwoTitle ": " 2.Certificações de segurança",
+			"secondTitle ": " Logística segura",
+			"secondBranchOneTitle ": " 1.Rastreamento de Encomendas",
+			"secondBranchOneContent ": " Sistema de atualização logística em tempo real.",
+			"secondBranchTwoTitle ": " 2.Segurança da embalagem",
+			"secondBranchTwoContent ": " Reembolso total ou reenviar a remessa de seu pacote danificado ou perdido.",
+			"secondBranchThreeTitle ": " 3.About Covid-19",
+			"secondBranchThreeContent ": " BLUSH MARK segue protocolos rigorosos para esterilizar armazém e pacotes antes da expedição.",
+			"thirdTitle ": " Atendimento ao Cliente",
+			"thirdBranchOneTitle ": " perguntas frequentes",
+			"thirdBranchTwoTitle ": " Benefícios do afiliado",
+			"thirdBranchthreeTitle ": " Entre em contato com o suporte ao cliente",
+			"fourthTitle ": " Protecção da privacidade",
+			"firstContent {0}": " Seu pagamento na {{SiteNum}} é garantido com certificações globais de segurança de pagamento. ",
+			"fourthContent {0}": " A {{SiteNum}} leva a sério suas responsabilidades de acordo com as leis e regulamentos de privacidade aplicáveis e está comprometida em respeitar os direitos e preocupações de privacidade de todos os usuários de nosso site da {{SiteNum}}."
+		},
+		"carts": {
+			"taxText ": " Incluindo taxas",
+			"taxEnd ": " Total do carrinho incluindo IVA",
+			"cartSelectNum {0}": " Saco de compras (<span class=\"mz-cartCount\">{{lengthSelect}}</span> artigos)"
+		},
+		"proDetail": {
+			"small ": " Pequeno",
+			"big ": " Grande",
+			"color ": " Cor",
+			"size ": " Tamanho Ordenado",
+			"filter ": " Refinar as Revisões Por",
+			"starTitle ": " Classificação por Estrelas",
+			"stars ": " Estrelas",
+			"allFit ": " Ajuste Geral",
+			"fit ": " Ajustar",
+			"clear ": " Limpar",
+			"search ": " Mostrar os Resultados",
+			"fitEnd ": " Fiel ao Tamanho",
+			"filters ": " Filtros",
+			"noData ": " Actualmente indisponível",
+			"Ends ": " Termina em"
+		},
+		"price": {
+			"priceTitle ": " Diferença de preços"
+		},
+		"cookies": {
+			"consTitle": "Protegemos seus dados pessoais.",
+			"consDesc{0}": "Utilizamos cookies para melhorar sua experiência de usuário em nosso site e permitir que nós e terceiros personalizemos sua experiência de compra dentro e fora do nosso site. Você pode aceitar todos os cookies ou fazer configurações individuais. Para mais informações, consulte nossa <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"consAll": "Entendido!",
+			"consDialog": "Alterar",
+			"consLink": "Informações sobre cookies",
+			"privacyPolicy": "Política de Privacidade",
+			"popHead": "Protegemos seus dados pessoais",
+			"popContent{0}": "Utilizamos cookies para melhorar sua experiência de usuário em nosso site e permitir que nós e terceiros personalizemos sua experiência de compra dentro e fora do nosso site. Você pode aceitar todos os cookies ou fazer configurações individuais. Para mais informações, consulte nossa <a href='{0}' class='link--text'>Privacy Policy</a>.",
+			"subTitle": "Declaração de cookies",
+			"text1": "Cookies estritamente necessários",
+			"content1": "Esses cookies são estritamente necessários para a aplicação de algumas funções em nosso site, como o pagamento. Os cookies não podem ser desativados, mas não armazenam informações pessoais.",
+			"text2": "Cookies de desempenho",
+			"content2": "Esses cookies nos permitem determinar as fontes de tráfego dos visitantes para que possamos medir e melhorar o desempenho de nosso site.",
+			"text3": "Cookies funcionais",
+			"content3": "Os cookies funcionais melhoram sua experiência de compra ao lembrar de itens previamente comprados, suas preferências e o histórico do seu carrinho de compras. A recusa desses cookies pode fazer com que alguns ou todos os nossos serviços ao cliente não funcionem.",
+			"text4": "Cookies para fins de marketing",
+			"content4": "Esses cookies são usados para rastrear visitantes em diferentes sites. O objetivo é exibir anúncios relevantes e atrativos para o usuário individual.",
+			"popOk": "Salvar configurações",
+			"popAll": "Aceitar todos",
+			"disabled": "Sempre ativo"
 		}
 	},
 	"domain": {
@@ -744,7 +887,9 @@
 			"pleaseFillInThe": "Por favor, preencha a cidade correta que não pode ser composta por números.",
 			"address1IsRequired": "Endereço1 é obrigatório",
 			"address1Length": "O comprimento do Endereço1 é muito longo, no máximo 1024 caracteres",
+			"address1LengthGt": "A linha de endereço deve conter pelo menos 5 letras e números.",
 			"address2Length": "O comprimento do Endereço2 é muito longo, no máximo 1024 caracteres",
+			"addressReg": "Insira as informações de endereço corretas.",
 			"postCodeIsRequired": "Código Postc é necessário",
 			"postCodeLength": "O comprimento do código postal é muito longo, com no máximo 16 caracteres",
 			"emailIsInvalid": "O email é inválido",
@@ -785,6 +930,7 @@
 			"userDataUpdateFail": "Falha na atualização dos dados do usuário",
 			"emailCannotBeEmpty": "O email não pode estar vazio.",
 			"noAccount": "Nenhuma conta encontrada com esse email.",
+			"urloverdue": "The link is invalid, please re-operate on the site for a new valid link.",
 			"theRecoverSession": "A sessão de recuperação foi inválida, por favor, inicie tudo novamente.",
 			"theTwoPassword": "As duas entradas de senha são inconsistentes.",
 			"thePasswordUpdate": "A atualização da senha falhou! Por favor, tente novamente."
@@ -916,7 +1062,8 @@
 		"goodsDetail": {
 			"addToCart": "ADICIONAR AO CARRINHO",
 			"soldout": "ESGOTADO",
-			"sizeguide": "Guia de tamanhos"
+			"sizeguide": "Guia de tamanhos",
+			"specification": "Por favor, selecione cor, tamanho, quantidade"
 		},
 		"aggr": {
 			"goods": {
@@ -942,8 +1089,8 @@
 				"manjian{0}{1}": "Obtenha <span class='promo-color'>{0}</span> OFF Por Comprar Mais <span class='promo-color'>{1}</span>!",
 				"discount{0}{1}": "Obtenha <span class='promo-color'>{0}%</span> OFF Por Comprar Mais <span class='promo-color'>{1}</span>!",
 				"prompt": {
-					"manjian{0}{1}": "SALVAR {0} Acima de {1}",
-					"discount{0}{1}": "{0}% OFF acima de {1}"
+					"manjian{0}{1}": "{0} OFF Sobre {1}",
+					"discount{0}{1}": "{0}% OFF Sobre {1}"
 				},
 				"matchedHighest": "Aproveite sua economia!",
 				"quantity": {
@@ -990,9 +1137,11 @@
 				"freeGifts": "Presente Grátis",
 				"selectGift": "Selecione o Presente",
 				"viewGift": "Ver Presentes",
+				"viewDetail": "Ver Detalhes",
 				"updateItem": "ATUALIZAR ITENS",
 				"cancel": "CANCELAR",
 				"confirm": "CONFIRMAR",
+				"desc": "Esta lista de presentes é apenas para referência. Você pode escolher o produto, tamanho ou cor do brinde na página do carrinho de compras se os presentes estiverem disponíveis no seu pedido.",
 				"exchange{0}": "Compre {0} para Oferta de Itens Adicionais",
 				"exchange": {
 					"current{0}": "Compre {0} para Oferta de Itens Adicionais",
@@ -1009,9 +1158,12 @@
 			},
 			"order": {
 				"promot": {
-					"manjian{0}{1}": "SALVAR {0} Acima de {1}",
-					"discount{0}{1}": "{0}% OFF acima de {1}"
+					"manjian{0}{1}": "{0} OFF Sobre {1}",
+					"discount{0}{1}": "{0}% OFF Sobre {1}"
 				}
+			},
+			"combination": {
+				"updateItem": "item de atualização"
 			}
 		},
 		"advantage": {
@@ -1163,7 +1315,7 @@
 		"register": {
 			"subscribe": "SUBSCREVER",
 			"title": "SUBSCREVA-S e Ganhe Cupom de",
-			"discount": "10% de desconto",
+			"discount": "15% de desconto",
 			"privacy{0}": "Ao clicar no botão \"SUBSCREVER\", você concorda com nossa <a href=\"{0}\">\"Privacidade e Política\"</a>",
 			"whySubscribe": "POR QUE SUBSCREVER?",
 			"account": "Obtenha todas as atualização na sua conta",

@@ -1,0 +1,3 @@
+json["view"]["secureDetail"]["firstContent "]=' התשלום שלך ב-{{SiteNum}} מאובטח באמצעות אישורי אבטחת תשלום גלובלא ם.'
+json["view"]["secureDetail"]["fourthContent "]=' {{SiteNum}} לוקחת ברצינות את אחריותה על פי חוקי הפרטיות והתקנות החלים ומחויבת לכבד את זכויות הפרטיות והדאגות של כל המשתמשים באתר {{SiteNum}} שלנו.'
+json["view"]["carts"]["cartSelectNum "]=' שקית קניות (<span class=א mz-cartCountא >{{lengthSelect}}</span>פריטים)'
